@@ -1,0 +1,3 @@
+<?php
+//THIS FILE IS AUTO GENERATED, DO NOT MODIFY
+$mod_strings['LBL_BH_CARD_IDENT_LEADS_FROM_LEADS_TITLE'] = 'Предварит. контакты';

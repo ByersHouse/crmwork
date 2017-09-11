@@ -1,0 +1,10 @@
+cache/*
+*.log
+nbproject/*
+custom/history/*
+modules/AOD_Index/*
+modules/AOD_Index/Index/Index/segments.gen
+modules/AOD_Index/Index/Index/segments_2
+modules/AOD_Index/Index/Index/segments_2
+*.gen
+modules/AOD_Index/Index/Index/segments.gen
