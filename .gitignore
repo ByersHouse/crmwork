@@ -8,3 +8,4 @@ modules/AOD_Index/Index/Index/segments_2
 modules/AOD_Index/Index/Index/segments_2
 *.gen
 modules/AOD_Index/Index/Index/segments.gen
+config.php

@@ -90,11 +90,11 @@ $sugar_config = array (
   'datef' => 'm/d/Y',
   'dbconfig' => 
   array (
-    'db_host_name' => 'st79.int',
+    'db_host_name' => 'stwork.int',
     'db_host_instance' => 'SQLEXPRESS',
     'db_user_name' => 'root',
     'db_password' => '',
-    'db_name' => 'st79',
+    'db_name' => 'stwork',
     'db_type' => 'mysql',
     'db_port' => '',
     'db_manager' => 'MysqliManager',
