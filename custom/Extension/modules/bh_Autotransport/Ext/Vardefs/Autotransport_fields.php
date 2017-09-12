@@ -46,3 +46,25 @@ $dictionary['bh_Autotransport']['fields']['autotransport_fuel_type'] = array (
     'enable_range_search' => false,
 );
 
+$dictionary['bh_Autotransport']['fields']['autotransport_purchase_methods'] = array (
+    'required' => false,
+    'name' => 'autotransport_purchase_methods',
+    'vname' => 'LBL_PURCHASE_METHOD',
+    'type' => 'enum',
+    'massupdate' => 0,
+    'no_default' => false,
+    'comments' => '',
+    'help' => '',
+    'importable' => 'true',
+    'duplicate_merge' => 'disabled',
+    'duplicate_merge_dom_value' => '0',
+    'audited' => false,
+    'inline_edit' => true,
+    'reportable' => true,
+    'unified_search' => false,
+    'merge_filter' => 'disabled',
+    'options' => 'autotransport_purchase_methods_list',
+    'studio' => 'visible',
+    'size' => '20',
+    'enable_range_search' => false,
+);

@@ -79,7 +79,12 @@ array (
             'studio' => 'visible',
             'label' => 'LBL_FUEL_TYPE',
           ),
-          1 => '',
+          1 => 
+          array (
+            'name' => 'autotransport_purchase_methods',
+            'studio' => 'visible',
+            'label' => 'LBL_PURCHASE_METHOD',
+          ),
         ),
       ),
     ),
