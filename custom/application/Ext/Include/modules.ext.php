@@ -20,6 +20,9 @@ $moduleList[] = 'bh_Card_ident';
 $beanList['bh_faq'] = 'bh_faq';
 $beanFiles['bh_faq'] = 'modules/bh_faq/bh_faq.php';
 $moduleList[] = 'bh_faq';
+$beanList['bh_faq_history'] = 'bh_faq_history';
+$beanFiles['bh_faq_history'] = 'modules/bh_faq_history/bh_faq_history.php';
+$moduleList[] = 'bh_faq_history';
 
 
  
