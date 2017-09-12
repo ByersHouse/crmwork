@@ -52,6 +52,16 @@ array (
         ),
         1 => 
         array (
+          0 => '',
+          1 => 
+          array (
+            'name' => 'redact_content',
+            'studio' => 'visible',
+            'label' => 'LBL_REDACT_CONTENT',
+          ),
+        ),
+        2 => 
+        array (
           0 => 'description',
           1 => 
           array (

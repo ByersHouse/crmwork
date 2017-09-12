@@ -37,10 +37,10 @@ $dictionary["bh_faq_history"]["fields"]["bh_faq_history_bh_faqbh_faq_ida"] = arr
 
 
 
-$dictionary['Lead']['fields']['bank_name'] = array (
+$dictionary['bh_faq_history']['fields']['redact_content'] = array (
       'required' => false,
-      'name' => 'bank_name',
-      'vname' => 'LBL_BANKNAME',
+      'name' => 'redact_content',
+      'vname' => 'LBL_REDACT_CONTENT',
       'type' => 'text',
       'massupdate' => 0,
       'no_default' => false,
