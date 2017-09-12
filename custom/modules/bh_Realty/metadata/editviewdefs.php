@@ -47,9 +47,40 @@ array (
         array (
           0 => 
           array (
-            'name' => 'realty_typeOwnership',
+            'name' => 'realty_type_ownership',
             'studio' => 'visible',
             'label' => 'LBL_TYPE_OWNERSHIP',
+          ),
+        ),
+        3 => 
+        array (
+          0 => 
+          array (
+            'name' => 'realty_method_obtaining',
+            'studio' => 'visible',
+            'label' => 'LBL_METHOD_OBTAINING',
+          ),
+          1 => 
+          array (
+            'name' => 'realty_property_type',
+            'studio' => 'visible',
+            'label' => 'LBL_PROPERTY_TYPE',
+          ),
+        ),
+        4 => 
+        array (
+          0 => 
+          array (
+            'name' => 'realty_owner_pledge',
+            'label' => 'LBL_OWNER_PLEDGE',
+          ),
+        ),
+        5 => 
+        array (
+          0 => 
+          array (
+            'name' => 'realty_date_purchase',
+            'label' => 'LBL_DATE_PURCHASE',
           ),
           1 => '',
         ),

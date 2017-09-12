@@ -1,5 +1,7 @@
 cache/*
 *.log
+crm/*
+.idea/*
 nbproject/*
 custom/history/*
 modules/AOD_Index/*
