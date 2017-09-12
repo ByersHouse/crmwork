@@ -1,12 +1,10 @@
 <?php
 
 
-$GLOBALS['app_list_strings']['faq_content_list']=array (
-   'question' => 'вопрос',
-   'answer' => 'ответ',
-   'description' => 'описание',
-   'comments' => 'комментарии(практика)',
-);
+
+
+
+
 
 
 
@@ -69,7 +67,13 @@ $GLOBALS['app_list_strings']['leed_status_list']=array (
 
 
 
+
+
+
   '' => '',
+
+
+
 
 
 
@@ -135,7 +139,13 @@ $GLOBALS['app_list_strings']['leed_status_list']=array (
 
 
 
+
+
+
   'client' => 'Клиент',
+
+
+
 
 
 
@@ -201,6 +211,9 @@ $GLOBALS['app_list_strings']['leed_status_list']=array (
 
 
 
+
+
+
   'vip' => 'V.I.P. Клиент',
 
 
@@ -234,7 +247,13 @@ $GLOBALS['app_list_strings']['leed_status_list']=array (
 
 
 
+
+
+
 );
+
+
+
 
 
 
@@ -298,7 +317,13 @@ $GLOBALS['app_list_strings']['lead_sex_list']=array (
 
 
 
+
+
+
   'man' => 'Мужской',
+
+
+
 
 
 
@@ -362,7 +387,13 @@ $GLOBALS['app_list_strings']['lead_sex_list']=array (
 
 
 
+
+
+
 );
+
+
+
 
 
 
@@ -424,7 +455,13 @@ $GLOBALS['app_list_strings']['lead_socstatus_list']=array (
 
 
 
+
+
+
   '' => '',
+
+
+
 
 
 
@@ -486,7 +523,13 @@ $GLOBALS['app_list_strings']['lead_socstatus_list']=array (
 
 
 
+
+
+
   'workless' => 'безработный',
+
+
+
 
 
 
@@ -548,7 +591,13 @@ $GLOBALS['app_list_strings']['lead_socstatus_list']=array (
 
 
 
+
+
+
   'naimworker' => 'наемный рабочий',
+
+
+
 
 
 
@@ -610,7 +659,13 @@ $GLOBALS['app_list_strings']['lead_socstatus_list']=array (
 
 
 
+
+
+
   'not_offical' => 'неофициально',
+
+
+
 
 
 
@@ -672,7 +727,13 @@ $GLOBALS['app_list_strings']['lead_socstatus_list']=array (
 
 
 
+
+
+
   'army' => 'военнослужащий',
+
+
+
 
 
 
@@ -734,7 +795,13 @@ $GLOBALS['app_list_strings']['lead_socstatus_list']=array (
 
 
 
+
+
+
   'firmowner' => 'владелец фирмы',
+
+
+
 
 
 
@@ -796,6 +863,9 @@ $GLOBALS['app_list_strings']['lead_socstatus_list']=array (
 
 
 
+
+
+
   'workpensioneer' => 'работающий пенсионер',
 
 
@@ -827,7 +897,13 @@ $GLOBALS['app_list_strings']['lead_socstatus_list']=array (
 
 
 
+
+
+
 );
+
+
+
 
 
 
@@ -887,7 +963,13 @@ $GLOBALS['app_list_strings']['lead_statliveplace_list']=array (
 
 
 
+
+
+
   '' => '',
+
+
+
 
 
 
@@ -947,7 +1029,13 @@ $GLOBALS['app_list_strings']['lead_statliveplace_list']=array (
 
 
 
+
+
+
   'rented' => 'в арендованном',
+
+
+
 
 
 
@@ -1007,7 +1095,13 @@ $GLOBALS['app_list_strings']['lead_statliveplace_list']=array (
 
 
 
+
+
+
   'parent' => 'в родительском',
+
+
+
 
 
 
@@ -1067,7 +1161,13 @@ $GLOBALS['app_list_strings']['lead_statliveplace_list']=array (
 
 
 
+
+
+
   'nonprivate' => 'в неприватизированном',
+
+
+
 
 
 
@@ -1127,6 +1227,9 @@ $GLOBALS['app_list_strings']['lead_statliveplace_list']=array (
 
 
 
+
+
+
   'community' => 'в общежитии',
 
 
@@ -1157,7 +1260,13 @@ $GLOBALS['app_list_strings']['lead_statliveplace_list']=array (
 
 
 
+
+
+
 );
+
+
+
 
 
 
@@ -1215,7 +1324,13 @@ $GLOBALS['app_list_strings']['lead_education_list']=array (
 
 
 
+
+
+
   '' => '',
+
+
+
 
 
 
@@ -1273,7 +1388,13 @@ $GLOBALS['app_list_strings']['lead_education_list']=array (
 
 
 
+
+
+
   'middle' => 'среднее',
+
+
+
 
 
 
@@ -1331,7 +1452,13 @@ $GLOBALS['app_list_strings']['lead_education_list']=array (
 
 
 
+
+
+
   'notfinishhigh' => 'незаконченное высшее',
+
+
+
 
 
 
@@ -1389,7 +1516,13 @@ $GLOBALS['app_list_strings']['lead_education_list']=array (
 
 
 
+
+
+
   '2high' => '2 высших и более',
+
+
+
 
 
 
@@ -1447,7 +1580,16 @@ $GLOBALS['app_list_strings']['lead_education_list']=array (
 
 
 
+
+
+
 );
+
+
+
+
+
+
 
 
 
@@ -1528,7 +1670,13 @@ $GLOBALS['app_list_strings']['lead_problemlaw_list']=array (
 
 
 
+
+
+
   '' => '',
+
+
+
 
 
 
@@ -1582,7 +1730,13 @@ $GLOBALS['app_list_strings']['lead_problemlaw_list']=array (
 
 
 
+
+
+
   'notjudded' => 'не судим',
+
+
+
 
 
 
@@ -1636,7 +1790,13 @@ $GLOBALS['app_list_strings']['lead_problemlaw_list']=array (
 
 
 
+
+
+
   'under_investig' => 'нахождение под следствием в данное время',
+
+
+
 
 
 
@@ -1690,7 +1850,13 @@ $GLOBALS['app_list_strings']['lead_problemlaw_list']=array (
 
 
 
+
+
+
   'not' => 'нет',
+
+
+
 
 
 
@@ -1744,7 +1910,13 @@ $GLOBALS['app_list_strings']['lead_problemlaw_list']=array (
 
 
 
+
+
+
 );
+
+
+
 
 
 
@@ -1796,7 +1968,13 @@ $GLOBALS['app_list_strings']['lead_familystatus_list']=array (
 
 
 
+
+
+
   'unmarried' => 'не в браке',
+
+
+
 
 
 
@@ -1848,7 +2026,13 @@ $GLOBALS['app_list_strings']['lead_familystatus_list']=array (
 
 
 
+
+
+
   'divorce' => 'разведённый',
+
+
+
 
 
 
@@ -1900,6 +2084,9 @@ $GLOBALS['app_list_strings']['lead_familystatus_list']=array (
 
 
 
+
+
+
   'widow' => 'вдовец/вдова',
 
 
@@ -1926,7 +2113,13 @@ $GLOBALS['app_list_strings']['lead_familystatus_list']=array (
 
 
 
+
+
+
 );
+
+
+
 
 
 
@@ -1976,7 +2169,13 @@ $GLOBALS['app_list_strings']['lead_realty_list']=array (
 
 
 
+
+
+
   'flat' => 'квартира',
+
+
+
 
 
 
@@ -2026,7 +2225,13 @@ $GLOBALS['app_list_strings']['lead_realty_list']=array (
 
 
 
+
+
+
   'stead' => 'земельный участок',
+
+
+
 
 
 
@@ -2076,7 +2281,13 @@ $GLOBALS['app_list_strings']['lead_realty_list']=array (
 
 
 
+
+
+
 );
+
+
+
 
 
 
@@ -2124,7 +2335,13 @@ $GLOBALS['app_list_strings']['lead_realtyby_list']=array (
 
 
 
+
+
+
   'inherit' => 'наследство',
+
+
+
 
 
 
@@ -2172,7 +2389,13 @@ $GLOBALS['app_list_strings']['lead_realtyby_list']=array (
 
 
 
+
+
+
   'gift' => 'дарение',
+
+
+
 
 
 
@@ -2220,6 +2443,9 @@ $GLOBALS['app_list_strings']['lead_realtyby_list']=array (
 
 
 
+
+
+
   'creditbuy' => 'покупка в кредит',
 
 
@@ -2244,7 +2470,13 @@ $GLOBALS['app_list_strings']['lead_realtyby_list']=array (
 
 
 
+
+
+
 );
+
+
+
 
 
 
@@ -2290,7 +2522,13 @@ $GLOBALS['app_list_strings']['lead_realtyvid_list']=array (
 
 
 
+
+
+
   'once' => 'единоличная',
+
+
+
 
 
 
@@ -2336,7 +2574,13 @@ $GLOBALS['app_list_strings']['lead_realtyvid_list']=array (
 
 
 
+
+
+
   'permanentuse' => 'в постоянном пользовании',
+
+
+
 
 
 
@@ -2382,7 +2626,13 @@ $GLOBALS['app_list_strings']['lead_realtyvid_list']=array (
 
 
 
+
+
+
 );
+
+
+
 
 
 
@@ -2426,7 +2676,13 @@ $GLOBALS['app_list_strings']['lead_transowner_list']=array (
 
 
 
+
+
+
   '' => '',
+
+
+
 
 
 
@@ -2470,7 +2726,13 @@ $GLOBALS['app_list_strings']['lead_transowner_list']=array (
 
 
 
+
+
+
   'cargo' => 'грузовой',
+
+
+
 
 
 
@@ -2514,7 +2776,13 @@ $GLOBALS['app_list_strings']['lead_transowner_list']=array (
 
 
 
+
+
+
   'motorcycle' => 'мотоцикл',
+
+
+
 
 
 
@@ -2558,7 +2826,13 @@ $GLOBALS['app_list_strings']['lead_transowner_list']=array (
 
 
 
+
+
+
   'watertransport' => 'водный транспорт',
+
+
+
 
 
 
@@ -2602,6 +2876,9 @@ $GLOBALS['app_list_strings']['lead_transowner_list']=array (
 
 
 
+
+
+
   'commspectransport' => 'Коммерческий спец транспорт(комбайн трактор и другие)',
 
 
@@ -2624,7 +2901,13 @@ $GLOBALS['app_list_strings']['lead_transowner_list']=array (
 
 
 
+
+
+
 );
+
+
+
 
 
 
@@ -2666,7 +2949,13 @@ $GLOBALS['app_list_strings']['lead_buymode_list']=array (
 
 
 
+
+
+
   '' => '',
+
+
+
 
 
 
@@ -2708,7 +2997,13 @@ $GLOBALS['app_list_strings']['lead_buymode_list']=array (
 
 
 
+
+
+
   'gift' => 'дарение',
+
+
+
 
 
 
@@ -2750,7 +3045,13 @@ $GLOBALS['app_list_strings']['lead_buymode_list']=array (
 
 
 
+
+
+
   'creditbuy' => 'покупка в кредит',
+
+
+
 
 
 
@@ -2792,7 +3093,16 @@ $GLOBALS['app_list_strings']['lead_buymode_list']=array (
 
 
 
+
+
+
 );
+
+
+
+
+
+
 
 
 
@@ -2849,7 +3159,13 @@ $GLOBALS['app_list_strings']['lead_manufacturer_list']=array (
 
 
 
+
+
+
   '' => '',
+
+
+
 
 
 
@@ -2887,7 +3203,13 @@ $GLOBALS['app_list_strings']['lead_manufacturer_list']=array (
 
 
 
+
+
+
   'bmw' => 'BMW',
+
+
+
 
 
 
@@ -2925,7 +3247,13 @@ $GLOBALS['app_list_strings']['lead_manufacturer_list']=array (
 
 
 
+
+
+
   'lexus' => 'LEXUS',
+
+
+
 
 
 
@@ -2963,6 +3291,9 @@ $GLOBALS['app_list_strings']['lead_manufacturer_list']=array (
 
 
 
+
+
+
   'mercedes' => 'MERCEDES-BENZ',
 
 
@@ -2982,7 +3313,13 @@ $GLOBALS['app_list_strings']['lead_manufacturer_list']=array (
 
 
 
+
+
+
 );
+
+
+
 
 
 
@@ -3018,7 +3355,13 @@ $GLOBALS['app_list_strings']['lead_fueltype_list']=array (
 
 
 
+
+
+
   '' => '',
+
+
+
 
 
 
@@ -3054,7 +3397,13 @@ $GLOBALS['app_list_strings']['lead_fueltype_list']=array (
 
 
 
+
+
+
   'gasoline' => 'Бензин',
+
+
+
 
 
 
@@ -3090,7 +3439,13 @@ $GLOBALS['app_list_strings']['lead_fueltype_list']=array (
 
 
 
+
+
+
   'electricy' => 'Электричество',
+
+
+
 
 
 
@@ -3126,7 +3481,13 @@ $GLOBALS['app_list_strings']['lead_fueltype_list']=array (
 
 
 
+
+
+
 );
+
+
+
 
 
 
@@ -3160,7 +3521,13 @@ $GLOBALS['app_list_strings']['lead_typeownertrans_list']=array (
 
 
 
+
+
+
   '' => '',
+
+
+
 
 
 
@@ -3194,7 +3561,13 @@ $GLOBALS['app_list_strings']['lead_typeownertrans_list']=array (
 
 
 
+
+
+
   'joint' => 'совместная',
+
+
+
 
 
 
@@ -3228,6 +3601,9 @@ $GLOBALS['app_list_strings']['lead_typeownertrans_list']=array (
 
 
 
+
+
+
   'rented' => 'аренда',
 
 
@@ -3245,7 +3621,13 @@ $GLOBALS['app_list_strings']['lead_typeownertrans_list']=array (
 
 
 
+
+
+
 );
+
+
+
 
 
 
@@ -3277,7 +3659,13 @@ $GLOBALS['app_list_strings']['lead_orglegalform_list']=array (
 
 
 
+
+
+
   '' => '',
+
+
+
 
 
 
@@ -3309,7 +3697,13 @@ $GLOBALS['app_list_strings']['lead_orglegalform_list']=array (
 
 
 
+
+
+
   'priventerprise' => 'Частное предприятие',
+
+
+
 
 
 
@@ -3341,7 +3735,13 @@ $GLOBALS['app_list_strings']['lead_orglegalform_list']=array (
 
 
 
+
+
+
   'odo' => 'ОДО',
+
+
+
 
 
 
@@ -3373,7 +3773,13 @@ $GLOBALS['app_list_strings']['lead_orglegalform_list']=array (
 
 
 
+
+
+
   'ao' => 'АО',
+
+
+
 
 
 
@@ -3405,6 +3811,9 @@ $GLOBALS['app_list_strings']['lead_orglegalform_list']=array (
 
 
 
+
+
+
   'noncomerce' => 'Неприбыльная(общественная) организация',
 
 
@@ -3421,7 +3830,13 @@ $GLOBALS['app_list_strings']['lead_orglegalform_list']=array (
 
 
 
+
+
+
 );
+
+
+
 
 
 
@@ -3451,7 +3866,13 @@ $GLOBALS['app_list_strings']['lead_orgsize_list']=array (
 
 
 
+
+
+
   '' => '',
+
+
+
 
 
 
@@ -3481,7 +3902,13 @@ $GLOBALS['app_list_strings']['lead_orgsize_list']=array (
 
 
 
+
+
+
   'middle' => 'Среднее – 12-50 чел и/или 1-10 млн грн/мес',
+
+
+
 
 
 
@@ -3511,7 +3938,13 @@ $GLOBALS['app_list_strings']['lead_orgsize_list']=array (
 
 
 
+
+
+
 );
+
+
+
 
 
 
@@ -3539,7 +3972,13 @@ $GLOBALS['app_list_strings']['lead_orgsphere_list']=array (
 
 
 
+
+
+
   '' => '',
+
+
+
 
 
 
@@ -3567,7 +4006,13 @@ $GLOBALS['app_list_strings']['lead_orgsphere_list']=array (
 
 
 
+
+
+
   'industry' => 'промышленность',
+
+
+
 
 
 
@@ -3595,7 +4040,13 @@ $GLOBALS['app_list_strings']['lead_orgsphere_list']=array (
 
 
 
+
+
+
   'trade' => 'оптовая и розничная торговля',
+
+
+
 
 
 
@@ -3623,7 +4074,13 @@ $GLOBALS['app_list_strings']['lead_orgsphere_list']=array (
 
 
 
+
+
+
   'banks' => 'банки',
+
+
+
 
 
 
@@ -3651,7 +4108,13 @@ $GLOBALS['app_list_strings']['lead_orgsphere_list']=array (
 
 
 
+
+
+
   'notary' => 'нотариат',
+
+
+
 
 
 
@@ -3679,7 +4142,13 @@ $GLOBALS['app_list_strings']['lead_orgsphere_list']=array (
 
 
 
+
+
+
   'govpowerstruct' => 'гос. силовые структуры',
+
+
+
 
 
 
@@ -3707,7 +4176,13 @@ $GLOBALS['app_list_strings']['lead_orgsphere_list']=array (
 
 
 
+
+
+
   'services' => 'сфера услуг',
+
+
+
 
 
 
@@ -3735,7 +4210,13 @@ $GLOBALS['app_list_strings']['lead_orgsphere_list']=array (
 
 
 
+
+
+
   'it' => 'информационные технологии',
+
+
+
 
 
 
@@ -3763,7 +4244,13 @@ $GLOBALS['app_list_strings']['lead_orgsphere_list']=array (
 
 
 
+
+
+
 );
+
+
+
 
 
 
@@ -3789,7 +4276,13 @@ $GLOBALS['app_list_strings']['lead_orgposition_list']=array (
 
 
 
+
+
+
   '' => '',
+
+
+
 
 
 
@@ -3815,7 +4308,13 @@ $GLOBALS['app_list_strings']['lead_orgposition_list']=array (
 
 
 
+
+
+
   'regionalmanager' => 'региональный руководитель (филиала, рег. управления и др.), ',
+
+
+
 
 
 
@@ -3841,6 +4340,9 @@ $GLOBALS['app_list_strings']['lead_orgposition_list']=array (
 
 
 
+
+
+
   'worker' => 'клерк, рабочий, обслуживающий персонал)',
 
 
@@ -3854,7 +4356,13 @@ $GLOBALS['app_list_strings']['lead_orgposition_list']=array (
 
 
 
+
+
+
 );
+
+
+
 
 
 
@@ -3878,7 +4386,13 @@ $GLOBALS['app_list_strings']['lead_earnmethod_list']=array (
 
 
 
+
+
+
   '' => '',
+
+
+
 
 
 
@@ -3902,7 +4416,13 @@ $GLOBALS['app_list_strings']['lead_earnmethod_list']=array (
 
 
 
+
+
+
   'buisness' => 'предпринимательство',
+
+
+
 
 
 
@@ -3926,7 +4446,13 @@ $GLOBALS['app_list_strings']['lead_earnmethod_list']=array (
 
 
 
+
+
+
 );
+
+
+
 
 
 
@@ -3948,7 +4474,13 @@ $GLOBALS['app_list_strings']['lead_orgearnlevel_list']=array (
 
 
 
+
+
+
   '' => '',
+
+
+
 
 
 
@@ -3970,7 +4502,13 @@ $GLOBALS['app_list_strings']['lead_orgearnlevel_list']=array (
 
 
 
+
+
+
   'middle' => 'Средний – 12-40 тыс/грн (к.3)',
+
+
+
 
 
 
@@ -3992,6 +4530,9 @@ $GLOBALS['app_list_strings']['lead_orgearnlevel_list']=array (
 
 
 
+
+
+
   'elite' => 'Элит – свыше 200 тыс/грн (к.1)',
 
 
@@ -4003,7 +4544,13 @@ $GLOBALS['app_list_strings']['lead_orgearnlevel_list']=array (
 
 
 
+
+
+
 );
+
+
+
 
 
 
@@ -4023,7 +4570,13 @@ $GLOBALS['app_list_strings']['lead_debettype_list']=array (
 
 
 
+
+
+
   '' => '',
+
+
+
 
 
 
@@ -4043,7 +4596,13 @@ $GLOBALS['app_list_strings']['lead_debettype_list']=array (
 
 
 
+
+
+
   'notsecured' => 'Необеспеченные - коэффициент 0,5',
+
+
+
 
 
 
@@ -4063,6 +4622,9 @@ $GLOBALS['app_list_strings']['lead_debettype_list']=array (
 
 
 
+
+
+
   'notoverdue' => 'Непросроченные - коэффициент 1,0',
 
 
@@ -4073,7 +4635,13 @@ $GLOBALS['app_list_strings']['lead_debettype_list']=array (
 
 
 
+
+
+
 );
+
+
+
 
 
 
@@ -4091,7 +4659,13 @@ $GLOBALS['app_list_strings']['lead_debettypelevel_list']=array (
 
 
 
+
+
+
   '' => '',
+
+
+
 
 
 
@@ -4109,7 +4683,13 @@ $GLOBALS['app_list_strings']['lead_debettypelevel_list']=array (
 
 
 
+
+
+
   'relevant' => 'соответствующий – коэффициент 1,0',
+
+
+
 
 
 
@@ -4127,7 +4707,13 @@ $GLOBALS['app_list_strings']['lead_debettypelevel_list']=array (
 
 
 
+
+
+
 );
+
+
+
 
 
 
@@ -4143,7 +4729,13 @@ $GLOBALS['app_list_strings']['lead_levelvolume_list']=array (
 
 
 
+
+
+
   '' => '',
+
+
+
 
 
 
@@ -4159,7 +4751,13 @@ $GLOBALS['app_list_strings']['lead_levelvolume_list']=array (
 
 
 
+
+
+
   'middle' => 'Средний – 20-100 тыс грн (к.2)',
+
+
+
 
 
 
@@ -4175,6 +4773,9 @@ $GLOBALS['app_list_strings']['lead_levelvolume_list']=array (
 
 
 
+
+
+
   'ultrahigh' => 'Сверхвысокий – свыше 900 тыс грн (к.4)',
 
 
@@ -4183,7 +4784,13 @@ $GLOBALS['app_list_strings']['lead_levelvolume_list']=array (
 
 
 
+
+
+
 );
+
+
+
 
 
 
@@ -4197,7 +4804,13 @@ $GLOBALS['app_list_strings']['lead_yeartrans_list']=array (
 
 
 
+
+
+
   '' => '',
+
+
+
 
 
 
@@ -4211,7 +4824,13 @@ $GLOBALS['app_list_strings']['lead_yeartrans_list']=array (
 
 
 
+
+
+
   1971 => '1971',
+
+
+
 
 
 
@@ -4225,7 +4844,13 @@ $GLOBALS['app_list_strings']['lead_yeartrans_list']=array (
 
 
 
+
+
+
   1973 => '1973',
+
+
+
 
 
 
@@ -4239,7 +4864,13 @@ $GLOBALS['app_list_strings']['lead_yeartrans_list']=array (
 
 
 
+
+
+
   1975 => '1975',
+
+
+
 
 
 
@@ -4253,7 +4884,13 @@ $GLOBALS['app_list_strings']['lead_yeartrans_list']=array (
 
 
 
+
+
+
   1977 => '1977',
+
+
+
 
 
 
@@ -4267,7 +4904,13 @@ $GLOBALS['app_list_strings']['lead_yeartrans_list']=array (
 
 
 
+
+
+
   1979 => '1979',
+
+
+
 
 
 
@@ -4281,7 +4924,13 @@ $GLOBALS['app_list_strings']['lead_yeartrans_list']=array (
 
 
 
+
+
+
   1981 => '1981',
+
+
+
 
 
 
@@ -4295,7 +4944,13 @@ $GLOBALS['app_list_strings']['lead_yeartrans_list']=array (
 
 
 
+
+
+
   1983 => '1983',
+
+
+
 
 
 
@@ -4309,7 +4964,13 @@ $GLOBALS['app_list_strings']['lead_yeartrans_list']=array (
 
 
 
+
+
+
   1985 => '1985',
+
+
+
 
 
 
@@ -4323,7 +4984,13 @@ $GLOBALS['app_list_strings']['lead_yeartrans_list']=array (
 
 
 
+
+
+
   1987 => '1987',
+
+
+
 
 
 
@@ -4337,7 +5004,13 @@ $GLOBALS['app_list_strings']['lead_yeartrans_list']=array (
 
 
 
+
+
+
   1989 => '1989',
+
+
+
 
 
 
@@ -4351,7 +5024,13 @@ $GLOBALS['app_list_strings']['lead_yeartrans_list']=array (
 
 
 
+
+
+
   1991 => '1991',
+
+
+
 
 
 
@@ -4365,7 +5044,13 @@ $GLOBALS['app_list_strings']['lead_yeartrans_list']=array (
 
 
 
+
+
+
   1993 => '1993',
+
+
+
 
 
 
@@ -4379,7 +5064,13 @@ $GLOBALS['app_list_strings']['lead_yeartrans_list']=array (
 
 
 
+
+
+
   1995 => '1995',
+
+
+
 
 
 
@@ -4393,7 +5084,13 @@ $GLOBALS['app_list_strings']['lead_yeartrans_list']=array (
 
 
 
+
+
+
   1997 => '1997',
+
+
+
 
 
 
@@ -4407,7 +5104,13 @@ $GLOBALS['app_list_strings']['lead_yeartrans_list']=array (
 
 
 
+
+
+
   1999 => '1999',
+
+
+
 
 
 
@@ -4421,7 +5124,13 @@ $GLOBALS['app_list_strings']['lead_yeartrans_list']=array (
 
 
 
+
+
+
   2001 => '2001',
+
+
+
 
 
 
@@ -4435,7 +5144,13 @@ $GLOBALS['app_list_strings']['lead_yeartrans_list']=array (
 
 
 
+
+
+
   2003 => '2003',
+
+
+
 
 
 
@@ -4449,7 +5164,13 @@ $GLOBALS['app_list_strings']['lead_yeartrans_list']=array (
 
 
 
+
+
+
   2005 => '2005',
+
+
+
 
 
 
@@ -4463,7 +5184,13 @@ $GLOBALS['app_list_strings']['lead_yeartrans_list']=array (
 
 
 
+
+
+
   2007 => '2007',
+
+
+
 
 
 
@@ -4477,7 +5204,13 @@ $GLOBALS['app_list_strings']['lead_yeartrans_list']=array (
 
 
 
+
+
+
   2009 => '2009',
+
+
+
 
 
 
@@ -4491,7 +5224,13 @@ $GLOBALS['app_list_strings']['lead_yeartrans_list']=array (
 
 
 
+
+
+
   2011 => '2011',
+
+
+
 
 
 
@@ -4505,7 +5244,13 @@ $GLOBALS['app_list_strings']['lead_yeartrans_list']=array (
 
 
 
+
+
+
   2013 => '2013',
+
+
+
 
 
 
@@ -4519,7 +5264,13 @@ $GLOBALS['app_list_strings']['lead_yeartrans_list']=array (
 
 
 
+
+
+
   2015 => '2015',
+
+
+
 
 
 
@@ -4533,7 +5284,13 @@ $GLOBALS['app_list_strings']['lead_yeartrans_list']=array (
 
 
 
+
+
+
   2017 => '2017',
+
+
+
 
 
 
@@ -4547,7 +5304,13 @@ $GLOBALS['app_list_strings']['lead_yeartrans_list']=array (
 
 
 
+
+
+
 );
+
+
+
 
 
 
@@ -4559,7 +5322,13 @@ $GLOBALS['app_list_strings']['card_status_list']=array (
 
 
 
+
+
+
   '' => '',
+
+
+
 
 
 
@@ -4571,7 +5340,13 @@ $GLOBALS['app_list_strings']['card_status_list']=array (
 
 
 
+
+
+
   'not_active' => 'неактивна',
+
+
+
 
 
 
@@ -4583,7 +5358,13 @@ $GLOBALS['app_list_strings']['card_status_list']=array (
 
 
 
+
+
+
 );
+
+
+
 
 
 
@@ -4593,7 +5374,13 @@ $GLOBALS['app_list_strings']['pin_status_list']=array (
 
 
 
+
+
+
   '' => '',
+
+
+
 
 
 
@@ -4603,12 +5390,21 @@ $GLOBALS['app_list_strings']['pin_status_list']=array (
 
 
 
+
+
+
   'not_active' => 'неактивна',
 
 
 
 
+
+
+
 );
+
+
+
 
 
 
@@ -4616,7 +5412,13 @@ $GLOBALS['app_list_strings']['block_reason_list']=array (
 
 
 
+
+
+
   '' => '',
+
+
+
 
 
 
@@ -4624,7 +5426,13 @@ $GLOBALS['app_list_strings']['block_reason_list']=array (
 
 
 
+
+
+
   'overdue_arrear' => 'Наличие просроченной задолженности',
+
+
+
 
 
 
@@ -4632,24 +5440,79 @@ $GLOBALS['app_list_strings']['block_reason_list']=array (
 
 
 
+
+
+
   'expiry_term' => 'Истечение срока действия карты',
 
 
 
+
+
+
 );
+
+
+
+
+
+
 
 
 
 $GLOBALS['app_list_strings']['script_status_list']=array (
 
+
+
+
   'active' => 'Активирован',
+
+
+
 
   'not_active' => 'неактивировано',
 
+
+
+
 );
-$GLOBALS['app_list_strings']['faq_content_list']=array (
-  'question' => 'вопрос',
-  'answer' => 'ответ',
-  'description' => 'описание',
-  'comments' => 'комментарии(практика)',
+
+
+
+
+
+$GLOBALS['app_list_strings']['script_type_list']=array (
+
+
+  'warmUp' => 'разорев',
+
+
+  'sale' => 'продажа',
+
+
+  'privelege' => 'предложение привелегий',
+
+
+  'combo' => 'комбинированый',
+
+
+  'service' => 'сервис',
+
+
+);
+
+$GLOBALS['app_list_strings']['script_impact_list']=array (
+
+  'individual' => 'индивидуальное',
+
+  'segment' => 'сегментированное',
+
+  'massNonAdress' => 'массово-неадресное',
+
+);
+$GLOBALS['app_list_strings']['realty_typeOwnership_list']=array (
+  'single' => 'единоличная',
+  'double' => 'совместная',
+  'constantUse' => 'в постоянном пользовании',
+  'lease' => 'аренда',
 );
