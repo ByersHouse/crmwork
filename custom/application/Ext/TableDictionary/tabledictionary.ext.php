@@ -13,6 +13,11 @@ include('custom/metadata/bh_faq_history_bh_faqMetaData.php');
 
  
  //WARNING: The contents of this file are auto-generated
+include('custom/metadata/bh_providers_aos_contracts_1MetaData.php');
+
+
+ 
+ //WARNING: The contents of this file are auto-generated
 include('custom/metadata/bh_scripts_employee_comment_bh_scriptsMetaData.php');
 
 
