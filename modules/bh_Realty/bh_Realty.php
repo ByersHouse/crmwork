@@ -60,6 +60,7 @@ class bh_Realty extends Basic
     public $created_by_link;
     public $modified_user_link;
     public $realty_type_ownership;
+    public $realty_method_obtaining;
     public $assigned_user_id;
     public $assigned_user_name;
     public $assigned_user_link;
