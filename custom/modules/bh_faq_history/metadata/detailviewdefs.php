@@ -52,13 +52,13 @@ array (
         ),
         1 => 
         array (
-          0 => '',
-          1 => 
+          0 => 
           array (
             'name' => 'redact_content',
             'studio' => 'visible',
             'label' => 'LBL_REDACT_CONTENT',
           ),
+          1 => '',
         ),
         2 => 
         array (
