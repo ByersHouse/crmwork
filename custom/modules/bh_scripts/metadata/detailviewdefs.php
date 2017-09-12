@@ -75,8 +75,8 @@ array (
           ),
           1 => 
           array (
-            'name' => 'script_date_activation',
-            'label' => 'LBL_DATE_ACTIVATION',
+            'name' => 'script_rate_effort',
+            'label' => 'LBL_RATE_EFFORT',
           ),
         ),
         3 => 
@@ -90,7 +90,11 @@ array (
             'name' => 'script_date_deactivation',
             'label' => 'LBL_DATE_DEACTIVATION',
           ),
-          1 => '',
+          1 => 
+          array (
+            'name' => 'script_date_activation',
+            'label' => 'LBL_DATE_ACTIVATION',
+          ),
         ),
       ),
     ),
