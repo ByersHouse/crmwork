@@ -73,11 +73,24 @@ array (
             'studio' => 'visible',
             'label' => 'LBL_SCRIPT_IMPACT',
           ),
-          1 => '',
+          1 => 
+          array (
+            'name' => 'script_date_activation',
+            'label' => 'LBL_DATE_ACTIVATION',
+          ),
         ),
         3 => 
         array (
           0 => 'description',
+        ),
+        4 => 
+        array (
+          0 => 
+          array (
+            'name' => 'script_date_deactivation',
+            'label' => 'LBL_DATE_DEACTIVATION',
+          ),
+          1 => '',
         ),
       ),
     ),
