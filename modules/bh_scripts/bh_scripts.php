@@ -59,6 +59,7 @@ class bh_scripts extends Basic
     public $deleted;
     public $script_status;
     public $script_type;
+    public $script_impact;
     public $created_by_link;
     public $modified_user_link;
     public $assigned_user_id;
