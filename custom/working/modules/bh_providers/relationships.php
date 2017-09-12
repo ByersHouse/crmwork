@@ -64,7 +64,7 @@ $relationships = array (
     'relationship_only' => false,
     'for_activities' => false,
     'is_custom' => false,
-    'from_studio' => false,
+    'from_studio' => true,
   ),
   'bh_providers_created_by' => 
   array (
@@ -90,7 +90,7 @@ $relationships = array (
     'relationship_only' => false,
     'for_activities' => false,
     'is_custom' => false,
-    'from_studio' => false,
+    'from_studio' => true,
   ),
   'bh_providers_assigned_user' => 
   array (
@@ -116,7 +116,7 @@ $relationships = array (
     'relationship_only' => false,
     'for_activities' => false,
     'is_custom' => false,
-    'from_studio' => false,
+    'from_studio' => true,
   ),
   'securitygroups_bh_providers' => 
   array (
@@ -142,7 +142,7 @@ $relationships = array (
     'relationship_only' => false,
     'for_activities' => false,
     'is_custom' => false,
-    'from_studio' => false,
+    'from_studio' => true,
   ),
   'bh_providers_aos_contracts_1' => 
   array (
@@ -152,12 +152,12 @@ $relationships = array (
     'lhs_module' => 'bh_providers',
     'rhs_module' => 'AOS_Contracts',
     'relationship_type' => 'one-to-many',
-    'readonly' => false,
+    'readonly' => true,
     'deleted' => false,
     'relationship_only' => false,
     'for_activities' => false,
     'is_custom' => false,
-    'from_studio' => false,
+    'from_studio' => true,
     'relationship_name' => 'bh_providers_aos_contracts_1',
   ),
 );
