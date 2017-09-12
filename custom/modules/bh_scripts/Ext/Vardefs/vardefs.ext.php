@@ -2,6 +2,64 @@
  //WARNING: The contents of this file are auto-generated
 
 
+// created: 2017-09-12 14:55:18
+$dictionary["bh_scripts"]["fields"]["bh_scripts_employee_comment_bh_scripts"] = array (
+  'name' => 'bh_scripts_employee_comment_bh_scripts',
+  'type' => 'link',
+  'relationship' => 'bh_scripts_employee_comment_bh_scripts',
+  'source' => 'non-db',
+  'module' => 'bh_Scripts_employee_comment',
+  'bean_name' => false,
+  'vname' => 'LBL_BH_SCRIPTS_EMPLOYEE_COMMENT_BH_SCRIPTS_FROM_BH_SCRIPTS_EMPLOYEE_COMMENT_TITLE',
+);
+
+
+// created: 2017-09-12 14:18:48
+$dictionary["bh_scripts"]["fields"]["bh_script_param_response_bh_scripts"] = array (
+  'name' => 'bh_script_param_response_bh_scripts',
+  'type' => 'link',
+  'relationship' => 'bh_script_param_response_bh_scripts',
+  'source' => 'non-db',
+  'module' => 'bh_script_param_response',
+  'bean_name' => false,
+  'vname' => 'LBL_BH_SCRIPT_PARAM_RESPONSE_BH_SCRIPTS_FROM_BH_SCRIPT_PARAM_RESPONSE_TITLE',
+);
+
+
+// created: 2017-09-12 14:07:21
+$dictionary["bh_scripts"]["fields"]["bh_scr_status_history_bh_scripts"] = array (
+  'name' => 'bh_scr_status_history_bh_scripts',
+  'type' => 'link',
+  'relationship' => 'bh_scr_status_history_bh_scripts',
+  'source' => 'non-db',
+  'module' => 'bh_scr_status_history',
+  'bean_name' => 'bh_scr_status_history',
+  'vname' => 'LBL_BH_SCR_STATUS_HISTORY_BH_SCRIPTS_FROM_BH_SCR_STATUS_HISTORY_TITLE',
+  'id_name' => 'bh_scr_status_history_bh_scriptsbh_scr_status_history_ida',
+);
+$dictionary["bh_scripts"]["fields"]["bh_scr_status_history_bh_scripts_name"] = array (
+  'name' => 'bh_scr_status_history_bh_scripts_name',
+  'type' => 'relate',
+  'source' => 'non-db',
+  'vname' => 'LBL_BH_SCR_STATUS_HISTORY_BH_SCRIPTS_FROM_BH_SCR_STATUS_HISTORY_TITLE',
+  'save' => true,
+  'id_name' => 'bh_scr_status_history_bh_scriptsbh_scr_status_history_ida',
+  'link' => 'bh_scr_status_history_bh_scripts',
+  'table' => 'bh_scr_status_history',
+  'module' => 'bh_scr_status_history',
+  'rname' => 'name',
+);
+$dictionary["bh_scripts"]["fields"]["bh_scr_status_history_bh_scriptsbh_scr_status_history_ida"] = array (
+  'name' => 'bh_scr_status_history_bh_scriptsbh_scr_status_history_ida',
+  'type' => 'link',
+  'relationship' => 'bh_scr_status_history_bh_scripts',
+  'source' => 'non-db',
+  'reportable' => false,
+  'side' => 'right',
+  'vname' => 'LBL_BH_SCR_STATUS_HISTORY_BH_SCRIPTS_FROM_BH_SCRIPTS_TITLE',
+);
+
+
 $dictionary['bh_scripts']['fields']['script_status'] = array (
          'required' => false,
           'name' => 'script_status',
@@ -24,8 +82,6 @@ $dictionary['bh_scripts']['fields']['script_status'] = array (
           'size' => '20',
           'enable_range_search' => false,
     );
-<<<<<<<<< Temporary merge branch 1
-=========
 
 $dictionary['bh_scripts']['fields']['script_type'] = array (
     'required' => false,
@@ -133,5 +189,5 @@ $dictionary['bh_scripts']['fields']['script_rate_effort'] = array (
     'size' => '20',
     'enable_range_search' => false,
 );
->>>>>>>>> Temporary merge branch 2
+
 ?>
