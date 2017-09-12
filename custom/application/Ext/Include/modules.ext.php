@@ -39,4 +39,11 @@ $beanFiles['bh_scripts'] = 'modules/bh_scripts/bh_scripts.php';
 $moduleList[] = 'bh_scripts';
 
 
+ 
+ //WARNING: The contents of this file are auto-generated
+$beanList['bh_scr_status_history'] = 'bh_scr_status_history';
+$beanFiles['bh_scr_status_history'] = 'modules/bh_scr_status_history/bh_scr_status_history.php';
+$moduleList[] = 'bh_scr_status_history';
+
+
 ?>

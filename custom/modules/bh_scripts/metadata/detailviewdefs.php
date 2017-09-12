@@ -96,6 +96,13 @@ array (
             'label' => 'LBL_DATE_ACTIVATION',
           ),
         ),
+        5 => 
+        array (
+          0 => 
+          array (
+            'name' => 'bh_scr_status_history_bh_scripts_name',
+          ),
+        ),
       ),
     ),
   ),
