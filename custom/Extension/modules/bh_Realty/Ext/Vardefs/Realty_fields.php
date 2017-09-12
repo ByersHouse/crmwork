@@ -2,7 +2,7 @@
 
 $dictionary['bh_Realty']['fields']['realty_typeOwnership'] = array (
     'required' => false,
-    'name' => 'realty_typeOwnership',
+    'name' => 'realty_type_ownership',
     'vname' => 'LBL_TYPE_OWNERSHIP',
     'type' => 'enum',
     'massupdate' => 0,

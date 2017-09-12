@@ -131,4 +131,5 @@ $dictionary['bh_scripts']['fields']['script_rate_effort'] = array (
     'size' => '20',
     'enable_range_search' => false,
 );
+
 ?>
