@@ -58,7 +58,12 @@ array (
             'studio' => 'visible',
             'label' => 'LBL_SCRIPT_STATUS',
           ),
-          1 => '',
+          1 => 
+          array (
+            'name' => 'script_type',
+            'studio' => 'visible',
+            'label' => 'LBL_SCRIPT_TYPE',
+          ),
         ),
         2 => 
         array (
