@@ -47,9 +47,18 @@ array (
         array (
           0 => 
           array (
-            'name' => 'realty_typeOwnership',
+            'name' => 'realty_type_ownership',
             'studio' => 'visible',
             'label' => 'LBL_TYPE_OWNERSHIP',
+          ),
+        ),
+        3 => 
+        array (
+          0 => 
+          array (
+            'name' => 'realty_method_obtaining',
+            'studio' => 'visible',
+            'label' => 'LBL_METHOD_OBTAINING',
           ),
           1 => '',
         ),
