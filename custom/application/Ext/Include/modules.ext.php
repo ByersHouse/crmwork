@@ -27,6 +27,20 @@ $moduleList[] = 'bh_faq_history';
 
  
  //WARNING: The contents of this file are auto-generated
+$beanList['bh_organizations'] = 'bh_organizations';
+$beanFiles['bh_organizations'] = 'modules/bh_organizations/bh_organizations.php';
+$moduleList[] = 'bh_organizations';
+
+
+ 
+ //WARNING: The contents of this file are auto-generated
+$beanList['bh_providers'] = 'bh_providers';
+$beanFiles['bh_providers'] = 'modules/bh_providers/bh_providers.php';
+$moduleList[] = 'bh_providers';
+
+
+ 
+ //WARNING: The contents of this file are auto-generated
 $beanList['bh_Realty'] = 'bh_Realty';
 $beanFiles['bh_Realty'] = 'modules/bh_Realty/bh_Realty.php';
 $moduleList[] = 'bh_Realty';
