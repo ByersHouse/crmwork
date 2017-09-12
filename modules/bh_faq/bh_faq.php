@@ -57,6 +57,8 @@ class bh_faq extends Basic
     public $created_by_name;
     public $description;
     public $deleted;
+    public $element_content;
+    
     public $created_by_link;
     public $modified_user_link;
     public $assigned_user_id;
@@ -75,4 +77,4 @@ class bh_faq extends Basic
         return false;
     }
 	
-}
+}
