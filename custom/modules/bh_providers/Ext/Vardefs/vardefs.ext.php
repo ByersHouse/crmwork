@@ -26,4 +26,26 @@ $dictionary['bh_providers']['fields']['provider_status'] = array (
       'len' =>'10',
       'enable_range_search' => false,
 );
+
+
+$dictionary['bh_providers']['fields']['date_activation'] = array (
+      'required' => false,
+      'name' => 'date_activation',
+      'vname' => 'LBL_DATE_ACTIVATION',
+      'type' => 'date',
+      'massupdate' => 0,
+      'no_default' => false,
+      'comments' => '',
+      'help' => '',
+      'importable' => 'true',
+      'duplicate_merge' => 'disabled',
+      'duplicate_merge_dom_value' => '0',
+      'audited' => false,
+      'inline_edit' => true,
+      'reportable' => true,
+      'unified_search' => false,
+      'merge_filter' => 'disabled',
+      'size' => '20',
+      'enable_range_search' => false,
+);
 ?>

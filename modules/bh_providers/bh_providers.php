@@ -58,6 +58,7 @@ class bh_providers extends Basic
     public $description;
     public $deleted;
     public $provider_status;
+    public $date_activation;
     
     public $created_by_link;
     public $modified_user_link;

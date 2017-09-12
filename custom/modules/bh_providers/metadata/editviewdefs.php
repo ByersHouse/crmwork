@@ -42,17 +42,21 @@ array (
         ),
         1 => 
         array (
-          0 => 'description',
-        ),
-        2 => 
-        array (
           0 => 
           array (
             'name' => 'provider_status',
             'studio' => 'visible',
             'label' => 'LBL_PROVIDER_STATUS',
           ),
-          1 => '',
+          1 => 
+          array (
+            'name' => 'date_activation',
+            'label' => 'LBL_DATE_ACTIVATION',
+          ),
+        ),
+        2 => 
+        array (
+          0 => 'description',
         ),
       ),
     ),
