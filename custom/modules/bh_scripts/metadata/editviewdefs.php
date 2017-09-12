@@ -48,43 +48,11 @@ array (
             'studio' => 'visible',
             'label' => 'LBL_SCRIPT_STATUS',
           ),
-          1 => 
-          array (
-            'name' => 'script_type',
-            'studio' => 'visible',
-            'label' => 'LBL_SCRIPT_TYPE',
-          ),
+          1 => '',
         ),
         2 => 
         array (
-          0 => 
-          array (
-            'name' => 'script_impact',
-            'studio' => 'visible',
-            'label' => 'LBL_SCRIPT_IMPACT',
-          ),
-          1 => 
-          array (
-            'name' => 'script_rate_effort',
-            'label' => 'LBL_RATE_EFFORT',
-          ),
-        ),
-        3 => 
-        array (
           0 => 'description',
-        ),
-        4 => 
-        array (
-          0 => 
-          array (
-            'name' => 'script_date_deactivation',
-            'label' => 'LBL_DATE_DEACTIVATION',
-          ),
-          1 => 
-          array (
-            'name' => 'script_date_activation',
-            'label' => 'LBL_DATE_ACTIVATION',
-          ),
         ),
       ),
     ),

@@ -65,9 +65,9 @@ $manifest = array (
   'icon' => '',
   'is_uninstallable' => true,
   'name' => 'FAQ',
-  'published_date' => '2017-09-11 10:58:53',
+  'published_date' => '2017-09-12 06:53:45',
   'type' => 'module',
-  'version' => 1505127534,
+  'version' => 1505199227,
   'remove_tables' => 'prompt',
 );
 

@@ -41,3 +41,4 @@
 
 
 $app_list_strings['moduleList']['bh_faq'] = 'FAQ';
+$app_list_strings['moduleList']['bh_faq_history'] = 'FAQ История элемента';
