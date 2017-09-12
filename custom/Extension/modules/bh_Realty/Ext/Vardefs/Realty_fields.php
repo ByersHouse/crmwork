@@ -89,3 +89,24 @@ $dictionary['bh_Realty']['fields']['realty_property_type'] = array (
     'size' => '20',
     'enable_range_search' => false,
 );
+
+$dictionary['bh_Realty']['fields']['realty_date_purchase'] = array (
+    'required' => false,
+    'name' => 'realty_date_purchase',
+    'vname' => 'LBL_DATE_PURCHASE',
+    'type' => 'date',
+    'massupdate' => 0,
+    'no_default' => false,
+    'comments' => '',
+    'help' => '',
+    'importable' => 'true',
+    'duplicate_merge' => 'disabled',
+    'duplicate_merge_dom_value' => '0',
+    'audited' => false,
+    'inline_edit' => true,
+    'reportable' => true,
+    'unified_search' => false,
+    'merge_filter' => 'disabled',
+    'size' => '20',
+    'enable_range_search' => false,
+);

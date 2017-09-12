@@ -75,6 +75,15 @@ array (
             'label' => 'LBL_OWNER_PLEDGE',
           ),
         ),
+        5 => 
+        array (
+          0 => 
+          array (
+            'name' => 'realty_date_purchase',
+            'label' => 'LBL_DATE_PURCHASE',
+          ),
+          1 => '',
+        ),
       ),
     ),
   ),

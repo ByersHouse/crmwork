@@ -62,6 +62,8 @@ class bh_Realty extends Basic
     public $modified_user_link;
     public $realty_type_ownership;
     public $realty_method_obtaining;
+    public $realty_date_purchase;
+    public $realty_property_type;
     public $assigned_user_id;
     public $assigned_user_name;
     public $assigned_user_link;
