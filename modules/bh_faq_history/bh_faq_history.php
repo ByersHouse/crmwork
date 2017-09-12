@@ -58,6 +58,7 @@ class bh_faq_history extends Basic
     public $description;
     public $deleted;
     public $redact_content;
+    public $date_redact;
     
     public $created_by_link;
     public $modified_user_link;

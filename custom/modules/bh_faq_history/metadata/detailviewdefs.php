@@ -47,25 +47,33 @@ array (
       array (
         0 => 
         array (
-          0 => 'name',
+          0 => 
+          array (
+            'name' => 'bh_faq_history_bh_faq_name',
+          ),
           1 => 'assigned_user_name',
         ),
         1 => 
+        array (
+          0 => '',
+          1 => '',
+        ),
+        2 => 
+        array (
+          0 => 
+          array (
+            'name' => 'date_redact',
+            'label' => 'LBL_DATE_REDACT',
+          ),
+          1 => 'name',
+        ),
+        3 => 
         array (
           0 => 
           array (
             'name' => 'redact_content',
             'studio' => 'visible',
             'label' => 'LBL_REDACT_CONTENT',
-          ),
-          1 => '',
-        ),
-        2 => 
-        array (
-          0 => 'description',
-          1 => 
-          array (
-            'name' => 'bh_faq_history_bh_faq_name',
           ),
         ),
       ),
