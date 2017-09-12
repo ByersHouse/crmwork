@@ -70,4 +70,5 @@ $dictionary['bh_scripts']['fields']['script_impact'] = array (
     'size' => '20',
     'enable_range_search' => false,
 );
+
 ?>
