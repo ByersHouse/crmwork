@@ -58,6 +58,7 @@ class bh_Realty extends Basic
     public $description;
     public $deleted;
     public $created_by_link;
+    public $realty_owner_pledge;
     public $modified_user_link;
     public $realty_type_ownership;
     public $realty_method_obtaining;

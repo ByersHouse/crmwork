@@ -60,7 +60,20 @@ array (
             'studio' => 'visible',
             'label' => 'LBL_METHOD_OBTAINING',
           ),
-          1 => '',
+          1 => 
+          array (
+            'name' => 'realty_property_type',
+            'studio' => 'visible',
+            'label' => 'LBL_PROPERTY_TYPE',
+          ),
+        ),
+        4 => 
+        array (
+          0 => 
+          array (
+            'name' => 'realty_owner_pledge',
+            'label' => 'LBL_OWNER_PLEDGE',
+          ),
         ),
       ),
     ),
