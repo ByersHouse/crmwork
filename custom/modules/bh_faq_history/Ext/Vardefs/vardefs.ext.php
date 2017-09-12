@@ -35,4 +35,50 @@ $dictionary["bh_faq_history"]["fields"]["bh_faq_history_bh_faqbh_faq_ida"] = arr
   'vname' => 'LBL_BH_FAQ_HISTORY_BH_FAQ_FROM_BH_FAQ_HISTORY_TITLE',
 );
 
+
+
+$dictionary['bh_faq_history']['fields']['redact_content'] = array (
+      'required' => false,
+      'name' => 'redact_content',
+      'vname' => 'LBL_REDACT_CONTENT',
+      'type' => 'text',
+      'massupdate' => 0,
+      'no_default' => false,
+      'comments' => '',
+      'help' => '',
+      'importable' => 'true',
+      'duplicate_merge' => 'disabled',
+      'duplicate_merge_dom_value' => '0',
+      'audited' => false,
+      'inline_edit' => true,
+      'reportable' => true,
+      'unified_search' => false,
+      'merge_filter' => 'disabled',
+      'size' => '20',
+      'studio' => 'visible',
+      'rows' => '20',
+      'cols' => '40',
+    );
+
+
+$dictionary['bh_faq_history']['fields']['date_redact'] = array (
+      'required' => false,
+      'name' => 'date_redact',
+      'vname' => 'LBL_DATE_REDACT',
+      'type' => 'date',
+      'massupdate' => 0,
+      'no_default' => false,
+      'comments' => '',
+      'help' => '',
+      'importable' => 'true',
+      'duplicate_merge' => 'disabled',
+      'duplicate_merge_dom_value' => '0',
+      'audited' => false,
+      'inline_edit' => true,
+      'reportable' => true,
+      'unified_search' => false,
+      'merge_filter' => 'disabled',
+      'size' => '20',
+      'enable_range_search' => false,
+);
 ?>

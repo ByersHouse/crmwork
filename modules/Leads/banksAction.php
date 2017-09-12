@@ -4,7 +4,7 @@ global $db;
 
 if(isset($_REQUEST['mfo'])){
     
-    $sql = "SELECT name FROM BANKS WHERE mfo ='{$_REQUEST['mfo']}'";
+    $sql = "SELECT name FROM banks WHERE mfo ='{$_REQUEST['mfo']}'";
     $bank_name = $db->getOne($sql);
   
     if($bank_name){

@@ -57,6 +57,9 @@ class bh_faq_history extends Basic
     public $created_by_name;
     public $description;
     public $deleted;
+    public $redact_content;
+    public $date_redact;
+    
     public $created_by_link;
     public $modified_user_link;
     public $assigned_user_id;
@@ -75,4 +78,4 @@ class bh_faq_history extends Basic
         return false;
     }
 	
-}
+}

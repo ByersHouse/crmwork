@@ -48,11 +48,51 @@ array (
             'studio' => 'visible',
             'label' => 'LBL_SCRIPT_STATUS',
           ),
-          1 => '',
+          1 => 
+          array (
+            'name' => 'script_type',
+            'studio' => 'visible',
+            'label' => 'LBL_SCRIPT_TYPE',
+          ),
         ),
         2 => 
         array (
+          0 => 
+          array (
+            'name' => 'script_impact',
+            'studio' => 'visible',
+            'label' => 'LBL_SCRIPT_IMPACT',
+          ),
+          1 => 
+          array (
+            'name' => 'script_rate_effort',
+            'label' => 'LBL_RATE_EFFORT',
+          ),
+        ),
+        3 => 
+        array (
           0 => 'description',
+        ),
+        4 => 
+        array (
+          0 => 
+          array (
+            'name' => 'script_date_deactivation',
+            'label' => 'LBL_DATE_DEACTIVATION',
+          ),
+          1 => 
+          array (
+            'name' => 'script_date_activation',
+            'label' => 'LBL_DATE_ACTIVATION',
+          ),
+        ),
+        5 => 
+        array (
+          0 => 
+          array (
+            'name' => 'bh_scr_status_history_bh_scripts_name',
+            'label' => 'LBL_BH_SCR_STATUS_HISTORY_BH_SCRIPTS_FROM_BH_SCR_STATUS_HISTORY_TITLE',
+          ),
         ),
       ),
     ),

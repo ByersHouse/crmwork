@@ -24,6 +24,8 @@ $dictionary['bh_scripts']['fields']['script_status'] = array (
           'size' => '20',
           'enable_range_search' => false,
     );
+<<<<<<<<< Temporary merge branch 1
+=========
 
 $dictionary['bh_scripts']['fields']['script_type'] = array (
     'required' => false,
@@ -131,4 +133,5 @@ $dictionary['bh_scripts']['fields']['script_rate_effort'] = array (
     'size' => '20',
     'enable_range_search' => false,
 );
+>>>>>>>>> Temporary merge branch 2
 ?>
