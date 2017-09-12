@@ -91,6 +91,7 @@ array (
           0 => 
           array (
             'name' => 'bh_scr_status_history_bh_scripts_name',
+            'label' => 'LBL_BH_SCR_STATUS_HISTORY_BH_SCRIPTS_FROM_BH_SCR_STATUS_HISTORY_TITLE',
           ),
         ),
       ),

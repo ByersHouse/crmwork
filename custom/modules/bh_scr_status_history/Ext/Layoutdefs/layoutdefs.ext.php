@@ -2,7 +2,7 @@
  //WARNING: The contents of this file are auto-generated
 
 
- // created: 2017-09-12 12:59:02
+ // created: 2017-09-12 14:07:20
 $layout_defs["bh_scr_status_history"]["subpanel_setup"]['bh_scr_status_history_bh_scripts'] = array (
   'order' => 100,
   'module' => 'bh_scripts',

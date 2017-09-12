@@ -1,12 +1,12 @@
 <?php
-// created: 2017-09-12 12:59:04
+// created: 2017-09-12 14:07:21
 $dictionary["bh_scripts"]["fields"]["bh_scr_status_history_bh_scripts"] = array (
   'name' => 'bh_scr_status_history_bh_scripts',
   'type' => 'link',
   'relationship' => 'bh_scr_status_history_bh_scripts',
   'source' => 'non-db',
   'module' => 'bh_scr_status_history',
-  'bean_name' => false,
+  'bean_name' => 'bh_scr_status_history',
   'vname' => 'LBL_BH_SCR_STATUS_HISTORY_BH_SCRIPTS_FROM_BH_SCR_STATUS_HISTORY_TITLE',
   'id_name' => 'bh_scr_status_history_bh_scriptsbh_scr_status_history_ida',
 );

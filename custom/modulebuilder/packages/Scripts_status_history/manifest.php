@@ -65,9 +65,9 @@ $manifest = array (
   'icon' => '',
   'is_uninstallable' => true,
   'name' => 'Scripts_status_history',
-  'published_date' => '2017-09-12 09:58:46',
+  'published_date' => '2017-09-12 11:07:03',
   'type' => 'module',
-  'version' => 1505210327,
+  'version' => 1505214424,
   'remove_tables' => 'prompt',
 );
 
