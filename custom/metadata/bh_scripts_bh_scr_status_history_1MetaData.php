@@ -1,24 +1,25 @@
 <?php
-// created: 2017-09-12 14:07:20
-$dictionary["bh_scr_status_history_bh_scripts"] = array (
+// created: 2017-09-13 15:34:50
+$dictionary["bh_scripts_bh_scr_status_history_1"] = array (
   'true_relationship_type' => 'one-to-many',
+  'from_studio' => true,
   'relationships' => 
   array (
-    'bh_scr_status_history_bh_scripts' => 
+    'bh_scripts_bh_scr_status_history_1' => 
     array (
-      'lhs_module' => 'bh_scr_status_history',
-      'lhs_table' => 'bh_scr_status_history',
+      'lhs_module' => 'bh_scripts',
+      'lhs_table' => 'bh_scripts',
       'lhs_key' => 'id',
-      'rhs_module' => 'bh_scripts',
-      'rhs_table' => 'bh_scripts',
+      'rhs_module' => 'bh_scr_status_history',
+      'rhs_table' => 'bh_scr_status_history',
       'rhs_key' => 'id',
       'relationship_type' => 'many-to-many',
-      'join_table' => 'bh_scr_status_history_bh_scripts_c',
-      'join_key_lhs' => 'bh_scr_status_history_bh_scriptsbh_scr_status_history_ida',
-      'join_key_rhs' => 'bh_scr_status_history_bh_scriptsbh_scripts_idb',
+      'join_table' => 'bh_scripts_bh_scr_status_history_1_c',
+      'join_key_lhs' => 'bh_scripts_bh_scr_status_history_1bh_scripts_ida',
+      'join_key_rhs' => 'bh_scripts_bh_scr_status_history_1bh_scr_status_history_idb',
     ),
   ),
-  'table' => 'bh_scr_status_history_bh_scripts_c',
+  'table' => 'bh_scripts_bh_scr_status_history_1_c',
   'fields' => 
   array (
     0 => 
@@ -42,13 +43,13 @@ $dictionary["bh_scr_status_history_bh_scripts"] = array (
     ),
     3 => 
     array (
-      'name' => 'bh_scr_status_history_bh_scriptsbh_scr_status_history_ida',
+      'name' => 'bh_scripts_bh_scr_status_history_1bh_scripts_ida',
       'type' => 'varchar',
       'len' => 36,
     ),
     4 => 
     array (
-      'name' => 'bh_scr_status_history_bh_scriptsbh_scripts_idb',
+      'name' => 'bh_scripts_bh_scr_status_history_1bh_scr_status_history_idb',
       'type' => 'varchar',
       'len' => 36,
     ),
@@ -57,7 +58,7 @@ $dictionary["bh_scr_status_history_bh_scripts"] = array (
   array (
     0 => 
     array (
-      'name' => 'bh_scr_status_history_bh_scriptsspk',
+      'name' => 'bh_scripts_bh_scr_status_history_1spk',
       'type' => 'primary',
       'fields' => 
       array (
@@ -66,20 +67,20 @@ $dictionary["bh_scr_status_history_bh_scripts"] = array (
     ),
     1 => 
     array (
-      'name' => 'bh_scr_status_history_bh_scripts_ida1',
+      'name' => 'bh_scripts_bh_scr_status_history_1_ida1',
       'type' => 'index',
       'fields' => 
       array (
-        0 => 'bh_scr_status_history_bh_scriptsbh_scr_status_history_ida',
+        0 => 'bh_scripts_bh_scr_status_history_1bh_scripts_ida',
       ),
     ),
     2 => 
     array (
-      'name' => 'bh_scr_status_history_bh_scripts_alt',
+      'name' => 'bh_scripts_bh_scr_status_history_1_alt',
       'type' => 'alternate_key',
       'fields' => 
       array (
-        0 => 'bh_scr_status_history_bh_scriptsbh_scripts_idb',
+        0 => 'bh_scripts_bh_scr_status_history_1bh_scr_status_history_idb',
       ),
     ),
   ),

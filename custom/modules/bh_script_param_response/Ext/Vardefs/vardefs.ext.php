@@ -2,7 +2,7 @@
  //WARNING: The contents of this file are auto-generated
 
 
-// created: 2017-09-13 14:23:44
+// created: 2017-09-13 15:33:14
 $dictionary["bh_script_param_response"]["fields"]["bh_scripts_bh_script_param_response_1"] = array (
   'name' => 'bh_scripts_bh_script_param_response_1',
   'type' => 'link',
@@ -33,18 +33,6 @@ $dictionary["bh_script_param_response"]["fields"]["bh_scripts_bh_script_param_re
   'reportable' => false,
   'side' => 'right',
   'vname' => 'LBL_BH_SCRIPTS_BH_SCRIPT_PARAM_RESPONSE_1_FROM_BH_SCRIPT_PARAM_RESPONSE_TITLE',
-);
-
-
-// created: 2017-09-12 14:18:48
-$dictionary["bh_script_param_response"]["fields"]["bh_script_param_response_bh_scripts"] = array (
-  'name' => 'bh_script_param_response_bh_scripts',
-  'type' => 'link',
-  'relationship' => 'bh_script_param_response_bh_scripts',
-  'source' => 'non-db',
-  'module' => 'bh_scripts',
-  'bean_name' => 'bh_scripts',
-  'vname' => 'LBL_BH_SCRIPT_PARAM_RESPONSE_BH_SCRIPTS_FROM_BH_SCRIPTS_TITLE',
 );
 
 

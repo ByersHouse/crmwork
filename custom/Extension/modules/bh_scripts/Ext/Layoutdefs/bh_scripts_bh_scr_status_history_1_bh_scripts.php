@@ -1,13 +1,13 @@
 <?php
- // created: 2017-09-12 14:18:48
-$layout_defs["bh_script_param_response"]["subpanel_setup"]['bh_script_param_response_bh_scripts'] = array (
+ // created: 2017-09-13 15:34:50
+$layout_defs["bh_scripts"]["subpanel_setup"]['bh_scripts_bh_scr_status_history_1'] = array (
   'order' => 100,
-  'module' => 'bh_scripts',
+  'module' => 'bh_scr_status_history',
   'subpanel_name' => 'default',
   'sort_order' => 'asc',
   'sort_by' => 'id',
-  'title_key' => 'LBL_BH_SCRIPT_PARAM_RESPONSE_BH_SCRIPTS_FROM_BH_SCRIPTS_TITLE',
-  'get_subpanel_data' => 'bh_script_param_response_bh_scripts',
+  'title_key' => 'LBL_BH_SCRIPTS_BH_SCR_STATUS_HISTORY_1_FROM_BH_SCR_STATUS_HISTORY_TITLE',
+  'get_subpanel_data' => 'bh_scripts_bh_scr_status_history_1',
   'top_buttons' => 
   array (
     0 => 

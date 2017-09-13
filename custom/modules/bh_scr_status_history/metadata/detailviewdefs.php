@@ -89,6 +89,13 @@ array (
             'label' => 'LBL_SCRIPT_STATUS',
           ),
         ),
+        5 => 
+        array (
+          0 => 
+          array (
+            'name' => 'bh_scripts_bh_scr_status_history_1_name',
+          ),
+        ),
       ),
     ),
   ),
