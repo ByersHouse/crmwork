@@ -51,10 +51,32 @@ array (
             'name' => 'bh_scr_status_history_comment',
             'label' => 'LBL_RESPONSE_COMMENT',
           ),
+        ),
+        3 => 
+        array (
+          0 => 
+          array (
+            'name' => 'scr_status_history_activation',
+            'label' => 'LBL_DATE_ACTIVATION',
+          ),
           1 => 
           array (
-            'name' => 'bh_scr_status_history_date',
-            'label' => 'LBL_RESPONSE_DATE',
+            'name' => 'scr_status_history_deactivation',
+            'label' => 'LBL_DATE_DEACTIVATION',
+          ),
+        ),
+        4 => 
+        array (
+          0 => 
+          array (
+            'name' => 'scr_status_history_rate_effort',
+            'label' => 'LBL_RATE_EFFORT',
+          ),
+          1 => 
+          array (
+            'name' => 'scr_status_history_status',
+            'studio' => 'visible',
+            'label' => 'LBL_SCRIPT_STATUS',
           ),
         ),
       ),

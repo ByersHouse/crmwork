@@ -75,7 +75,13 @@ array (
             'name' => 'bh_script_param_response_date',
             'label' => 'LBL_RESPONSE_DATE',
           ),
-          1 => '',
+        ),
+        4 => 
+        array (
+          0 => 
+          array (
+            'name' => 'bh_scripts_bh_script_param_response_1_name',
+          ),
         ),
       ),
     ),

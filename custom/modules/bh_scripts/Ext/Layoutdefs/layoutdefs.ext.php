@@ -2,6 +2,54 @@
  //WARNING: The contents of this file are auto-generated
 
 
+ // created: 2017-09-13 14:19:02
+$layout_defs["bh_scripts"]["subpanel_setup"]['bh_scripts_bh_scripts_employee_comment_1'] = array (
+  'order' => 100,
+  'module' => 'bh_Scripts_employee_comment',
+  'subpanel_name' => 'default',
+  'sort_order' => 'asc',
+  'sort_by' => 'id',
+  'title_key' => 'LBL_BH_SCRIPTS_BH_SCRIPTS_EMPLOYEE_COMMENT_1_FROM_BH_SCRIPTS_EMPLOYEE_COMMENT_TITLE',
+  'get_subpanel_data' => 'bh_scripts_bh_scripts_employee_comment_1',
+  'top_buttons' => 
+  array (
+    0 => 
+    array (
+      'widget_class' => 'SubPanelTopButtonQuickCreate',
+    ),
+    1 => 
+    array (
+      'widget_class' => 'SubPanelTopSelectButton',
+      'mode' => 'MultiSelect',
+    ),
+  ),
+);
+
+
+ // created: 2017-09-13 14:23:44
+$layout_defs["bh_scripts"]["subpanel_setup"]['bh_scripts_bh_script_param_response_1'] = array (
+  'order' => 100,
+  'module' => 'bh_script_param_response',
+  'subpanel_name' => 'default',
+  'sort_order' => 'asc',
+  'sort_by' => 'id',
+  'title_key' => 'LBL_BH_SCRIPTS_BH_SCRIPT_PARAM_RESPONSE_1_FROM_BH_SCRIPT_PARAM_RESPONSE_TITLE',
+  'get_subpanel_data' => 'bh_scripts_bh_script_param_response_1',
+  'top_buttons' => 
+  array (
+    0 => 
+    array (
+      'widget_class' => 'SubPanelTopButtonQuickCreate',
+    ),
+    1 => 
+    array (
+      'widget_class' => 'SubPanelTopSelectButton',
+      'mode' => 'MultiSelect',
+    ),
+  ),
+);
+
+
  // created: 2017-09-12 14:55:17
 $layout_defs["bh_scripts"]["subpanel_setup"]['bh_scripts_employee_comment_bh_scripts'] = array (
   'order' => 100,

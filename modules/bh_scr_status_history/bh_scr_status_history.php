@@ -65,6 +65,12 @@ class bh_scr_status_history extends Basic
     public $SecurityGroups;
 	public $bh_scr_status_history_date;
 	public $bh_scr_status_history_comment;
+	public $scr_status_history_deactivation;
+	public $scr_status_history_activation;
+	public $scr_status_history_status;
+
+
+
     public function bean_implements($interface)
     {
         switch($interface)

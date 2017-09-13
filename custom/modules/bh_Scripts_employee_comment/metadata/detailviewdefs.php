@@ -67,6 +67,13 @@ array (
             'label' => 'LBL_RESPONSE_DATE',
           ),
         ),
+        3 => 
+        array (
+          0 => 
+          array (
+            'name' => 'bh_scripts_bh_scripts_employee_comment_1_name',
+          ),
+        ),
       ),
     ),
   ),
