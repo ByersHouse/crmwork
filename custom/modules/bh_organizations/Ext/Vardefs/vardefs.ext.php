@@ -1,4 +1,7 @@
-<?php
+<?php 
+ //WARNING: The contents of this file are auto-generated
+
+
 
 $dictionary['bh_organizations']['fields']['legal_form'] = array (
     'required' => false,
@@ -48,3 +51,4 @@ $dictionary['bh_organizations']['fields']['org_size'] = array (
       'studio' => 'visible',
       'dependency' => false,
 );
+?>
