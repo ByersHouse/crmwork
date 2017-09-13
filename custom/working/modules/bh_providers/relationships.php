@@ -42,7 +42,7 @@
 $relationships = array (
   'bh_providers_modified_user' => 
   array (
-    'id' => '514909cb-876a-bb0d-9b59-59b7ec8de83e',
+    'id' => '1864afe8-afd8-993c-42a7-59b8d5875a9f',
     'relationship_name' => 'bh_providers_modified_user',
     'lhs_module' => 'Users',
     'lhs_table' => 'users',
@@ -68,7 +68,7 @@ $relationships = array (
   ),
   'bh_providers_created_by' => 
   array (
-    'id' => '5d0109a7-7a7e-28eb-12f3-59b7ec833f85',
+    'id' => '18e1aa04-a6e2-275a-2341-59b8d53af101',
     'relationship_name' => 'bh_providers_created_by',
     'lhs_module' => 'Users',
     'lhs_table' => 'users',
@@ -94,7 +94,7 @@ $relationships = array (
   ),
   'bh_providers_assigned_user' => 
   array (
-    'id' => '68b90450-e5a2-7568-f907-59b7ec0f621c',
+    'id' => '199d28ca-f199-2230-9bd9-59b8d5cb07af',
     'relationship_name' => 'bh_providers_assigned_user',
     'lhs_module' => 'Users',
     'lhs_table' => 'users',
@@ -120,7 +120,7 @@ $relationships = array (
   ),
   'securitygroups_bh_providers' => 
   array (
-    'id' => '70890d17-ac16-c0c5-06b8-59b7ec5363e2',
+    'id' => '1a1a2599-02a5-156b-1c6b-59b8d5cfdd79',
     'relationship_name' => 'securitygroups_bh_providers',
     'lhs_module' => 'SecurityGroups',
     'lhs_table' => 'securitygroups',
@@ -146,11 +146,37 @@ $relationships = array (
   ),
   'bh_providers_aos_contracts_1' => 
   array (
-    'rhs_label' => 'Ссылка на договор',
+    'id' => '8c616b3f-18d3-bdc3-6955-59b8d51327f9',
+    'relationship_name' => 'bh_providers_aos_contracts_1',
+    'lhs_module' => 'bh_providers',
+    'lhs_table' => 'bh_providers',
+    'lhs_key' => 'id',
+    'rhs_module' => 'AOS_Contracts',
+    'rhs_table' => 'aos_contracts',
+    'rhs_key' => 'id',
+    'join_table' => 'bh_providers_aos_contracts_1_c',
+    'join_key_lhs' => 'bh_providers_aos_contracts_1bh_providers_ida',
+    'join_key_rhs' => 'bh_providers_aos_contracts_1aos_contracts_idb',
+    'relationship_type' => 'one-to-many',
+    'relationship_role_column' => NULL,
+    'relationship_role_column_value' => NULL,
+    'reverse' => '0',
+    'deleted' => '0',
+    'readonly' => true,
+    'rhs_subpanel' => 'default',
+    'lhs_subpanel' => NULL,
+    'from_studio' => true,
+    'is_custom' => true,
+    'relationship_only' => false,
+    'for_activities' => false,
+  ),
+  'bh_providers_bh_org_trade_points_1' => 
+  array (
+    'rhs_label' => 'Торговые точки',
     'lhs_label' => 'Поставщик продукта',
     'rhs_subpanel' => 'default',
     'lhs_module' => 'bh_providers',
-    'rhs_module' => 'AOS_Contracts',
+    'rhs_module' => 'bh_org_trade_points',
     'relationship_type' => 'one-to-many',
     'readonly' => true,
     'deleted' => false,
@@ -158,6 +184,6 @@ $relationships = array (
     'for_activities' => false,
     'is_custom' => false,
     'from_studio' => true,
-    'relationship_name' => 'bh_providers_aos_contracts_1',
+    'relationship_name' => 'bh_providers_bh_org_trade_points_1',
   ),
 );
