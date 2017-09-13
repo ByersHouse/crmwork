@@ -49,7 +49,7 @@ $dictionary['bh_org_trade_points']['fields']['address'] = array (
       'required' => false,
       'name' => 'address',
       'vname' => 'LBL_ADDRESS',
-      'type' => 'varchar',
+      'type' => 'text',
       'massupdate' => 0,
       'no_default' => false,
       'comments' => 'Адрес',
@@ -62,6 +62,7 @@ $dictionary['bh_org_trade_points']['fields']['address'] = array (
       'reportable' => true,
       'unified_search' => false,
       'merge_filter' => 'enabled',
-      'len' => '100',
       'size' => '20',
+      'rows'=>'6',
+      'cols'=>'80',
 );
