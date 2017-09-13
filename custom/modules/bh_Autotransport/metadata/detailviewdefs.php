@@ -113,6 +113,29 @@ array (
             'label' => 'LBL_ENGINE_CAPACITY',
           ),
         ),
+        3 => 
+        array (
+          0 => 
+          array (
+            'name' => 'autotransport_model',
+            'studio' => 'visible',
+            'label' => 'LBL_AUTOTRANSPORT_MODEL',
+          ),
+          1 => 
+          array (
+            'name' => 'autotransport_model_mark',
+            'label' => 'LBL_MODEL_MARK',
+          ),
+        ),
+        4 => 
+        array (
+          0 => 
+          array (
+            'name' => 'autotransport_another_model',
+            'label' => 'LBL_ANOTHER_MODEL_MARK',
+          ),
+          1 => '',
+        ),
       ),
     ),
   ),
