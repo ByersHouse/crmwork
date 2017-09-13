@@ -9,5 +9,11 @@ $mod_strings['LBL_BH_PROVIDERS_AOS_CONTRACTS_1_FROM_AOS_CONTRACTS_TITLE'] = 'С�
 //THIS FILE IS AUTO GENERATED, DO NOT MODIFY
 $mod_strings['LBL_BH_PROVIDERS_AOS_CONTRACTS_1_FROM_AOS_CONTRACTS_TITLE'] = 'Ссылка на договор';
 $mod_strings['LBL_BH_PROVIDERS_BH_ORG_TRADE_POINTS_1_FROM_BH_ORG_TRADE_POINTS_TITLE'] = 'Торговые точки';
+$mod_strings['LBL_BH_PROVIDERS_AOS_CONTRACTS_2_FROM_AOS_CONTRACTS_TITLE'] = 'Договоры';
+
+
+//THIS FILE IS AUTO GENERATED, DO NOT MODIFY
+$mod_strings['LBL_BH_PROVIDERS_AOS_CONTRACTS_1_FROM_AOS_CONTRACTS_TITLE'] = 'Ссылка на договор';
+$mod_strings['LBL_BH_PROVIDERS_BH_ORG_TRADE_POINTS_1_FROM_BH_ORG_TRADE_POINTS_TITLE'] = 'Торговые точки';
 
 ?>

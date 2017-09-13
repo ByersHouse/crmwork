@@ -26,6 +26,30 @@ $layout_defs["bh_providers"]["subpanel_setup"]['bh_providers_aos_contracts_1'] =
 );
 
 
+ // created: 2017-09-13 11:38:53
+$layout_defs["bh_providers"]["subpanel_setup"]['bh_providers_aos_contracts_2'] = array (
+  'order' => 100,
+  'module' => 'AOS_Contracts',
+  'subpanel_name' => 'default',
+  'sort_order' => 'asc',
+  'sort_by' => 'id',
+  'title_key' => 'LBL_BH_PROVIDERS_AOS_CONTRACTS_2_FROM_AOS_CONTRACTS_TITLE',
+  'get_subpanel_data' => 'bh_providers_aos_contracts_2',
+  'top_buttons' => 
+  array (
+    0 => 
+    array (
+      'widget_class' => 'SubPanelTopButtonQuickCreate',
+    ),
+    1 => 
+    array (
+      'widget_class' => 'SubPanelTopSelectButton',
+      'mode' => 'MultiSelect',
+    ),
+  ),
+);
+
+
  // created: 2017-09-13 09:52:16
 $layout_defs["bh_providers"]["subpanel_setup"]['bh_providers_bh_org_trade_points_1'] = array (
   'order' => 100,
