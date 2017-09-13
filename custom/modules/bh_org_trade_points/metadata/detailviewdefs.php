@@ -57,7 +57,11 @@ array (
             'name' => 'geo_coord',
             'label' => 'LBL_GEO_COORD',
           ),
-          1 => '',
+          1 => 
+          array (
+            'name' => 'work_schedule',
+            'label' => 'LBL_WORK_SCHEDULE',
+          ),
         ),
         2 => 
         array (
