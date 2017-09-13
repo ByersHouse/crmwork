@@ -1,5 +1,5 @@
 <?php
-$module_name = 'bh_scr_status_history';
+$module_name = 'bh_Scripts_employee_comment';
 $viewdefs [$module_name] = 
 array (
   'DetailView' => 
@@ -58,12 +58,12 @@ array (
         array (
           0 => 
           array (
-            'name' => 'bh_scr_status_history_comment',
+            'name' => 'bh_scripts_employee_comment_com',
             'label' => 'LBL_RESPONSE_COMMENT',
           ),
           1 => 
           array (
-            'name' => 'bh_scr_status_history_date',
+            'name' => 'bh_scripts_employee_comment_date',
             'label' => 'LBL_RESPONSE_DATE',
           ),
         ),

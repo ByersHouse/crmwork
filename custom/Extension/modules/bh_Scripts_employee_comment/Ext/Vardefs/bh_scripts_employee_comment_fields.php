@@ -1,23 +1,8 @@
-<?php 
- //WARNING: The contents of this file are auto-generated
-
-
-// created: 2017-09-12 14:07:21
-$dictionary["bh_scr_status_history"]["fields"]["bh_scr_status_history_bh_scripts"] = array (
-  'name' => 'bh_scr_status_history_bh_scripts',
-  'type' => 'link',
-  'relationship' => 'bh_scr_status_history_bh_scripts',
-  'source' => 'non-db',
-  'module' => 'bh_scripts',
-  'bean_name' => 'bh_scripts',
-  'side' => 'right',
-  'vname' => 'LBL_BH_SCR_STATUS_HISTORY_BH_SCRIPTS_FROM_BH_SCRIPTS_TITLE',
-);
-
-
-$dictionary["bh_scr_status_history"]["fields"]["bh_scr_status_history_comment"] = array (
+<?php
+// created: 2017-09-12 14:55:18
+$dictionary["bh_Scripts_employee_comment"]["fields"]["bh_scripts_employee_comment_com"] = array (
     'required' => false,
-    'name' => 'bh_scr_status_history_comment',
+    'name' => 'bh_scripts_employee_comment_com',
     'vname' => 'LBL_RESPONSE_COMMENT',
     'type' => 'text',
     'massupdate' => 0,
@@ -35,9 +20,9 @@ $dictionary["bh_scr_status_history"]["fields"]["bh_scr_status_history_comment"] 
     'size' => '20',
     'enable_range_search' => false,
 );
-$dictionary["bh_scr_status_history"]["fields"]["bh_scr_status_history_date"] = array (
+$dictionary["bh_Scripts_employee_comment"]["fields"]["bh_scripts_employee_comment_date"] = array (
     'required' => false,
-    'name' => 'bh_scr_status_history_date',
+    'name' => 'bh_scripts_employee_comment_date',
     'vname' => 'LBL_RESPONSE_DATE',
     'type' => 'date',
     'massupdate' => 0,
@@ -55,4 +40,3 @@ $dictionary["bh_scr_status_history"]["fields"]["bh_scr_status_history_date"] = a
     'size' => '20',
     'enable_range_search' => false,
 );
-?>

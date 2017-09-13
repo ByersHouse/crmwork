@@ -63,7 +63,17 @@ class bh_Autotransport extends Basic
     public $assigned_user_name;
     public $assigned_user_link;
     public $SecurityGroups;
-	
+    public $autotransport_another_model;
+    public $autotransport_model_mark;
+    public $autotransport_model;
+    public $autotransport_engine_capacity;
+    public $autotransport_issue_year;
+    public $autotransport_owner_pledge;
+    public $autotransport_own_type;
+    public $autotransport_purchase_methods;
+    public $autotransport_fuel_type;
+    public $autotransport_type;
+
     public function bean_implements($interface)
     {
         switch($interface)
@@ -75,4 +85,4 @@ class bh_Autotransport extends Basic
         return false;
     }
 	
-}
+}

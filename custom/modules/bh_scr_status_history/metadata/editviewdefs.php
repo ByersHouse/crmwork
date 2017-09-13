@@ -20,6 +20,16 @@ array (
           'field' => '30',
         ),
       ),
+      'useTabs' => false,
+      'tabDefs' => 
+      array (
+        'DEFAULT' => 
+        array (
+          'newTab' => false,
+          'panelDefault' => 'expanded',
+        ),
+      ),
+      'syncDetailEditViews' => true,
     ),
     'panels' => 
     array (
@@ -33,6 +43,19 @@ array (
         1 => 
         array (
           0 => 'description',
+        ),
+        2 => 
+        array (
+          0 => 
+          array (
+            'name' => 'bh_scr_status_history_comment',
+            'label' => 'LBL_RESPONSE_COMMENT',
+          ),
+          1 => 
+          array (
+            'name' => 'bh_scr_status_history_date',
+            'label' => 'LBL_RESPONSE_DATE',
+          ),
         ),
       ),
     ),

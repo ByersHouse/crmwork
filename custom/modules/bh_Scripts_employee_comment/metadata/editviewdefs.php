@@ -1,21 +1,11 @@
 <?php
-$module_name = 'bh_scr_status_history';
+$module_name = 'bh_Scripts_employee_comment';
 $viewdefs [$module_name] = 
 array (
-  'DetailView' => 
+  'EditView' => 
   array (
     'templateMeta' => 
     array (
-      'form' => 
-      array (
-        'buttons' => 
-        array (
-          0 => 'EDIT',
-          1 => 'DUPLICATE',
-          2 => 'DELETE',
-          3 => 'FIND_DUPLICATES',
-        ),
-      ),
       'maxColumns' => '2',
       'widths' => 
       array (
@@ -58,12 +48,12 @@ array (
         array (
           0 => 
           array (
-            'name' => 'bh_scr_status_history_comment',
+            'name' => 'bh_scripts_employee_comment_com',
             'label' => 'LBL_RESPONSE_COMMENT',
           ),
           1 => 
           array (
-            'name' => 'bh_scr_status_history_date',
+            'name' => 'bh_scripts_employee_comment_date',
             'label' => 'LBL_RESPONSE_DATE',
           ),
         ),

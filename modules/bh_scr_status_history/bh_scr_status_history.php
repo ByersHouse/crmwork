@@ -63,7 +63,8 @@ class bh_scr_status_history extends Basic
     public $assigned_user_name;
     public $assigned_user_link;
     public $SecurityGroups;
-	
+	public $bh_scr_status_history_date;
+	public $bh_scr_status_history_comment;
     public function bean_implements($interface)
     {
         switch($interface)
@@ -75,4 +76,4 @@ class bh_scr_status_history extends Basic
         return false;
     }
 	
-}
+}
