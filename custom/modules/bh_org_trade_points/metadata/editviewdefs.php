@@ -55,6 +55,15 @@ array (
         ),
         2 => 
         array (
+          0 => 
+          array (
+            'name' => 'address',
+            'label' => 'LBL_ADDRESS',
+          ),
+          1 => '',
+        ),
+        3 => 
+        array (
           0 => 'description',
           1 => 
           array (
