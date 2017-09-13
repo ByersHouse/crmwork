@@ -176,7 +176,7 @@ $app_list_strings['moduleList']['bh_faq_history'] = 'FAQ История элем
 
 
 
-$app_list_strings['moduleList']['bh_organizations'] = 'Организации';
+$app_list_strings['moduleList']['bh_org_trade_points'] = 'Торговые точки';
 
 
 /**
