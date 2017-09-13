@@ -1,0 +1,25 @@
+<?php
+
+$dictionary['bh_organizations']['fields']['legal_form'] = array (
+      'required' => false,
+      'name' => 'legal_form',
+      'vname' => 'LBL_LEGALFORM',
+      'type' => 'enum',
+      'massupdate' => 0,
+      'no_default' => false,
+      'comments' => '',
+      'help' => '',
+      'importable' => 'true',
+      'duplicate_merge' => 'disabled',
+      'duplicate_merge_dom_value' => '0',
+      'audited' => false,
+      'inline_edit' => '',
+      'reportable' => true,
+      'unified_search' => false,
+      'merge_filter' => 'disabled',
+      'len' => 50,
+      'size' => '20',
+      'options' => 'lead_orglegalform_list',
+      'studio' => 'visible',
+      'dependency' => false,
+);
