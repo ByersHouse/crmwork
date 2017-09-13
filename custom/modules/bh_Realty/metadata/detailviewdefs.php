@@ -48,11 +48,12 @@ array (
         0 => 
         array (
           0 => 'name',
-          1 => 'assigned_user_name',
+          1 => '',
         ),
         1 => 
         array (
           0 => 'description',
+          1 => 'assigned_user_name',
         ),
         2 => 
         array (
@@ -61,6 +62,12 @@ array (
             'name' => 'realty_type_ownership',
             'studio' => 'visible',
             'label' => 'LBL_TYPE_OWNERSHIP',
+          ),
+          1 => 
+          array (
+            'name' => 'realty_property_type',
+            'studio' => 'visible',
+            'label' => 'LBL_PROPERTY_TYPE',
           ),
         ),
         3 => 
@@ -73,20 +80,11 @@ array (
           ),
           1 => 
           array (
-            'name' => 'realty_property_type',
-            'studio' => 'visible',
-            'label' => 'LBL_PROPERTY_TYPE',
-          ),
-        ),
-        4 => 
-        array (
-          0 => 
-          array (
             'name' => 'realty_owner_pledge',
             'label' => 'LBL_OWNER_PLEDGE',
           ),
         ),
-        5 => 
+        4 => 
         array (
           0 => 
           array (
