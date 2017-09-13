@@ -48,3 +48,27 @@ $dictionary['bh_organizations']['fields']['org_size'] = array (
       'studio' => 'visible',
       'dependency' => false,
 );
+
+$dictionary['bh_organizations']['fields']['org_sphere'] = array (
+      'required' => false,
+      'name' => 'org_sphere',
+      'vname' => 'LBL_ORG_SPHERE',
+      'type' => 'enum',
+      'massupdate' => 0,
+      'no_default' => false,
+      'comments' => '',
+      'help' => '',
+      'importable' => 'true',
+      'duplicate_merge' => 'disabled',
+      'duplicate_merge_dom_value' => '0',
+      'audited' => false,
+      'inline_edit' => '',
+      'reportable' => true,
+      'unified_search' => false,
+      'merge_filter' => 'disabled',
+      'len' => 50,
+      'size' => '20',
+      'options' => 'lead_orgsphere_list',
+      'studio' => 'visible',
+      'dependency' => false,
+    );

@@ -59,6 +59,7 @@ class bh_organizations extends Basic
     public $deleted;
     public $legal_form;
     public $org_size;
+    public $org_sphere;
     
     public $created_by_link;
     public $modified_user_link;

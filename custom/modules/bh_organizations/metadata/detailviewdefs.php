@@ -67,6 +67,16 @@ array (
         ),
         2 => 
         array (
+          0 => 
+          array (
+            'name' => 'org_sphere',
+            'studio' => 'visible',
+            'label' => 'LBL_ORG_SPHERE',
+          ),
+          1 => '',
+        ),
+        3 => 
+        array (
           0 => 'description',
         ),
       ),
