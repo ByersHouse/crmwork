@@ -94,7 +94,24 @@ array (
             'studio' => 'visible',
             'label' => 'LBL_OWN_TYPE',
           ),
-          1 => '',
+          1 => 
+          array (
+            'name' => 'autotransport_owner_pledge',
+            'label' => 'LBL_OWNER_PLEDGE',
+          ),
+        ),
+        2 => 
+        array (
+          0 => 
+          array (
+            'name' => 'autotransport_issue_year',
+            'label' => 'LBL_ISSUE_YEAR',
+          ),
+          1 => 
+          array (
+            'name' => 'autotransport_engine_capacity',
+            'label' => 'LBL_ENGINE_CAPACITY',
+          ),
         ),
       ),
     ),
