@@ -67,9 +67,31 @@ $dictionary['bh_scripts']['fields']['script_impact'] = array (
     'size' => '20',
     'enable_range_search' => false,
 );
-$dictionary['bh_scripts']['fields']['script_date_activation'] = array (
+
+
+$dictionary['bh_scripts']['fields']['script_rate_effort'] = array (
     'required' => false,
-    'name' => 'script_date_activation',
+    'name' => 'script_rate_effort',
+    'vname' => 'LBL_RATE_EFFORT',
+    'type' => 'int',
+    'massupdate' => 0,
+    'no_default' => false,
+    'comments' => '',
+    'help' => '',
+    'importable' => 'true',
+    'duplicate_merge' => 'disabled',
+    'duplicate_merge_dom_value' => '0',
+    'audited' => false,
+    'inline_edit' => true,
+    'reportable' => true,
+    'unified_search' => false,
+    'merge_filter' => 'disabled',
+    'size' => '20',
+    'enable_range_search' => false,
+);
+$dictionary['bh_scripts']['fields']['activation'] = array (
+    'required' => false,
+    'name' => 'activation',
     'vname' => 'LBL_DATE_ACTIVATION',
     'type' => 'datetimecombo',
     'massupdate' => 0,
@@ -87,32 +109,11 @@ $dictionary['bh_scripts']['fields']['script_date_activation'] = array (
     'size' => '20',
     'enable_range_search' => false,
 );
-$dictionary['bh_scripts']['fields']['script_date_deactivation'] = array (
+$dictionary['bh_scripts']['fields']['deactivation'] = array (
     'required' => false,
-    'name' => 'script_date_deactivation',
+    'name' => 'deactivation',
     'vname' => 'LBL_DATE_DEACTIVATION',
     'type' => 'datetimecombo',
-    'massupdate' => 0,
-    'no_default' => false,
-    'comments' => '',
-    'help' => '',
-    'importable' => 'true',
-    'duplicate_merge' => 'disabled',
-    'duplicate_merge_dom_value' => '0',
-    'audited' => false,
-    'inline_edit' => true,
-    'reportable' => true,
-    'unified_search' => false,
-    'merge_filter' => 'disabled',
-    'size' => '20',
-    'enable_range_search' => false,
-);
-
-$dictionary['bh_scripts']['fields']['script_rate_effort'] = array (
-    'required' => false,
-    'name' => 'script_rate_effort',
-    'vname' => 'LBL_RATE_EFFORT',
-    'type' => 'int',
     'massupdate' => 0,
     'no_default' => false,
     'comments' => '',

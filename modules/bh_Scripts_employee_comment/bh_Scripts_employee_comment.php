@@ -63,7 +63,9 @@ class bh_Scripts_employee_comment extends Basic
     public $assigned_user_name;
     public $assigned_user_link;
     public $SecurityGroups;
-	
+    public $bh_scripts_employee_comment_date;
+    public $bh_scripts_employee_comment_com;
+
     public function bean_implements($interface)
     {
         switch($interface)
@@ -75,4 +77,4 @@ class bh_Scripts_employee_comment extends Basic
         return false;
     }
 	
-}
+}
