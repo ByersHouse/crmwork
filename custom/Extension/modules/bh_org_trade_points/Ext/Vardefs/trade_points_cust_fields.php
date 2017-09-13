@@ -19,6 +19,28 @@ $dictionary["bh_org_trade_points"]["fields"]["geo_coord"] = array (
       'merge_filter' => 'enabled',
       'len' => '0',
       'size' => '40',
-      'rows'=>'10',
-      'cols'=>'20',
+      'rows'=>'20',
+      'cols'=>'10',
+);
+
+
+$dictionary["bh_org_trade_points"]["fields"]["work_schedule"] = array (
+      'required' => false,
+      'name' => 'work_schedule',
+      'vname' => 'LBL_WORK_SCHEDULE',
+      'type' => 'varchar',
+      'massupdate' => 0,
+      'no_default' => false,
+      'comments' => 'График работы',
+      'help' => 'График работы',
+      'importable' => 'true',
+      'duplicate_merge' => 'disabled',
+      'duplicate_merge_dom_value' => '0',
+      'audited' => false,
+      'inline_edit' => true,
+      'reportable' => true,
+      'unified_search' => false,
+      'merge_filter' => 'enabled',
+      'len' => '25',
+      'size' => '40',
 );

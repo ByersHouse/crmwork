@@ -58,6 +58,7 @@ class bh_org_trade_points extends Basic
     public $description;
     public $deleted;
     public $geo_coord;
+    public $work_schedule;
     
     public $created_by_link;
     public $modified_user_link;
