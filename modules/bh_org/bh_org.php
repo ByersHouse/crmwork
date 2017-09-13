@@ -61,6 +61,7 @@ class bh_org extends Basic
     public $org_size;
     public $org_sphere;
     
+    
     public $created_by_link;
     public $modified_user_link;
     public $assigned_user_id;
