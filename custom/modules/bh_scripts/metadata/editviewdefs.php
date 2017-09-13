@@ -77,12 +77,12 @@ array (
         array (
           0 => 
           array (
-            'name' => 'script_date_activation',
+            'name' => 'activation',
             'label' => 'LBL_DATE_ACTIVATION',
           ),
           1 => 
           array (
-            'name' => 'script_date_deactivation',
+            'name' => 'deactivation',
             'label' => 'LBL_DATE_DEACTIVATION',
           ),
         ),
