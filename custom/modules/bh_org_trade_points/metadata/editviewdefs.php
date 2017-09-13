@@ -20,6 +20,16 @@ array (
           'field' => '30',
         ),
       ),
+      'useTabs' => false,
+      'tabDefs' => 
+      array (
+        'DEFAULT' => 
+        array (
+          'newTab' => false,
+          'panelDefault' => 'expanded',
+        ),
+      ),
+      'syncDetailEditViews' => true,
     ),
     'panels' => 
     array (
@@ -31,6 +41,15 @@ array (
           1 => 'assigned_user_name',
         ),
         1 => 
+        array (
+          0 => 
+          array (
+            'name' => 'geo_coord',
+            'label' => 'LBL_GEO_COORD',
+          ),
+          1 => '',
+        ),
+        2 => 
         array (
           0 => 'description',
           1 => 

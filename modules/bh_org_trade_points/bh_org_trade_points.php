@@ -57,6 +57,8 @@ class bh_org_trade_points extends Basic
     public $created_by_name;
     public $description;
     public $deleted;
+    public $geo_coord;
+    
     public $created_by_link;
     public $modified_user_link;
     public $assigned_user_id;
@@ -75,4 +77,4 @@ class bh_org_trade_points extends Basic
         return false;
     }
 	
-}
+}
