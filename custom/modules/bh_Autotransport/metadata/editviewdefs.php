@@ -76,6 +76,16 @@ array (
             'label' => 'LBL_PURCHASE_METHOD',
           ),
         ),
+        1 => 
+        array (
+          0 => 
+          array (
+            'name' => 'autotransport_own_type',
+            'studio' => 'visible',
+            'label' => 'LBL_OWN_TYPE',
+          ),
+          1 => '',
+        ),
       ),
     ),
   ),
