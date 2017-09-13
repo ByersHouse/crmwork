@@ -34,6 +34,13 @@ $moduleList[] = 'bh_org_trade_points';
 
  
  //WARNING: The contents of this file are auto-generated
+$beanList['bh_org'] = 'bh_org';
+$beanFiles['bh_org'] = 'modules/bh_org/bh_org.php';
+$moduleList[] = 'bh_org';
+
+
+ 
+ //WARNING: The contents of this file are auto-generated
 $beanList['bh_providers'] = 'bh_providers';
 $beanFiles['bh_providers'] = 'modules/bh_providers/bh_providers.php';
 $moduleList[] = 'bh_providers';
