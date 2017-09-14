@@ -9,4 +9,9 @@ $mod_strings['LBL_BH_CARD_IDENT_LEADS_FROM_BH_CARD_IDENT_TITLE'] = 'Карта �
 //THIS FILE IS AUTO GENERATED, DO NOT MODIFY
 $mod_strings['LBL_LEADS_CASES_1_FROM_CASES_TITLE'] = 'Обращения';
 
+
+//THIS FILE IS AUTO GENERATED, DO NOT MODIFY
+$mod_strings['LBL_LEADS_CASES_1_FROM_CASES_TITLE'] = 'Обращения';
+$mod_strings['LBL_LEADS_DOCUMENTS_1_FROM_DOCUMENTS_TITLE'] = 'Документы';
+
 ?>

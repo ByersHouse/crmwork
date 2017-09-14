@@ -150,7 +150,13 @@ array (
             'name' => 'issuing_date',
             'label' => 'LBL_DATE_ISSUING',
           ),
-          1 => '',
+        ),
+        10 => 
+        array (
+          0 => 
+          array (
+            'name' => 'leads_documents_1_name',
+          ),
         ),
       ),
     ),
