@@ -1,6 +1,6 @@
 <?php
 
-$dictionary['Cases']['fields']['case_view'] = array (
+$dictionary['Case']['fields']['case_view'] = array (
        'required' => false,
        'name' => 'case_view',
        'vname' => 'LBL_CASE_VIEW',
