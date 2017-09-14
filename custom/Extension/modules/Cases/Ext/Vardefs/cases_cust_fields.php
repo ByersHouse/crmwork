@@ -1,0 +1,25 @@
+<?php
+
+$dictionary['Cases']['fields']['case_view'] = array (
+       'required' => false,
+       'name' => 'case_view',
+       'vname' => 'LBL_CASE_VIEW',
+       'type' => 'enum',
+       'massupdate' => 0,
+       'no_default' => false,
+       'comments' => '',
+       'help' => '',
+       'importable' => 'true',
+       'duplicate_merge' => 'disabled',
+       'duplicate_merge_dom_value' => '0',
+       'audited' => false,
+       'inline_edit' => '',
+       'reportable' => true,
+       'unified_search' => false,
+       'merge_filter' => 'disabled',
+       'len' => 50,
+       'size' => '20',
+       'options' => 'case_view_list',
+       'studio' => 'visible',
+       'dependency' => false,
+);

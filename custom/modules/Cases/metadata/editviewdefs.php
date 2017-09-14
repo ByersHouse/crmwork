@@ -47,6 +47,7 @@ array (
       array (
         'enctype' => 'multipart/form-data',
       ),
+      'syncDetailEditViews' => true,
     ),
     'panels' => 
     array (
@@ -78,6 +79,14 @@ array (
         ),
         3 => 
         array (
+          0 => '',
+          1 => 
+          array (
+            'name' => 'leads_cases_1_name',
+          ),
+        ),
+        4 => 
+        array (
           0 => 
           array (
             'name' => 'name',
@@ -91,14 +100,14 @@ array (
             'label' => 'LBL_SUGGESTION_BOX',
           ),
         ),
-        4 => 
+        5 => 
         array (
           0 => 
           array (
             'name' => 'description',
           ),
         ),
-        5 => 
+        6 => 
         array (
           0 => 
           array (
@@ -106,7 +115,7 @@ array (
             'nl2br' => true,
           ),
         ),
-        6 => 
+        7 => 
         array (
           0 => 
           array (
@@ -115,7 +124,7 @@ array (
             'label' => 'LBL_UPDATE_TEXT',
           ),
         ),
-        7 => 
+        8 => 
         array (
           0 => 
           array (
@@ -124,7 +133,7 @@ array (
             'label' => 'LBL_INTERNAL',
           ),
         ),
-        8 => 
+        9 => 
         array (
           0 => 
           array (
@@ -132,13 +141,9 @@ array (
             'studio' => 'visible',
           ),
         ),
-        9 => 
+        10 => 
         array (
           0 => 'assigned_user_name',
-          1 => 
-          array (
-            'name' => 'leads_cases_1_name',
-          ),
         ),
       ),
     ),

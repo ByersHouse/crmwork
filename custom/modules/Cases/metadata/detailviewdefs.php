@@ -29,20 +29,16 @@ array (
           'field' => '30',
         ),
       ),
-      'useTabs' => true,
+      'useTabs' => false,
       'tabDefs' => 
       array (
         'LBL_CASE_INFORMATION' => 
-        array (
-          'newTab' => true,
-          'panelDefault' => 'expanded',
-        ),
-        'LBL_AOP_CASE_UPDATES' => 
         array (
           'newTab' => false,
           'panelDefault' => 'expanded',
         ),
       ),
+      'syncDetailEditViews' => true,
     ),
     'panels' => 
     array (
@@ -74,59 +70,66 @@ array (
         ),
         3 => 
         array (
+          0 => '',
+          1 => 
+          array (
+            'name' => 'leads_cases_1_name',
+          ),
+        ),
+        4 => 
+        array (
           0 => 
           array (
             'name' => 'name',
             'label' => 'LBL_SUBJECT',
           ),
-        ),
-        4 => 
-        array (
-          0 => 'description',
+          1 => 
+          array (
+            'name' => 'suggestion_box',
+            'label' => 'LBL_SUGGESTION_BOX',
+          ),
         ),
         5 => 
         array (
-          0 => 'resolution',
+          0 => 'description',
         ),
         6 => 
         array (
-          0 => 
-          array (
-            'name' => 'assigned_user_name',
-            'label' => 'LBL_ASSIGNED_TO',
-          ),
+          0 => 'resolution',
         ),
         7 => 
         array (
           0 => 
           array (
-            'name' => 'date_entered',
-            'customCode' => '{$fields.date_entered.value} {$APP.LBL_BY} {$fields.created_by_name.value}',
-          ),
-          1 => 
-          array (
-            'name' => 'date_modified',
-            'label' => 'LBL_DATE_MODIFIED',
-            'customCode' => '{$fields.date_modified.value} {$APP.LBL_BY} {$fields.modified_by_name.value}',
+            'name' => 'update_text',
+            'studio' => 'visible',
+            'label' => 'LBL_UPDATE_TEXT',
           ),
         ),
         8 => 
         array (
           0 => 
           array (
-            'name' => 'leads_cases_1_name',
+            'name' => 'internal',
+            'studio' => 'visible',
+            'label' => 'LBL_INTERNAL',
           ),
         ),
-      ),
-      'LBL_AOP_CASE_UPDATES' => 
-      array (
-        0 => 
+        9 => 
         array (
           0 => 
           array (
-            'name' => 'aop_case_updates_threaded',
+            'name' => 'case_update_form',
             'studio' => 'visible',
-            'label' => 'LBL_AOP_CASE_UPDATES_THREADED',
+            'label' => 'LBL_CASE_UPDATE_FORM',
+          ),
+        ),
+        10 => 
+        array (
+          0 => 
+          array (
+            'name' => 'assigned_user_name',
+            'label' => 'LBL_ASSIGNED_TO',
           ),
         ),
       ),
