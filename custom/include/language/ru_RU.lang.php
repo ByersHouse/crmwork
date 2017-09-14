@@ -9999,3 +9999,9 @@ $GLOBALS['app_list_strings']['case_view_list']=array (
   'service_action' => 'Запрос на сервисное действие',
   'complaint' => 'Жалоба',
 );
+
+
+$GLOBALS['app_list_strings']['case_type_list']=array (
+  'incoming' => 'Входящее',
+  'outgoing' => 'Исходящее',
+);

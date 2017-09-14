@@ -27,6 +27,30 @@ $dictionary['Case']['fields']['case_view'] = array (
        'dependency' => false,
 );
 
+$dictionary['Case']['fields']['case_type'] = array (
+       'required' => false,
+       'name' => 'case_type',
+       'vname' => 'LBL_CASE_TYPE',
+       'type' => 'enum',
+       'massupdate' => 0,
+       'no_default' => false,
+       'comments' => '',
+       'help' => '',
+       'importable' => 'true',
+       'duplicate_merge' => 'disabled',
+       'duplicate_merge_dom_value' => '0',
+       'audited' => false,
+       'inline_edit' => '',
+       'reportable' => true,
+       'unified_search' => false,
+       'merge_filter' => 'disabled',
+       'len' => 15,
+       'size' => '20',
+       'options' => 'case_type_list',
+       'studio' => 'visible',
+       'dependency' => false,
+);
+
 // created: 2017-09-14 09:55:28
 $dictionary["Case"]["fields"]["leads_cases_1"] = array (
   'name' => 'leads_cases_1',

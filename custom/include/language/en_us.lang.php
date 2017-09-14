@@ -5844,6 +5844,12 @@ $GLOBALS['app_list_strings']['documents_status_list']=array (
   'not_valid' => 'недействителен',
 );
 
+$GLOBALS['app_list_strings']['case_type_list']=array (
+  'incoming' => 'Входящее',
+  'outgoing' => 'Исходящее',
+
+);
+
 
 
 

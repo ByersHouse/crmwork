@@ -23,3 +23,27 @@ $dictionary['Case']['fields']['case_view'] = array (
        'studio' => 'visible',
        'dependency' => false,
 );
+
+$dictionary['Case']['fields']['case_type'] = array (
+       'required' => false,
+       'name' => 'case_type',
+       'vname' => 'LBL_CASE_TYPE',
+       'type' => 'enum',
+       'massupdate' => 0,
+       'no_default' => false,
+       'comments' => '',
+       'help' => '',
+       'importable' => 'true',
+       'duplicate_merge' => 'disabled',
+       'duplicate_merge_dom_value' => '0',
+       'audited' => false,
+       'inline_edit' => '',
+       'reportable' => true,
+       'unified_search' => false,
+       'merge_filter' => 'disabled',
+       'len' => 15,
+       'size' => '20',
+       'options' => 'case_type_list',
+       'studio' => 'visible',
+       'dependency' => false,
+);

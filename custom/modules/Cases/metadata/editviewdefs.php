@@ -79,7 +79,12 @@ array (
         ),
         3 => 
         array (
-          0 => '',
+          0 => 
+          array (
+            'name' => 'case_type',
+            'studio' => 'visible',
+            'label' => 'LBL_CASE_TYPE',
+          ),
           1 => 
           array (
             'name' => 'leads_cases_1_name',

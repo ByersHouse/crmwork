@@ -292,7 +292,7 @@ array (
         ),
         1 => 
         array (
-          1 => 
+          0 => 
           array (
             'name' => 'card_num',
             'label' => 'LBL_CARDNUM',
@@ -400,9 +400,6 @@ array (
         ),
         5 => 
         array (
-        ),
-        6 => 
-        array (
           0 => 
           array (
             'name' => 'work_address_street',
@@ -410,7 +407,7 @@ array (
           ),
           1 => 'phone_work',
         ),
-        7 => 
+        6 => 
         array (
           0 => 
           array (
@@ -419,15 +416,15 @@ array (
           ),
           1 => 'phone_mobile',
         ),
-        8 => 
+        7 => 
         array (
-          1 => 
+          0 => 
           array (
             'name' => 'phone_addr_fact',
             'label' => 'LBL_PHONE_ADDRFACT',
           ),
         ),
-        9 => 
+        8 => 
         array (
           0 => 
           array (
@@ -440,7 +437,7 @@ array (
             'label' => 'LBL_PHONE_ADDR_REGISTR',
           ),
         ),
-        10 => 
+        9 => 
         array (
           0 => 
           array (
@@ -453,7 +450,7 @@ array (
             'label' => 'LBL_PHONE_CONTACTFACE',
           ),
         ),
-        11 => 
+        10 => 
         array (
           0 => 
           array (
@@ -466,7 +463,7 @@ array (
             'label' => 'LBL_SKYPE',
           ),
         ),
-        12 => 
+        11 => 
         array (
           0 => 
           array (
@@ -479,11 +476,11 @@ array (
             'label' => 'LBL_VIBER',
           ),
         ),
-        13 => 
+        12 => 
         array (
-          1 => 'email1',
+          0 => 'email1',
         ),
-        14 => 
+        13 => 
         array (
           0 => 
           array (
@@ -496,7 +493,7 @@ array (
             'label' => 'LBL_VK',
           ),
         ),
-        15 => 
+        14 => 
         array (
           0 => 
           array (
@@ -509,7 +506,7 @@ array (
             'label' => 'LBL_GOOGLEPLUS',
           ),
         ),
-        16 => 
+        15 => 
         array (
           0 => 
           array (
@@ -783,9 +780,6 @@ array (
         ),
         9 => 
         array (
-        ),
-        10 => 
-        array (
           0 => 
           array (
             'name' => 'transport_owner3',
@@ -799,7 +793,7 @@ array (
             'label' => 'LBL_TRANSOWNER4',
           ),
         ),
-        11 => 
+        10 => 
         array (
           0 => 
           array (
@@ -814,7 +808,7 @@ array (
             'label' => 'LBL_HOWBUYTRANS4',
           ),
         ),
-        12 => 
+        11 => 
         array (
           0 => 
           array (
@@ -827,7 +821,7 @@ array (
             'label' => 'LBL_YEARISSUETR4',
           ),
         ),
-        13 => 
+        12 => 
         array (
           0 => 
           array (
@@ -842,7 +836,7 @@ array (
             'label' => 'LBL_TRANS4MANUFACT',
           ),
         ),
-        14 => 
+        13 => 
         array (
           0 => 
           array (
@@ -855,7 +849,7 @@ array (
             'label' => 'LBL_MODEL_TRANS4',
           ),
         ),
-        15 => 
+        14 => 
         array (
           0 => 
           array (
@@ -868,7 +862,7 @@ array (
             'label' => 'LBL_VOLUME_TRANS4',
           ),
         ),
-        16 => 
+        15 => 
         array (
           0 => 
           array (
@@ -883,7 +877,7 @@ array (
             'label' => 'LBL_FUELTYPETRANS4',
           ),
         ),
-        17 => 
+        16 => 
         array (
           0 => 
           array (
@@ -898,7 +892,7 @@ array (
             'label' => 'LBL_TYPEOWNERTRANS4',
           ),
         ),
-        18 => 
+        17 => 
         array (
           0 => 
           array (
@@ -1017,7 +1011,7 @@ array (
         ),
         2 => 
         array (
-          1 => 
+          0 => 
           array (
             'name' => 'zagrpas_date_end',
             'label' => 'LBL_ZAGRPASP_DATEND',

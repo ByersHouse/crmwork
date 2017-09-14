@@ -69,7 +69,7 @@ class aCase extends Basic
     public $internal;
     public $send_closure_email;
     public $case_view;
-    
+    public $case_type;
     
     
     public $created_by;
