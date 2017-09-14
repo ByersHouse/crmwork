@@ -41,4 +41,9 @@ include('custom/metadata/bh_scripts_bh_script_param_response_1MetaData.php');
 include('custom/metadata/bh_scripts_bh_scr_status_history_1MetaData.php');
 
 
+ 
+ //WARNING: The contents of this file are auto-generated
+include('custom/metadata/leads_cases_1MetaData.php');
+
+
 ?>

@@ -1,7 +1,4 @@
-<?php 
- //WARNING: The contents of this file are auto-generated
-
-
+<?php
 // created: 2017-09-14 09:55:28
 $dictionary["Case"]["fields"]["leads_cases_1"] = array (
   'name' => 'leads_cases_1',
@@ -39,25 +36,3 @@ $dictionary["Case"]["fields"]["leads_cases_1leads_ida"] = array (
   'side' => 'right',
   'vname' => 'LBL_LEADS_CASES_1_FROM_CASES_TITLE',
 );
-
-
- // created: 2017-09-03 11:24:48
-$dictionary['Case']['fields']['jjwg_maps_address_c']['inline_edit']=1;
-
- 
-
- // created: 2017-09-03 11:24:48
-$dictionary['Case']['fields']['jjwg_maps_geocode_status_c']['inline_edit']=1;
-
- 
-
- // created: 2017-09-03 11:24:48
-$dictionary['Case']['fields']['jjwg_maps_lat_c']['inline_edit']=1;
-
- 
-
- // created: 2017-09-03 11:24:48
-$dictionary['Case']['fields']['jjwg_maps_lng_c']['inline_edit']=1;
-
- 
-?>
