@@ -17,6 +17,13 @@ $moduleList[] = 'bh_Card_ident';
 
  
  //WARNING: The contents of this file are auto-generated
+$beanList['bh_cases_log'] = 'bh_cases_log';
+$beanFiles['bh_cases_log'] = 'modules/bh_cases_log/bh_cases_log.php';
+$moduleList[] = 'bh_cases_log';
+
+
+ 
+ //WARNING: The contents of this file are auto-generated
 $beanList['bh_faq'] = 'bh_faq';
 $beanFiles['bh_faq'] = 'modules/bh_faq/bh_faq.php';
 $moduleList[] = 'bh_faq';

@@ -43,6 +43,11 @@ include('custom/metadata/bh_scripts_bh_scr_status_history_1MetaData.php');
 
  
  //WARNING: The contents of this file are auto-generated
+include('custom/metadata/cases_bh_cases_log_1MetaData.php');
+
+
+ 
+ //WARNING: The contents of this file are auto-generated
 include('custom/metadata/leads_cases_1MetaData.php');
 
 

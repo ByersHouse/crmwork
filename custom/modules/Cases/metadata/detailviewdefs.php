@@ -61,7 +61,12 @@ array (
             'comment' => 'The state of the case (i.e. open/closed)',
             'label' => 'LBL_STATE',
           ),
-          1 => 'status',
+          1 => 
+          array (
+            'name' => 'case_status',
+            'studio' => 'visible',
+            'label' => 'LBL_CASE_STATUS',
+          ),
         ),
         2 => 
         array (

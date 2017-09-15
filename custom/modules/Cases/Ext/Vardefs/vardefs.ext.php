@@ -2,6 +2,19 @@
  //WARNING: The contents of this file are auto-generated
 
 
+// created: 2017-09-14 17:20:33
+$dictionary["Case"]["fields"]["cases_bh_cases_log_1"] = array (
+  'name' => 'cases_bh_cases_log_1',
+  'type' => 'link',
+  'relationship' => 'cases_bh_cases_log_1',
+  'source' => 'non-db',
+  'module' => 'bh_cases_log',
+  'bean_name' => 'bh_cases_log',
+  'side' => 'right',
+  'vname' => 'LBL_CASES_BH_CASES_LOG_1_FROM_BH_CASES_LOG_TITLE',
+);
+
+
 
 $dictionary['Case']['fields']['case_view'] = array (
        'required' => false,
@@ -50,6 +63,32 @@ $dictionary['Case']['fields']['case_type'] = array (
        'studio' => 'visible',
        'dependency' => false,
 );
+
+
+$dictionary['Case']['fields']['case_status'] = array (
+       'required' => false,
+       'name' => 'case_status',
+       'vname' => 'LBL_CASE_STATUS',
+       'type' => 'enum',
+       'massupdate' => 0,
+       'no_default' => false,
+       'comments' => '',
+       'help' => '',
+       'importable' => 'true',
+       'duplicate_merge' => 'disabled',
+       'duplicate_merge_dom_value' => '0',
+       'audited' => false,
+       'inline_edit' => '',
+       'reportable' => true,
+       'unified_search' => false,
+       'merge_filter' => 'disabled',
+       'len' => 15,
+       'size' => '20',
+       'options' => 'case_status_list',
+       'studio' => 'visible',
+       'dependency' => false,
+);
+
 
 // created: 2017-09-14 09:55:28
 $dictionary["Case"]["fields"]["leads_cases_1"] = array (
