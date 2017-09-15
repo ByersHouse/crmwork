@@ -68,6 +68,7 @@ class bh_formed_packets extends Basic
     public $packet_quantity;
     public $packet_validity;
 
+
     public function bean_implements($interface)
     {
         switch($interface)

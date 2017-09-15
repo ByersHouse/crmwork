@@ -63,7 +63,9 @@ class bh_packet_activation extends Basic
     public $assigned_user_name;
     public $assigned_user_link;
     public $SecurityGroups;
-	
+    public $date_of_sale;
+    public $packet_list;
+
     public function bean_implements($interface)
     {
         switch($interface)
@@ -75,4 +77,4 @@ class bh_packet_activation extends Basic
         return false;
     }
 	
-}
+}

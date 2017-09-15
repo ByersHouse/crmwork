@@ -42,7 +42,7 @@
 $relationships = array (
   'bh_scripts_bh_scripts_employee_comment_1' => 
   array (
-    'id' => '15ef3dc6-fc47-3f6f-7d65-59bb75b21043',
+    'id' => '3c8ee547-dd86-dba0-743d-59bb9c3d636a',
     'relationship_name' => 'bh_scripts_bh_scripts_employee_comment_1',
     'lhs_module' => 'bh_scripts',
     'lhs_table' => 'bh_scripts',
@@ -68,7 +68,7 @@ $relationships = array (
   ),
   'bh_scripts_bh_script_param_response_1' => 
   array (
-    'id' => '162c4fbe-dbfe-4947-b05d-59bb7531aa96',
+    'id' => '3d45faba-496d-88e2-7235-59bb9cd69743',
     'relationship_name' => 'bh_scripts_bh_script_param_response_1',
     'lhs_module' => 'bh_scripts',
     'lhs_table' => 'bh_scripts',
@@ -94,7 +94,7 @@ $relationships = array (
   ),
   'bh_scripts_bh_scr_status_history_1' => 
   array (
-    'id' => '16694448-f0c9-b028-e753-59bb75665834',
+    'id' => '3d830cda-27a6-845c-367c-59bb9c386943',
     'relationship_name' => 'bh_scripts_bh_scr_status_history_1',
     'lhs_module' => 'bh_scripts',
     'lhs_table' => 'bh_scripts',
@@ -120,7 +120,7 @@ $relationships = array (
   ),
   'bh_scripts_modified_user' => 
   array (
-    'id' => '835e5e35-5602-981c-f903-59bb75bf0b03',
+    'id' => 'b56fcf82-d76e-174b-57b9-59bb9c66cc53',
     'relationship_name' => 'bh_scripts_modified_user',
     'lhs_module' => 'Users',
     'lhs_table' => 'users',
@@ -142,11 +142,11 @@ $relationships = array (
     'relationship_only' => false,
     'for_activities' => false,
     'is_custom' => false,
-    'from_studio' => true,
+    'from_studio' => false,
   ),
   'bh_scripts_created_by' => 
   array (
-    'id' => '839b6fb0-0bdc-f6e0-6188-59bb752e3689',
+    'id' => 'b5accf66-d3ba-d4f2-20c1-59bb9c0bbec3',
     'relationship_name' => 'bh_scripts_created_by',
     'lhs_module' => 'Users',
     'lhs_table' => 'users',
@@ -168,11 +168,11 @@ $relationships = array (
     'relationship_only' => false,
     'for_activities' => false,
     'is_custom' => false,
-    'from_studio' => true,
+    'from_studio' => false,
   ),
   'bh_scripts_assigned_user' => 
   array (
-    'id' => '83d879a1-4873-a39a-a9e3-59bb755f8bee',
+    'id' => 'b5e9dc52-5eed-b6dc-66d9-59bb9c94970e',
     'relationship_name' => 'bh_scripts_assigned_user',
     'lhs_module' => 'Users',
     'lhs_table' => 'users',
@@ -194,11 +194,11 @@ $relationships = array (
     'relationship_only' => false,
     'for_activities' => false,
     'is_custom' => false,
-    'from_studio' => true,
+    'from_studio' => false,
   ),
   'securitygroups_bh_scripts' => 
   array (
-    'id' => '84528873-1da0-c0a7-af68-59bb75fcd48d',
+    'id' => 'b626d3a8-47cb-cd47-c4da-59bb9c94311c',
     'relationship_name' => 'securitygroups_bh_scripts',
     'lhs_module' => 'SecurityGroups',
     'lhs_table' => 'securitygroups',
@@ -220,22 +220,6 @@ $relationships = array (
     'relationship_only' => false,
     'for_activities' => false,
     'is_custom' => false,
-    'from_studio' => true,
-  ),
-  'bh_scripts_bh_scripts_leadership_recommend_1' => 
-  array (
-    'rhs_label' => 'Скрипты рекомендации руководства',
-    'lhs_label' => 'Скрипты',
-    'rhs_subpanel' => 'default',
-    'lhs_module' => 'bh_scripts',
-    'rhs_module' => 'bh_Scripts_leadership_recommend',
-    'relationship_type' => 'one-to-many',
-    'readonly' => true,
-    'deleted' => false,
-    'relationship_only' => false,
-    'for_activities' => false,
-    'is_custom' => false,
-    'from_studio' => true,
-    'relationship_name' => 'bh_scripts_bh_scripts_leadership_recommend_1',
+    'from_studio' => false,
   ),
 );
