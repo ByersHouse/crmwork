@@ -1,5 +1,5 @@
 <?php
-// created: 2017-09-13 15:34:50
+// created: 2017-09-15 12:15:17
 $dictionary["bh_scripts"]["fields"]["bh_scripts_bh_scr_status_history_1"] = array (
   'name' => 'bh_scripts_bh_scr_status_history_1',
   'type' => 'link',
