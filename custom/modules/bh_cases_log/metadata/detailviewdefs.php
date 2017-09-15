@@ -58,11 +58,7 @@ array (
             'studio' => 'visible',
             'label' => 'LBL_CASE_CHANNEL',
           ),
-          1 => 
-          array (
-            'name' => 'date_begin',
-            'label' => 'LBL_DATE_BEGIN',
-          ),
+          1 => '',
         ),
         2 => 
         array (
@@ -70,6 +66,19 @@ array (
           1 => 
           array (
             'name' => 'cases_bh_cases_log_1_name',
+          ),
+        ),
+        3 => 
+        array (
+          0 => 
+          array (
+            'name' => 'start',
+            'label' => 'LBL_DATE_START',
+          ),
+          1 => 
+          array (
+            'name' => 'finish',
+            'label' => 'LBL_DATE_FINISH',
           ),
         ),
       ),
