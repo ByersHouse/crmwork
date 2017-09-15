@@ -63,7 +63,8 @@ class bh_script_param_response extends Basic
     public $assigned_user_name;
     public $assigned_user_link;
     public $SecurityGroups;
-	
+    public $channel_type;
+
     public function bean_implements($interface)
     {
         switch($interface)
@@ -75,4 +76,4 @@ class bh_script_param_response extends Basic
         return false;
     }
 	
-}
+}

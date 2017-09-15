@@ -92,6 +92,11 @@ class Document extends File {
 	var $new_schema = true;
 	var $module_dir = 'Documents';
 
+    var $doc_status;
+    var $receipt_date;
+    var $issuing_date;
+    var $termination_date;
+
 	var $relationship_fields = Array(
 		'contract_id'=>'contracts',
 	 );

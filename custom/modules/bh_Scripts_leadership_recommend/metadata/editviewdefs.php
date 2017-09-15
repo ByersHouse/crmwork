@@ -1,21 +1,11 @@
 <?php
-$module_name = 'bh_script_param_response';
+$module_name = 'bh_Scripts_leadership_recommend';
 $viewdefs [$module_name] = 
 array (
-  'DetailView' => 
+  'EditView' => 
   array (
     'templateMeta' => 
     array (
-      'form' => 
-      array (
-        'buttons' => 
-        array (
-          0 => 'EDIT',
-          1 => 'DUPLICATE',
-          2 => 'DELETE',
-          3 => 'FIND_DUPLICATES',
-        ),
-      ),
       'maxColumns' => '2',
       'widths' => 
       array (
@@ -58,37 +48,21 @@ array (
         array (
           0 => 
           array (
-            'name' => 'bh_script_param_response_type',
-            'studio' => 'visible',
-            'label' => 'LBL_RESPONSE_TYPE',
+            'name' => 'recommend_text',
+            'label' => 'LBL_RECOMMEND_TEXT',
           ),
           1 => 
           array (
-            'name' => 'bh_script_param_response_comment',
-            'label' => 'LBL_RESPONSE_COMMENT',
+            'name' => 'recommend_date',
+            'label' => 'LBL_RECOMMEND_DATE',
           ),
         ),
         3 => 
         array (
           0 => 
           array (
-            'name' => 'bh_script_param_response_date',
-            'label' => 'LBL_RESPONSE_DATE',
+            'name' => 'bh_scripts_bh_scripts_leadership_recommend_1_name',
           ),
-          1 => 
-          array (
-            'name' => 'bh_scripts_bh_script_param_response_1_name',
-          ),
-        ),
-        4 => 
-        array (
-          0 => 
-          array (
-            'name' => 'channel_type',
-            'studio' => 'visible',
-            'label' => 'LBL_CHANNEL_TYPE',
-          ),
-          1 => '',
         ),
       ),
     ),

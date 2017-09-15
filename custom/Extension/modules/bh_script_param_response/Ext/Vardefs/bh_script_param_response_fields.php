@@ -63,3 +63,26 @@ $dictionary["bh_script_param_response"]["fields"]["bh_script_param_response_comm
     'size' => '20',
     'enable_range_search' => false,
 );
+
+$dictionary["bh_script_param_response"]["fields"]["channel_type"] = array (
+    'required' => false,
+    'name' => 'channel_type',
+    'vname' => 'LBL_CHANNEL_TYPE',
+    'type' => 'enum',
+    'massupdate' => 0,
+    'no_default' => false,
+    'comments' => '',
+    'help' => '',
+    'importable' => 'true',
+    'duplicate_merge' => 'disabled',
+    'duplicate_merge_dom_value' => '0',
+    'audited' => false,
+    'inline_edit' => true,
+    'reportable' => true,
+    'unified_search' => false,
+    'merge_filter' => 'disabled',
+    'options' => 'cases_log_channel_list',
+    'studio' => 'visible',
+    'size' => '20',
+    'enable_range_search' => false,
+);
