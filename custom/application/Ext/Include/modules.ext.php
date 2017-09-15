@@ -24,6 +24,20 @@ $moduleList[] = 'bh_cases_log';
 
  
  //WARNING: The contents of this file are auto-generated
+$beanList['bh_case_compound'] = 'bh_case_compound';
+$beanFiles['bh_case_compound'] = 'modules/bh_case_compound/bh_case_compound.php';
+$moduleList[] = 'bh_case_compound';
+
+
+ 
+ //WARNING: The contents of this file are auto-generated
+$beanList['bh_case_status'] = 'bh_case_status';
+$beanFiles['bh_case_status'] = 'modules/bh_case_status/bh_case_status.php';
+$moduleList[] = 'bh_case_status';
+
+
+ 
+ //WARNING: The contents of this file are auto-generated
 $beanList['bh_faq'] = 'bh_faq';
 $beanFiles['bh_faq'] = 'modules/bh_faq/bh_faq.php';
 $moduleList[] = 'bh_faq';

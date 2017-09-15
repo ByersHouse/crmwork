@@ -61,10 +61,31 @@ $dictionary["bh_cases_log"]["fields"]["case_channel"] = array (
        'dependency' => false,
 );
 
-$dictionary['bh_cases_log']['fields']['date_begin'] = array (
+$dictionary['bh_cases_log']['fields']['start'] = array (
       'required' => false,
-      'name' => 'date_begin',
-      'vname' => 'LBL_DATE_BEGIN',
+      'name' => 'start',
+      'vname' => 'LBL_DATE_START',
+      'type' => 'datetimecombo',
+      'massupdate' => 0,
+      'no_default' => false,
+      'comments' => '',
+      'help' => '',
+      'importable' => 'true',
+      'duplicate_merge' => 'disabled',
+      'duplicate_merge_dom_value' => '0',
+      'audited' => false,
+      'inline_edit' => true,
+      'reportable' => true,
+      'unified_search' => false,
+      'merge_filter' => 'disabled',
+      'size' => '20',
+      'enable_range_search' => false,
+);
+
+$dictionary['bh_cases_log']['fields']['finish'] = array (
+      'required' => false,
+      'name' => 'finish',
+      'vname' => 'LBL_DATE_FINISH',
       'type' => 'datetimecombo',
       'massupdate' => 0,
       'no_default' => false,

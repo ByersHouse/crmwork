@@ -58,6 +58,13 @@ array (
             'label' => 'LBL_PACKET_LIST',
           ),
         ),
+        3 => 
+        array (
+          0 => 
+          array (
+            'name' => 'leads_bh_packet_activation_1_name',
+          ),
+        ),
       ),
     ),
   ),

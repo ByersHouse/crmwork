@@ -250,7 +250,11 @@ class SubPanelTiles
             $rel= new Relationship();
             $rel->load_relationship_meta();
         }
-
+        
+        
+  
+      
+        
         foreach ($tabs as $t => $tab)
         {
             // load meta definition of the sub-panel.
@@ -282,6 +286,7 @@ class SubPanelTiles
             }
 
             if ($thisPanel->isCollection()) {
+                      //var_dump("1");
                 // collect names of sub-panels that may contain items of each module
                 $collection_list = $thisPanel->get_inst_prop_value('collection_list');
                 if (is_array($collection_list)) {
@@ -292,9 +297,12 @@ class SubPanelTiles
                     }
                 }
             } else {
+               
                 $module = $thisPanel->get_module_name();
+              
                 if (!empty($module)) {
                     $module_sub_panels[$module][$tab] = true;
+                     
                 }
             }
 
@@ -372,14 +380,13 @@ class SubPanelTiles
         }
 
         $tab_names = '["' . join($tab_names, '","') . '"]';
-
-        //var_dump($module_sub_panels);
-      // exit;
+ //var_dump($module_sub_panels);
+       // exit();
         
         if(is_array($module_sub_panels)){
             $module_sub_panels = array_map('array_keys', $module_sub_panels);
             $module_sub_panels = json_encode($module_sub_panels);
-        }
+       }
         $template->assign('layout_def_key', $this->layout_def_key);
         $template->assign('show_subpanel_tabs', $this->show_tabs);
         $template->assign('subpanel_tabs', $tabs);

@@ -2,7 +2,7 @@
  //WARNING: The contents of this file are auto-generated
 
 
-// created: 2017-09-13 15:30:57
+// created: 2017-09-15 11:59:08
 $dictionary["bh_scripts"]["fields"]["bh_scripts_bh_scripts_employee_comment_1"] = array (
   'name' => 'bh_scripts_bh_scripts_employee_comment_1',
   'type' => 'link',
@@ -15,7 +15,20 @@ $dictionary["bh_scripts"]["fields"]["bh_scripts_bh_scripts_employee_comment_1"] 
 );
 
 
-// created: 2017-09-13 15:33:14
+// created: 2017-09-15 12:04:22
+$dictionary["bh_scripts"]["fields"]["bh_scripts_bh_scripts_leadership_recommend_1"] = array (
+  'name' => 'bh_scripts_bh_scripts_leadership_recommend_1',
+  'type' => 'link',
+  'relationship' => 'bh_scripts_bh_scripts_leadership_recommend_1',
+  'source' => 'non-db',
+  'module' => 'bh_Scripts_leadership_recommend',
+  'bean_name' => 'bh_Scripts_leadership_recommend',
+  'side' => 'right',
+  'vname' => 'LBL_BH_SCRIPTS_BH_SCRIPTS_LEADERSHIP_RECOMMEND_1_FROM_BH_SCRIPTS_LEADERSHIP_RECOMMEND_TITLE',
+);
+
+
+// created: 2017-09-15 12:10:17
 $dictionary["bh_scripts"]["fields"]["bh_scripts_bh_script_param_response_1"] = array (
   'name' => 'bh_scripts_bh_script_param_response_1',
   'type' => 'link',
@@ -28,7 +41,7 @@ $dictionary["bh_scripts"]["fields"]["bh_scripts_bh_script_param_response_1"] = a
 );
 
 
-// created: 2017-09-13 15:34:50
+// created: 2017-09-15 12:15:17
 $dictionary["bh_scripts"]["fields"]["bh_scripts_bh_scr_status_history_1"] = array (
   'name' => 'bh_scripts_bh_scr_status_history_1',
   'type' => 'link',
