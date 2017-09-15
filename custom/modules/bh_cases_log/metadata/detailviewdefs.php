@@ -58,7 +58,6 @@ array (
             'studio' => 'visible',
             'label' => 'LBL_CASE_CHANNEL',
           ),
-          1 => '',
         ),
         2 => 
         array (
@@ -79,6 +78,13 @@ array (
           array (
             'name' => 'finish',
             'label' => 'LBL_DATE_FINISH',
+          ),
+        ),
+        4 => 
+        array (
+          0 => 
+          array (
+            'name' => 'users_bh_cases_log_1_name',
           ),
         ),
       ),
