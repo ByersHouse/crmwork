@@ -63,7 +63,12 @@ class bh_formed_packets extends Basic
     public $assigned_user_name;
     public $assigned_user_link;
     public $SecurityGroups;
-	
+    public $activate_date;
+    public $packet_sum;
+    public $packet_quantity;
+    public $packet_validity;
+
+
     public function bean_implements($interface)
     {
         switch($interface)
@@ -75,4 +80,4 @@ class bh_formed_packets extends Basic
         return false;
     }
 	
-}
+}

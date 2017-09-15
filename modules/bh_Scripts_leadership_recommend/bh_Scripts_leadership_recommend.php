@@ -63,10 +63,7 @@ class bh_Scripts_leadership_recommend extends Basic
     public $assigned_user_name;
     public $assigned_user_link;
     public $SecurityGroups;
-
-    public $recommend_text;
-    public $recommend_date;
-
+	
     public function bean_implements($interface)
     {
         switch($interface)
@@ -78,4 +75,4 @@ class bh_Scripts_leadership_recommend extends Basic
         return false;
     }
 	
-}
+}
