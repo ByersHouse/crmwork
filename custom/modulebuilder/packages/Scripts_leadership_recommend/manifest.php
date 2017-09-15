@@ -65,9 +65,9 @@ $manifest = array (
   'icon' => '',
   'is_uninstallable' => true,
   'name' => 'Scripts_leadership_recommend',
-  'published_date' => '2017-09-12 11:03:44',
+  'published_date' => '2017-09-15 06:10:08',
   'type' => 'module',
-  'version' => 1505214225,
+  'version' => 1505455809,
   'remove_tables' => 'prompt',
 );
 

@@ -74,6 +74,30 @@ $layout_defs["bh_scripts"]["subpanel_setup"]['bh_scripts_bh_scr_status_history_1
 );
 
 
+ // created: 2017-09-15 09:10:26
+$layout_defs["bh_scripts"]["subpanel_setup"]['bh_scripts_leadership_recommend_bh_scripts'] = array (
+  'order' => 100,
+  'module' => 'bh_Scripts_leadership_recommend',
+  'subpanel_name' => 'default',
+  'sort_order' => 'asc',
+  'sort_by' => 'id',
+  'title_key' => 'LBL_BH_SCRIPTS_LEADERSHIP_RECOMMEND_BH_SCRIPTS_FROM_BH_SCRIPTS_LEADERSHIP_RECOMMEND_TITLE',
+  'get_subpanel_data' => 'bh_scripts_leadership_recommend_bh_scripts',
+  'top_buttons' => 
+  array (
+    0 => 
+    array (
+      'widget_class' => 'SubPanelTopButtonQuickCreate',
+    ),
+    1 => 
+    array (
+      'widget_class' => 'SubPanelTopSelectButton',
+      'mode' => 'MultiSelect',
+    ),
+  ),
+);
+
+
 //auto-generated file DO NOT EDIT
 $layout_defs['bh_scripts']['subpanel_setup']['bh_scripts_bh_script_param_response_1']['override_subpanel_name'] = 'bh_scripts_subpanel_bh_scripts_bh_script_param_response_1';
 
