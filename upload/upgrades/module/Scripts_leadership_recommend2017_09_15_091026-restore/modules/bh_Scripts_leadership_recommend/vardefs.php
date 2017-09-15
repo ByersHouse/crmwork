@@ -38,42 +38,19 @@
  * display the words  "Powered by SugarCRM" and "Supercharged by SuiteCRM".
  */
 
-
-class bh_script_param_response extends Basic
-{
-    public $new_schema = true;
-    public $module_dir = 'bh_script_param_response';
-    public $object_name = 'bh_script_param_response';
-    public $table_name = 'bh_script_param_response';
-    public $importable = false;
-
-    public $id;
-    public $name;
-    public $date_entered;
-    public $date_modified;
-    public $modified_user_id;
-    public $modified_by_name;
-    public $created_by;
-    public $created_by_name;
-    public $description;
-    public $deleted;
-    public $created_by_link;
-    public $modified_user_link;
-    public $assigned_user_id;
-    public $assigned_user_name;
-    public $assigned_user_link;
-    public $SecurityGroups;
-    public $channel_type;
-
-    public function bean_implements($interface)
-    {
-        switch($interface)
-        {
-            case 'ACL':
-                return true;
-        }
-
-        return false;
-    }
-	
+$dictionary['bh_Scripts_leadership_recommend'] = array(
+    'table' => 'bh_scripts_leadership_recommend',
+    'audited' => true,
+    'inline_edit' => true,
+    'duplicate_merge' => true,
+    'fields' => array (
+),
+    'relationships' => array (
+),
+    'optimistic_locking' => true,
+    'unified_search' => true,
+);
+if (!class_exists('VardefManager')) {
+        require_once('include/SugarObjects/VardefManager.php');
 }
+VardefManager::createVardef('bh_Scripts_leadership_recommend', 'bh_Scripts_leadership_recommend', array('basic','assignable','security_groups'));

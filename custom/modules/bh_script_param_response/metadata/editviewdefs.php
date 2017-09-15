@@ -70,6 +70,16 @@ array (
             'name' => 'bh_scripts_bh_script_param_response_1_name',
           ),
         ),
+        4 => 
+        array (
+          0 => 
+          array (
+            'name' => 'channel_type',
+            'studio' => 'visible',
+            'label' => 'LBL_CHANNEL_TYPE',
+          ),
+          1 => '',
+        ),
       ),
     ),
   ),

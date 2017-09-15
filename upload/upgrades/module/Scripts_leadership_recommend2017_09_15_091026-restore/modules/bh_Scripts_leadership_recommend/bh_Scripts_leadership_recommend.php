@@ -39,12 +39,12 @@
  */
 
 
-class bh_script_param_response extends Basic
+class bh_Scripts_leadership_recommend extends Basic
 {
     public $new_schema = true;
-    public $module_dir = 'bh_script_param_response';
-    public $object_name = 'bh_script_param_response';
-    public $table_name = 'bh_script_param_response';
+    public $module_dir = 'bh_Scripts_leadership_recommend';
+    public $object_name = 'bh_Scripts_leadership_recommend';
+    public $table_name = 'bh_scripts_leadership_recommend';
     public $importable = false;
 
     public $id;
@@ -63,8 +63,7 @@ class bh_script_param_response extends Basic
     public $assigned_user_name;
     public $assigned_user_link;
     public $SecurityGroups;
-    public $channel_type;
-
+	
     public function bean_implements($interface)
     {
         switch($interface)
@@ -76,4 +75,4 @@ class bh_script_param_response extends Basic
         return false;
     }
 	
-}
+}
