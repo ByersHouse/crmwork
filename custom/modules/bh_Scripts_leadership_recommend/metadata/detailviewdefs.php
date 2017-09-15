@@ -67,13 +67,6 @@ array (
             'label' => 'LBL_RECOMMEND_DATE',
           ),
         ),
-        3 => 
-        array (
-          0 => 
-          array (
-            'name' => 'bh_scripts_bh_scripts_leadership_recommend_1_name',
-          ),
-        ),
       ),
     ),
   ),
