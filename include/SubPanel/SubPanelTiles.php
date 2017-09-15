@@ -373,9 +373,13 @@ class SubPanelTiles
 
         $tab_names = '["' . join($tab_names, '","') . '"]';
 
-        $module_sub_panels = array_map('array_keys', $module_sub_panels);
-        $module_sub_panels = json_encode($module_sub_panels);
-
+        //var_dump($module_sub_panels);
+      // exit;
+        
+        if(is_array($module_sub_panels)){
+            $module_sub_panels = array_map('array_keys', $module_sub_panels);
+            $module_sub_panels = json_encode($module_sub_panels);
+        }
         $template->assign('layout_def_key', $this->layout_def_key);
         $template->assign('show_subpanel_tabs', $this->show_tabs);
         $template->assign('subpanel_tabs', $tabs);
