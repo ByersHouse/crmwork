@@ -1,5 +1,6 @@
-<?php 
-$GLOBALS["tabStructure"] =array (
+<?php
+// created: 2017-09-15 09:44:35
+$GLOBALS['tabStructure'] = array (
   'LBL_TABGROUP_SALES' => 
   array (
     'label' => 'LBL_TABGROUP_SALES',
@@ -10,9 +11,6 @@ $GLOBALS["tabStructure"] =array (
       2 => 'Contacts',
       3 => 'Opportunities',
       4 => 'Leads',
-      5 => 'Contracts',
-      6 => 'Quotes',
-      7 => 'Forecasts',
     ),
   ),
   'LBL_TABGROUP_MARKETING' => 
@@ -64,6 +62,34 @@ $GLOBALS["tabStructure"] =array (
       1 => 'Emails',
       2 => 'Documents',
       3 => 'Project',
+    ),
+  ),
+  'LBL_GROUPTAB5_1505457875' => 
+  array (
+    'label' => 'LBL_GROUPTAB5_1505457875',
+    'modules' => 
+    array (
+      0 => 'bh_scripts',
+      1 => 'bh_Scripts_employee_comment',
+      2 => 'bh_Scripts_leadership_recommend',
+      3 => 'bh_script_param_response',
+      4 => 'bh_scr_status_history',
+    ),
+  ),
+  'LBL_GROUPTAB6_1505457875' => 
+  array (
+    'label' => 'LBL_GROUPTAB6_1505457875',
+    'modules' => 
+    array (
+      0 => 'bh_formed_packets',
+      1 => 'bh_packet_activation',
+    ),
+  ),
+  'LBL_GROUPTAB7_1505457875' => 
+  array (
+    'label' => 'LBL_GROUPTAB7_1505457875',
+    'modules' => 
+    array (
     ),
   ),
 );
