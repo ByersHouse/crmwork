@@ -30,6 +30,16 @@
 require_once('modules/AOS_Products/AOS_Products_sugar.php');
 class AOS_Products extends AOS_Products_sugar {
 
+    public $name;
+    public $essence;
+    public $registration_use;
+    public $activation_date;
+    public $product_validity;
+    public $basic_cost;
+    public $product_status;
+    public $product_type;
+    public $product_currency;
+
 	function __construct(){
 		parent::__construct();
 	}
