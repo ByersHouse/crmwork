@@ -90,11 +90,11 @@ $sugar_config = array (
   'datef' => 'm/d/Y',
   'dbconfig' => 
   array (
-    'db_host_name' => 'crm',
+    'db_host_name' => '',
     'db_host_instance' => 'SQLEXPRESS',
     'db_user_name' => 'root',
     'db_password' => '',
-    'db_name' => 'crm',
+    'db_name' => 'PREVEDMEDVED)))))',
     'db_type' => 'mysql',
     'db_port' => '',
     'db_manager' => 'MysqliManager',
