@@ -1,0 +1,67 @@
+<?php
+
+
+
+$dictionary['bh_marketing_response']['fields']['response_date'] = array (
+    'required' => false,
+    'name' => 'response_date',
+    'vname' => 'LBL_RESPONSE_DATE',
+    'type' => 'date',
+    'massupdate' => 0,
+    'no_default' => false,
+    'comments' => '',
+    'help' => '',
+    'importable' => 'true',
+    'duplicate_merge' => 'disabled',
+    'duplicate_merge_dom_value' => '0',
+    'audited' => false,
+    'inline_edit' => true,
+    'reportable' => true,
+    'unified_search' => false,
+    'merge_filter' => 'disabled',
+    'size' => '20',
+    'enable_range_search' => false,
+);
+
+$dictionary['bh_marketing_response']['fields']['comment'] = array (
+    'required' => false,
+    'name' => 'comment',
+    'vname' => 'LBL_RESPONSE_COMMENT',
+    'type' => 'text',
+    'massupdate' => 0,
+    'no_default' => false,
+    'comments' => '',
+    'help' => '',
+    'importable' => 'true',
+    'duplicate_merge' => 'disabled',
+    'duplicate_merge_dom_value' => '0',
+    'audited' => false,
+    'inline_edit' => true,
+    'reportable' => true,
+    'unified_search' => false,
+    'merge_filter' => 'disabled',
+    'size' => '20',
+    'enable_range_search' => false,
+);
+
+$dictionary['bh_marketing_response']['fields']['response_type'] = array (
+    'required' => false,
+    'name' => 'response_type',
+    'vname' => 'LBL_RESPONSE_TYPE',
+    'type' => 'enum',
+    'massupdate' => 0,
+    'no_default' => false,
+    'comments' => '',
+    'help' => '',
+    'importable' => 'true',
+    'duplicate_merge' => 'disabled',
+    'duplicate_merge_dom_value' => '0',
+    'audited' => false,
+    'inline_edit' => true,
+    'reportable' => true,
+    'unified_search' => false,
+    'merge_filter' => 'disabled',
+    'options' => 'marketing_response_type_list',
+    'studio' => 'visible',
+    'size' => '20',
+);
