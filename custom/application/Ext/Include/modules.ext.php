@@ -48,6 +48,13 @@ $moduleList[] = 'bh_faq_history';
 
  
  //WARNING: The contents of this file are auto-generated
+$beanList['bh_marketing_company'] = 'bh_marketing_company';
+$beanFiles['bh_marketing_company'] = 'modules/bh_marketing_company/bh_marketing_company.php';
+$moduleList[] = 'bh_marketing_company';
+
+
+ 
+ //WARNING: The contents of this file are auto-generated
 $beanList['bh_org_trade_points'] = 'bh_org_trade_points';
 $beanFiles['bh_org_trade_points'] = 'modules/bh_org_trade_points/bh_org_trade_points.php';
 $moduleList[] = 'bh_org_trade_points';
