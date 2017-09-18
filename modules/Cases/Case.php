@@ -75,6 +75,7 @@ class aCase extends Basic
     public $created_by;
     public $created_by_name;
     public $modified_by_name;
+    public $result_comment;
 
     /**
      * @var Link2

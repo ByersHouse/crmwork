@@ -114,10 +114,24 @@ array (
         array (
           0 => 
           array (
-            'name' => 'description',
+            'name' => 'case_view',
+            'studio' => 'visible',
+            'label' => 'LBL_CASE_VIEW',
+          ),
+          1 => 
+          array (
+            'name' => 'result_comment',
+            'label' => 'LBL_RESULT_COMMENT',
           ),
         ),
         6 => 
+        array (
+          0 => 
+          array (
+            'name' => 'description',
+          ),
+        ),
+        7 => 
         array (
           0 => 
           array (
@@ -125,7 +139,7 @@ array (
             'nl2br' => true,
           ),
         ),
-        7 => 
+        8 => 
         array (
           0 => 
           array (
@@ -134,7 +148,7 @@ array (
             'label' => 'LBL_UPDATE_TEXT',
           ),
         ),
-        8 => 
+        9 => 
         array (
           0 => 
           array (
@@ -143,7 +157,7 @@ array (
             'label' => 'LBL_INTERNAL',
           ),
         ),
-        9 => 
+        10 => 
         array (
           0 => 
           array (
@@ -151,7 +165,7 @@ array (
             'studio' => 'visible',
           ),
         ),
-        10 => 
+        11 => 
         array (
           0 => 'assigned_user_name',
         ),

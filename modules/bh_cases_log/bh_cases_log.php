@@ -59,7 +59,9 @@ class bh_cases_log extends Basic
     public $deleted;
     public $start;
     public $finish;
-    
+    public $comment;
+    public $case_status;
+
     public $created_by_link;
     public $modified_user_link;
     public $assigned_user_id;

@@ -89,6 +89,28 @@ $dictionary['Case']['fields']['case_status'] = array (
        'dependency' => false,
 );
 
+$dictionary['Case']['fields']['result_comment'] = array (
+    'required' => false,
+    'name' => 'result_comment',
+    'vname' => 'LBL_RESULT_COMMENT',
+    'type' => 'text',
+    'massupdate' => 0,
+    'no_default' => false,
+    'comments' => '',
+    'help' => '',
+    'importable' => 'true',
+    'duplicate_merge' => 'disabled',
+    'duplicate_merge_dom_value' => '0',
+    'audited' => false,
+    'inline_edit' => true,
+    'reportable' => true,
+    'unified_search' => false,
+    'merge_filter' => 'disabled',
+    'size' => '20',
+    'enable_range_search' => false,
+);
+
+
 
 // created: 2017-09-14 09:55:28
 $dictionary["Case"]["fields"]["leads_cases_1"] = array (

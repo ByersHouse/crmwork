@@ -195,4 +195,3 @@ $dictionary["AOS_Products"]["fields"]["product_currency"] = array (
     'size' => '20',
     'enable_range_search' => false,
 );
-//Comment

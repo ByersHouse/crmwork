@@ -81,6 +81,20 @@ array (
             'label' => 'LBL_DATE_FINISH',
           ),
         ),
+        4 => 
+        array (
+          0 => 
+          array (
+            'name' => 'comment',
+            'label' => 'LBL_LOG_COMMENT',
+          ),
+          1 => 
+          array (
+            'name' => 'case_status',
+            'studio' => 'visible',
+            'label' => 'LBL_CASE_STATUS',
+          ),
+        ),
       ),
     ),
   ),

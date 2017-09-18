@@ -28,7 +28,7 @@ $dictionary['AOS_Products']['fields']['essence'] = array (
     'required' => false,
     'name' => 'product_essence',
     'vname' => 'LBL_PRODUCT_ESSENCE',
-    'type' => 'longtext',
+    'type' => 'text',
     'massupdate' => 0,
     'no_default' => false,
     'comments' => '',
@@ -49,7 +49,7 @@ $dictionary['AOS_Products']['fields']['registration_use'] = array (
     'required' => false,
     'name' => 'registration_use',
     'vname' => 'LBL_PRODUCT_REGISTRATION_USE',
-    'type' => 'longtext',
+    'type' => 'text',
     'massupdate' => 0,
     'no_default' => false,
     'comments' => '',
@@ -198,4 +198,5 @@ $dictionary["AOS_Products"]["fields"]["product_currency"] = array (
     'size' => '20',
     'enable_range_search' => false,
 );
+
 ?>
