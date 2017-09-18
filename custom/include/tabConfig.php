@@ -1,5 +1,5 @@
 <?php
-// created: 2017-09-15 09:44:35
+// created: 2017-09-18 13:29:17
 $GLOBALS['tabStructure'] = array (
   'LBL_TABGROUP_SALES' => 
   array (
@@ -25,6 +25,8 @@ $GLOBALS['tabStructure'] = array (
       4 => 'Campaigns',
       5 => 'Prospects',
       6 => 'ProspectLists',
+      7 => 'bh_marketing_company_history',
+      8 => 'bh_marketing_company',
     ),
   ),
   'LBL_TABGROUP_SUPPORT' => 
@@ -83,13 +85,6 @@ $GLOBALS['tabStructure'] = array (
     array (
       0 => 'bh_formed_packets',
       1 => 'bh_packet_activation',
-    ),
-  ),
-  'LBL_GROUPTAB7_1505457875' => 
-  array (
-    'label' => 'LBL_GROUPTAB7_1505457875',
-    'modules' => 
-    array (
     ),
   ),
 );
