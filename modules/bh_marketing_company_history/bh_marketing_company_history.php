@@ -63,7 +63,11 @@ class bh_marketing_company_history extends Basic
     public $assigned_user_name;
     public $assigned_user_link;
     public $SecurityGroups;
-	
+    public $start_company;
+    public $date_change;
+    public $company_status;
+    public $company_end;
+
     public function bean_implements($interface)
     {
         switch($interface)
@@ -75,4 +79,4 @@ class bh_marketing_company_history extends Basic
         return false;
     }
 	
-}
+}

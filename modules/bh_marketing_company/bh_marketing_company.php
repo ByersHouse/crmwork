@@ -63,7 +63,20 @@ class bh_marketing_company extends Basic
     public $assigned_user_name;
     public $assigned_user_link;
     public $SecurityGroups;
-	
+    public $start;
+    public $end;
+    public $company_status;
+    public $company_type;
+    public $marketing_offer;
+    public $impact_type;
+
+
+
+
+
+
+
+
     public function bean_implements($interface)
     {
         switch($interface)
@@ -75,4 +88,4 @@ class bh_marketing_company extends Basic
         return false;
     }
 	
-}
+}
