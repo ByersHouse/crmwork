@@ -1,9 +1,10 @@
 <?php
-// created: 2017-09-04 09:34:13
+// created: 2017-09-18 15:55:03
 $sugar_config = array (
   'addAjaxBannedModules' => 
   array (
     0 => 'SecurityGroups',
+    1 => 'Home',
   ),
   'admin_access_control' => false,
   'admin_export_only' => false,
@@ -90,7 +91,7 @@ $sugar_config = array (
   'datef' => 'm/d/Y',
   'dbconfig' => 
   array (
-    'db_host_name' => 'stwork.int',
+    'db_host_name' => 'crm',
     'db_host_instance' => 'SQLEXPRESS',
     'db_user_name' => 'root',
     'db_password' => '',
@@ -264,7 +265,7 @@ $sugar_config = array (
     'timeout' => 86400,
   ),
   'js_custom_version' => 1,
-  'js_lang_version' => 3,
+  'js_lang_version' => 5,
   'languages' => 
   array (
     'en_us' => 'English (US)',
@@ -439,4 +440,25 @@ $sugar_config = array (
   'SAML_loginurl' => '',
   'SAML_X509Cert' => '',
   'authenticationClass' => '',
-); 
+  'http_referer' => 
+  array (
+    'list' => 
+    array (
+      0 => 'st79.int',
+      1 => 'st79.int',
+    ),
+    'actions' => 
+    array (
+      0 => 'index',
+      1 => 'ListView',
+      2 => 'DetailView',
+      3 => 'EditView',
+      4 => 'oauth',
+      5 => 'authorize',
+      6 => 'Authenticate',
+      7 => 'Login',
+      8 => 'SupportPortal',
+      9 => 'Upgrade',
+    ),
+  ),
+);
