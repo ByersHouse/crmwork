@@ -48,7 +48,6 @@ array (
         0 => 
         array (
           0 => 'name',
-          1 => '',
         ),
         1 => 
         array (
@@ -91,7 +90,13 @@ array (
             'name' => 'realty_date_purchase',
             'label' => 'LBL_DATE_PURCHASE',
           ),
-          1 => '',
+        ),
+        5 => 
+        array (
+          0 => 
+          array (
+            'name' => 'leads_bh_realty_1_name',
+          ),
         ),
       ),
     ),

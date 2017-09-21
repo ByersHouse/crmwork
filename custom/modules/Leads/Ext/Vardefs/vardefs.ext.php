@@ -36,6 +36,40 @@ $dictionary["Lead"]["fields"]["bh_card_ident_leadsbh_card_ident_ida"] = array (
 );
 
 
+// created: 2017-09-20 10:15:45
+$dictionary["Lead"]["fields"]["bh_marketing_directorate_leads_1"] = array (
+  'name' => 'bh_marketing_directorate_leads_1',
+  'type' => 'link',
+  'relationship' => 'bh_marketing_directorate_leads_1',
+  'source' => 'non-db',
+  'module' => 'bh_marketing_directorate',
+  'bean_name' => 'bh_marketing_directorate',
+  'vname' => 'LBL_BH_MARKETING_DIRECTORATE_LEADS_1_FROM_BH_MARKETING_DIRECTORATE_TITLE',
+  'id_name' => 'bh_marketing_directorate_leads_1bh_marketing_directorate_ida',
+);
+$dictionary["Lead"]["fields"]["bh_marketing_directorate_leads_1_name"] = array (
+  'name' => 'bh_marketing_directorate_leads_1_name',
+  'type' => 'relate',
+  'source' => 'non-db',
+  'vname' => 'LBL_BH_MARKETING_DIRECTORATE_LEADS_1_FROM_BH_MARKETING_DIRECTORATE_TITLE',
+  'save' => true,
+  'id_name' => 'bh_marketing_directorate_leads_1bh_marketing_directorate_ida',
+  'link' => 'bh_marketing_directorate_leads_1',
+  'table' => 'bh_marketing_directorate',
+  'module' => 'bh_marketing_directorate',
+  'rname' => 'name',
+);
+$dictionary["Lead"]["fields"]["bh_marketing_directorate_leads_1bh_marketing_directorate_ida"] = array (
+  'name' => 'bh_marketing_directorate_leads_1bh_marketing_directorate_ida',
+  'type' => 'link',
+  'relationship' => 'bh_marketing_directorate_leads_1',
+  'source' => 'non-db',
+  'reportable' => false,
+  'side' => 'left',
+  'vname' => 'LBL_BH_MARKETING_DIRECTORATE_LEADS_1_FROM_BH_MARKETING_DIRECTORATE_TITLE',
+);
+
+
 
 $dictionary['Lead']['fields']['lead_status'] = array (
       'required' => false,
@@ -2922,6 +2956,58 @@ $dictionary['Lead']['fields']['child_count'] = array (
     
 );
 
+// created: 2017-09-20 10:40:57
+$dictionary["Lead"]["fields"]["leads_aos_contracts_1"] = array (
+  'name' => 'leads_aos_contracts_1',
+  'type' => 'link',
+  'relationship' => 'leads_aos_contracts_1',
+  'source' => 'non-db',
+  'module' => 'AOS_Contracts',
+  'bean_name' => 'AOS_Contracts',
+  'side' => 'right',
+  'vname' => 'LBL_LEADS_AOS_CONTRACTS_1_FROM_AOS_CONTRACTS_TITLE',
+);
+
+
+// created: 2017-09-20 09:55:31
+$dictionary["Lead"]["fields"]["leads_bh_autotransport_1"] = array (
+  'name' => 'leads_bh_autotransport_1',
+  'type' => 'link',
+  'relationship' => 'leads_bh_autotransport_1',
+  'source' => 'non-db',
+  'module' => 'bh_Autotransport',
+  'bean_name' => 'bh_Autotransport',
+  'side' => 'right',
+  'vname' => 'LBL_LEADS_BH_AUTOTRANSPORT_1_FROM_BH_AUTOTRANSPORT_TITLE',
+);
+
+
+// created: 2017-09-20 14:47:10
+$dictionary["Lead"]["fields"]["leads_bh_lead_adress_1"] = array (
+  'name' => 'leads_bh_lead_adress_1',
+  'type' => 'link',
+  'relationship' => 'leads_bh_lead_adress_1',
+  'source' => 'non-db',
+  'module' => 'bh_lead_adress',
+  'bean_name' => 'bh_lead_adress',
+  'side' => 'right',
+  'vname' => 'LBL_LEADS_BH_LEAD_ADRESS_1_FROM_BH_LEAD_ADRESS_TITLE',
+);
+
+
+// created: 2017-09-20 14:15:33
+$dictionary["Lead"]["fields"]["leads_bh_org_1"] = array (
+  'name' => 'leads_bh_org_1',
+  'type' => 'link',
+  'relationship' => 'leads_bh_org_1',
+  'source' => 'non-db',
+  'module' => 'bh_org',
+  'bean_name' => 'bh_org',
+  'side' => 'right',
+  'vname' => 'LBL_LEADS_BH_ORG_1_FROM_BH_ORG_TITLE',
+);
+
+
 // created: 2017-09-15 14:36:18
 $dictionary["Lead"]["fields"]["leads_bh_packet_activation_1"] = array (
   'name' => 'leads_bh_packet_activation_1',
@@ -2932,6 +3018,19 @@ $dictionary["Lead"]["fields"]["leads_bh_packet_activation_1"] = array (
   'bean_name' => 'bh_packet_activation',
   'side' => 'right',
   'vname' => 'LBL_LEADS_BH_PACKET_ACTIVATION_1_FROM_BH_PACKET_ACTIVATION_TITLE',
+);
+
+
+// created: 2017-09-20 10:13:23
+$dictionary["Lead"]["fields"]["leads_bh_realty_1"] = array (
+  'name' => 'leads_bh_realty_1',
+  'type' => 'link',
+  'relationship' => 'leads_bh_realty_1',
+  'source' => 'non-db',
+  'module' => 'bh_Realty',
+  'bean_name' => 'bh_Realty',
+  'side' => 'right',
+  'vname' => 'LBL_LEADS_BH_REALTY_1_FROM_BH_REALTY_TITLE',
 );
 
 

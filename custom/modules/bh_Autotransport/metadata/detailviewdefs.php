@@ -68,6 +68,13 @@ array (
           ),
           1 => 'assigned_user_name',
         ),
+        3 => 
+        array (
+          0 => 
+          array (
+            'name' => 'leads_bh_autotransport_1_name',
+          ),
+        ),
       ),
       'lbl_editview_panel1' => 
       array (
@@ -134,7 +141,6 @@ array (
             'name' => 'autotransport_another_model',
             'label' => 'LBL_ANOTHER_MODEL_MARK',
           ),
-          1 => '',
         ),
       ),
     ),

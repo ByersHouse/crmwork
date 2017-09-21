@@ -48,6 +48,13 @@ $moduleList[] = 'bh_faq_history';
 
  
  //WARNING: The contents of this file are auto-generated
+$beanList['bh_lead_adress'] = 'bh_lead_adress';
+$beanFiles['bh_lead_adress'] = 'modules/bh_lead_adress/bh_lead_adress.php';
+$moduleList[] = 'bh_lead_adress';
+
+
+ 
+ //WARNING: The contents of this file are auto-generated
 $beanList['bh_marketing_company'] = 'bh_marketing_company';
 $beanFiles['bh_marketing_company'] = 'modules/bh_marketing_company/bh_marketing_company.php';
 $moduleList[] = 'bh_marketing_company';
@@ -58,6 +65,20 @@ $moduleList[] = 'bh_marketing_company';
 $beanList['bh_marketing_company_history'] = 'bh_marketing_company_history';
 $beanFiles['bh_marketing_company_history'] = 'modules/bh_marketing_company_history/bh_marketing_company_history.php';
 $moduleList[] = 'bh_marketing_company_history';
+
+
+ 
+ //WARNING: The contents of this file are auto-generated
+$beanList['bh_marketing_directorate'] = 'bh_marketing_directorate';
+$beanFiles['bh_marketing_directorate'] = 'modules/bh_marketing_directorate/bh_marketing_directorate.php';
+$moduleList[] = 'bh_marketing_directorate';
+
+
+ 
+ //WARNING: The contents of this file are auto-generated
+$beanList['bh_marketing_response'] = 'bh_marketing_response';
+$beanFiles['bh_marketing_response'] = 'modules/bh_marketing_response/bh_marketing_response.php';
+$moduleList[] = 'bh_marketing_response';
 
 
  

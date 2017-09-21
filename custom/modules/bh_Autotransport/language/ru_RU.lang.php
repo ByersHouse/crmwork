@@ -1,5 +1,5 @@
 <?php
-// created: 2017-09-13 16:15:40
+// created: 2017-09-20 11:56:40
 $mod_strings = array (
   'LBL_TYPE_AUTOTRANSPORT' => 'Вид транспорта',
   'LBL_FUEL_TYPE' => 'Вид используемого топлива',
@@ -12,4 +12,5 @@ $mod_strings = array (
   'LBL_AUTOTRANSPORT_MODEL' => 'Модель ',
   'LBL_MODEL_MARK' => 'Марка',
   'LBL_ANOTHER_MODEL_MARK' => 'Другая модель/марка',
+  'LBL_QUICKCREATE_PANEL1' => 'Новая панель 1',
 );

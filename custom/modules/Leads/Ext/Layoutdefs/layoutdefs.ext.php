@@ -2,6 +2,102 @@
  //WARNING: The contents of this file are auto-generated
 
 
+ // created: 2017-09-20 10:40:57
+$layout_defs["Leads"]["subpanel_setup"]['leads_aos_contracts_1'] = array (
+  'order' => 100,
+  'module' => 'AOS_Contracts',
+  'subpanel_name' => 'default',
+  'sort_order' => 'asc',
+  'sort_by' => 'id',
+  'title_key' => 'LBL_LEADS_AOS_CONTRACTS_1_FROM_AOS_CONTRACTS_TITLE',
+  'get_subpanel_data' => 'leads_aos_contracts_1',
+  'top_buttons' => 
+  array (
+    0 => 
+    array (
+      'widget_class' => 'SubPanelTopButtonQuickCreate',
+    ),
+    1 => 
+    array (
+      'widget_class' => 'SubPanelTopSelectButton',
+      'mode' => 'MultiSelect',
+    ),
+  ),
+);
+
+
+ // created: 2017-09-20 09:55:31
+$layout_defs["Leads"]["subpanel_setup"]['leads_bh_autotransport_1'] = array (
+  'order' => 100,
+  'module' => 'bh_Autotransport',
+  'subpanel_name' => 'default',
+  'sort_order' => 'asc',
+  'sort_by' => 'id',
+  'title_key' => 'LBL_LEADS_BH_AUTOTRANSPORT_1_FROM_BH_AUTOTRANSPORT_TITLE',
+  'get_subpanel_data' => 'leads_bh_autotransport_1',
+  'top_buttons' => 
+  array (
+    0 => 
+    array (
+      'widget_class' => 'SubPanelTopButtonQuickCreate',
+    ),
+    1 => 
+    array (
+      'widget_class' => 'SubPanelTopSelectButton',
+      'mode' => 'MultiSelect',
+    ),
+  ),
+);
+
+
+ // created: 2017-09-20 14:47:10
+$layout_defs["Leads"]["subpanel_setup"]['leads_bh_lead_adress_1'] = array (
+  'order' => 100,
+  'module' => 'bh_lead_adress',
+  'subpanel_name' => 'default',
+  'sort_order' => 'asc',
+  'sort_by' => 'id',
+  'title_key' => 'LBL_LEADS_BH_LEAD_ADRESS_1_FROM_BH_LEAD_ADRESS_TITLE',
+  'get_subpanel_data' => 'leads_bh_lead_adress_1',
+  'top_buttons' => 
+  array (
+    0 => 
+    array (
+      'widget_class' => 'SubPanelTopButtonQuickCreate',
+    ),
+    1 => 
+    array (
+      'widget_class' => 'SubPanelTopSelectButton',
+      'mode' => 'MultiSelect',
+    ),
+  ),
+);
+
+
+ // created: 2017-09-20 14:15:33
+$layout_defs["Leads"]["subpanel_setup"]['leads_bh_org_1'] = array (
+  'order' => 100,
+  'module' => 'bh_org',
+  'subpanel_name' => 'default',
+  'sort_order' => 'asc',
+  'sort_by' => 'id',
+  'title_key' => 'LBL_LEADS_BH_ORG_1_FROM_BH_ORG_TITLE',
+  'get_subpanel_data' => 'leads_bh_org_1',
+  'top_buttons' => 
+  array (
+    0 => 
+    array (
+      'widget_class' => 'SubPanelTopButtonQuickCreate',
+    ),
+    1 => 
+    array (
+      'widget_class' => 'SubPanelTopSelectButton',
+      'mode' => 'MultiSelect',
+    ),
+  ),
+);
+
+
  // created: 2017-09-15 14:36:15
 $layout_defs["Leads"]["subpanel_setup"]['leads_bh_packet_activation_1'] = array (
   'order' => 100,
@@ -11,6 +107,30 @@ $layout_defs["Leads"]["subpanel_setup"]['leads_bh_packet_activation_1'] = array 
   'sort_by' => 'id',
   'title_key' => 'LBL_LEADS_BH_PACKET_ACTIVATION_1_FROM_BH_PACKET_ACTIVATION_TITLE',
   'get_subpanel_data' => 'leads_bh_packet_activation_1',
+  'top_buttons' => 
+  array (
+    0 => 
+    array (
+      'widget_class' => 'SubPanelTopButtonQuickCreate',
+    ),
+    1 => 
+    array (
+      'widget_class' => 'SubPanelTopSelectButton',
+      'mode' => 'MultiSelect',
+    ),
+  ),
+);
+
+
+ // created: 2017-09-20 10:13:23
+$layout_defs["Leads"]["subpanel_setup"]['leads_bh_realty_1'] = array (
+  'order' => 100,
+  'module' => 'bh_Realty',
+  'subpanel_name' => 'default',
+  'sort_order' => 'asc',
+  'sort_by' => 'id',
+  'title_key' => 'LBL_LEADS_BH_REALTY_1_FROM_BH_REALTY_TITLE',
+  'get_subpanel_data' => 'leads_bh_realty_1',
   'top_buttons' => 
   array (
     0 => 
@@ -72,5 +192,17 @@ $layout_defs["Leads"]["subpanel_setup"]['leads_documents_1'] = array (
     ),
   ),
 );
+
+
+//auto-generated file DO NOT EDIT
+$layout_defs['Leads']['subpanel_setup']['leads_bh_autotransport_1']['override_subpanel_name'] = 'Lead_subpanel_leads_bh_autotransport_1';
+
+
+//auto-generated file DO NOT EDIT
+$layout_defs['Leads']['subpanel_setup']['leads_bh_lead_adress_1']['override_subpanel_name'] = 'Lead_subpanel_leads_bh_lead_adress_1';
+
+
+//auto-generated file DO NOT EDIT
+$layout_defs['Leads']['subpanel_setup']['leads_bh_org_1']['override_subpanel_name'] = 'Lead_subpanel_leads_bh_org_1';
 
 ?>
