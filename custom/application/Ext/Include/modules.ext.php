@@ -38,6 +38,26 @@ $moduleList[] = 'bh_case_status';
 
  
  //WARNING: The contents of this file are auto-generated
+$beanList['bh_category_at_work'] = 'bh_category_at_work';
+$beanFiles['bh_category_at_work'] = 'modules/bh_category_at_work/bh_category_at_work.php';
+$moduleList[] = 'bh_category_at_work';
+
+
+ 
+ //WARNING: The contents of this file are auto-generated
+$beanList['bh_country'] = 'bh_country';
+$beanFiles['bh_country'] = 'modules/bh_country/bh_country.php';
+$moduleList[] = 'bh_country';
+$beanList['bh_region'] = 'bh_region';
+$beanFiles['bh_region'] = 'modules/bh_region/bh_region.php';
+$moduleList[] = 'bh_region';
+$beanList['bh_region_area'] = 'bh_region_area';
+$beanFiles['bh_region_area'] = 'modules/bh_region_area/bh_region_area.php';
+$moduleList[] = 'bh_region_area';
+
+
+ 
+ //WARNING: The contents of this file are auto-generated
 $beanList['bh_faq'] = 'bh_faq';
 $beanFiles['bh_faq'] = 'modules/bh_faq/bh_faq.php';
 $moduleList[] = 'bh_faq';
@@ -51,6 +71,13 @@ $moduleList[] = 'bh_faq_history';
 $beanList['bh_lead_adress'] = 'bh_lead_adress';
 $beanFiles['bh_lead_adress'] = 'modules/bh_lead_adress/bh_lead_adress.php';
 $moduleList[] = 'bh_lead_adress';
+
+
+ 
+ //WARNING: The contents of this file are auto-generated
+$beanList['bh_locality'] = 'bh_locality';
+$beanFiles['bh_locality'] = 'modules/bh_locality/bh_locality.php';
+$moduleList[] = 'bh_locality';
 
 
  
@@ -93,6 +120,27 @@ $moduleList[] = 'bh_org_trade_points';
 $beanList['bh_org'] = 'bh_org';
 $beanFiles['bh_org'] = 'modules/bh_org/bh_org.php';
 $moduleList[] = 'bh_org';
+
+
+ 
+ //WARNING: The contents of this file are auto-generated
+$beanList['bh_passports'] = 'bh_passports';
+$beanFiles['bh_passports'] = 'modules/bh_passports/bh_passports.php';
+$moduleList[] = 'bh_passports';
+
+
+ 
+ //WARNING: The contents of this file are auto-generated
+$beanList['bh_place_of_work'] = 'bh_place_of_work';
+$beanFiles['bh_place_of_work'] = 'modules/bh_place_of_work/bh_place_of_work.php';
+$moduleList[] = 'bh_place_of_work';
+
+
+ 
+ //WARNING: The contents of this file are auto-generated
+$beanList['bh_position_at_work'] = 'bh_position_at_work';
+$beanFiles['bh_position_at_work'] = 'modules/bh_position_at_work/bh_position_at_work.php';
+$moduleList[] = 'bh_position_at_work';
 
 
  

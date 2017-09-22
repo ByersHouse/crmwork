@@ -84,6 +84,34 @@ array (
           array (
             'name' => 'leads_bh_lead_adress_1_name',
           ),
+          1 => 
+          array (
+            'name' => 'adress_type',
+            'studio' => 'visible',
+            'label' => 'LBL_ADRESS_TYPE',
+          ),
+        ),
+        5 => 
+        array (
+          0 => 
+          array (
+            'name' => 'bh_lead_adress_bh_country_1_name',
+          ),
+          1 => 
+          array (
+            'name' => 'bh_lead_adress_bh_region_1_name',
+          ),
+        ),
+        6 => 
+        array (
+          0 => 
+          array (
+            'name' => 'bh_lead_adress_bh_region_area_1_name',
+          ),
+          1 => 
+          array (
+            'name' => 'bh_lead_adress_bh_locality_1_name',
+          ),
         ),
       ),
     ),

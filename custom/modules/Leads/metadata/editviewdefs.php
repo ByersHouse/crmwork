@@ -58,11 +58,6 @@ array (
           'newTab' => true,
           'panelDefault' => 'expanded',
         ),
-        'LBL_EDITVIEW_PANEL7' => 
-        array (
-          'newTab' => true,
-          'panelDefault' => 'expanded',
-        ),
         'LBL_EDITVIEW_PANEL6' => 
         array (
           'newTab' => true,
@@ -74,11 +69,6 @@ array (
           'panelDefault' => 'expanded',
         ),
         'LBL_EDITVIEW_PANEL4' => 
-        array (
-          'newTab' => true,
-          'panelDefault' => 'expanded',
-        ),
-        'LBL_EDITVIEW_PANEL3' => 
         array (
           'newTab' => true,
           'panelDefault' => 'expanded',
@@ -241,6 +231,18 @@ array (
           0 => 
           array (
             'name' => 'bh_marketing_directorate_leads_1_name',
+          ),
+          1 => 
+          array (
+            'name' => 'correspondence_method',
+            'label' => 'LBL_CORRESPONDENCE_METHOD',
+          ),
+        ),
+        14 => 
+        array (
+          0 => 
+          array (
+            'name' => 'leads_leads_2_name',
           ),
         ),
       ),
@@ -625,263 +627,6 @@ array (
           ),
         ),
       ),
-      'lbl_editview_panel7' => 
-      array (
-        0 => 
-        array (
-          0 => 
-          array (
-            'name' => 'transport_owner1',
-            'studio' => 'visible',
-            'label' => 'LBL_TRANSOWNER1',
-          ),
-          1 => 
-          array (
-            'name' => 'transport_owner2',
-            'studio' => 'visible',
-            'label' => 'LBL_TRANSOWNER2',
-          ),
-        ),
-        1 => 
-        array (
-          0 => 
-          array (
-            'name' => 'how_buytransport1',
-            'studio' => 'visible',
-            'label' => 'LBL_HOWBUYTRANS1',
-          ),
-          1 => 
-          array (
-            'name' => 'how_buytransport2',
-            'studio' => 'visible',
-            'label' => 'LBL_HOWBUYTRANS2',
-          ),
-        ),
-        2 => 
-        array (
-          0 => 
-          array (
-            'name' => 'yearissuetrans1',
-            'label' => 'LBL_YEARISSUETR1',
-          ),
-          1 => 
-          array (
-            'name' => 'yearissuetrans2',
-            'label' => 'LBL_YEARISSUETR2',
-          ),
-        ),
-        3 => 
-        array (
-          0 => 
-          array (
-            'name' => 'trans1_manufacturer',
-            'studio' => 'visible',
-            'label' => 'LBL_TRANS1MANUFACT',
-          ),
-          1 => 
-          array (
-            'name' => 'trans2_manufacturer',
-            'studio' => 'visible',
-            'label' => 'LBL_TRANS2MANUFACT',
-          ),
-        ),
-        4 => 
-        array (
-          0 => 
-          array (
-            'name' => 'model_trans1',
-            'label' => 'LBL_MODEL_TRANS1',
-          ),
-          1 => 
-          array (
-            'name' => 'model_trans2',
-            'label' => 'LBL_MODEL_TRANS2',
-          ),
-        ),
-        5 => 
-        array (
-          0 => 
-          array (
-            'name' => 'volume_trans1',
-            'label' => 'LBL_VOLUME_TRANS1',
-          ),
-          1 => 
-          array (
-            'name' => 'volume_trans2',
-            'label' => 'LBL_VOLUME_TRANS2',
-          ),
-        ),
-        6 => 
-        array (
-          0 => 
-          array (
-            'name' => 'fuel_type_trans1',
-            'studio' => 'visible',
-            'label' => 'LBL_FUELTYPETRANS1',
-          ),
-          1 => 
-          array (
-            'name' => 'fuel_type_trans2',
-            'studio' => 'visible',
-            'label' => 'LBL_FUELTYPETRANS2',
-          ),
-        ),
-        7 => 
-        array (
-          0 => 
-          array (
-            'name' => 'type_owner_trans1',
-            'studio' => 'visible',
-            'label' => 'LBL_TYPEOWNERTRANS1',
-          ),
-          1 => 
-          array (
-            'name' => 'type_owner_trans2',
-            'studio' => 'visible',
-            'label' => 'LBL_TYPEOWNERTRANS2',
-          ),
-        ),
-        8 => 
-        array (
-          0 => 
-          array (
-            'name' => 'zalog_trans1',
-            'label' => 'LBL_ZALOGTRANS1',
-          ),
-          1 => 
-          array (
-            'name' => 'zalog_trans2',
-            'label' => 'LBL_ZALOGTRANS2',
-          ),
-        ),
-        9 => 
-        array (
-          0 => 
-          array (
-            'name' => 'transport_owner3',
-            'studio' => 'visible',
-            'label' => 'LBL_TRANSOWNER3',
-          ),
-          1 => 
-          array (
-            'name' => 'transport_owner4',
-            'studio' => 'visible',
-            'label' => 'LBL_TRANSOWNER4',
-          ),
-        ),
-        10 => 
-        array (
-          0 => 
-          array (
-            'name' => 'how_buytransport3',
-            'studio' => 'visible',
-            'label' => 'LBL_HOWBUYTRANS3',
-          ),
-          1 => 
-          array (
-            'name' => 'how_buytransport4',
-            'studio' => 'visible',
-            'label' => 'LBL_HOWBUYTRANS4',
-          ),
-        ),
-        11 => 
-        array (
-          0 => 
-          array (
-            'name' => 'yearissuetrans3',
-            'label' => 'LBL_YEARISSUETR3',
-          ),
-          1 => 
-          array (
-            'name' => 'yearissuetrans4',
-            'label' => 'LBL_YEARISSUETR4',
-          ),
-        ),
-        12 => 
-        array (
-          0 => 
-          array (
-            'name' => 'trans3_manufacturer',
-            'studio' => 'visible',
-            'label' => 'LBL_TRANS3MANUFACT',
-          ),
-          1 => 
-          array (
-            'name' => 'trans4_manufacturer',
-            'studio' => 'visible',
-            'label' => 'LBL_TRANS4MANUFACT',
-          ),
-        ),
-        13 => 
-        array (
-          0 => 
-          array (
-            'name' => 'model_trans3',
-            'label' => 'LBL_MODEL_TRANS3',
-          ),
-          1 => 
-          array (
-            'name' => 'model_trans4',
-            'label' => 'LBL_MODEL_TRANS4',
-          ),
-        ),
-        14 => 
-        array (
-          0 => 
-          array (
-            'name' => 'volume_trans3',
-            'label' => 'LBL_VOLUME_TRANS3',
-          ),
-          1 => 
-          array (
-            'name' => 'volume_trans4',
-            'label' => 'LBL_VOLUME_TRANS4',
-          ),
-        ),
-        15 => 
-        array (
-          0 => 
-          array (
-            'name' => 'fuel_type_trans3',
-            'studio' => 'visible',
-            'label' => 'LBL_FUELTYPETRANS3',
-          ),
-          1 => 
-          array (
-            'name' => 'fuel_type_trans4',
-            'studio' => 'visible',
-            'label' => 'LBL_FUELTYPETRANS4',
-          ),
-        ),
-        16 => 
-        array (
-          0 => 
-          array (
-            'name' => 'type_owner_trans3',
-            'studio' => 'visible',
-            'label' => 'LBL_TYPEOWNERTRANS3',
-          ),
-          1 => 
-          array (
-            'name' => 'type_owner_trans4',
-            'studio' => 'visible',
-            'label' => 'LBL_TYPEOWNERTRANS4',
-          ),
-        ),
-        17 => 
-        array (
-          0 => 
-          array (
-            'name' => 'zalog_trans3',
-            'label' => 'LBL_ZALOGTRANS3',
-          ),
-          1 => 
-          array (
-            'name' => 'zalog_trans4',
-            'label' => 'LBL_ZALOGTRANS4',
-          ),
-        ),
-      ),
       'lbl_editview_panel6' => 
       array (
         0 => 
@@ -954,98 +699,6 @@ array (
           array (
             'name' => 'judded_by_article',
             'label' => 'LBL_JUDDED_BY',
-          ),
-        ),
-      ),
-      'lbl_editview_panel3' => 
-      array (
-        0 => 
-        array (
-          0 => 
-          array (
-            'name' => 'ukrpasport_nom',
-            'label' => 'LBL_UKRPASPORT_NOM',
-          ),
-          1 => 
-          array (
-            'name' => 'zagrpasport_nom',
-            'label' => 'LBL_ZAGPASPORT_NOM',
-          ),
-        ),
-        1 => 
-        array (
-          0 => 
-          array (
-            'name' => 'ukrpas_datavidachy',
-            'label' => 'LBL_UKRPASP_DATAVIDACHY',
-          ),
-          1 => 
-          array (
-            'name' => 'zagrpas_datavidachy',
-            'label' => 'LBL_ZAGRPASP_DATAVIDACHY',
-          ),
-        ),
-        2 => 
-        array (
-          0 => 
-          array (
-            'name' => 'zagrpas_date_end',
-            'label' => 'LBL_ZAGRPASP_DATEND',
-          ),
-        ),
-        3 => 
-        array (
-          0 => 
-          array (
-            'name' => 'ukrpas_kemvidan',
-            'label' => 'LBL_UKRPASP_KEMVIDAN',
-          ),
-          1 => 
-          array (
-            'name' => 'zagrpas_kemvidan',
-            'label' => 'LBL_ZAGRPASP_KEMVIDAN',
-          ),
-        ),
-        4 => 
-        array (
-          0 => 
-          array (
-            'name' => 'pasport_nom_nerezident',
-            'label' => 'LBL_PASPORTNOM_NER',
-          ),
-          1 => 
-          array (
-            'name' => 'nerezpas_date_vidachi',
-            'label' => 'LBL_NEREZPASP_DATEVIDACHI',
-          ),
-        ),
-        5 => 
-        array (
-          0 => 
-          array (
-            'name' => 'nerezpas_date_end',
-            'label' => 'LBL_NEREZPASP_DATEEND',
-          ),
-        ),
-        6 => 
-        array (
-          0 => 
-          array (
-            'name' => 'vidnazhit_nom',
-            'label' => 'LBL_VIDNAZHIT',
-          ),
-          1 => 
-          array (
-            'name' => 'vidnazhit_date_vidachi',
-            'label' => 'LBL_VIDNAZHIT_DATEVIDACHI',
-          ),
-        ),
-        7 => 
-        array (
-          0 => 
-          array (
-            'name' => 'vidnazhit_date_end',
-            'label' => 'LBL_VIDNAZHIT_DATEEND',
           ),
         ),
       ),

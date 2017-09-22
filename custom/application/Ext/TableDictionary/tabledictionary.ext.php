@@ -13,7 +13,37 @@ include('custom/metadata/bh_card_ident_leadsMetaData.php');
 
  
  //WARNING: The contents of this file are auto-generated
+include('custom/metadata/bh_category_at_work_bh_place_of_work_1MetaData.php');
+
+
+ 
+ //WARNING: The contents of this file are auto-generated
+include('custom/metadata/bh_country_bh_region_1MetaData.php');
+
+
+ 
+ //WARNING: The contents of this file are auto-generated
 include('custom/metadata/bh_faq_history_bh_faqMetaData.php');
+
+
+ 
+ //WARNING: The contents of this file are auto-generated
+include('custom/metadata/bh_lead_adress_bh_country_1MetaData.php');
+
+
+ 
+ //WARNING: The contents of this file are auto-generated
+include('custom/metadata/bh_lead_adress_bh_locality_1MetaData.php');
+
+
+ 
+ //WARNING: The contents of this file are auto-generated
+include('custom/metadata/bh_lead_adress_bh_region_1MetaData.php');
+
+
+ 
+ //WARNING: The contents of this file are auto-generated
+include('custom/metadata/bh_lead_adress_bh_region_area_1MetaData.php');
 
 
  
@@ -33,6 +63,21 @@ include('custom/metadata/bh_marketing_directorate_leads_1MetaData.php');
 
  
  //WARNING: The contents of this file are auto-generated
+include('custom/metadata/bh_org_bh_place_of_work_1MetaData.php');
+
+
+ 
+ //WARNING: The contents of this file are auto-generated
+include('custom/metadata/bh_passports_bh_country_1MetaData.php');
+
+
+ 
+ //WARNING: The contents of this file are auto-generated
+include('custom/metadata/bh_position_at_work_bh_place_of_work_1MetaData.php');
+
+
+ 
+ //WARNING: The contents of this file are auto-generated
 include('custom/metadata/bh_providers_aos_contracts_1MetaData.php');
 
 
@@ -44,6 +89,16 @@ include('custom/metadata/bh_providers_aos_contracts_2MetaData.php');
  
  //WARNING: The contents of this file are auto-generated
 include('custom/metadata/bh_providers_bh_org_trade_points_1MetaData.php');
+
+
+ 
+ //WARNING: The contents of this file are auto-generated
+include('custom/metadata/bh_region_area_bh_locality_1MetaData.php');
+
+
+ 
+ //WARNING: The contents of this file are auto-generated
+include('custom/metadata/bh_region_bh_region_area_1MetaData.php');
 
 
  
@@ -93,12 +148,17 @@ include('custom/metadata/leads_bh_lead_adress_1MetaData.php');
 
  
  //WARNING: The contents of this file are auto-generated
-include('custom/metadata/leads_bh_org_1MetaData.php');
+include('custom/metadata/leads_bh_packet_activation_1MetaData.php');
 
 
  
  //WARNING: The contents of this file are auto-generated
-include('custom/metadata/leads_bh_packet_activation_1MetaData.php');
+include('custom/metadata/leads_bh_passports_1MetaData.php');
+
+
+ 
+ //WARNING: The contents of this file are auto-generated
+include('custom/metadata/leads_bh_place_of_work_1MetaData.php');
 
 
  
@@ -114,6 +174,11 @@ include('custom/metadata/leads_cases_1MetaData.php');
  
  //WARNING: The contents of this file are auto-generated
 include('custom/metadata/leads_documents_1MetaData.php');
+
+
+ 
+ //WARNING: The contents of this file are auto-generated
+include('custom/metadata/leads_leads_2MetaData.php');
 
 
 ?>

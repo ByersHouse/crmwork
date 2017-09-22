@@ -74,15 +74,15 @@ $layout_defs["Leads"]["subpanel_setup"]['leads_bh_lead_adress_1'] = array (
 );
 
 
- // created: 2017-09-20 14:15:33
-$layout_defs["Leads"]["subpanel_setup"]['leads_bh_org_1'] = array (
+ // created: 2017-09-15 14:36:15
+$layout_defs["Leads"]["subpanel_setup"]['leads_bh_packet_activation_1'] = array (
   'order' => 100,
-  'module' => 'bh_org',
+  'module' => 'bh_packet_activation',
   'subpanel_name' => 'default',
   'sort_order' => 'asc',
   'sort_by' => 'id',
-  'title_key' => 'LBL_LEADS_BH_ORG_1_FROM_BH_ORG_TITLE',
-  'get_subpanel_data' => 'leads_bh_org_1',
+  'title_key' => 'LBL_LEADS_BH_PACKET_ACTIVATION_1_FROM_BH_PACKET_ACTIVATION_TITLE',
+  'get_subpanel_data' => 'leads_bh_packet_activation_1',
   'top_buttons' => 
   array (
     0 => 
@@ -98,15 +98,39 @@ $layout_defs["Leads"]["subpanel_setup"]['leads_bh_org_1'] = array (
 );
 
 
- // created: 2017-09-15 14:36:15
-$layout_defs["Leads"]["subpanel_setup"]['leads_bh_packet_activation_1'] = array (
+ // created: 2017-09-22 12:49:02
+$layout_defs["Leads"]["subpanel_setup"]['leads_bh_passports_1'] = array (
   'order' => 100,
-  'module' => 'bh_packet_activation',
+  'module' => 'bh_passports',
   'subpanel_name' => 'default',
   'sort_order' => 'asc',
   'sort_by' => 'id',
-  'title_key' => 'LBL_LEADS_BH_PACKET_ACTIVATION_1_FROM_BH_PACKET_ACTIVATION_TITLE',
-  'get_subpanel_data' => 'leads_bh_packet_activation_1',
+  'title_key' => 'LBL_LEADS_BH_PASSPORTS_1_FROM_BH_PASSPORTS_TITLE',
+  'get_subpanel_data' => 'leads_bh_passports_1',
+  'top_buttons' => 
+  array (
+    0 => 
+    array (
+      'widget_class' => 'SubPanelTopButtonQuickCreate',
+    ),
+    1 => 
+    array (
+      'widget_class' => 'SubPanelTopSelectButton',
+      'mode' => 'MultiSelect',
+    ),
+  ),
+);
+
+
+ // created: 2017-09-21 17:04:51
+$layout_defs["Leads"]["subpanel_setup"]['leads_bh_place_of_work_1'] = array (
+  'order' => 100,
+  'module' => 'bh_place_of_work',
+  'subpanel_name' => 'default',
+  'sort_order' => 'asc',
+  'sort_by' => 'id',
+  'title_key' => 'LBL_LEADS_BH_PLACE_OF_WORK_1_FROM_BH_PLACE_OF_WORK_TITLE',
+  'get_subpanel_data' => 'leads_bh_place_of_work_1',
   'top_buttons' => 
   array (
     0 => 
@@ -179,6 +203,30 @@ $layout_defs["Leads"]["subpanel_setup"]['leads_documents_1'] = array (
   'sort_by' => 'id',
   'title_key' => 'LBL_LEADS_DOCUMENTS_1_FROM_DOCUMENTS_TITLE',
   'get_subpanel_data' => 'leads_documents_1',
+  'top_buttons' => 
+  array (
+    0 => 
+    array (
+      'widget_class' => 'SubPanelTopButtonQuickCreate',
+    ),
+    1 => 
+    array (
+      'widget_class' => 'SubPanelTopSelectButton',
+      'mode' => 'MultiSelect',
+    ),
+  ),
+);
+
+
+ // created: 2017-09-21 15:18:33
+$layout_defs["Leads"]["subpanel_setup"]['leads_leads_2leads_ida'] = array (
+  'order' => 100,
+  'module' => 'Leads',
+  'subpanel_name' => 'default',
+  'sort_order' => 'asc',
+  'sort_by' => 'id',
+  'title_key' => 'LBL_LEADS_LEADS_2_FROM_LEADS_R_TITLE',
+  'get_subpanel_data' => 'leads_leads_2leads_ida',
   'top_buttons' => 
   array (
     0 => 
