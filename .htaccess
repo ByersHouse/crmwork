@@ -1,14 +1,4 @@
 
-# BEGIN SUGARCRM RESTRICTIONS
-RedirectMatch 403 .*\.log$
-RedirectMatch 403 /+not_imported_.*\.txt
-RedirectMatch 403 /+(soap|cache|xtemplate|data|examples|include|log4php|metadata|modules)/+.*\.(php|tpl)
-RedirectMatch 403 /+emailmandelivery\.php
-RedirectMatch 403 /+upload
-RedirectMatch 403 /+custom/+blowfish
-RedirectMatch 403 /+cache/+diagnostic
-RedirectMatch 403 /+files\.md5$
-# END SUGARCRM RESTRICTIONS
 <IfModule mod_rewrite.c>
     Options +FollowSymLinks
     RewriteEngine On
@@ -31,3 +21,13 @@ RedirectMatch 403 /+files\.md5$
         ExpiresByType image/jpg "access plus 1 month"
         ExpiresByType image/png "access plus 1 month"
 </IfModule>
+# BEGIN SUGARCRM RESTRICTIONS
+RedirectMatch 403 .*\.log$
+RedirectMatch 403 /+not_imported_.*\.txt
+RedirectMatch 403 /+(soap|cache|xtemplate|data|examples|include|log4php|metadata|modules)/+.*\.(php|tpl)
+RedirectMatch 403 /+emailmandelivery\.php
+RedirectMatch 403 /+upload
+RedirectMatch 403 /+cache/+diagnostic
+RedirectMatch 403 /+files\.md5$
+
+# END SUGARCRM RESTRICTIONS

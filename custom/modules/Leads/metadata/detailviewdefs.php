@@ -213,6 +213,7 @@ array (
             'studio' => 'visible',
             'label' => 'LBL_EDUCATION',
           ),
+          1 => 'status',
         ),
         7 => 
         array (
@@ -301,7 +302,8 @@ array (
         ),
         1 => 
         array (
-          0 => 
+          0 => '',
+          1 => 
           array (
             'name' => 'card_num',
             'label' => 'LBL_CARDNUM',
@@ -737,7 +739,7 @@ array (
       array (
         0 => 
         array (
-          0 => 'status',
+          0 => 'opportunity_amount',
           1 => 'lead_source',
         ),
         1 => 
@@ -747,8 +749,7 @@ array (
         ),
         2 => 
         array (
-          0 => 'opportunity_amount',
-          1 => 'refered_by',
+          0 => 'refered_by',
         ),
         3 => 
         array (

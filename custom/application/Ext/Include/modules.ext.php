@@ -45,6 +45,13 @@ $moduleList[] = 'bh_category_at_work';
 
  
  //WARNING: The contents of this file are auto-generated
+$beanList['bh_communicators'] = 'bh_communicators';
+$beanFiles['bh_communicators'] = 'modules/bh_communicators/bh_communicators.php';
+$moduleList[] = 'bh_communicators';
+
+
+ 
+ //WARNING: The contents of this file are auto-generated
 $beanList['bh_country'] = 'bh_country';
 $beanFiles['bh_country'] = 'modules/bh_country/bh_country.php';
 $moduleList[] = 'bh_country';
@@ -127,6 +134,16 @@ $moduleList[] = 'bh_org';
 $beanList['bh_passports'] = 'bh_passports';
 $beanFiles['bh_passports'] = 'modules/bh_passports/bh_passports.php';
 $moduleList[] = 'bh_passports';
+
+
+ 
+ //WARNING: The contents of this file are auto-generated
+$beanList['bh_contact_person'] = 'bh_contact_person';
+$beanFiles['bh_contact_person'] = 'modules/bh_contact_person/bh_contact_person.php';
+$moduleList[] = 'bh_contact_person';
+$beanList['bh_phones'] = 'bh_phones';
+$beanFiles['bh_phones'] = 'modules/bh_phones/bh_phones.php';
+$moduleList[] = 'bh_phones';
 
 
  

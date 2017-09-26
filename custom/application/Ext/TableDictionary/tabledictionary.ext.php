@@ -158,6 +158,11 @@ include('custom/metadata/leads_bh_passports_1MetaData.php');
 
  
  //WARNING: The contents of this file are auto-generated
+include('custom/metadata/leads_bh_phones_1MetaData.php');
+
+
+ 
+ //WARNING: The contents of this file are auto-generated
 include('custom/metadata/leads_bh_place_of_work_1MetaData.php');
 
 
