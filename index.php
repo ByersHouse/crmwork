@@ -1,5 +1,6 @@
 <?php
-
+//error_reporting(E_ALL);
+ob_start();
 if (!defined('sugarEntry')) {
     define('sugarEntry', true);
 }

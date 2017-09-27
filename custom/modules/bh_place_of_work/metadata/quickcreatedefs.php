@@ -37,6 +37,11 @@ array (
         0 => 
         array (
           0 => 'name',
+          1 => 
+          array (
+            'name' => 'bh_org_bh_place_of_work_1_name',
+            'label' => 'LBL_BH_ORG_BH_PLACE_OF_WORK_1_FROM_BH_ORG_TITLE',
+          ),
         ),
         1 => 
         array (
@@ -47,8 +52,8 @@ array (
           ),
           1 => 
           array (
-            'name' => 'bh_org_bh_place_of_work_1_name',
-            'label' => 'LBL_BH_ORG_BH_PLACE_OF_WORK_1_FROM_BH_ORG_TITLE',
+            'name' => 'date_end',
+            'label' => 'LBL_DATE_END',
           ),
         ),
         2 => 

@@ -25,7 +25,6 @@ var operators = {
 };
 function check (num) {
     for(var key in operators){
-      console.log(num);
         if(key == num){
 
             $('#operator').attr('value', operators[key]);

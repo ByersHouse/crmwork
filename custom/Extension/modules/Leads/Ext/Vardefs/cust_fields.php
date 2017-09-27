@@ -72,7 +72,7 @@ $dictionary['Lead']['fields']['resident'] = array (
     );
 
 $dictionary['Lead']['fields']['inn']=array (
-      'required' => true,
+      'required' => false,
       'name' => 'inn',
       'vname' => 'LBL_INN',
       'type' => 'varchar',
@@ -1693,7 +1693,7 @@ $dictionary['Lead']['fields']['child_count'] = array (
 
 $dictionary['Lead']['fields']['correspondence_method'] = array (
     'required' => false,
-    'name' => 'child_count',
+    'name' => 'correspondence_method',
     'vname' => 'LBL_CORRESPONDENCE_METHOD',
     'type' => 'text',
     'massupdate' => 0,
@@ -1712,4 +1712,73 @@ $dictionary['Lead']['fields']['correspondence_method'] = array (
     'enable_range_search' => false,
     'rows'=>'10',
     'cols'=>'20',
+);
+
+
+$dictionary['Lead']['fields']['communicator'] = array(
+    'required' => false,
+    'name' => 'communicator',
+    'vname' => 'LBL_COMMUNICATOR',
+    'type' => 'MultiTextField',
+    'massupdate' => 0,
+    'no_default' => false,
+    'comments' => '',
+    'help' => '',
+    'importable' => 'true',
+    'duplicate_merge' => 'disabled',
+    'duplicate_merge_dom_value' => '0',
+    'audited' => true,
+    'inline_edit' => true,
+    'reportable' => true,
+    'unified_search' => false,
+    'merge_filter' => 'disabled',
+    'len' => '255',
+    'size' => '20',
+
+);
+
+$dictionary['Lead']['fields']['lead_parents'] = array (
+    'required' => false,
+    'name' => 'lead_parents',
+    'vname' => 'LBL_LEAD_PARENTS',
+    'type' => 'enum',
+    'massupdate' => 0,
+    'default' => '',
+    'no_default' => false,
+    'comments' => '',
+    'help' => '',
+    'importable' => 'false',
+    'duplicate_merge' => 'disabled',
+    'duplicate_merge_dom_value' => '0',
+    'audited' => false,
+    'inline_edit' => true,
+    'reportable' => true,
+    'unified_search' => false,
+    'merge_filter' => 'disabled',
+    'len' => 100,
+    'size' => '20',
+    'options' => 'parents_type_list',
+    'studio' => 'visible',
+    'dependency' => false,
+);
+
+$dictionary['Lead']['fields']['contact_person_name'] = array (
+    'required' => false,
+    'name' => 'contact_person_name',
+    'vname' => 'LBL_CONTACT_PERSON_NAME',
+    'type' => 'varchar',
+    'massupdate' => 0,
+    'no_default' => false,
+    'comments' => 'Имя контакта для связи',
+    'help' => 'Имя контакта для связи',
+    'importable' => 'true',
+    'duplicate_merge' => 'disabled',
+    'duplicate_merge_dom_value' => '0',
+    'audited' => false,
+    'inline_edit' => true,
+    'reportable' => true,
+    'unified_search' => false,
+    'merge_filter' => 'enabled',
+    'len' => '40',
+    'size' => '20',
 );

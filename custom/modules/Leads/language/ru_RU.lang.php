@@ -1,5 +1,5 @@
 <?php
-// created: 2017-09-22 09:08:42
+// created: 2017-09-27 09:49:21
 $mod_strings = array (
   'LBL_LEAD_STATUS' => 'Статус клиента',
   'LBL_LEAD_SEX' => 'Пол',
@@ -139,4 +139,10 @@ $mod_strings = array (
   'LBL_LEADS_LEADS_1_FROM_LEADS_L_TITLE' => 'Мать',
   'LBL_LEADS_LEADS_2_FROM_LEADS_L_TITLE' => 'Мать',
   'LBL_CORRESPONDENCE_METHOD' => 'Способ и адрес доставки корреспонденции',
+  'LBL_LEADS_BH_COMMUNICATORS_1_FROM_BH_COMMUNICATORS_TITLE' => 'Коммуникаторы',
+  'LBL_COMMUNICATOR' => 'Коммуникатор',
+  'LBL_LAST_NAME' => 'Фамилия:',
+  'LBL_FIRST_NAME' => 'Имя:',
+  'LBL_LEAD_PARENTS' => 'Родители',
+  'LBL_CONTACT_PERSON_NAME' => 'Имя лица для контакта',
 );

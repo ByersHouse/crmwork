@@ -11,5 +11,5 @@ $mod_strings['LBL_LEADS_BH_ORG_1_FROM_BH_ORG_TITLE'] = 'Организации';
 $mod_strings['LBL_LEADS_BH_LEAD_ADRESS_1_FROM_BH_LEAD_ADRESS_TITLE'] = 'Адреса';
 $mod_strings['LBL_LEADS_LEADS_1_FROM_LEADS_L_TITLE'] = 'Предварит. контакты';
 $mod_strings['LBL_LEADS_LEADS_1_FROM_LEADS_R_TITLE'] = 'Мама';
-$mod_strings['LBL_LEADS_LEADS_2_FROM_LEADS_L_TITLE'] = 'Предварит. контакты';
-$mod_strings['LBL_LEADS_LEADS_2_FROM_LEADS_R_TITLE'] = 'Папа';
+$mod_strings['LBL_LEADS_LEADS_2_FROM_LEADS_L_TITLE'] = 'Родители';
+$mod_strings['LBL_LEADS_LEADS_2_FROM_LEADS_R_TITLE'] = 'Родители';

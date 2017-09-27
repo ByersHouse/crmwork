@@ -95,16 +95,6 @@ array (
           'newTab' => true,
           'panelDefault' => 'expanded',
         ),
-        'LBL_EDITVIEW_PANEL2' => 
-        array (
-          'newTab' => true,
-          'panelDefault' => 'expanded',
-        ),
-        'LBL_EDITVIEW_PANEL6' => 
-        array (
-          'newTab' => true,
-          'panelDefault' => 'expanded',
-        ),
         'LBL_EDITVIEW_PANEL5' => 
         array (
           'newTab' => true,
@@ -231,7 +221,8 @@ array (
         ),
         8 => 
         array (
-          0 => 
+          0 => 'website',
+          1 => 
           array (
             'name' => 'age',
             'label' => 'LBL_AGE',
@@ -241,23 +232,33 @@ array (
         array (
           0 => 
           array (
-            'name' => 'placebirth',
-            'label' => 'LBL_PLACEBIRTH',
+            'name' => 'debet_type',
+            'studio' => 'visible',
+            'label' => 'LBL_DEBETTYPE',
+          ),
+          1 => 
+          array (
+            'name' => 'level_volume',
+            'studio' => 'visible',
+            'label' => 'LBL_LEVELVOLUME',
           ),
         ),
         10 => 
         array (
-          0 => 'phone_fax',
-        ),
-        11 => 
-        array (
           0 => 
           array (
-            'name' => 'account_name',
+            'name' => 'org_earn_level',
+            'studio' => 'visible',
+            'label' => 'LBL_ORGEARNLEVEL',
           ),
-          1 => 'website',
+          1 => 
+          array (
+            'name' => 'debet_type_level',
+            'studio' => 'visible',
+            'label' => 'LBL_DEBETTYPELEVEL',
+          ),
         ),
-        12 => 
+        11 => 
         array (
           0 => 'description',
           1 => 
@@ -265,7 +266,7 @@ array (
             'name' => 'bh_card_ident_leads_name',
           ),
         ),
-        13 => 
+        12 => 
         array (
           0 => 
           array (
@@ -275,13 +276,6 @@ array (
           array (
             'name' => 'correspondence_method',
             'label' => 'LBL_CORRESPONDENCE_METHOD',
-          ),
-        ),
-        14 => 
-        array (
-          0 => 
-          array (
-            'name' => 'leads_leads_2_name',
           ),
         ),
       ),
@@ -302,7 +296,11 @@ array (
         ),
         1 => 
         array (
-          0 => '',
+          0 => 
+          array (
+            'name' => 'account_num',
+            'label' => 'LBL_ACCOUNTNUM',
+          ),
           1 => 
           array (
             'name' => 'card_num',
@@ -341,106 +339,15 @@ array (
       array (
         0 => 
         array (
-          0 => 
-          array (
-            'name' => 'primary_address_street',
-            'label' => 'LBL_PRIMARY_ADDRESS',
-            'type' => 'address',
-            'displayParams' => 
-            array (
-              'key' => 'primary',
-            ),
-          ),
-          1 => 
-          array (
-            'name' => 'alt_address_street',
-            'label' => 'LBL_ALTERNATE_ADDRESS',
-            'type' => 'address',
-            'displayParams' => 
-            array (
-              'key' => 'alt',
-            ),
-          ),
+          0 => 'phone_work',
+          1 => 'phone_mobile',
         ),
         1 => 
         array (
           0 => 
           array (
-            'name' => 'room1_number',
-            'label' => 'LBL_ROOM1NUMBER',
-          ),
-          1 => 
-          array (
-            'name' => 'room2_number',
-            'label' => 'LBL_ROOM2NUMBER',
-          ),
-        ),
-        2 => 
-        array (
-          0 => 
-          array (
-            'name' => 'flat1_dateregister',
-            'label' => 'LBL_DATEREGISTER',
-          ),
-        ),
-        3 => 
-        array (
-          0 => 
-          array (
-            'name' => 'regist_term_months_flat1',
-            'label' => 'LBL_REGTERMMONTHSFL1',
-          ),
-          1 => 
-          array (
-            'name' => 'regist_term_months_flat2',
-            'label' => 'LBL_REGTERMMONTHSFL2',
-          ),
-        ),
-        4 => 
-        array (
-          0 => 
-          array (
-            'name' => 'regist_term_years_flat1',
-            'label' => 'LBL_REGTERMНYEARSFL1',
-          ),
-          1 => 
-          array (
-            'name' => 'regist_term_years_flat2',
-            'label' => 'LBL_REGTERMНYEARSFL2',
-          ),
-        ),
-        5 => 
-        array (
-          0 => 
-          array (
-            'name' => 'work_address_street',
-            'label' => 'LBL_WORK_ADDRESS_STREET',
-          ),
-          1 => 'phone_work',
-        ),
-        6 => 
-        array (
-          0 => 
-          array (
-            'name' => 'work_address_city',
-            'label' => 'LBL_WORK_ADDRESS_CITY',
-          ),
-          1 => 'phone_mobile',
-        ),
-        7 => 
-        array (
-          0 => 
-          array (
             'name' => 'phone_addr_fact',
             'label' => 'LBL_PHONE_ADDRFACT',
-          ),
-        ),
-        8 => 
-        array (
-          0 => 
-          array (
-            'name' => 'work_address_state',
-            'label' => 'LBL_WORK_ADDRESS_STATE',
           ),
           1 => 
           array (
@@ -448,12 +355,12 @@ array (
             'label' => 'LBL_PHONE_ADDR_REGISTR',
           ),
         ),
-        9 => 
+        2 => 
         array (
           0 => 
           array (
-            'name' => 'work_address_index',
-            'label' => 'LBL_WORK_ADDRESS_INDEX',
+            'name' => 'contact_person_name',
+            'label' => 'LBL_CONTACT_PERSON_NAME',
           ),
           1 => 
           array (
@@ -461,243 +368,13 @@ array (
             'label' => 'LBL_PHONE_CONTACTFACE',
           ),
         ),
-        10 => 
-        array (
-          0 => 
-          array (
-            'name' => 'work_address_country',
-            'label' => 'LBL_WORK_ADDRESS_COUNTRY',
-          ),
-          1 => 
-          array (
-            'name' => 'skype_account',
-            'label' => 'LBL_SKYPE',
-          ),
-        ),
-        11 => 
-        array (
-          0 => 
-          array (
-            'name' => 'work_room_number',
-            'label' => 'LBL_WORKROOMNUM',
-          ),
-          1 => 
-          array (
-            'name' => 'viber',
-            'label' => 'LBL_VIBER',
-          ),
-        ),
-        12 => 
-        array (
-          0 => 'email1',
-        ),
-        13 => 
-        array (
-          0 => 
-          array (
-            'name' => 'facebook',
-            'label' => 'LBL_FACEBOOK',
-          ),
-          1 => 
-          array (
-            'name' => 'vk',
-            'label' => 'LBL_VK',
-          ),
-        ),
-        14 => 
-        array (
-          0 => 
-          array (
-            'name' => 'twitter',
-            'label' => 'LBL_TWITTER',
-          ),
-          1 => 
-          array (
-            'name' => 'googleplus',
-            'label' => 'LBL_GOOGLEPLUS',
-          ),
-        ),
-        15 => 
-        array (
-          0 => 
-          array (
-            'name' => 'odnokl',
-            'label' => 'LBL_ODNOKL',
-          ),
-          1 => 
-          array (
-            'name' => 'instagram',
-            'label' => 'LBL_INSTAGRAM',
-          ),
-        ),
-      ),
-      'lbl_editview_panel2' => 
-      array (
-        0 => 
-        array (
-          0 => 
-          array (
-            'name' => 'org_owner',
-            'label' => 'LBL_ORGOWNER',
-          ),
-          1 => 
-          array (
-            'name' => 'orgname',
-            'label' => 'LBL_ORGNAME',
-          ),
-        ),
-        1 => 
-        array (
-          0 => 
-          array (
-            'name' => 'orgwork_date_start',
-            'label' => 'LBL_ORGDATESTART',
-          ),
-          1 => 
-          array (
-            'name' => 'org_legal_form',
-            'studio' => 'visible',
-            'label' => 'LBL_ORGLEGALFORM',
-          ),
-        ),
-        2 => 
-        array (
-          0 => 
-          array (
-            'name' => 'org_size',
-            'studio' => 'visible',
-            'label' => 'LBL_ORGSIZE',
-          ),
-          1 => 
-          array (
-            'name' => 'org_sphere',
-            'studio' => 'visible',
-            'label' => 'LBL_ORGSPHERE',
-          ),
-        ),
         3 => 
         array (
-          0 => 
-          array (
-            'name' => 'org_position',
-            'studio' => 'visible',
-            'label' => 'LBL_ORGPOSITION',
-          ),
+          0 => 'email1',
           1 => 
           array (
-            'name' => 'org_specialization',
-            'label' => 'LBL_ORGSPECIALIZATION',
-          ),
-        ),
-        4 => 
-        array (
-          0 => 
-          array (
-            'name' => 'org_work_years',
-            'label' => 'LBL_ORGWORKYEARS',
-          ),
-          1 => 
-          array (
-            'name' => 'org_work_months',
-            'label' => 'LBL_ORGWORKMONTH',
-          ),
-        ),
-        5 => 
-        array (
-          0 => 
-          array (
-            'name' => 'org_workstage_years',
-            'label' => 'LBL_ORGWORKSTAGEYEARS',
-          ),
-          1 => 
-          array (
-            'name' => 'org_workstage_months',
-            'label' => 'LBL_ORGWORKSTAGEMONTH',
-          ),
-        ),
-        6 => 
-        array (
-          0 => 
-          array (
-            'name' => 'org_earn_method',
-            'studio' => 'visible',
-            'label' => 'LBL_EARNMETHOD',
-          ),
-          1 => 
-          array (
-            'name' => 'org_earn_level',
-            'studio' => 'visible',
-            'label' => 'LBL_ORGEARNLEVEL',
-          ),
-        ),
-        7 => 
-        array (
-          0 => 
-          array (
-            'name' => 'org_debentures',
-            'label' => 'LBL_DEBENTURES',
-          ),
-          1 => 
-          array (
-            'name' => 'debet_type',
-            'studio' => 'visible',
-            'label' => 'LBL_DEBETTYPE',
-          ),
-        ),
-        8 => 
-        array (
-          0 => 
-          array (
-            'name' => 'debet_type_level',
-            'studio' => 'visible',
-            'label' => 'LBL_DEBETTYPELEVEL',
-          ),
-          1 => 
-          array (
-            'name' => 'level_volume',
-            'studio' => 'visible',
-            'label' => 'LBL_LEVELVOLUME',
-          ),
-        ),
-      ),
-      'lbl_editview_panel6' => 
-      array (
-        0 => 
-        array (
-          0 => 
-          array (
-            'name' => 'realty',
-            'studio' => 'visible',
-            'label' => 'LBL_REALTY',
-          ),
-          1 => 
-          array (
-            'name' => 'realtyby',
-            'studio' => 'visible',
-            'label' => 'LBL_REALTYBY',
-          ),
-        ),
-        1 => 
-        array (
-          0 => 
-          array (
-            'name' => 'realty_vid',
-            'studio' => 'visible',
-            'label' => 'LBL_REALTYVID',
-          ),
-          1 => 
-          array (
-            'name' => 'statliveplace',
-            'studio' => 'visible',
-            'label' => 'LBL_STATUS_LIVEPLACE',
-          ),
-        ),
-        2 => 
-        array (
-          0 => 
-          array (
-            'name' => 'srok_vladenya_nedvizh',
-            'label' => 'LBL_SROK_VLADENIYA',
+            'name' => 'communicator',
+            'label' => 'LBL_COMMUNICATOR',
           ),
         ),
       ),
@@ -749,7 +426,12 @@ array (
         ),
         2 => 
         array (
-          0 => 'refered_by',
+          0 => 
+          array (
+            'name' => 'org_sphere',
+            'studio' => 'visible',
+            'label' => 'LBL_ORGSPHERE',
+          ),
         ),
         3 => 
         array (
