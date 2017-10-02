@@ -1,5 +1,5 @@
 <?php
-// created: 2017-08-21 10:15:35
+// created: 2017-09-29 10:33:07
 
 $entry_point_registry['AsteriskController'] = array (
   'file' => 'custom/modules/Asterisk/include/controller.php',

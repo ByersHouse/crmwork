@@ -62,7 +62,37 @@ class UnifiedSearchAdvanced {
         if(!empty($_REQUEST['query_string'])){
             $query_string = trim($_REQUEST['query_string']);
             if(!empty($query_string)){
-                $this->query_string = $query_string;
+                if(is_numeric($query_string) && strlen($query_string) == 10){
+                    $phone = str_split($query_string);
+                    $query = '';
+                    $phone_rev = array_reverse($phone);
+                    for($i = 0; $i < count($phone); $i++){
+
+                        switch ($i){
+                            case 0:
+                                $query .= '(' . array_pop($phone_rev);
+                                continue;
+                            case 2:
+                                $query .=  array_pop($phone_rev) . ') ';
+                                continue;
+                            case 6:
+                                $query .= '-' . array_pop($phone_rev);
+                                continue;
+                            case 8:
+                                $query .= '-' . array_pop($phone_rev);
+                                continue;
+                            default: $query .=  array_pop($phone_rev);
+                            continue;
+
+                        }
+
+                    }
+                  //  $query = str_split($query);
+                  //  $query = array_reverse($query);
+                    $query_string = $query;
+
+                }
+                $this->query_string = '%' .$query_string;
             }
         }
         $this->cache_search = sugar_cached('modules/unified_search_modules.php');
@@ -107,7 +137,7 @@ class UnifiedSearchAdvanced {
 
 		if(!empty($this->query_string))
 		{
-			$sugar_smarty->assign('query_string', securexss($this->query_string));
+			$sugar_smarty->assign('query_string', str_replace('%', '',securexss($this->query_string)));
 		} else {
 			$sugar_smarty->assign('query_string', '');
 		}

@@ -85,12 +85,12 @@ array (
           'newTab' => true,
           'panelDefault' => 'expanded',
         ),
-        'LBL_EDITVIEW_PANEL8' => 
+        'LBL_EDITVIEW_PANEL1' => 
         array (
-          'newTab' => true,
+          'newTab' => false,
           'panelDefault' => 'expanded',
         ),
-        'LBL_EDITVIEW_PANEL1' => 
+        'LBL_EDITVIEW_PANEL8' => 
         array (
           'newTab' => true,
           'panelDefault' => 'expanded',
@@ -126,61 +126,35 @@ array (
         array (
           0 => 
           array (
-            'name' => 'photo',
-            'studio' => 'visible',
-            'label' => 'LBL_PHOTO',
-          ),
-        ),
-        1 => 
-        array (
-          0 => 
-          array (
             'name' => 'first_name',
             'comment' => 'First name of the contact',
             'label' => 'LBL_FIRST_NAME',
           ),
           1 => 
           array (
-            'name' => 'first_name2',
-            'label' => 'LBL_FIRSTNAME2',
-          ),
-        ),
-        2 => 
-        array (
-          0 => 
-          array (
             'name' => 'last_name',
             'comment' => 'Last name of the contact',
             'label' => 'LBL_LAST_NAME',
           ),
-          1 => 
-          array (
-            'name' => 'last_name2',
-            'label' => 'LBL_LASTNAME2',
-          ),
         ),
-        3 => 
+        1 => 
         array (
           0 => 
           array (
             'name' => 'patronymic',
             'label' => 'LBL_PATRONIMYC',
           ),
+          1 => '',
         ),
-        4 => 
+        2 => 
         array (
           0 => 
           array (
             'name' => 'resident',
             'label' => 'LBL_RESIDENT',
           ),
-          1 => 
-          array (
-            'name' => 'inn',
-            'label' => 'LBL_INN',
-          ),
         ),
-        5 => 
+        3 => 
         array (
           0 => 
           array (
@@ -195,7 +169,7 @@ array (
             'label' => 'LBL_LEAD_SEX',
           ),
         ),
-        6 => 
+        4 => 
         array (
           0 => 
           array (
@@ -205,7 +179,7 @@ array (
           ),
           1 => 'status',
         ),
-        7 => 
+        5 => 
         array (
           0 => 
           array (
@@ -219,7 +193,7 @@ array (
             'label' => 'LBL_SOC_STATUS',
           ),
         ),
-        8 => 
+        6 => 
         array (
           0 => 'website',
           1 => 
@@ -228,7 +202,7 @@ array (
             'label' => 'LBL_AGE',
           ),
         ),
-        9 => 
+        7 => 
         array (
           0 => 
           array (
@@ -243,22 +217,7 @@ array (
             'label' => 'LBL_LEVELVOLUME',
           ),
         ),
-        10 => 
-        array (
-          0 => 
-          array (
-            'name' => 'org_earn_level',
-            'studio' => 'visible',
-            'label' => 'LBL_ORGEARNLEVEL',
-          ),
-          1 => 
-          array (
-            'name' => 'debet_type_level',
-            'studio' => 'visible',
-            'label' => 'LBL_DEBETTYPELEVEL',
-          ),
-        ),
-        11 => 
+        8 => 
         array (
           0 => 'description',
           1 => 
@@ -266,7 +225,7 @@ array (
             'name' => 'bh_card_ident_leads_name',
           ),
         ),
-        12 => 
+        9 => 
         array (
           0 => 
           array (
@@ -279,68 +238,12 @@ array (
           ),
         ),
       ),
-      'lbl_editview_panel8' => 
-      array (
-        0 => 
-        array (
-          0 => 
-          array (
-            'name' => 'credit_rating',
-            'label' => 'LBL_CREDRATING',
-          ),
-          1 => 
-          array (
-            'name' => 'overdraft',
-            'label' => 'LBL_OVERDRAFT',
-          ),
-        ),
-        1 => 
-        array (
-          0 => 
-          array (
-            'name' => 'account_num',
-            'label' => 'LBL_ACCOUNTNUM',
-          ),
-          1 => 
-          array (
-            'name' => 'card_num',
-            'label' => 'LBL_CARDNUM',
-          ),
-        ),
-        2 => 
-        array (
-          0 => 
-          array (
-            'name' => 'bank_name',
-            'label' => 'LBL_BANKNAME',
-          ),
-          1 => 
-          array (
-            'name' => 'bank_emitent_name',
-            'studio' => 'visible',
-            'label' => 'LBL_BANKEMITENTNAME',
-          ),
-        ),
-        3 => 
-        array (
-          0 => 
-          array (
-            'name' => 'bank_mfo',
-            'label' => 'LBL_BANKMFO',
-          ),
-          1 => 
-          array (
-            'name' => 'bank_emitent_mfo',
-            'label' => 'LBL_BANKEMITENTMFO',
-          ),
-        ),
-      ),
       'lbl_editview_panel1' => 
       array (
         0 => 
         array (
-          0 => 'phone_work',
-          1 => 'phone_mobile',
+          0 => 'phone_mobile',
+          1 => 'phone_work',
         ),
         1 => 
         array (
@@ -362,13 +265,16 @@ array (
             'name' => 'contact_person_name',
             'label' => 'LBL_CONTACT_PERSON_NAME',
           ),
-          1 => 
+        ),
+        3 => 
+        array (
+          0 => 
           array (
             'name' => 'phone_contact_face',
             'label' => 'LBL_PHONE_CONTACTFACE',
           ),
         ),
-        3 => 
+        4 => 
         array (
           0 => 'email1',
           1 => 
@@ -376,6 +282,86 @@ array (
             'name' => 'communicator',
             'label' => 'LBL_COMMUNICATOR',
           ),
+        ),
+      ),
+      'lbl_editview_panel8' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            'name' => 'org_earn_level',
+            'studio' => 'visible',
+            'label' => 'LBL_ORGEARNLEVEL',
+          ),
+          1 => 
+          array (
+            'name' => 'debet_type_level',
+            'studio' => 'visible',
+            'label' => 'LBL_DEBETTYPELEVEL',
+          ),
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            'name' => 'credit_rating',
+            'label' => 'LBL_CREDRATING',
+          ),
+          1 => 
+          array (
+            'name' => 'overdraft',
+            'label' => 'LBL_OVERDRAFT',
+          ),
+        ),
+        2 => 
+        array (
+          0 => 
+          array (
+            'name' => 'account_num',
+            'label' => 'LBL_ACCOUNTNUM',
+          ),
+          1 => 
+          array (
+            'name' => 'card_num',
+            'label' => 'LBL_CARDNUM',
+          ),
+        ),
+        3 => 
+        array (
+          0 => 
+          array (
+            'name' => 'bank_name',
+            'label' => 'LBL_BANKNAME',
+          ),
+          1 => 
+          array (
+            'name' => 'bank_emitent_name',
+            'studio' => 'visible',
+            'label' => 'LBL_BANKEMITENTNAME',
+          ),
+        ),
+        4 => 
+        array (
+          0 => 
+          array (
+            'name' => 'bank_mfo',
+            'label' => 'LBL_BANKMFO',
+          ),
+          1 => 
+          array (
+            'name' => 'bank_emitent_mfo',
+            'label' => 'LBL_BANKEMITENTMFO',
+          ),
+        ),
+        5 => 
+        array (
+          0 => 
+          array (
+            'name' => 'inn',
+            'label' => 'LBL_INN',
+          ),
+          1 => '',
         ),
       ),
       'lbl_editview_panel5' => 
@@ -392,6 +378,22 @@ array (
           array (
             'name' => 'child_count',
             'label' => 'LBL_CHILDCOUNT',
+          ),
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            'name' => 'first_name2',
+            'label' => 'LBL_FIRSTNAME2',
+          ),
+        ),
+        2 => 
+        array (
+          0 => 
+          array (
+            'name' => 'last_name2',
+            'label' => 'LBL_LASTNAME2',
           ),
         ),
       ),
@@ -441,6 +443,15 @@ array (
             'label' => 'LBL_CAMPAIGN',
           ),
         ),
+        4 => 
+        array (
+          0 => 
+          array (
+            'name' => 'photo',
+            'studio' => 'visible',
+            'label' => 'LBL_PHOTO',
+          ),
+        ),
       ),
       'LBL_PANEL_ASSIGNMENT' => 
       array (
@@ -459,6 +470,11 @@ array (
             'name' => 'message_to_assigned',
             'label' => 'LBL_MESTOASIGNED',
           ),
+        ),
+        2 => 
+        array (
+          0 => 'refered_by',
+          1 => '',
         ),
       ),
     ),

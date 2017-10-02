@@ -49,7 +49,7 @@ chdir("../");
 chdir("../");
 
 require_once('include/entryPoint.php');
-require_once ('log4php/LoggerManager.php');
+//require_once ('log4php/LoggerManager.php');
 
 $GLOBALS['log'] = LoggerManager::getLogger('SugarCRM');
 

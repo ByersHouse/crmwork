@@ -1,7 +1,7 @@
 <?php
-// created: 2017-09-27 09:49:21
+// created: 2017-09-27 16:49:44
 $mod_strings = array (
-  'LBL_LEAD_STATUS' => 'Статус клиента',
+  'LBL_LEAD_STATUS' => 'Тип клиента',
   'LBL_LEAD_SEX' => 'Пол',
   'LBL_EDITVIEW_PANEL1' => 'Контакты',
   'LBL_EDITVIEW_PANEL2' => 'Служебная ',

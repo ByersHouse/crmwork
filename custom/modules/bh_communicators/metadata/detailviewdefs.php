@@ -54,6 +54,16 @@ array (
           ),
           1 => '',
         ),
+        1 => 
+        array (
+          0 => 
+          array (
+            'name' => 'ggg_c',
+            'studio' => 'visible',
+            'label' => 'LBL_GGG',
+          ),
+          1 => '',
+        ),
       ),
     ),
   ),
