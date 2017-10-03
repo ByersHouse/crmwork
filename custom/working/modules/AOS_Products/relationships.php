@@ -40,9 +40,35 @@
 
 
 $relationships = array (
+  'aos_products_bh_case_compound_1' => 
+  array (
+    'id' => '9bbfee8d-5765-2219-1f96-59d370f4a6ca',
+    'relationship_name' => 'aos_products_bh_case_compound_1',
+    'lhs_module' => 'AOS_Products',
+    'lhs_table' => 'aos_products',
+    'lhs_key' => 'id',
+    'rhs_module' => 'bh_case_compound',
+    'rhs_table' => 'bh_case_compound',
+    'rhs_key' => 'id',
+    'join_table' => 'aos_products_bh_case_compound_1_c',
+    'join_key_lhs' => 'aos_products_bh_case_compound_1aos_products_ida',
+    'join_key_rhs' => 'aos_products_bh_case_compound_1bh_case_compound_idb',
+    'relationship_type' => 'one-to-many',
+    'relationship_role_column' => NULL,
+    'relationship_role_column_value' => NULL,
+    'reverse' => '0',
+    'deleted' => '0',
+    'readonly' => true,
+    'rhs_subpanel' => 'default',
+    'lhs_subpanel' => NULL,
+    'from_studio' => true,
+    'is_custom' => true,
+    'relationship_only' => false,
+    'for_activities' => false,
+  ),
   'aos_products_modified_user' => 
   array (
-    'id' => '85c0be61-1208-c02e-be6f-59c22a5b30cb',
+    'id' => '9ce68828-2659-f9be-91b2-59d3709cbdbb',
     'relationship_name' => 'aos_products_modified_user',
     'lhs_module' => 'Users',
     'lhs_table' => 'users',
@@ -64,11 +90,11 @@ $relationships = array (
     'relationship_only' => false,
     'for_activities' => false,
     'is_custom' => false,
-    'from_studio' => true,
+    'from_studio' => false,
   ),
   'aos_products_created_by' => 
   array (
-    'id' => '85fdc78b-afe1-fdaf-63dc-59c22a172e42',
+    'id' => '9d250eec-e320-098b-2619-59d370f3bfd1',
     'relationship_name' => 'aos_products_created_by',
     'lhs_module' => 'Users',
     'lhs_table' => 'users',
@@ -90,11 +116,11 @@ $relationships = array (
     'relationship_only' => false,
     'for_activities' => false,
     'is_custom' => false,
-    'from_studio' => true,
+    'from_studio' => false,
   ),
   'aos_products_assigned_user' => 
   array (
-    'id' => '8677d0a6-ccf3-5060-7513-59c22a276801',
+    'id' => '9da2013d-0e9a-1a27-cb6b-59d370350be7',
     'relationship_name' => 'aos_products_assigned_user',
     'lhs_module' => 'Users',
     'lhs_table' => 'users',
@@ -116,11 +142,11 @@ $relationships = array (
     'relationship_only' => false,
     'for_activities' => false,
     'is_custom' => false,
-    'from_studio' => true,
+    'from_studio' => false,
   ),
   'securitygroups_aos_products' => 
   array (
-    'id' => '86b4dcb0-8f4b-5d20-c9a5-59c22aeb7cbe',
+    'id' => '9de08ca0-f13c-064c-e0d5-59d370974e0c',
     'relationship_name' => 'securitygroups_aos_products',
     'lhs_module' => 'SecurityGroups',
     'lhs_table' => 'securitygroups',
@@ -142,11 +168,11 @@ $relationships = array (
     'relationship_only' => false,
     'for_activities' => false,
     'is_custom' => false,
-    'from_studio' => true,
+    'from_studio' => false,
   ),
   'product_categories' => 
   array (
-    'id' => '86f1ef02-f059-de38-3f70-59c22ab55f32',
+    'id' => '9e1f02e8-c040-b199-2a62-59d370f788d1',
     'relationship_name' => 'product_categories',
     'lhs_module' => 'AOS_Product_Categories',
     'lhs_table' => 'aos_product_categories',
@@ -168,11 +194,11 @@ $relationships = array (
     'relationship_only' => false,
     'for_activities' => false,
     'is_custom' => false,
-    'from_studio' => true,
+    'from_studio' => false,
   ),
   'aos_product_quotes_aos_products' => 
   array (
-    'id' => '895449ee-f764-70d6-9988-59c22a54fbcd',
+    'id' => 'aa92b79f-ca56-c536-f2df-59d370d7137d',
     'relationship_name' => 'aos_product_quotes_aos_products',
     'lhs_module' => 'AOS_Products',
     'lhs_table' => 'aos_products',
@@ -194,22 +220,22 @@ $relationships = array (
     'relationship_only' => false,
     'for_activities' => false,
     'is_custom' => false,
-    'from_studio' => true,
+    'from_studio' => false,
   ),
-  'aos_products_bh_case_compound_1' => 
+  'aos_products_bh_campaine_products_1' => 
   array (
-    'rhs_label' => 'Состав обращения',
+    'rhs_label' => 'Продукты компании',
     'lhs_label' => 'Товары',
     'rhs_subpanel' => 'default',
     'lhs_module' => 'AOS_Products',
-    'rhs_module' => 'bh_case_compound',
+    'rhs_module' => 'bh_campaine_products',
     'relationship_type' => 'one-to-many',
-    'readonly' => true,
+    'readonly' => false,
     'deleted' => false,
     'relationship_only' => false,
     'for_activities' => false,
     'is_custom' => false,
-    'from_studio' => true,
-    'relationship_name' => 'aos_products_bh_case_compound_1',
+    'from_studio' => false,
+    'relationship_name' => 'aos_products_bh_campaine_products_1',
   ),
 );
