@@ -1,5 +1,5 @@
 <?php
-// created: 2017-10-03 14:18:54
+// created: 2017-10-03 15:14:34
 $dictionary["bh_campaine_products"]["fields"]["aos_products_bh_campaine_products_1"] = array (
   'name' => 'aos_products_bh_campaine_products_1',
   'type' => 'link',

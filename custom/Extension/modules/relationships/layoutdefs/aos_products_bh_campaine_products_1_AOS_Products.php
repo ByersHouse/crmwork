@@ -1,5 +1,5 @@
 <?php
- // created: 2017-10-03 14:18:52
+ // created: 2017-10-03 15:14:32
 $layout_defs["AOS_Products"]["subpanel_setup"]['aos_products_bh_campaine_products_1'] = array (
   'order' => 100,
   'module' => 'bh_campaine_products',

@@ -1,5 +1,5 @@
 <?php
-// created: 2017-10-03 14:18:52
+// created: 2017-10-03 15:14:32
 $dictionary["aos_products_bh_campaine_products_1"] = array (
   'true_relationship_type' => 'one-to-many',
   'from_studio' => true,
