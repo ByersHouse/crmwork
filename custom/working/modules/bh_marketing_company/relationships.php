@@ -40,9 +40,35 @@
 
 
 $relationships = array (
+  'bh_marketing_company_bh_channels_impact_1' => 
+  array (
+    'id' => '98062d68-30d2-6399-5668-59d36ef604e2',
+    'relationship_name' => 'bh_marketing_company_bh_channels_impact_1',
+    'lhs_module' => 'bh_marketing_company',
+    'lhs_table' => 'bh_marketing_company',
+    'lhs_key' => 'id',
+    'rhs_module' => 'bh_channels_impact',
+    'rhs_table' => 'bh_channels_impact',
+    'rhs_key' => 'id',
+    'join_table' => 'bh_marketing_company_bh_channels_impact_1_c',
+    'join_key_lhs' => 'bh_marketid0c7company_ida',
+    'join_key_rhs' => 'bh_marketing_company_bh_channels_impact_1bh_channels_impact_idb',
+    'relationship_type' => 'one-to-many',
+    'relationship_role_column' => NULL,
+    'relationship_role_column_value' => NULL,
+    'reverse' => '0',
+    'deleted' => '0',
+    'readonly' => true,
+    'rhs_subpanel' => 'default',
+    'lhs_subpanel' => NULL,
+    'from_studio' => true,
+    'is_custom' => true,
+    'relationship_only' => false,
+    'for_activities' => false,
+  ),
   'bh_marketing_company_bh_marketing_company_history_1' => 
   array (
-    'id' => '538b8ebe-efec-f0b4-d328-59d362f4d046',
+    'id' => '9844aa30-5c6c-c9c8-3642-59d36e027635',
     'relationship_name' => 'bh_marketing_company_bh_marketing_company_history_1',
     'lhs_module' => 'bh_marketing_company',
     'lhs_table' => 'bh_marketing_company',
@@ -68,7 +94,7 @@ $relationships = array (
   ),
   'bh_marketing_company_bh_marketing_directorate_1' => 
   array (
-    'id' => '53ca0c7e-1e2a-fd25-1c44-59d3622bf4ba',
+    'id' => '9883260e-e18f-5fef-944c-59d36e1a8724',
     'relationship_name' => 'bh_marketing_company_bh_marketing_directorate_1',
     'lhs_module' => 'bh_marketing_company',
     'lhs_table' => 'bh_marketing_company',
@@ -94,7 +120,7 @@ $relationships = array (
   ),
   'bh_marketing_company_bh_marketing_response_1' => 
   array (
-    'id' => '544702f8-8617-fab7-416a-59d3627055f7',
+    'id' => '98c1a8e9-c64a-7922-a210-59d36e94b105',
     'relationship_name' => 'bh_marketing_company_bh_marketing_response_1',
     'lhs_module' => 'bh_marketing_company',
     'lhs_table' => 'bh_marketing_company',
@@ -120,7 +146,7 @@ $relationships = array (
   ),
   'bh_marketing_company_modified_user' => 
   array (
-    'id' => '65d09e71-a67e-64b3-2133-59d3627781d6',
+    'id' => 'a818a970-7f81-270a-dc58-59d36ead7912',
     'relationship_name' => 'bh_marketing_company_modified_user',
     'lhs_module' => 'Users',
     'lhs_table' => 'users',
@@ -146,7 +172,7 @@ $relationships = array (
   ),
   'bh_marketing_company_created_by' => 
   array (
-    'id' => '664d9f17-3a9f-4ba5-25bf-59d36297de7d',
+    'id' => 'a8572346-e305-43d0-5b6f-59d36e416817',
     'relationship_name' => 'bh_marketing_company_created_by',
     'lhs_module' => 'Users',
     'lhs_table' => 'users',
@@ -172,7 +198,7 @@ $relationships = array (
   ),
   'bh_marketing_company_assigned_user' => 
   array (
-    'id' => '668c1ba9-561e-1b51-e260-59d36295250e',
+    'id' => 'a895a6fb-88b8-3d88-3ae4-59d36e02123e',
     'relationship_name' => 'bh_marketing_company_assigned_user',
     'lhs_module' => 'Users',
     'lhs_table' => 'users',
@@ -198,7 +224,7 @@ $relationships = array (
   ),
   'securitygroups_bh_marketing_company' => 
   array (
-    'id' => '67091fad-61f7-aa67-4c65-59d3623505c1',
+    'id' => 'a8d42675-d4cb-e3c7-7336-59d36e5c5ad4',
     'relationship_name' => 'securitygroups_bh_marketing_company',
     'lhs_module' => 'SecurityGroups',
     'lhs_table' => 'securitygroups',
@@ -222,13 +248,13 @@ $relationships = array (
     'is_custom' => false,
     'from_studio' => false,
   ),
-  'bh_marketing_company_bh_channels_impact_1' => 
+  'bh_marketing_company_bh_campaine_products_1' => 
   array (
-    'rhs_label' => 'Каналы воздействия компании',
+    'rhs_label' => 'Продукты компании',
     'lhs_label' => 'Маркетинговая компания',
     'rhs_subpanel' => 'default',
     'lhs_module' => 'bh_marketing_company',
-    'rhs_module' => 'bh_channels_impact',
+    'rhs_module' => 'bh_campaine_products',
     'relationship_type' => 'one-to-many',
     'readonly' => false,
     'deleted' => false,
@@ -236,6 +262,6 @@ $relationships = array (
     'for_activities' => false,
     'is_custom' => false,
     'from_studio' => false,
-    'relationship_name' => 'bh_marketing_company_bh_channels_impact_1',
+    'relationship_name' => 'bh_marketing_company_bh_campaine_products_1',
   ),
 );
