@@ -2,7 +2,7 @@
 
 $dictionary['AOS_Products']['fields']['name'] = array (
     'required' => false,
-    'name' => 'product_name',
+    'name' => 'name',
     'vname' => 'LBL_PRODUCT_NAME',
     'type' => 'varchar',
     'massupdate' => 0,
