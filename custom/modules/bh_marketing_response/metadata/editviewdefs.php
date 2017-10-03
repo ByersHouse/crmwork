@@ -68,10 +68,6 @@ array (
           array (
             'name' => 'bh_marketing_company_bh_marketing_response_1_name',
           ),
-          1 => 
-          array (
-            'name' => 'cases_bh_marketing_response_1_name',
-          ),
         ),
       ),
     ),
