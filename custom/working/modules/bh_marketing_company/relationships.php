@@ -40,9 +40,35 @@
 
 
 $relationships = array (
+  'bh_marketing_company_bh_marketing_company_history_1' => 
+  array (
+    'id' => '538b8ebe-efec-f0b4-d328-59d362f4d046',
+    'relationship_name' => 'bh_marketing_company_bh_marketing_company_history_1',
+    'lhs_module' => 'bh_marketing_company',
+    'lhs_table' => 'bh_marketing_company',
+    'lhs_key' => 'id',
+    'rhs_module' => 'bh_marketing_company_history',
+    'rhs_table' => 'bh_marketing_company_history',
+    'rhs_key' => 'id',
+    'join_table' => 'bh_marketing_company_bh_marketing_company_history_1_c',
+    'join_key_lhs' => 'bh_marketi1e9fcompany_ida',
+    'join_key_rhs' => 'bh_marketid398history_idb',
+    'relationship_type' => 'one-to-many',
+    'relationship_role_column' => NULL,
+    'relationship_role_column_value' => NULL,
+    'reverse' => '0',
+    'deleted' => '0',
+    'readonly' => true,
+    'rhs_subpanel' => 'default',
+    'lhs_subpanel' => NULL,
+    'from_studio' => true,
+    'is_custom' => true,
+    'relationship_only' => false,
+    'for_activities' => false,
+  ),
   'bh_marketing_company_bh_marketing_directorate_1' => 
   array (
-    'id' => '128a87f0-f727-d208-c4af-59d1f11834ab',
+    'id' => '53ca0c7e-1e2a-fd25-1c44-59d3622bf4ba',
     'relationship_name' => 'bh_marketing_company_bh_marketing_directorate_1',
     'lhs_module' => 'bh_marketing_company',
     'lhs_table' => 'bh_marketing_company',
@@ -68,7 +94,7 @@ $relationships = array (
   ),
   'bh_marketing_company_bh_marketing_response_1' => 
   array (
-    'id' => '12c90591-2294-e510-befa-59d1f1c0b999',
+    'id' => '544702f8-8617-fab7-416a-59d3627055f7',
     'relationship_name' => 'bh_marketing_company_bh_marketing_response_1',
     'lhs_module' => 'bh_marketing_company',
     'lhs_table' => 'bh_marketing_company',
@@ -94,7 +120,7 @@ $relationships = array (
   ),
   'bh_marketing_company_modified_user' => 
   array (
-    'id' => '6f894dff-52ba-e0ea-b91c-59d1f1d8825d',
+    'id' => '65d09e71-a67e-64b3-2133-59d3627781d6',
     'relationship_name' => 'bh_marketing_company_modified_user',
     'lhs_module' => 'Users',
     'lhs_table' => 'users',
@@ -120,7 +146,7 @@ $relationships = array (
   ),
   'bh_marketing_company_created_by' => 
   array (
-    'id' => '6fc7c6f0-dcb4-d243-ad92-59d1f1847eb0',
+    'id' => '664d9f17-3a9f-4ba5-25bf-59d36297de7d',
     'relationship_name' => 'bh_marketing_company_created_by',
     'lhs_module' => 'Users',
     'lhs_table' => 'users',
@@ -146,7 +172,7 @@ $relationships = array (
   ),
   'bh_marketing_company_assigned_user' => 
   array (
-    'id' => '7006465b-cafa-7687-79c6-59d1f136a305',
+    'id' => '668c1ba9-561e-1b51-e260-59d36295250e',
     'relationship_name' => 'bh_marketing_company_assigned_user',
     'lhs_module' => 'Users',
     'lhs_table' => 'users',
@@ -172,7 +198,7 @@ $relationships = array (
   ),
   'securitygroups_bh_marketing_company' => 
   array (
-    'id' => '7044c2ef-c7ad-ebd3-3eb2-59d1f1b1aa48',
+    'id' => '67091fad-61f7-aa67-4c65-59d3623505c1',
     'relationship_name' => 'securitygroups_bh_marketing_company',
     'lhs_module' => 'SecurityGroups',
     'lhs_table' => 'securitygroups',
@@ -196,13 +222,13 @@ $relationships = array (
     'is_custom' => false,
     'from_studio' => false,
   ),
-  'bh_marketing_company_bh_marketing_company_history_1' => 
+  'bh_marketing_company_bh_channels_impact_1' => 
   array (
-    'rhs_label' => 'Маркетинговая компания',
+    'rhs_label' => 'Каналы воздействия компании',
     'lhs_label' => 'Маркетинговая компания',
     'rhs_subpanel' => 'default',
     'lhs_module' => 'bh_marketing_company',
-    'rhs_module' => 'bh_marketing_company_history',
+    'rhs_module' => 'bh_channels_impact',
     'relationship_type' => 'one-to-many',
     'readonly' => false,
     'deleted' => false,
@@ -210,6 +236,6 @@ $relationships = array (
     'for_activities' => false,
     'is_custom' => false,
     'from_studio' => false,
-    'relationship_name' => 'bh_marketing_company_bh_marketing_company_history_1',
+    'relationship_name' => 'bh_marketing_company_bh_channels_impact_1',
   ),
 );
