@@ -45,6 +45,13 @@ $moduleList[] = 'bh_category_at_work';
 
  
  //WARNING: The contents of this file are auto-generated
+$beanList['bh_channels_impact'] = 'bh_channels_impact';
+$beanFiles['bh_channels_impact'] = 'modules/bh_channels_impact/bh_channels_impact.php';
+$moduleList[] = 'bh_channels_impact';
+
+
+ 
+ //WARNING: The contents of this file are auto-generated
 $beanList['bh_communicators'] = 'bh_communicators';
 $beanFiles['bh_communicators'] = 'modules/bh_communicators/bh_communicators.php';
 $moduleList[] = 'bh_communicators';

@@ -1,15 +1,11 @@
 <?php
-//error_reporting(E_ALL ^ E_STRICT);
-if (!defined('sugarEntry')) {
-    define('sugarEntry', true);
-}
 /**
  *
  * SugarCRM Community Edition is a customer relationship management program developed by
  * SugarCRM, Inc. Copyright (C) 2004-2013 SugarCRM Inc.
  *
  * SuiteCRM is an extension to SugarCRM Community Edition developed by SalesAgility Ltd.
- * Copyright (C) 2011 - 2016 SalesAgility Ltd.
+ * Copyright (C) 2011 - 2017 SalesAgility Ltd.
  *
  * This program is free software; you can redistribute it and/or modify it under
  * the terms of the GNU Affero General Public License version 3 as published by the
@@ -42,11 +38,15 @@ if (!defined('sugarEntry')) {
  * display the words  "Powered by SugarCRM" and "Supercharged by SuiteCRM".
  */
 
-include 'include/MVC/preDispatch.php';
-$startTime = microtime(true);
-require_once 'include/entryPoint.php';
-ob_start();
-require_once 'include/MVC/SugarApplication.php';
-$app = new SugarApplication();
-$app->startSession();
-$app->execute();
+ if (!defined('sugarEntry') || !sugarEntry) {
+    die('Not A Valid Entry Point');
+}
+
+global $mod_strings, $app_strings, $sugar_config;
+ 
+if(ACLController::checkAccess('bh_channels_impact', 'edit', true)){
+    $module_menu[]=array('index.php?module=bh_channels_impact&action=EditView&return_module=bh_channels_impact&return_action=DetailView', $mod_strings['LNK_NEW_RECORD'], 'Add', 'bh_channels_impact');
+}
+if(ACLController::checkAccess('bh_channels_impact', 'list', true)){
+    $module_menu[]=array('index.php?module=bh_channels_impact&action=index&return_module=bh_channels_impact&return_action=DetailView', $mod_strings['LNK_LIST'],'View', 'bh_channels_impact');
+}

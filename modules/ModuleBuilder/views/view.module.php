@@ -70,6 +70,8 @@ class ViewModule extends SugarView
 		$this->mbModule = $package->modules[$module_name];
 		$this->loadPackageHelp($module_name);
 		
+                //$mb = new MBModule();
+                
 		// set up the list of either available types for a new module, or implemented types for an existing one
         $types = (empty($module_name)) ? MBModule::getTypes() : $this->mbModule->mbvardefs->templates ;
         
