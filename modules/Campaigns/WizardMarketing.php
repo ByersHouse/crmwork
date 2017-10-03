@@ -63,13 +63,33 @@ global $sugar_version, $sugar_config;
 
 /**************************** GENERAL SETUP WORK*******************/
 $campaign_focus = new Campaign();
+
+
+//var_dump("<pre>",$campaign_focus,"</pre>");
+
+//var_dump("<pre>",!empty($_REQUEST['campaign_id']),"</pre>");
+
+
+
+
 if (isset($_REQUEST['campaign_id']) && !empty($_REQUEST['campaign_id'])) {
-    $campaign_focus->retrieve($_REQUEST['campaign_id']);
+    
+    var_dump(2);
+    $cf = $campaign_focus->retrieve($_REQUEST['campaign_id']);
+    //var_dump("<pre>",$campaign_focus->id,"</pre>");
+    
+    
 }else{
     sugar_die($app_strings['ERROR_NO_RECORD']);
+    var_dump(3);
+    
 }
-
+//exit;
 global $theme;
+
+
+
+
 
 
 
@@ -88,6 +108,9 @@ $ss->assign("APP", $app_strings);
 if (isset($_REQUEST['return_module'])) $ss->assign("RETURN_MODULE", $_REQUEST['return_module']);
 if (isset($_REQUEST['return_action'])) $ss->assign("RETURN_ACTION", $_REQUEST['return_action']);
 if (isset($_REQUEST['return_id'])) $ss->assign("RETURN_ID", $_REQUEST['return_id']);
+
+
+
 // handle Create $module then Cancel
 $ss->assign('CAMPAIGN_ID', $campaign_focus->id);
 
@@ -782,4 +805,3 @@ if(!empty($_REQUEST['func'])) {
     echo '<input type="hidden" id="func" value="'.$_REQUEST['func'].'">';
 }
       $ss->display('modules/Campaigns/WizardMarketing.html');
-?>

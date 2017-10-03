@@ -49,8 +49,14 @@ require_once('include/formbase.php');
 
 global $mod_strings;
 
+
+
+
     //create new campaign bean and populate
     $campaign_focus = new Campaign();
+    //
+   //var_dump("<pre>",$campaign_focus,"</pre>");
+  //exit;
     if(isset($_REQUEST['record']) && $_REQUEST['record'] && !(isset($_REQUEST['campaign_id']) && $_REQUEST['campaign_id'])) {
         $campaign_focus->retrieve($_REQUEST['record']);
     }
@@ -71,6 +77,10 @@ global $mod_strings;
         case 1;
             //save here so we can link relationships
             $campaign_focus->save();
+            
+            var_dump("wow");
+            
+            exit;
             $GLOBALS['log']->debug("Saved record with id of ".$campaign_focus->id);
             echo json_encode(array('record'=>$campaign_focus->id));
             break;
@@ -520,4 +530,4 @@ function process_subscriptions_from_request($campaign_name){
 
     return $pl_list;
 }
-?>
+
