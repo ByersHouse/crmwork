@@ -57,6 +57,8 @@ class bh_channels_impact extends Basic
     public $created_by_name;
     public $description;
     public $deleted;
+    public $channel_impact;
+    
     public $created_by_link;
     public $modified_user_link;
     public $assigned_user_id;
@@ -75,4 +77,4 @@ class bh_channels_impact extends Basic
         return false;
     }
 	
-}
+}

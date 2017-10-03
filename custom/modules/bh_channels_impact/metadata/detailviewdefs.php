@@ -30,6 +30,16 @@ array (
           'field' => '30',
         ),
       ),
+      'useTabs' => false,
+      'tabDefs' => 
+      array (
+        'DEFAULT' => 
+        array (
+          'newTab' => false,
+          'panelDefault' => 'expanded',
+        ),
+      ),
+      'syncDetailEditViews' => true,
     ),
     'panels' => 
     array (
@@ -42,13 +52,17 @@ array (
         ),
         1 => 
         array (
-          0 => 'date_entered',
-          1 => 'date_modified',
+          0 => 
+          array (
+            'name' => 'channel_impact',
+            'studio' => 'visible',
+            'label' => 'LBL_CHANNEL_IMPACT',
+          ),
+          1 => 'description',
         ),
         2 => 
         array (
-          0 => 'description',
-          1 => 
+          0 => 
           array (
             'name' => 'bh_marketing_company_bh_channels_impact_1_name',
           ),
