@@ -42,7 +42,7 @@
 $relationships = array (
   'bh_marketing_directorate_modified_user' => 
   array (
-    'id' => '1d1643a5-7f37-aafe-cb8c-59c2154585dd',
+    'id' => '5cc3ab50-ed35-b7c8-3213-59d4b0e0507d',
     'relationship_name' => 'bh_marketing_directorate_modified_user',
     'lhs_module' => 'Users',
     'lhs_table' => 'users',
@@ -64,11 +64,11 @@ $relationships = array (
     'relationship_only' => false,
     'for_activities' => false,
     'is_custom' => false,
-    'from_studio' => true,
+    'from_studio' => false,
   ),
   'bh_marketing_directorate_created_by' => 
   array (
-    'id' => '1d5351c9-b161-6a5d-b735-59c2150f67dd',
+    'id' => '5d022623-0664-c10b-3de0-59d4b0545bde',
     'relationship_name' => 'bh_marketing_directorate_created_by',
     'lhs_module' => 'Users',
     'lhs_table' => 'users',
@@ -90,11 +90,11 @@ $relationships = array (
     'relationship_only' => false,
     'for_activities' => false,
     'is_custom' => false,
-    'from_studio' => true,
+    'from_studio' => false,
   ),
   'bh_marketing_directorate_assigned_user' => 
   array (
-    'id' => '1dcd6bf5-127c-b8a0-04a9-59c2153464f8',
+    'id' => '5d40a8d3-d8d7-4b31-21c0-59d4b0a49cec',
     'relationship_name' => 'bh_marketing_directorate_assigned_user',
     'lhs_module' => 'Users',
     'lhs_table' => 'users',
@@ -116,11 +116,11 @@ $relationships = array (
     'relationship_only' => false,
     'for_activities' => false,
     'is_custom' => false,
-    'from_studio' => true,
+    'from_studio' => false,
   ),
   'securitygroups_bh_marketing_directorate' => 
   array (
-    'id' => '1e0a6cbf-9c3b-7707-741a-59c215e810a1',
+    'id' => '61a5bc83-720f-4af8-17be-59d4b03f8b89',
     'relationship_name' => 'securitygroups_bh_marketing_directorate',
     'lhs_module' => 'SecurityGroups',
     'lhs_table' => 'securitygroups',
@@ -142,11 +142,11 @@ $relationships = array (
     'relationship_only' => false,
     'for_activities' => false,
     'is_custom' => false,
-    'from_studio' => true,
+    'from_studio' => false,
   ),
   'bh_marketing_company_bh_marketing_directorate_1' => 
   array (
-    'id' => 'c6203a13-33dc-db3d-4ccf-59c215a563a9',
+    'id' => 'db3309c2-b304-987e-4e55-59d4b0e61d8f',
     'relationship_name' => 'bh_marketing_company_bh_marketing_directorate_1',
     'lhs_module' => 'bh_marketing_company',
     'lhs_table' => 'bh_marketing_company',
@@ -172,15 +172,19 @@ $relationships = array (
   ),
   'bh_marketing_directorate_leads_1' => 
   array (
+    'rhs_label' => 'Предварит. контакты',
+    'lhs_label' => 'Ректорат маркетингового воздействия',
+    'lhs_subpanel' => 'default',
+    'rhs_subpanel' => 'default',
     'lhs_module' => 'bh_marketing_directorate',
     'rhs_module' => 'Leads',
-    'relationship_type' => 'one-to-one',
-    'readonly' => true,
+    'relationship_type' => 'many-to-many',
+    'readonly' => false,
     'deleted' => false,
     'relationship_only' => false,
     'for_activities' => false,
     'is_custom' => false,
-    'from_studio' => true,
+    'from_studio' => false,
     'relationship_name' => 'bh_marketing_directorate_leads_1',
   ),
 );

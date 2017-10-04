@@ -1,7 +1,7 @@
 <?php
-// created: 2017-09-20 10:15:45
+// created: 2017-10-04 12:59:22
 $dictionary["bh_marketing_directorate_leads_1"] = array (
-  'true_relationship_type' => 'one-to-one',
+  'true_relationship_type' => 'many-to-many',
   'from_studio' => true,
   'relationships' => 
   array (
@@ -67,20 +67,12 @@ $dictionary["bh_marketing_directorate_leads_1"] = array (
     ),
     1 => 
     array (
-      'name' => 'bh_marketing_directorate_leads_1_ida1',
-      'type' => 'index',
+      'name' => 'bh_marketing_directorate_leads_1_alt',
+      'type' => 'alternate_key',
       'fields' => 
       array (
         0 => 'bh_marketing_directorate_leads_1bh_marketing_directorate_ida',
-      ),
-    ),
-    2 => 
-    array (
-      'name' => 'bh_marketing_directorate_leads_1_idb2',
-      'type' => 'index',
-      'fields' => 
-      array (
-        0 => 'bh_marketing_directorate_leads_1leads_idb',
+        1 => 'bh_marketing_directorate_leads_1leads_idb',
       ),
     ),
   ),
