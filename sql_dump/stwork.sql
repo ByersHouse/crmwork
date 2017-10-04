@@ -1394,11 +1394,13 @@ INSERT INTO `aos_pdf_templates_audit` (`id`, `parent_id`, `date_created`, `creat
 	('eb9cc810-0ae6-2e13-f2db-59d39d24eced', '29661054-86f4-9bea-a18f-59d3976e2037', '2017-10-03 14:22:56', '1', 'type', 'enum', 'Leads', 'AOS_Invoices', NULL, NULL);
 /*!40000 ALTER TABLE `aos_pdf_templates_audit` ENABLE KEYS */;
 
--- Дамп данных таблицы stwork.aos_products: ~1 rows (приблизительно)
+-- Дамп данных таблицы stwork.aos_products: ~4 rows (приблизительно)
 /*!40000 ALTER TABLE `aos_products` DISABLE KEYS */;
 INSERT INTO `aos_products` (`id`, `name`, `date_entered`, `date_modified`, `modified_user_id`, `created_by`, `description`, `deleted`, `assigned_user_id`, `maincode`, `part_number`, `category`, `type`, `cost`, `cost_usdollar`, `currency_id`, `price`, `price_usdollar`, `url`, `contact_id`, `product_image`, `aos_product_category_id`, `product_name`, `product_essence`, `registration_use`, `activation_date`, `product_validity`, `basic_cost`, `product_status`, `product_type`, `product_currency`) VALUES
+	('22328d1a-9962-3f5e-3618-59d485e104eb', 'Талон на бензин AИ 95', '2017-10-04 06:54:51', '2017-10-04 06:54:51', '1', '1', '', 0, NULL, 'XXXX', '', NULL, 'Good', 0.000000, 0.000000, NULL, 20.000000, 0.000000, '', '', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL),
 	('22a362ec-05d2-bd7a-fe35-59d484983668', 'Дизель', '2017-10-04 06:47:48', '2017-10-04 06:47:48', '1', '1', '', 0, NULL, 'XXXX', '', NULL, 'Service', 0.000000, 0.000000, NULL, 22.000000, 0.000000, '', '', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL),
 	('94f6d3be-aa40-c800-02c7-59d373af2ff6', 'test', '2017-10-03 11:24:38', '2017-10-03 12:04:56', '1', '1', NULL, 0, '', 'XXXX', NULL, NULL, 'Good', NULL, 0.000000, '-99', 0.000000, 0.000000, NULL, '', NULL, '', NULL, NULL, NULL, '2017-10-03', 0, 200, 'active', 'fuel', 'name'),
+	('952151a3-60a8-2c53-3404-59d48521121c', 'Талон на бензин AИ 92', '2017-10-04 06:53:20', '2017-10-04 06:53:20', '1', '1', '', 0, NULL, 'XXXX', '', NULL, 'Good', 0.000000, 0.000000, NULL, 100.000000, 0.000000, '', '', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL),
 	('dd77710e-fd7e-fed7-124f-59d4802bb968', 'Товар топливо', '2017-10-04 06:31:51', '2017-10-04 06:31:51', '1', '1', NULL, 0, NULL, 'XXXX', NULL, NULL, 'Good', NULL, 0.000000, '-99', 0.000000, 0.000000, NULL, NULL, NULL, NULL, NULL, NULL, '', NULL, 0, 0, 'active', 'fuel', 'name'),
 	('ece2079a-b00c-3d10-7add-59d484650d4a', 'Услуга эвакуатора', '2017-10-04 06:49:05', '2017-10-04 06:49:05', '1', '1', '', 0, NULL, 'XXXX', '', NULL, 'Service', 0.000000, 0.000000, NULL, 100.000000, 0.000000, '', '', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 /*!40000 ALTER TABLE `aos_products` ENABLE KEYS */;
@@ -2949,7 +2951,7 @@ INSERT INTO `prospect_list_campaigns` (`id`, `prospect_list_id`, `campaign_id`, 
 	('bfd77612-ae22-1388-24ac-59d20881718d', 'ef76f4c9-a638-bab4-f91a-59d1e4089280', '1ed19be7-94c2-25d0-0b3a-59d1fe8df63f', '2017-10-02 09:34:40', 0);
 /*!40000 ALTER TABLE `prospect_list_campaigns` ENABLE KEYS */;
 
--- Дамп данных таблицы stwork.relationships: ~607 rows (приблизительно)
+-- Дамп данных таблицы stwork.relationships: ~608 rows (приблизительно)
 /*!40000 ALTER TABLE `relationships` DISABLE KEYS */;
 INSERT INTO `relationships` (`id`, `relationship_name`, `lhs_module`, `lhs_table`, `lhs_key`, `rhs_module`, `rhs_table`, `rhs_key`, `join_table`, `join_key_lhs`, `join_key_rhs`, `relationship_type`, `relationship_role_column`, `relationship_role_column_value`, `reverse`, `deleted`) VALUES
 	('10135f05-c709-b2f0-1f0f-59d4828d6b59', 'jjwg_Maps_opportunities', 'jjwg_Maps', 'jjwg_Maps', 'parent_id', 'Opportunities', 'opportunities', 'id', NULL, NULL, NULL, 'one-to-many', 'parent_type', 'Opportunities', 0, 0),
@@ -3695,7 +3697,7 @@ INSERT INTO `templatesectionline` (`id`, `name`, `date_entered`, `date_modified`
 	('bcf0adeb-7c0e-bc5e-c427-59d1e65f4eba', 'Footer', '2017-10-02 07:11:05', '2017-10-02 07:11:05', '1', '1', '<p class="footer">Take your footer contents and information here..</p>', 0, 'include/javascript/mozaik/tpls/default/thumbs/footer.png', NULL, 9);
 /*!40000 ALTER TABLE `templatesectionline` ENABLE KEYS */;
 
--- Дамп данных таблицы stwork.tracker: ~96 rows (приблизительно)
+-- Дамп данных таблицы stwork.tracker: ~99 rows (приблизительно)
 /*!40000 ALTER TABLE `tracker` DISABLE KEYS */;
 INSERT INTO `tracker` (`id`, `monitor_id`, `user_id`, `module_name`, `item_id`, `item_summary`, `date_modified`, `action`, `session_id`, `visible`, `deleted`) VALUES
 	(109, '97330f8b-4418-f38a-08ff-599ae3a25b85', '1', 'SecurityGroups', '5fceea0f-484d-978c-0c13-599ae1171c0d', 'Тестовая группа', '2017-08-21 13:42:37', 'detailview', 'fv2eaeegi81oiuqm2h2bllubn1', 1, 0),
@@ -3792,11 +3794,11 @@ INSERT INTO `tracker` (`id`, `monitor_id`, `user_id`, `module_name`, `item_id`, 
 	(1678, '397170db-616d-ce2b-c01d-59d3a39cbe70', '1', 'bh_marketing_response', 'f34f076b-3745-ce6a-978c-59d359b4b094', 'отклик от клиента Администратор', '2017-10-03 14:50:23', 'detailview', 'ee4m7lf1qdvbqra4lgg4sadn04', 1, 0),
 	(1680, 'eba7329a-c6d8-3306-1bda-59d477df8492', '1', 'bh_campaine_products', '370e7ee5-9fc1-cd14-8b2d-59d36f14c292', 'Продукт 1', '2017-10-04 05:53:25', 'detailview', 'ee4m7lf1qdvbqra4lgg4sadn04', 1, 0),
 	(1681, '7aff4a3f-88c3-b973-2aa4-59d4780b737d', '1', 'bh_channels_impact', '6f216cb1-9775-2242-895d-59d363d9bfa1', 'Канал 1', '2017-10-04 05:58:15', 'detailview', 'ee4m7lf1qdvbqra4lgg4sadn04', 1, 0),
-	(1683, '43b2c4b0-94f9-e7d6-e9fc-59d47a61d148', '1', 'bh_packet_activation', '2905487e-f13a-594a-6d2f-59bb73118e66', 'Пакет 123', '2017-10-04 06:05:40', 'editview', 'ee4m7lf1qdvbqra4lgg4sadn04', 1, 0),
 	(1689, '3ed60094-46f4-f77d-65db-59d480b0a7d9', '1', 'AOS_Products', 'dd77710e-fd7e-fed7-124f-59d4802bb968', 'Товар топливо', '2017-10-04 06:31:55', 'detailview', 'ee4m7lf1qdvbqra4lgg4sadn04', 1, 0),
 	(1692, '5ec07b05-6e5c-472f-ada3-59d480402def', '1', 'Users', '1', 'Administrator', '2017-10-04 06:33:35', 'editview', 'ee4m7lf1qdvbqra4lgg4sadn04', 1, 0),
 	(1696, '32cee4fa-2796-0179-3a86-59d48448279a', '1', 'bh_formed_packets', '2f4db81b-4e87-d6e9-6df6-59bbb89f3be2', 'Пакет 1', '2017-10-04 06:47:52', 'detailview', 'ee4m7lf1qdvbqra4lgg4sadn04', 1, 0),
-	(1697, '986459d9-891a-bbd9-c33b-59d48407f5e1', '1', 'AOS_Products', 'ece2079a-b00c-3d10-7add-59d484650d4a', 'Услуга эвакуатора', '2017-10-04 06:49:39', 'detailview', 'ee4m7lf1qdvbqra4lgg4sadn04', 1, 0);
+	(1697, '986459d9-891a-bbd9-c33b-59d48407f5e1', '1', 'AOS_Products', 'ece2079a-b00c-3d10-7add-59d484650d4a', 'Услуга эвакуатора', '2017-10-04 06:49:39', 'detailview', 'ee4m7lf1qdvbqra4lgg4sadn04', 1, 0),
+	(1699, '3fec4f78-a038-aaf1-175e-59d486111f9b', '1', 'bh_packet_activation', '2905487e-f13a-594a-6d2f-59bb73118e66', 'Пакет 123', '2017-10-04 06:56:49', 'editview', 'ee4m7lf1qdvbqra4lgg4sadn04', 1, 0);
 /*!40000 ALTER TABLE `tracker` ENABLE KEYS */;
 
 -- Дамп данных таблицы stwork.upgrade_history: ~37 rows (приблизительно)
