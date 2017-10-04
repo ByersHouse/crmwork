@@ -38,13 +38,6 @@ array (
             'name' => 'bh_marketing_company_bh_campaine_products_1_name',
           ),
         ),
-        2 => 
-        array (
-          0 => 
-          array (
-            'name' => 'aos_products_bh_campaine_products_1_name',
-          ),
-        ),
       ),
     ),
   ),

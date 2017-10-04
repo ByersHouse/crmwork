@@ -3,12 +3,12 @@
 
  
  //WARNING: The contents of this file are auto-generated
-include('custom/metadata/aos_products_bh_campaine_products_1MetaData.php');
+include('custom/metadata/aos_products_bh_case_compound_1MetaData.php');
 
 
  
  //WARNING: The contents of this file are auto-generated
-include('custom/metadata/aos_products_bh_case_compound_1MetaData.php');
+include('custom/metadata/bh_campaine_products_aos_products_1MetaData.php');
 
 
  
