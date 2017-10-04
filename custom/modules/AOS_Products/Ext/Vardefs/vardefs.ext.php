@@ -213,6 +213,9 @@ $dictionary["AOS_Products"]["fields"]["product_currency"] = array (
 );
 
 
+
+
+
 // created: 2017-10-04 09:38:11
 $dictionary["AOS_Products"]["fields"]["bh_formed_packets_aos_products_1"] = array (
   'name' => 'bh_formed_packets_aos_products_1',
