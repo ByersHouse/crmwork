@@ -43,7 +43,7 @@ INSERT INTO `accounts_cstm` (`id_c`, `jjwg_maps_lng_c`, `jjwg_maps_lat_c`, `jjwg
 /*!40000 ALTER TABLE `accounts_opportunities` DISABLE KEYS */;
 /*!40000 ALTER TABLE `accounts_opportunities` ENABLE KEYS */;
 
--- Дамп данных таблицы stwork.acl_actions: ~736 rows (приблизительно)
+-- Дамп данных таблицы stwork.acl_actions: ~720 rows (приблизительно)
 /*!40000 ALTER TABLE `acl_actions` DISABLE KEYS */;
 INSERT INTO `acl_actions` (`id`, `date_entered`, `date_modified`, `modified_user_id`, `created_by`, `name`, `category`, `acltype`, `aclaccess`, `deleted`) VALUES
 	('00000005-41a7-303a-0c9d-59bf847c8bb5', '2017-09-18 08:31:39', '2017-09-18 08:41:05', '1', '1', 'edit', 'bh_marketing_company', 'module', 90, 1),
@@ -1269,7 +1269,7 @@ INSERT INTO `alerts` (`id`, `name`, `date_entered`, `date_modified`, `modified_u
 /*!40000 ALTER TABLE `aobh_businesshours` DISABLE KEYS */;
 /*!40000 ALTER TABLE `aobh_businesshours` ENABLE KEYS */;
 
--- Дамп данных таблицы stwork.aod_index: ~0 rows (приблизительно)
+-- Дамп данных таблицы stwork.aod_index: ~1 rows (приблизительно)
 /*!40000 ALTER TABLE `aod_index` DISABLE KEYS */;
 /*!40000 ALTER TABLE `aod_index` ENABLE KEYS */;
 
@@ -1382,19 +1382,19 @@ INSERT INTO `aop_case_updates` (`id`, `name`, `date_entered`, `date_modified`, `
 /*!40000 ALTER TABLE `aos_line_item_groups_audit` DISABLE KEYS */;
 /*!40000 ALTER TABLE `aos_line_item_groups_audit` ENABLE KEYS */;
 
--- Дамп данных таблицы stwork.aos_pdf_templates: ~1 rows (приблизительно)
+-- Дамп данных таблицы stwork.aos_pdf_templates: ~0 rows (приблизительно)
 /*!40000 ALTER TABLE `aos_pdf_templates` DISABLE KEYS */;
 INSERT INTO `aos_pdf_templates` (`id`, `name`, `date_entered`, `date_modified`, `modified_user_id`, `created_by`, `description`, `deleted`, `assigned_user_id`, `active`, `type`, `pdfheader`, `pdffooter`, `margin_left`, `margin_right`, `margin_top`, `margin_bottom`, `margin_header`, `margin_footer`) VALUES
 	('29661054-86f4-9bea-a18f-59d3976e2037', 'мой шаблон', '2017-10-03 13:57:26', '2017-10-03 14:22:56', '1', '1', '<table style="width: 100%; font-family: Arial; text-align: center;" border="0" cellspacing="2" cellpadding="2">\r\n<tbody style="text-align: left;">\r\n<tr style="text-align: left;">\r\n<td style="text-align: left;">\r\n<p><img style="float: left;" src="themes/default/images/company_logo.png" alt="" /> </p>\r\n</td>\r\n</tr>\r\n<tr>\r\n<td style="font-weight: bold; text-align: left;">\r\n<div>SuiteCRM Ltd<br />Название улицы<br />Название города<br />Название страны</div>\r\n</td>\r\n</tr>\r\n<tr style="text-align: left;">\r\n<td style="text-align: left;"> </td>\r\n</tr>\r\n<tr style="text-align: left;">\r\n<td style="text-align: left;">\r\n<h1>Предложение</h1>\r\n</td>\r\n</tr>\r\n</tbody>\r\n</table>\r\n<p style="font-family: Arial; text-align: center;"> </p>\r\n<table style="text-align: center; width: 100%; border: 0pt none; border-spacing: 0pt;">\r\n<tbody style="text-align: left;">\r\n<tr style="text-align: left;">\r\n<td style="font-weight: bold; background-color: #b0c4de; padding: 2px 6px; border-style: solid; border-width: 0.5px; vertical-align: top; text-align: left; width: 50%;">Подготовлено для</td>\r\n<td style="font-weight: bold; background-color: #b0c4de; padding: 2px 6px; border-style: solid; border-width: 0.5px; vertical-align: top; text-align: left; width: 50%;">Ответственный(ая)</td>\r\n</tr>\r\n<tr style="text-align: left;">\r\n<td style="padding: 2px 6px; border-style: solid; border-width: 0.5px; width: 50%; vertical-align: top; text-align: left;">\r\n<div>$aos_quotes_billing_account<br /> $aos_quotes_billing_address_street<br /> $aos_quotes_billing_address_city <br /> $aos_quotes_billing_address_state $aos_quotes_billing_address_postalcode</div>\r\n</td>\r\n<td style="padding: 2px 6px; border-style: solid; border-width: 0.5px; width: 50%; vertical-align: top; text-align: left;">\r\n<div>$aos_quotes_modified_by_name</div>\r\n</td>\r\n</tr>\r\n<tr style="text-align: left;">\r\n<td style="font-weight: bold; background-color: #b0c4de; padding: 2px 6px; border-style: solid; border-width: 0.5px; vertical-align: top; text-align: left; width: 50%;">Дата Создания</td>\r\n<td style="font-weight: bold; background-color: #b0c4de; padding: 2px 6px; border-style: solid; border-width: 0.5px; vertical-align: top; text-align: left; width: 50%;">Действительно до</td>\r\n</tr>\r\n<tr style="text-align: left;">\r\n<td style="padding: 2px 6px; border-style: solid; border-width: 0.5px; width: 50%; vertical-align: top; text-align: left;">\r\n<div>$aos_quotes_date_entered</div>\r\n</td>\r\n<td style="padding: 2px 6px; border-style: solid; border-width: 0.5px; width: 50%; vertical-align: top; text-align: left;">\r\n<div>$aos_quotes_expiration</div>\r\n</td>\r\n</tr>\r\n<tr style="text-align: left;">\r\n<td style="font-weight: bold; background-color: #b0c4de; padding: 2px 6px; border-style: solid; border-width: 0.5px; vertical-align: top; text-align: left; width: 50%;">Номер предложения</td>\r\n<td style="font-weight: bold; background-color: #b0c4de; padding: 2px 6px; border-style: solid; border-width: 0.5px; vertical-align: top; text-align: left; width: 50%;">Условия оплаты</td>\r\n</tr>\r\n<tr style="text-align: left;">\r\n<td style="padding: 2px 6px; border-style: solid; border-width: 0.5px; width: 50%; vertical-align: top; text-align: left;">\r\n<div>$aos_quotes_number</div>\r\n</td>\r\n<td style="padding: 2px 6px; border-style: solid; border-width: 0.5px; width: 50%; vertical-align: top; text-align: left;">\r\n<div>$aos_quotes_term</div>\r\n</td>\r\n</tr>\r\n</tbody>\r\n</table>\r\n<p> </p>\r\n<table style="width: 100%; border: 0pt none; border-spacing: 0pt;">\r\n<tbody>\r\n<tr>\r\n<td style="border-style: solid; border-width: 0.5px; padding: 2px 6px; font-weight: bold; text-align: center;" colspan="8">$aos_line_item_groups_name</td>\r\n</tr>\r\n<tr>\r\n<td style="border-style: solid; background-color: #b0c4de; border-width: 0.5px; padding: 2px 6px; font-weight: bold; text-align: center;">Количество</td>\r\n<td style="border-style: solid; background-color: #b0c4de; border-width: 0.5px; padding: 2px 6px; font-weight: bold; text-align: center;">Товар</td>\r\n<td style="border-style: solid; background-color: #b0c4de; border-width: 0.5px; padding: 2px 6px; font-weight: bold; text-align: center;">Описание</td>\r\n<td style="border-style: solid; background-color: #b0c4de; border-width: 0.5px; padding: 2px 6px; font-weight: bold; text-align: center;">Цена по прайсу</td>\r\n<td style="border-style: solid; background-color: #b0c4de; border-width: 0.5px; padding: 2px 6px; font-weight: bold; text-align: center;">Скидка</td>\r\n<td style="border-style: solid; background-color: #b0c4de; border-width: 0.5px; padding: 2px 6px; font-weight: bold; text-align: center;">Цена за единицу</td>\r\n<td style="border-style: solid; background-color: #b0c4de; border-width: 0.5px; padding: 2px 6px; font-weight: bold; text-align: center;">НДС (%)</td>\r\n<td style="border-style: solid; background-color: #b0c4de; border-width: 0.5px; padding: 2px 6px; font-weight: bold; text-align: center;">Итого без НДС</td>\r\n</tr>\r\n<tr>\r\n<td style="border-style: solid; border-width: 0.5px; padding: 2px 6px; text-align: center;">$aos_products_quotes_product_qty</td>\r\n<td style="border-style: solid; border-width: 0.5px; padding: 2px 6px;">$aos_products_quotes_name</td>\r\n<td style="border-style: solid; border-width: 0.5px; padding: 2px 6px;">$aos_products_description</td>\r\n<td style="border-style: solid; border-width: 0.5px; padding: 2px 6px;">$aos_products_quotes_product_list_price</td>\r\n<td style="border-style: solid; border-width: 0.5px; padding: 2px 6px;">$aos_products_quotes_product_discount</td>\r\n<td style="border-style: solid; border-width: 0.5px; padding: 2px 6px;">$aos_products_quotes_product_unit_price</td>\r\n<td style="border-style: solid; border-width: 0.5px; padding: 2px 6px;">$aos_products_quotes_vat</td>\r\n<td style="border-style: solid; border-width: 0.5px; padding: 2px 6px;">$aos_products_quotes_product_total_price</td>\r\n</tr>\r\n<tr>\r\n<td style="border-style: solid; border-width: 0.5px; padding: 2px 6px;" colspan="3">$aos_services_quotes_name</td>\r\n<td style="border-style: solid; border-width: 0.5px; padding: 2px 6px;">$aos_services_quotes_service_list_price</td>\r\n<td style="border-style: solid; border-width: 0.5px; padding: 2px 6px;">$aos_services_quotes_service_discount</td>\r\n<td style="border-style: solid; border-width: 0.5px; padding: 2px 6px;">$aos_services_quotes_service_unit_price</td>\r\n<td style="border-style: solid; border-width: 0.5px; padding: 2px 6px;">$aos_services_quotes_vat</td>\r\n<td style="border-style: solid; border-width: 0.5px; padding: 2px 6px;">$aos_services_quotes_service_total_price</td>\r\n</tr>\r\n<tr>\r\n<td colspan="6"> </td>\r\n<td style="border-style: solid; border-width: 0.5px; padding: 2px 6px; font-weight: bold; text-align: right;">Итого без скидки</td>\r\n<td style="border-style: solid; border-width: 0.5px; padding: 2px 6px;">$aos_line_item_groups_total_amt</td>\r\n</tr>\r\n<tr>\r\n<td colspan="6"> </td>\r\n<td style="border-style: solid; border-width: 0.5px; padding: 2px 6px; font-weight: bold; text-align: right;">Скидка</td>\r\n<td style="border-style: solid; border-width: 0.5px; padding: 2px 6px;">$aos_line_item_groups_discount_amount</td>\r\n</tr>\r\n<tr>\r\n<td colspan="6"> </td>\r\n<td style="border-style: solid; border-width: 0.5px; padding: 2px 6px; font-weight: bold; text-align: right;">Итого со скидкой</td>\r\n<td style="border-style: solid; border-width: 0.5px; padding: 2px 6px;">$aos_line_item_groups_subtotal_amount</td>\r\n</tr>\r\n<tr>\r\n<td colspan="6"> </td>\r\n<td style="border-style: solid; border-width: 0.5px; padding: 2px 6px; font-weight: bold; text-align: right;">Всего НДС</td>\r\n<td style="border-style: solid; border-width: 0.5px; padding: 2px 6px;">$aos_line_item_groups_tax_amount</td>\r\n</tr>\r\n<tr>\r\n<td colspan="6"> </td>\r\n<td style="border-style: solid; border-width: 0.5px; padding: 2px 6px; font-weight: bold; text-align: right;">ИТОГО С НДС</td>\r\n<td style="border-style: solid; border-width: 0.5px; padding: 2px 6px;">$aos_line_item_groups_total_amount</td>\r\n</tr>\r\n</tbody>\r\n</table>', 0, '', 1, 'AOS_Invoices', NULL, '<table style="width: 100%; border: 0pt none; border-spacing: 0pt;">\r\n<tbody>\r\n<tr>\r\n<td>Страница {PAGENO}</td>\r\n<td style="text-align: right;">{DATE m/d/Y}</td>\r\n</tr>\r\n</tbody>\r\n</table>', 15, 15, 16, 16, 9, 9);
 /*!40000 ALTER TABLE `aos_pdf_templates` ENABLE KEYS */;
 
--- Дамп данных таблицы stwork.aos_pdf_templates_audit: ~1 rows (приблизительно)
+-- Дамп данных таблицы stwork.aos_pdf_templates_audit: ~0 rows (приблизительно)
 /*!40000 ALTER TABLE `aos_pdf_templates_audit` DISABLE KEYS */;
 INSERT INTO `aos_pdf_templates_audit` (`id`, `parent_id`, `date_created`, `created_by`, `field_name`, `data_type`, `before_value_string`, `after_value_string`, `before_value_text`, `after_value_text`) VALUES
 	('eb9cc810-0ae6-2e13-f2db-59d39d24eced', '29661054-86f4-9bea-a18f-59d3976e2037', '2017-10-03 14:22:56', '1', 'type', 'enum', 'Leads', 'AOS_Invoices', NULL, NULL);
 /*!40000 ALTER TABLE `aos_pdf_templates_audit` ENABLE KEYS */;
 
--- Дамп данных таблицы stwork.aos_products: ~7 rows (приблизительно)
+-- Дамп данных таблицы stwork.aos_products: ~6 rows (приблизительно)
 /*!40000 ALTER TABLE `aos_products` DISABLE KEYS */;
 INSERT INTO `aos_products` (`id`, `name`, `date_entered`, `date_modified`, `modified_user_id`, `created_by`, `description`, `deleted`, `assigned_user_id`, `maincode`, `part_number`, `category`, `type`, `cost`, `cost_usdollar`, `currency_id`, `price`, `price_usdollar`, `url`, `contact_id`, `product_image`, `aos_product_category_id`, `product_name`, `product_essence`, `registration_use`, `activation_date`, `product_validity`, `basic_cost`, `product_status`, `product_type`, `product_currency`) VALUES
 	('22328d1a-9962-3f5e-3618-59d485e104eb', 'Талон на бензин AИ 95', '2017-10-04 06:54:51', '2017-10-04 08:11:20', '1', '1', NULL, 0, '', 'XXXX', NULL, NULL, 'Good', 0.000000, 0.000000, '-99', 20.000000, 0.000000, NULL, '', NULL, '', NULL, NULL, NULL, NULL, NULL, NULL, 'active', 'fuel', 'name'),
@@ -1410,8 +1410,6 @@ INSERT INTO `aos_products` (`id`, `name`, `date_entered`, `date_modified`, `modi
 /*!40000 ALTER TABLE `aos_products_audit` DISABLE KEYS */;
 /*!40000 ALTER TABLE `aos_products_audit` ENABLE KEYS */;
 
--- Дамп данных таблицы stwork.aos_products_bh_campaine_products_1_c: ~1 rows (приблизительно)
-/*!40000 ALTER TABLE `aos_products_bh_campaine_products_1_c` DISABLE KEYS */;
 -- Дамп данных таблицы stwork.aos_products_bh_case_compound_1_c: ~0 rows (приблизительно)
 /*!40000 ALTER TABLE `aos_products_bh_case_compound_1_c` DISABLE KEYS */;
 /*!40000 ALTER TABLE `aos_products_bh_case_compound_1_c` ENABLE KEYS */;
@@ -1489,7 +1487,7 @@ INSERT INTO `aow_processed_aow_actions` (`id`, `aow_processed_id`, `aow_action_i
 	('b7e2c548-6779-ff2a-944a-59a512ff0eda', 'a439039c-63f9-defc-dd20-59a5129b89fc', '528b2104-2fc8-62a2-37f1-59a50fb15435', 'Complete', '2017-08-29 07:06:46', 0);
 /*!40000 ALTER TABLE `aow_processed_aow_actions` ENABLE KEYS */;
 
--- Дамп данных таблицы stwork.aow_workflow: ~0 rows (приблизительно)
+-- Дамп данных таблицы stwork.aow_workflow: ~1 rows (приблизительно)
 /*!40000 ALTER TABLE `aow_workflow` DISABLE KEYS */;
 /*!40000 ALTER TABLE `aow_workflow` ENABLE KEYS */;
 
@@ -1610,11 +1608,20 @@ INSERT INTO `bh_autotransport` (`id`, `name`, `date_entered`, `date_modified`, `
 /*!40000 ALTER TABLE `bh_autotransport_audit` DISABLE KEYS */;
 /*!40000 ALTER TABLE `bh_autotransport_audit` ENABLE KEYS */;
 
--- Дамп данных таблицы stwork.bh_campaine_products: ~1 rows (приблизительно)
+-- Дамп данных таблицы stwork.bh_campaine_products: ~0 rows (приблизительно)
 /*!40000 ALTER TABLE `bh_campaine_products` DISABLE KEYS */;
 INSERT INTO `bh_campaine_products` (`id`, `name`, `date_entered`, `date_modified`, `modified_user_id`, `created_by`, `description`, `deleted`, `assigned_user_id`) VALUES
-	('370e7ee5-9fc1-cd14-8b2d-59d36f14c292', 'Продукт 1', '2017-10-03 11:08:07', '2017-10-04 09:13:33', '1', '1', 'Продукт 1', 0, '1');
+	('370e7ee5-9fc1-cd14-8b2d-59d36f14c292', 'Продукт 1', '2017-10-03 11:08:07', '2017-10-04 11:14:20', '1', '1', 'Продукт 1', 0, '1');
 /*!40000 ALTER TABLE `bh_campaine_products` ENABLE KEYS */;
+
+-- Дамп данных таблицы stwork.bh_campaine_products_aos_products_1_c: ~4 rows (приблизительно)
+/*!40000 ALTER TABLE `bh_campaine_products_aos_products_1_c` DISABLE KEYS */;
+INSERT INTO `bh_campaine_products_aos_products_1_c` (`id`, `date_modified`, `deleted`, `bh_campaine_products_aos_products_1bh_campaine_products_ida`, `bh_campaine_products_aos_products_1aos_products_idb`) VALUES
+	('467c24ba-618b-6c0d-5c5f-59d4a6bc56fd', '2017-10-04 09:15:29', 0, '370e7ee5-9fc1-cd14-8b2d-59d36f14c292', '379778c7-a5c6-67e5-ebc4-59d4a63f0710'),
+	('beedb40c-0d03-c63a-97f0-59d4a6c6a151', '2017-10-04 09:13:33', 0, '370e7ee5-9fc1-cd14-8b2d-59d36f14c292', 'dd77710e-fd7e-fed7-124f-59d4802bb968'),
+	('d76764ed-9e8a-b405-8893-59d4c227f0e0', '2017-10-04 11:13:49', 0, '370e7ee5-9fc1-cd14-8b2d-59d36f14c292', '952151a3-60a8-2c53-3404-59d48521121c'),
+	('e63dfc05-8529-bde6-6ff9-59d4c2014da1', '2017-10-04 11:14:20', 0, '370e7ee5-9fc1-cd14-8b2d-59d36f14c292', '22328d1a-9962-3f5e-3618-59d485e104eb');
+/*!40000 ALTER TABLE `bh_campaine_products_aos_products_1_c` ENABLE KEYS */;
 
 -- Дамп данных таблицы stwork.bh_campaine_products_audit: ~0 rows (приблизительно)
 /*!40000 ALTER TABLE `bh_campaine_products_audit` DISABLE KEYS */;
@@ -1784,7 +1791,7 @@ INSERT INTO `bh_formed_packets_aos_products_1_c` (`id`, `date_modified`, `delete
 /*!40000 ALTER TABLE `bh_formed_packets_audit` DISABLE KEYS */;
 /*!40000 ALTER TABLE `bh_formed_packets_audit` ENABLE KEYS */;
 
--- Дамп данных таблицы stwork.bh_formed_packets_bh_packet_activation_1_c: ~1 rows (приблизительно)
+-- Дамп данных таблицы stwork.bh_formed_packets_bh_packet_activation_1_c: ~0 rows (приблизительно)
 /*!40000 ALTER TABLE `bh_formed_packets_bh_packet_activation_1_c` DISABLE KEYS */;
 INSERT INTO `bh_formed_packets_bh_packet_activation_1_c` (`id`, `date_modified`, `deleted`, `bh_formed_packets_bh_packet_activation_1bh_formed_packets_ida`, `bh_formed_packets_bh_packet_activation_1bh_packet_activation_idb`) VALUES
 	('15b0b848-2857-a4f7-1bce-59d487ca60c1', '2017-10-04 07:04:24', 0, '2f4db81b-4e87-d6e9-6df6-59bbb89f3be2', '2905487e-f13a-594a-6d2f-59bb73118e66');
@@ -1843,31 +1850,31 @@ INSERT INTO `bh_marketing_company` (`id`, `name`, `date_entered`, `date_modified
 /*!40000 ALTER TABLE `bh_marketing_company_audit` DISABLE KEYS */;
 /*!40000 ALTER TABLE `bh_marketing_company_audit` ENABLE KEYS */;
 
--- Дамп данных таблицы stwork.bh_marketing_company_bh_campaine_products_1_c: ~1 rows (приблизительно)
+-- Дамп данных таблицы stwork.bh_marketing_company_bh_campaine_products_1_c: ~0 rows (приблизительно)
 /*!40000 ALTER TABLE `bh_marketing_company_bh_campaine_products_1_c` DISABLE KEYS */;
 INSERT INTO `bh_marketing_company_bh_campaine_products_1_c` (`id`, `date_modified`, `deleted`, `bh_marketi9abccompany_ida`, `bh_marketi9283roducts_idb`) VALUES
 	('51a75c9e-e331-016b-6016-59d37128c50f', '2017-10-03 11:14:48', 0, 'd431499d-a668-1db4-8b3d-59bf89d1ebb8', '370e7ee5-9fc1-cd14-8b2d-59d36f14c292');
 /*!40000 ALTER TABLE `bh_marketing_company_bh_campaine_products_1_c` ENABLE KEYS */;
 
--- Дамп данных таблицы stwork.bh_marketing_company_bh_channels_impact_1_c: ~1 rows (приблизительно)
+-- Дамп данных таблицы stwork.bh_marketing_company_bh_channels_impact_1_c: ~0 rows (приблизительно)
 /*!40000 ALTER TABLE `bh_marketing_company_bh_channels_impact_1_c` DISABLE KEYS */;
 INSERT INTO `bh_marketing_company_bh_channels_impact_1_c` (`id`, `date_modified`, `deleted`, `bh_marketid0c7company_ida`, `bh_marketing_company_bh_channels_impact_1bh_channels_impact_idb`) VALUES
 	('25a8d2ad-5430-cdb6-f1ed-59d36587b533', '2017-10-03 10:24:55', 0, 'd431499d-a668-1db4-8b3d-59bf89d1ebb8', '6f216cb1-9775-2242-895d-59d363d9bfa1');
 /*!40000 ALTER TABLE `bh_marketing_company_bh_channels_impact_1_c` ENABLE KEYS */;
 
--- Дамп данных таблицы stwork.bh_marketing_company_bh_marketing_company_history_1_c: ~1 rows (приблизительно)
+-- Дамп данных таблицы stwork.bh_marketing_company_bh_marketing_company_history_1_c: ~0 rows (приблизительно)
 /*!40000 ALTER TABLE `bh_marketing_company_bh_marketing_company_history_1_c` DISABLE KEYS */;
 INSERT INTO `bh_marketing_company_bh_marketing_company_history_1_c` (`id`, `date_modified`, `deleted`, `bh_marketi1e9fcompany_ida`, `bh_marketid398history_idb`) VALUES
 	('446461b6-509f-984d-1cc6-59d3515d504b', '2017-10-03 09:01:50', 0, 'd431499d-a668-1db4-8b3d-59bf89d1ebb8', '61c060b8-0391-3e3c-a034-59bfa8231477');
 /*!40000 ALTER TABLE `bh_marketing_company_bh_marketing_company_history_1_c` ENABLE KEYS */;
 
--- Дамп данных таблицы stwork.bh_marketing_company_bh_marketing_directorate_1_c: ~1 rows (приблизительно)
+-- Дамп данных таблицы stwork.bh_marketing_company_bh_marketing_directorate_1_c: ~0 rows (приблизительно)
 /*!40000 ALTER TABLE `bh_marketing_company_bh_marketing_directorate_1_c` DISABLE KEYS */;
 INSERT INTO `bh_marketing_company_bh_marketing_directorate_1_c` (`id`, `date_modified`, `deleted`, `bh_marketia9b6company_ida`, `bh_marketi618ectorate_idb`) VALUES
 	('dad9ba24-e2e0-f633-d68a-59d34ca4e646', '2017-10-03 08:39:29', 0, 'd431499d-a668-1db4-8b3d-59bf89d1ebb8', 'ac2361ec-f3ca-1138-8d47-59c20de54bc1');
 /*!40000 ALTER TABLE `bh_marketing_company_bh_marketing_directorate_1_c` ENABLE KEYS */;
 
--- Дамп данных таблицы stwork.bh_marketing_company_bh_marketing_response_1_c: ~3 rows (приблизительно)
+-- Дамп данных таблицы stwork.bh_marketing_company_bh_marketing_response_1_c: ~2 rows (приблизительно)
 /*!40000 ALTER TABLE `bh_marketing_company_bh_marketing_response_1_c` DISABLE KEYS */;
 INSERT INTO `bh_marketing_company_bh_marketing_response_1_c` (`id`, `date_modified`, `deleted`, `bh_marketi8c3ecompany_ida`, `bh_marketi8b4desponse_idb`) VALUES
 	('3ce90e04-f846-50f0-8da2-59d35935731a', '2017-10-03 09:33:44', 0, 'd431499d-a668-1db4-8b3d-59bf89d1ebb8', 'f34f076b-3745-ce6a-978c-59d359b4b094'),
@@ -1888,7 +1895,7 @@ INSERT INTO `bh_marketing_company_history` (`id`, `name`, `date_entered`, `date_
 -- Дамп данных таблицы stwork.bh_marketing_directorate: ~1 rows (приблизительно)
 /*!40000 ALTER TABLE `bh_marketing_directorate` DISABLE KEYS */;
 INSERT INTO `bh_marketing_directorate` (`id`, `name`, `date_entered`, `date_modified`, `modified_user_id`, `created_by`, `description`, `deleted`, `assigned_user_id`, `directorate_date`, `comment`) VALUES
-	('ac2361ec-f3ca-1138-8d47-59c20de54bc1', '12', '2017-09-20 06:40:49', '2017-10-04 10:20:40', '1', '1', NULL, 0, '1', NULL, NULL);
+	('ac2361ec-f3ca-1138-8d47-59c20de54bc1', 'Список клиентов Компания 1', '2017-09-20 06:40:49', '2017-10-04 10:23:23', '1', '1', NULL, 0, '1', NULL, NULL);
 /*!40000 ALTER TABLE `bh_marketing_directorate` ENABLE KEYS */;
 
 -- Дамп данных таблицы stwork.bh_marketing_directorate_audit: ~0 rows (приблизительно)
@@ -1903,16 +1910,16 @@ INSERT INTO `bh_marketing_directorate_leads_1_c` (`id`, `date_modified`, `delete
 	('9aa5bead-8c67-c7e6-a121-59d4b430c53e', '2017-10-04 10:15:44', 0, 'ac2361ec-f3ca-1138-8d47-59c20de54bc1', '98d382fa-5d6c-7a6e-c895-59ca6cc9dc07');
 /*!40000 ALTER TABLE `bh_marketing_directorate_leads_1_c` ENABLE KEYS */;
 
--- Дамп данных таблицы stwork.bh_marketing_response: ~4 rows (приблизительно)
+-- Дамп данных таблицы stwork.bh_marketing_response: ~3 rows (приблизительно)
 /*!40000 ALTER TABLE `bh_marketing_response` DISABLE KEYS */;
 INSERT INTO `bh_marketing_response` (`id`, `name`, `date_entered`, `date_modified`, `modified_user_id`, `created_by`, `description`, `deleted`, `assigned_user_id`, `response_date`, `comment`, `response_type`) VALUES
-	('39d947d8-fec3-148a-3c9a-59d34f872059', 'отклик от клиента Test', '2017-10-03 08:49:15', '2017-10-03 09:29:26', '1', '1', NULL, 0, 'eff07114-603c-c0d2-0e5e-599bcd264773', '2017-10-03', NULL, 'positive'),
+	('39d947d8-fec3-148a-3c9a-59d34f872059', 'отклик от клиента Test', '2017-10-03 08:49:15', '2017-10-04 10:26:27', '1', '1', NULL, 0, 'eff07114-603c-c0d2-0e5e-599bcd264773', '2017-10-03', NULL, 'positive'),
 	('7769832a-236d-bfbd-fcb6-59d49d972ed1', 'Отклик от клиента Валера', '2017-10-04 08:38:19', '2017-10-04 08:38:19', '1', '1', NULL, 0, '1', '2017-10-04', '', 'none'),
 	('aaf23322-06e2-0bb4-6a12-59bfbaae9ba1', 'Test', '2017-09-18 12:24:07', '2017-10-03 14:49:44', '1', '1', NULL, 1, '1', '2017-09-07', 'Comment', 'positive'),
 	('f34f076b-3745-ce6a-978c-59d359b4b094', 'отклик от клиента Администратор', '2017-10-03 09:33:44', '2017-10-03 09:33:44', '1', '1', NULL, 0, '1', '2017-10-04', '', 'negative');
 /*!40000 ALTER TABLE `bh_marketing_response` ENABLE KEYS */;
 
--- Дамп данных таблицы stwork.bh_marketing_response_audit: ~1 rows (приблизительно)
+-- Дамп данных таблицы stwork.bh_marketing_response_audit: ~0 rows (приблизительно)
 /*!40000 ALTER TABLE `bh_marketing_response_audit` DISABLE KEYS */;
 INSERT INTO `bh_marketing_response_audit` (`id`, `parent_id`, `date_created`, `created_by`, `field_name`, `data_type`, `before_value_string`, `after_value_string`, `before_value_text`, `after_value_text`) VALUES
 	('a86d3743-2545-94eb-1be0-59d358a7df26', '39d947d8-fec3-148a-3c9a-59d34f872059', '2017-10-03 09:29:26', '1', 'assigned_user_id', 'relate', '1', 'eff07114-603c-c0d2-0e5e-599bcd264773', NULL, NULL);
@@ -2226,7 +2233,7 @@ INSERT INTO `calls_users` (`id`, `call_id`, `user_id`, `required`, `accept_statu
 	('e64ff317-0178-4b5b-46ec-59ce021df5ae', 'e4e1c393-ab9b-dc9d-c177-59ce02ab006a', '1', '1', 'none', '2017-09-29 08:20:50', 0);
 /*!40000 ALTER TABLE `calls_users` ENABLE KEYS */;
 
--- Дамп данных таблицы stwork.campaigns: ~2 rows (приблизительно)
+-- Дамп данных таблицы stwork.campaigns: ~0 rows (приблизительно)
 /*!40000 ALTER TABLE `campaigns` DISABLE KEYS */;
 INSERT INTO `campaigns` (`id`, `name`, `date_entered`, `date_modified`, `modified_user_id`, `created_by`, `deleted`, `assigned_user_id`, `tracker_key`, `tracker_count`, `refer_url`, `tracker_text`, `start_date`, `end_date`, `status`, `impressions`, `currency_id`, `budget`, `expected_cost`, `actual_cost`, `expected_revenue`, `campaign_type`, `objective`, `content`, `frequency`) VALUES
 	('3f0232ce-059c-a184-3838-59d34aed4ef4', 'Непочтовая компапния', '2017-10-03 08:28:28', '2017-10-03 08:28:28', '1', '1', 0, '1', 25, 0, 'http://', NULL, NULL, '0000-00-00', 'Active', 0, '-99', NULL, NULL, NULL, NULL, 'Telesales', NULL, NULL, ''),
@@ -2245,7 +2252,7 @@ INSERT INTO `campaigns` (`id`, `name`, `date_entered`, `date_modified`, `modifie
 /*!40000 ALTER TABLE `campaign_trkrs` DISABLE KEYS */;
 /*!40000 ALTER TABLE `campaign_trkrs` ENABLE KEYS */;
 
--- Дамп данных таблицы stwork.cases: ~1 rows (приблизительно)
+-- Дамп данных таблицы stwork.cases: ~0 rows (приблизительно)
 /*!40000 ALTER TABLE `cases` DISABLE KEYS */;
 INSERT INTO `cases` (`id`, `name`, `date_entered`, `date_modified`, `modified_user_id`, `created_by`, `description`, `deleted`, `assigned_user_id`, `case_number`, `type`, `status`, `priority`, `resolution`, `work_log`, `account_id`, `state`, `contact_created_by_id`, `case_view`, `case_type`, `case_status`, `result_comment`) VALUES
 	('9e430572-0c88-020a-a77c-59ba2115b313', 'adasdadsdad', '2017-09-14 06:29:12', '2017-09-20 08:13:11', '1', '1', NULL, 0, '1', 1, 'buy_sell', 'Open_New', 'P1', NULL, NULL, 'd45b7965-8105-7147-d758-59ba21cbfdef', 'Open', '', 'consult', 'incoming', 'active_work', NULL);
@@ -2265,7 +2272,7 @@ INSERT INTO `cases_bh_cases_log_1_c` (`id`, `date_modified`, `deleted`, `cases_b
 /*!40000 ALTER TABLE `cases_bh_case_compound_1_c` DISABLE KEYS */;
 /*!40000 ALTER TABLE `cases_bh_case_compound_1_c` ENABLE KEYS */;
 
--- Дамп данных таблицы stwork.cases_bh_marketing_company_1_c: ~1 rows (приблизительно)
+-- Дамп данных таблицы stwork.cases_bh_marketing_company_1_c: ~0 rows (приблизительно)
 /*!40000 ALTER TABLE `cases_bh_marketing_company_1_c` DISABLE KEYS */;
 INSERT INTO `cases_bh_marketing_company_1_c` (`id`, `date_modified`, `deleted`, `cases_bh_marketing_company_1cases_ida`, `cases_bh_marketing_company_1bh_marketing_company_idb`) VALUES
 	('e685ff7a-a7e5-b316-251f-59d38d05fa54', '2017-10-03 13:16:15', 0, '9e430572-0c88-020a-a77c-59ba2115b313', 'd431499d-a668-1db4-8b3d-59bf89d1ebb8');
@@ -2464,7 +2471,7 @@ INSERT INTO `email_addr_bean_rel` (`id`, `email_address_id`, `bean_id`, `bean_mo
 /*!40000 ALTER TABLE `email_cache` DISABLE KEYS */;
 /*!40000 ALTER TABLE `email_cache` ENABLE KEYS */;
 
--- Дамп данных таблицы stwork.email_marketing: ~10 rows (приблизительно)
+-- Дамп данных таблицы stwork.email_marketing: ~9 rows (приблизительно)
 /*!40000 ALTER TABLE `email_marketing` DISABLE KEYS */;
 INSERT INTO `email_marketing` (`id`, `deleted`, `date_entered`, `date_modified`, `modified_user_id`, `created_by`, `name`, `from_name`, `from_addr`, `reply_to_name`, `reply_to_addr`, `inbound_email_id`, `date_start`, `template_id`, `status`, `campaign_id`, `outbound_email_id`, `all_prospect_lists`) VALUES
 	('1960bf6f-ffb8-eec4-a0c5-59d1f3f4e768', 0, '2017-10-02 08:07:09', '2017-10-02 08:07:09', '1', '1', '', '', '', '', '', '', '0000-00-00 00:00:00', '83b206a7-d8a5-5104-c472-59d1f32e6a47', 'active', '51b98206-9490-5a8a-b032-59d1e7fc5b7a', '63265c44-f3fe-8e42-1f78-599a76c05b05', 1),
@@ -2483,7 +2490,7 @@ INSERT INTO `email_marketing` (`id`, `deleted`, `date_entered`, `date_modified`,
 /*!40000 ALTER TABLE `email_marketing_prospect_lists` DISABLE KEYS */;
 /*!40000 ALTER TABLE `email_marketing_prospect_lists` ENABLE KEYS */;
 
--- Дамп данных таблицы stwork.email_templates: ~36 rows (приблизительно)
+-- Дамп данных таблицы stwork.email_templates: ~31 rows (приблизительно)
 /*!40000 ALTER TABLE `email_templates` DISABLE KEYS */;
 INSERT INTO `email_templates` (`id`, `date_entered`, `date_modified`, `modified_user_id`, `created_by`, `published`, `name`, `description`, `subject`, `body`, `body_html`, `deleted`, `assigned_user_id`, `text_only`, `type`) VALUES
 	('10b75664-ec9f-c423-7ec5-599a76fbf666', '2017-08-21 05:56:19', '2017-08-21 05:56:19', '1', '1', 'off', 'Case Creation', 'Template to send to a contact when a case is received from them.', '$acase_name [CASE:$acase_case_number]', 'Hi $contact_first_name $contact_last_name,\r\n\r\n					   We\'ve received your case $acase_name (# $acase_case_number) on $acase_date_entered\r\n					   Status:		$acase_status\r\n					   Reference:	$acase_case_number\r\n					   Description:	$acase_description', '<p> Hi $contact_first_name $contact_last_name,</p>\r\n					    <p>We\'ve received your case $acase_name (# $acase_case_number) on $acase_date_entered</p>\r\n					    <table border="0"><tbody><tr><td>Status</td><td>$acase_status</td></tr><tr><td>Reference</td><td>$acase_case_number</td></tr><tr><td>Description</td><td>$acase_description</td></tr></tbody></table>', 0, NULL, NULL, NULL),
@@ -2582,7 +2589,7 @@ INSERT INTO `fields_meta_data` (`id`, `name`, `vname`, `comments`, `help`, `cust
 	('Usersasterisk_outbound_c', 'asterisk_outbound_c', 'LBL_ASTERISK_OUTBOUND', NULL, NULL, 'Users', 'bool', 45, 0, '0', '2017-09-29 07:31:15', 0, 0, 0, 0, 1, 'true', NULL, NULL, NULL, NULL);
 /*!40000 ALTER TABLE `fields_meta_data` ENABLE KEYS */;
 
--- Дамп данных таблицы stwork.folders: ~1 rows (приблизительно)
+-- Дамп данных таблицы stwork.folders: ~0 rows (приблизительно)
 /*!40000 ALTER TABLE `folders` DISABLE KEYS */;
 INSERT INTO `folders` (`id`, `name`, `folder_type`, `parent_folder`, `has_child`, `is_group`, `is_dynamic`, `dynamic_query`, `assign_to_id`, `created_by`, `modified_by`, `deleted`) VALUES
 	('c51c21ec-e3af-fd01-ac73-59d34539da7d', 'test', '', '', 0, 1, 0, '', '1', '1', '1', 0);
@@ -2647,7 +2654,7 @@ INSERT INTO `fp_events_leads_1_c` (`id`, `date_modified`, `deleted`, `fp_events_
 /*!40000 ALTER TABLE `import_maps` DISABLE KEYS */;
 /*!40000 ALTER TABLE `import_maps` ENABLE KEYS */;
 
--- Дамп данных таблицы stwork.inbound_email: ~1 rows (приблизительно)
+-- Дамп данных таблицы stwork.inbound_email: ~0 rows (приблизительно)
 /*!40000 ALTER TABLE `inbound_email` DISABLE KEYS */;
 INSERT INTO `inbound_email` (`id`, `deleted`, `date_entered`, `date_modified`, `modified_user_id`, `created_by`, `name`, `status`, `server_url`, `email_user`, `email_password`, `port`, `service`, `mailbox`, `delete_seen`, `mailbox_type`, `template_id`, `stored_options`, `group_id`, `is_personal`, `groupfolder_id`) VALUES
 	('d5395caa-5dc9-4cd0-c5b0-59d34509d5a0', 0, '2017-10-03 07:59:36', '2017-10-03 07:59:36', '1', '1', 'test', 'Active', 'smtp.gmail.com', 'admin', 'foN4bR2k6hA=', 143, '::::::imap::::', 'INBOX', 0, 'pick', '', 'YToxMjp7czo5OiJmcm9tX25hbWUiO3M6MTM6IkFkbWluaXN0cmF0b3IiO3M6OToiZnJvbV9hZGRyIjtzOjEzOiJuZXdAYWRtaW4uY29tIjtzOjEzOiJyZXBseV90b19uYW1lIjtzOjA6IiI7czoxMzoicmVwbHlfdG9fYWRkciI7czowOiIiO3M6MTA6Im9ubHlfc2luY2UiO2I6MDtzOjEzOiJmaWx0ZXJfZG9tYWluIjtzOjA6IiI7czozMDoiZW1haWxfbnVtX2F1dG9yZXBsaWVzXzI0X2hvdXJzIjtzOjI6IjEwIjtzOjI2OiJhbGxvd19vdXRib3VuZF9ncm91cF91c2FnZSI7YjowO3M6MTE6InRyYXNoRm9sZGVyIjtzOjE0OiJyZW1vdmVkIEZPbGRlciI7czoxMDoic2VudEZvbGRlciI7czowOiIiO3M6MTI6ImlzQXV0b0ltcG9ydCI7YjoxO3M6MjU6ImxlYXZlTWVzc2FnZXNPbk1haWxTZXJ2ZXIiO2k6MTt9', 'c51c2309-af48-a342-d5aa-59d345a67028', 0, 'c51c21ec-e3af-fd01-ac73-59d34539da7d');
@@ -2785,6 +2792,13 @@ INSERT INTO `leads_bh_lead_adress_1_c` (`id`, `date_modified`, `deleted`, `leads
 	('df65f8b3-af4e-18f9-0dbf-59c4ca36dc0c', '2017-09-22 08:31:42', 0, '5a7265ea-aa41-cc92-4445-59b8ce6cc94a', 'a4083cbf-858f-e628-b24b-59c4cafc804b');
 /*!40000 ALTER TABLE `leads_bh_lead_adress_1_c` ENABLE KEYS */;
 
+-- Дамп данных таблицы stwork.leads_bh_marketing_response_1_c: ~2 rows (приблизительно)
+/*!40000 ALTER TABLE `leads_bh_marketing_response_1_c` DISABLE KEYS */;
+INSERT INTO `leads_bh_marketing_response_1_c` (`id`, `date_modified`, `deleted`, `leads_bh_marketing_response_1leads_ida`, `leads_bh_marketing_response_1bh_marketing_response_idb`) VALUES
+	('beb491ad-8e7f-fd26-bc4e-59d49d84a6f2', '2017-10-04 08:38:19', 0, '98d382fa-5d6c-7a6e-c895-59ca6cc9dc07', '7769832a-236d-bfbd-fcb6-59d49d972ed1'),
+	('d1c5a836-73b8-7861-1e08-59d4b7d4e328', '2017-10-04 10:26:27', 0, '1a850344-233e-e32f-fe21-59b10fc56fe1', '39d947d8-fec3-148a-3c9a-59d34f872059');
+/*!40000 ALTER TABLE `leads_bh_marketing_response_1_c` ENABLE KEYS */;
+
 -- Дамп данных таблицы stwork.leads_bh_packet_activation_1_c: ~1 rows (приблизительно)
 /*!40000 ALTER TABLE `leads_bh_packet_activation_1_c` DISABLE KEYS */;
 INSERT INTO `leads_bh_packet_activation_1_c` (`id`, `date_modified`, `deleted`, `leads_bh_packet_activation_1leads_ida`, `leads_bh_packet_activation_1bh_packet_activation_idb`) VALUES
@@ -2903,7 +2917,7 @@ INSERT INTO `leads_documents_1_c` (`id`, `date_modified`, `deleted`, `leads_docu
 /*!40000 ALTER TABLE `opportunities_cstm` DISABLE KEYS */;
 /*!40000 ALTER TABLE `opportunities_cstm` ENABLE KEYS */;
 
--- Дамп данных таблицы stwork.outbound_email: ~1 rows (приблизительно)
+-- Дамп данных таблицы stwork.outbound_email: ~2 rows (приблизительно)
 /*!40000 ALTER TABLE `outbound_email` DISABLE KEYS */;
 INSERT INTO `outbound_email` (`id`, `name`, `type`, `user_id`, `mail_sendtype`, `mail_smtptype`, `mail_smtpserver`, `mail_smtpport`, `mail_smtpuser`, `mail_smtppass`, `mail_smtpauth_req`, `mail_smtpssl`, `date_entered`, `date_modified`, `modified_user_id`, `created_by`, `deleted`, `assigned_user_id`) VALUES
 	('63265c44-f3fe-8e42-1f78-599a76c05b05', 'system', 'system', '1', 'SMTP', 'other', 'smtp.gmail.com', 25, 'admin', 'kUR3hxAdhzU=', 1, '0', NULL, NULL, NULL, NULL, 0, NULL);
@@ -2969,7 +2983,7 @@ INSERT INTO `outbound_email` (`id`, `name`, `type`, `user_id`, `mail_sendtype`, 
 /*!40000 ALTER TABLE `prospects_cstm` DISABLE KEYS */;
 /*!40000 ALTER TABLE `prospects_cstm` ENABLE KEYS */;
 
--- Дамп данных таблицы stwork.prospect_lists: ~2 rows (приблизительно)
+-- Дамп данных таблицы stwork.prospect_lists: ~0 rows (приблизительно)
 /*!40000 ALTER TABLE `prospect_lists` DISABLE KEYS */;
 INSERT INTO `prospect_lists` (`assigned_user_id`, `id`, `name`, `list_type`, `date_entered`, `date_modified`, `modified_user_id`, `created_by`, `deleted`, `description`, `domain_name`) VALUES
 	('1', '525749a1-daad-f8b3-a8d8-59d34a835152', 'список 1', 'default', '2017-10-03 08:31:34', '2017-10-03 08:31:34', '1', '1', 0, '', ''),
@@ -2991,7 +3005,7 @@ INSERT INTO `prospect_lists_prospects` (`id`, `prospect_list_id`, `related_id`, 
 	('cdaab157-8a7e-3f05-0d32-59d1e4f1e1a4', 'ef76f4c9-a638-bab4-f91a-59d1e4089280', '15b2317d-5f17-b967-0f5d-59c3c87bbba0', 'Leads', '2017-10-02 10:44:58', 0);
 /*!40000 ALTER TABLE `prospect_lists_prospects` ENABLE KEYS */;
 
--- Дамп данных таблицы stwork.prospect_list_campaigns: ~7 rows (приблизительно)
+-- Дамп данных таблицы stwork.prospect_list_campaigns: ~4 rows (приблизительно)
 /*!40000 ALTER TABLE `prospect_list_campaigns` DISABLE KEYS */;
 INSERT INTO `prospect_list_campaigns` (`id`, `prospect_list_id`, `campaign_id`, `date_modified`, `deleted`) VALUES
 	('1cb08f13-cb7c-162f-d58a-59d22bfbb74e', 'ef76f4c9-a638-bab4-f91a-59d1e4089280', '1bf2e844-8764-d8e2-b3cd-59d228b2fa80', '2017-10-02 12:03:29', 0),
@@ -3751,7 +3765,7 @@ INSERT INTO `templatesectionline` (`id`, `name`, `date_entered`, `date_modified`
 	('bcf0adeb-7c0e-bc5e-c427-59d1e65f4eba', 'Footer', '2017-10-02 07:11:05', '2017-10-02 07:11:05', '1', '1', '<p class="footer">Take your footer contents and information here..</p>', 0, 'include/javascript/mozaik/tpls/default/thumbs/footer.png', NULL, 9);
 /*!40000 ALTER TABLE `templatesectionline` ENABLE KEYS */;
 
--- Дамп данных таблицы stwork.tracker: ~103 rows (приблизительно)
+-- Дамп данных таблицы stwork.tracker: ~104 rows (приблизительно)
 /*!40000 ALTER TABLE `tracker` DISABLE KEYS */;
 INSERT INTO `tracker` (`id`, `monitor_id`, `user_id`, `module_name`, `item_id`, `item_summary`, `date_modified`, `action`, `session_id`, `visible`, `deleted`) VALUES
 	(109, '97330f8b-4418-f38a-08ff-599ae3a25b85', '1', 'SecurityGroups', '5fceea0f-484d-978c-0c13-599ae1171c0d', 'Тестовая группа', '2017-08-21 13:42:37', 'detailview', 'fv2eaeegi81oiuqm2h2bllubn1', 1, 0),
@@ -3844,22 +3858,23 @@ INSERT INTO `tracker` (`id`, `monitor_id`, `user_id`, `module_name`, `item_id`, 
 	(1689, '3ed60094-46f4-f77d-65db-59d480b0a7d9', '1', 'AOS_Products', 'dd77710e-fd7e-fed7-124f-59d4802bb968', 'Товар топливо', '2017-10-04 06:31:55', 'detailview', 'ee4m7lf1qdvbqra4lgg4sadn04', 1, 0),
 	(1702, '3a5e8287-00af-0f1c-b426-59d4875c2a7b', '1', 'bh_packet_activation', '2905487e-f13a-594a-6d2f-59bb73118e66', 'Пакет 1 активация', '2017-10-04 07:04:28', 'detailview', 'ee4m7lf1qdvbqra4lgg4sadn04', 1, 0),
 	(1704, '98f7d227-4873-904d-c771-59d48909a8af', '1', 'Users', '1', 'Administrator', '2017-10-04 07:12:29', 'editview', 'ee4m7lf1qdvbqra4lgg4sadn04', 1, 0),
-	(1714, '4525e6a7-cc3a-1560-5c0e-59d4922fecdd', '1', 'AOS_Products', '952151a3-60a8-2c53-3404-59d48521121c', 'Талон на бензин AИ 92', '2017-10-04 07:49:58', 'detailview', 'ee4m7lf1qdvbqra4lgg4sadn04', 1, 0),
 	(1720, 'd32d02a6-5470-f37d-fd19-59d49500c8c2', '1', 'AOS_Products', 'ece2079a-b00c-3d10-7add-59d484650d4a', 'Услуга эвакуатора', '2017-10-04 08:03:37', 'detailview', 'ee4m7lf1qdvbqra4lgg4sadn04', 1, 0),
 	(1721, '827f8a76-de29-f6ce-2545-59d496167598', '1', 'bh_formed_packets', '2f4db81b-4e87-d6e9-6df6-59bbb89f3be2', 'Пакет 1', '2017-10-04 08:04:38', 'detailview', 'ee4m7lf1qdvbqra4lgg4sadn04', 1, 0),
 	(1722, '2c1ad3fc-7ab1-4c85-1a1a-59d496640db8', '1', 'bh_formed_packets', 'f3d20d02-cabe-a079-6b45-59d496d392f4', 'Пакет 3', '2017-10-04 08:07:52', 'detailview', 'ee4m7lf1qdvbqra4lgg4sadn04', 1, 0),
 	(1723, 'e4c02123-c8a8-4761-af67-59d497223113', '1', 'AOS_Products', '22328d1a-9962-3f5e-3618-59d485e104eb', 'Талон на бензин AИ 95', '2017-10-04 08:10:35', 'detailview', 'ee4m7lf1qdvbqra4lgg4sadn04', 1, 0),
 	(1724, 'beca28cd-02e6-dc10-2cda-59d497b61e20', '1', 'bh_marketing_response', 'f34f076b-3745-ce6a-978c-59d359b4b094', 'отклик от клиента Администратор', '2017-10-04 08:12:29', 'detailview', 'ee4m7lf1qdvbqra4lgg4sadn04', 1, 0),
-	(1725, '9c46b6e7-7bc2-15a3-5880-59d49ac2905e', '1', 'bh_marketing_response', '39d947d8-fec3-148a-3c9a-59d34f872059', 'отклик от клиента Test', '2017-10-04 08:25:11', 'detailview', 'ee4m7lf1qdvbqra4lgg4sadn04', 1, 0),
 	(1727, '11860bd1-a31c-61e2-a924-59d49e224062', '1', 'Leads', '98d382fa-5d6c-7a6e-c895-59ca6cc9dc07', 'Валера', '2017-10-04 08:39:05', 'detailview', 'ee4m7lf1qdvbqra4lgg4sadn04', 1, 0),
 	(1728, 'c9095254-34a2-cf59-6ab8-59d4a0beb19d', '1', 'bh_marketing_response', '7769832a-236d-bfbd-fcb6-59d49d972ed1', 'Отклик от клиента Валера', '2017-10-04 08:47:09', 'detailview', 'ee4m7lf1qdvbqra4lgg4sadn04', 1, 0),
-	(1729, '36ca1222-d512-d83e-9cc4-59d4a22e4cbe', '1', 'bh_marketing_company', 'd431499d-a668-1db4-8b3d-59bf89d1ebb8', 'КОмпания 1', '2017-10-04 08:57:55', 'detailview', 'ee4m7lf1qdvbqra4lgg4sadn04', 1, 0),
 	(1731, 'bea1346e-bf26-650f-c36c-59d4a44998be', '1', 'AOS_Products', '94f6d3be-aa40-c800-02c7-59d373af2ff6', 'test', '2017-10-04 09:06:12', 'detailview', 'ee4m7lf1qdvbqra4lgg4sadn04', 1, 0),
-	(1733, '868268fc-d553-8612-8079-59d4a63288d1', '1', 'bh_campaine_products', '370e7ee5-9fc1-cd14-8b2d-59d36f14c292', 'Продукт 1', '2017-10-04 09:15:34', 'detailview', 'ee4m7lf1qdvbqra4lgg4sadn04', 1, 0),
-	(1734, '8221f4bb-f113-04fb-4815-59d4b48fdf61', '1', 'bh_marketing_directorate', 'ac2361ec-f3ca-1138-8d47-59c20de54bc1', '12', '2017-10-04 10:13:52', 'detailview', 'ee4m7lf1qdvbqra4lgg4sadn04', 1, 0);
+	(1739, '1bf25356-25a3-c312-1f91-59d4b72b5015', '1', 'bh_marketing_response', '39d947d8-fec3-148a-3c9a-59d34f872059', 'отклик от клиента Test', '2017-10-04 10:26:31', 'detailview', 'ee4m7lf1qdvbqra4lgg4sadn04', 1, 0),
+	(1740, '32d107e5-b543-de1e-779a-59d4b7712f9d', '1', 'bh_marketing_company', 'd431499d-a668-1db4-8b3d-59bf89d1ebb8', 'КОмпания 1', '2017-10-04 10:27:33', 'detailview', 'ee4m7lf1qdvbqra4lgg4sadn04', 1, 0),
+	(1741, 'f2d34e25-dcc0-8790-0548-59d4b7c8b974', '1', 'bh_marketing_directorate', 'ac2361ec-f3ca-1138-8d47-59c20de54bc1', 'Список клиентов Компания 1', '2017-10-04 10:28:36', 'detailview', 'ee4m7lf1qdvbqra4lgg4sadn04', 1, 0),
+	(1744, 'a36a4689-da5f-5250-380b-59d4babe1095', '1', 'AOS_Products', '379778c7-a5c6-67e5-ebc4-59d4a63f0710', 'Бензин канистра', '2017-10-04 10:41:06', 'detailview', 'ee4m7lf1qdvbqra4lgg4sadn04', 1, 0),
+	(1746, '3d214b1a-07f9-eda4-2ad6-59d4bd81788a', '1', 'AOS_Products', '952151a3-60a8-2c53-3404-59d48521121c', 'Талон на бензин AИ 92', '2017-10-04 10:51:59', 'detailview', 'ee4m7lf1qdvbqra4lgg4sadn04', 1, 0),
+	(1748, '51a9aa9d-53b2-5e74-7a2e-59d4c26d132c', '1', 'bh_campaine_products', '370e7ee5-9fc1-cd14-8b2d-59d36f14c292', 'Продукт 1', '2017-10-04 11:13:17', 'detailview', 'ee4m7lf1qdvbqra4lgg4sadn04', 1, 0);
 /*!40000 ALTER TABLE `tracker` ENABLE KEYS */;
 
--- Дамп данных таблицы stwork.upgrade_history: ~37 rows (приблизительно)
+-- Дамп данных таблицы stwork.upgrade_history: ~35 rows (приблизительно)
 /*!40000 ALTER TABLE `upgrade_history` DISABLE KEYS */;
 INSERT INTO `upgrade_history` (`id`, `filename`, `md5sum`, `type`, `status`, `version`, `name`, `description`, `id_name`, `manifest`, `date_entered`, `enabled`) VALUES
 	('1940fe7f-2b0f-74de-87a3-59b66f43cffd', 'upload/upgrades/module/SCRIPTS2017_09_11_140958.zip', 'd704fe7343cfd4834f6d8ca16c918094', 'module', 'installed', '1505128196', 'SCRIPTS', '', 'SCRIPTS', 'YTozOntzOjg6Im1hbmlmZXN0IjthOjEzOntpOjA7YToxOntzOjI1OiJhY2NlcHRhYmxlX3N1Z2FyX3ZlcnNpb25zIjthOjE6e2k6MDtzOjA6IiI7fX1pOjE7YToxOntzOjI0OiJhY2NlcHRhYmxlX3N1Z2FyX2ZsYXZvcnMiO2E6Mzp7aTowO3M6MjoiQ0UiO2k6MTtzOjM6IlBSTyI7aToyO3M6MzoiRU5UIjt9fXM6NjoicmVhZG1lIjtzOjA6IiI7czozOiJrZXkiO3M6MjoiYmgiO3M6NjoiYXV0aG9yIjtzOjEzOiJZdXJpeSBZdXJlbmtvIjtzOjExOiJkZXNjcmlwdGlvbiI7czowOiIiO3M6NDoiaWNvbiI7czowOiIiO3M6MTY6ImlzX3VuaW5zdGFsbGFibGUiO2I6MTtzOjQ6Im5hbWUiO3M6NzoiU0NSSVBUUyI7czoxNDoicHVibGlzaGVkX2RhdGUiO3M6MTk6IjIwMTctMDktMTEgMTE6MDk6NTUiO3M6NDoidHlwZSI7czo2OiJtb2R1bGUiO3M6NzoidmVyc2lvbiI7aToxNTA1MTI4MTk2O3M6MTM6InJlbW92ZV90YWJsZXMiO3M6NjoicHJvbXB0Ijt9czoxMToiaW5zdGFsbGRlZnMiO2E6Nzp7czoyOiJpZCI7czo3OiJTQ1JJUFRTIjtzOjU6ImJlYW5zIjthOjE6e2k6MDthOjQ6e3M6NjoibW9kdWxlIjtzOjEwOiJiaF9zY3JpcHRzIjtzOjU6ImNsYXNzIjtzOjEwOiJiaF9zY3JpcHRzIjtzOjQ6InBhdGgiO3M6MzM6Im1vZHVsZXMvYmhfc2NyaXB0cy9iaF9zY3JpcHRzLnBocCI7czozOiJ0YWIiO2I6MTt9fXM6MTA6ImxheW91dGRlZnMiO2E6MDp7fXM6MTM6InJlbGF0aW9uc2hpcHMiO2E6MDp7fXM6OToiaW1hZ2VfZGlyIjtzOjE2OiI8YmFzZXBhdGg+L2ljb25zIjtzOjQ6ImNvcHkiO2E6MTp7aTowO2E6Mjp7czo0OiJmcm9tIjtzOjQyOiI8YmFzZXBhdGg+L1N1Z2FyTW9kdWxlcy9tb2R1bGVzL2JoX3NjcmlwdHMiO3M6MjoidG8iO3M6MTg6Im1vZHVsZXMvYmhfc2NyaXB0cyI7fX1zOjg6Imxhbmd1YWdlIjthOjI6e2k6MDthOjM6e3M6NDoiZnJvbSI7czo1OToiPGJhc2VwYXRoPi9TdWdhck1vZHVsZXMvbGFuZ3VhZ2UvYXBwbGljYXRpb24vZW5fdXMubGFuZy5waHAiO3M6OToidG9fbW9kdWxlIjtzOjExOiJhcHBsaWNhdGlvbiI7czo4OiJsYW5ndWFnZSI7czo1OiJlbl91cyI7fWk6MTthOjM6e3M6NDoiZnJvbSI7czo1OToiPGJhc2VwYXRoPi9TdWdhck1vZHVsZXMvbGFuZ3VhZ2UvYXBwbGljYXRpb24vcnVfUlUubGFuZy5waHAiO3M6OToidG9fbW9kdWxlIjtzOjExOiJhcHBsaWNhdGlvbiI7czo4OiJsYW5ndWFnZSI7czo1OiJydV9SVSI7fX19czoxNjoidXBncmFkZV9tYW5pZmVzdCI7czowOiIiO30=', '2017-09-11 11:09:55', 1),
@@ -3931,7 +3946,7 @@ INSERT INTO `users_cstm` (`id_c`, `asterisk_outbound_c`, `asterisk_inbound_c`, `
 /*!40000 ALTER TABLE `users_signatures` DISABLE KEYS */;
 /*!40000 ALTER TABLE `users_signatures` ENABLE KEYS */;
 
--- Дамп данных таблицы stwork.user_preferences: ~84 rows (приблизительно)
+-- Дамп данных таблицы stwork.user_preferences: ~78 rows (приблизительно)
 /*!40000 ALTER TABLE `user_preferences` DISABLE KEYS */;
 INSERT INTO `user_preferences` (`id`, `category`, `deleted`, `date_entered`, `date_modified`, `assigned_user_id`, `contents`) VALUES
 	('12102f99-a4b6-e4d0-56b2-59a3c4d39e77', 'FP_Event_Locations2_FP_EVENT_LOCATIONS', 0, '2017-08-28 07:23:30', '2017-08-28 07:23:30', '1', 'YToxOntzOjEzOiJsaXN0dmlld09yZGVyIjthOjI6e3M6Nzoib3JkZXJCeSI7czoxMjoiZGF0ZV9lbnRlcmVkIjtzOjk6InNvcnRPcmRlciI7czo0OiJERVNDIjt9fQ=='),
