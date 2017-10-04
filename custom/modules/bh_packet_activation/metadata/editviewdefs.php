@@ -64,6 +64,10 @@ array (
           array (
             'name' => 'leads_bh_packet_activation_1_name',
           ),
+          1 => 
+          array (
+            'name' => 'bh_formed_packets_bh_packet_activation_1_name',
+          ),
         ),
       ),
     ),

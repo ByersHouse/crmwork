@@ -40,9 +40,35 @@
 
 
 $relationships = array (
+  'bh_formed_packets_aos_products_1' => 
+  array (
+    'id' => '9c853354-26e4-9396-b158-59d4823119c8',
+    'relationship_name' => 'bh_formed_packets_aos_products_1',
+    'lhs_module' => 'bh_formed_packets',
+    'lhs_table' => 'bh_formed_packets',
+    'lhs_key' => 'id',
+    'rhs_module' => 'AOS_Products',
+    'rhs_table' => 'aos_products',
+    'rhs_key' => 'id',
+    'join_table' => 'bh_formed_packets_aos_products_1_c',
+    'join_key_lhs' => 'bh_formed_packets_aos_products_1bh_formed_packets_ida',
+    'join_key_rhs' => 'bh_formed_packets_aos_products_1aos_products_idb',
+    'relationship_type' => 'many-to-many',
+    'relationship_role_column' => NULL,
+    'relationship_role_column_value' => NULL,
+    'reverse' => '0',
+    'deleted' => '0',
+    'readonly' => true,
+    'rhs_subpanel' => 'default',
+    'lhs_subpanel' => 'default',
+    'from_studio' => true,
+    'is_custom' => true,
+    'relationship_only' => false,
+    'for_activities' => false,
+  ),
   'bh_formed_packets_modified_user' => 
   array (
-    'id' => '14277219-ece3-1c02-c31e-59d4819c355f',
+    'id' => 'ad56c9ad-1c06-ea38-59ab-59d48220599b',
     'relationship_name' => 'bh_formed_packets_modified_user',
     'lhs_module' => 'Users',
     'lhs_table' => 'users',
@@ -68,7 +94,7 @@ $relationships = array (
   ),
   'bh_formed_packets_created_by' => 
   array (
-    'id' => '1465f96d-45ea-f2d7-2dd3-59d4813116c9',
+    'id' => 'ad955187-9b75-1fdd-87d1-59d4823bd2a7',
     'relationship_name' => 'bh_formed_packets_created_by',
     'lhs_module' => 'Users',
     'lhs_table' => 'users',
@@ -94,7 +120,7 @@ $relationships = array (
   ),
   'bh_formed_packets_assigned_user' => 
   array (
-    'id' => '1465fa8a-939c-b593-6749-59d481ff8896',
+    'id' => 'add3d507-94e3-42ca-7bd7-59d482197073',
     'relationship_name' => 'bh_formed_packets_assigned_user',
     'lhs_module' => 'Users',
     'lhs_table' => 'users',
@@ -120,7 +146,7 @@ $relationships = array (
   ),
   'securitygroups_bh_formed_packets' => 
   array (
-    'id' => '14e2f49f-7568-1558-e6c7-59d4810b60b8',
+    'id' => 'ae125633-b885-fb8f-c8a0-59d48213d184',
     'relationship_name' => 'securitygroups_bh_formed_packets',
     'lhs_module' => 'SecurityGroups',
     'lhs_table' => 'securitygroups',
@@ -144,21 +170,20 @@ $relationships = array (
     'is_custom' => false,
     'from_studio' => false,
   ),
-  'bh_formed_packets_aos_products_1' => 
+  'bh_formed_packets_bh_packet_activation_1' => 
   array (
-    'rhs_label' => 'Товары',
+    'rhs_label' => 'Активация пакетов',
     'lhs_label' => 'Сформированные пакеты',
-    'lhs_subpanel' => 'default',
     'rhs_subpanel' => 'default',
     'lhs_module' => 'bh_formed_packets',
-    'rhs_module' => 'AOS_Products',
-    'relationship_type' => 'many-to-many',
+    'rhs_module' => 'bh_packet_activation',
+    'relationship_type' => 'one-to-many',
     'readonly' => false,
     'deleted' => false,
     'relationship_only' => false,
     'for_activities' => false,
     'is_custom' => false,
     'from_studio' => false,
-    'relationship_name' => 'bh_formed_packets_aos_products_1',
+    'relationship_name' => 'bh_formed_packets_bh_packet_activation_1',
   ),
 );

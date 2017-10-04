@@ -38,6 +38,11 @@ include('custom/metadata/bh_formed_packets_aos_products_1MetaData.php');
 
  
  //WARNING: The contents of this file are auto-generated
+include('custom/metadata/bh_formed_packets_bh_packet_activation_1MetaData.php');
+
+
+ 
+ //WARNING: The contents of this file are auto-generated
 include('custom/metadata/bh_lead_adress_bh_country_1MetaData.php');
 
 
