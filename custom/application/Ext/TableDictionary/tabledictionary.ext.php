@@ -13,11 +13,6 @@ include('custom/metadata/aos_products_bh_case_compound_1MetaData.php');
 
  
  //WARNING: The contents of this file are auto-generated
-include('custom/metadata/aos_products_bh_formed_packets_1MetaData.php');
-
-
- 
- //WARNING: The contents of this file are auto-generated
 include('custom/metadata/bh_card_ident_leadsMetaData.php');
 
 
@@ -34,6 +29,11 @@ include('custom/metadata/bh_country_bh_region_1MetaData.php');
  
  //WARNING: The contents of this file are auto-generated
 include('custom/metadata/bh_faq_history_bh_faqMetaData.php');
+
+
+ 
+ //WARNING: The contents of this file are auto-generated
+include('custom/metadata/bh_formed_packets_aos_products_1MetaData.php');
 
 
  

@@ -54,7 +54,6 @@ array (
             'name' => 'name',
             'label' => 'LBL_NAME',
           ),
-          1 => '',
         ),
         1 => 
         array (
