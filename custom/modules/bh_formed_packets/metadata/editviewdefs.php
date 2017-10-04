@@ -78,7 +78,13 @@ array (
             'studio' => 'visible',
             'label' => 'LBL_PACKET_LIST',
           ),
-          1 => '',
+        ),
+        5 => 
+        array (
+          0 => 
+          array (
+            'name' => 'aos_products_bh_formed_packets_1_name',
+          ),
         ),
       ),
     ),
