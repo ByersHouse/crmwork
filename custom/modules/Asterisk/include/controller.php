@@ -60,9 +60,70 @@ switch ($_REQUEST['action']) {
     case "get_calls" :
         getCalls($mod_strings, $GLOBALS['current_user']);
         break;
+    case "ajax" :
+        readEventLog();
+        break;
     default :
         echo "undefined action";
         break;
+}
+
+function readEventLog()
+{
+    global $current_user;
+
+    $user = ($current_user->fetched_row['asterisk_ext_c']);
+
+    $arr = file('log.txt');
+
+    $nofalse = false;
+    if (is_array($arr) && !(empty($arr))){
+        $f = fopen('log.txt', 'w+');
+        flock ($f,LOCK_EX);
+    foreach ($arr as $key => &$val){
+
+    $val = unserialize($val);
+
+    if(isset($val['CallerID2'])) {
+        if ($val['CallerID2'] == $user) {
+
+
+            $query = 'SELECT id FROM `Leads` WHERE `phone_work` =' . $val['CallerID1'];
+            $result = $current_user->db->query($query, false);
+
+            if ($result->num_rows) {
+
+                $result = $current_user->db->fetchByAssoc($result);
+
+
+                echo 'index.php?action=ajaxui#ajaxUILoc=index.php%3Fmodule%3DLeads%26offset%3D10%26return_module%3DLeads%26action%3DDetailView%26record%3D' . $result['id'] . '&ajax_load=1';
+                $nofalse = true;
+            } else {
+
+                echo 'index.php?action=ajaxui#ajaxUILoc=index.php%3Fmodule%3DLeads%26action%3DEditView%26return_module%3DLeads%26return_action%3DDetailView%26phone_mobile%3D' . $val['CallerID1'];
+                $nofalse = true;
+            }
+            unset($arr[$key]);
+            continue;
+
+
+        }
+    }
+    $val = serialize($val);
+
+
+
+    }
+        $arr = implode(PHP_EOL, $arr);
+        fwrite($f, $arr);
+        flock ($f,LOCK_UN);
+        fclose($f);
+    }
+
+  if(!$nofalse) {
+      echo 'false';
+  }
+
 }
 
 sugar_cleanup(); // Formerly was in getCalls()

@@ -439,7 +439,9 @@ while (true) {
         } else {
             $consecutiveFailures = 0;
             if ($buffer == "\r\n") { // handle partial packets
+
                 $event_started = false;
+
                 // parse the event and get the result hashtable
                 $e = getEvent($event);
                 dumpEvent($e); // prints to screen
@@ -1292,13 +1294,15 @@ while (true) {
                 };
 
                 // Reset event buffer
-                $event = '';
+
+               $event = '';
             }
         }
 
         // handle partial packets
         if ($event_started) {
             $event .= $buffer;
+
         } else if (strstr($buffer, 'Event:')) {
             $event = $buffer;
             $event_started = true;
@@ -1450,6 +1454,8 @@ function dumpEvent(&$event) {
     // Skip 'Newexten' events - there just toooo many of 'em || For Asterisk manager 1.1 i choose to ignore another stack of events cause the log is populated with useless events
     $eventType = $event['Event'];
 
+
+
     // Not surpressing new channel
     // $eventType == 'Newchannel' ||
     if ($eventType == 'Newexten' || $eventType == 'UserEvent' || $eventType == 'AGIExec' ||  $eventType == 'Newstate' || $eventType == 'ExtensionStatus') {
@@ -1461,15 +1467,30 @@ function dumpEvent(&$event) {
         return;
     }
 
+
     switch($eventType) {
-        case "Dial":    dev_DialPrinter($event); break;
-        case "Bridge":  dev_BridgePrinter($event); break;
+        case "Dial":   dev_DialPrinter($event);       break;
+        case "Bridge":  dev_BridgePrinter($event); writeEvent($event); break;
         case "Join":    dev_JoinPrinter($event); break;
-        case "Hangup":  dev_HangupPrinter($event); break;
-        case "Newchannel": dev_NewChannelPrinter($event); break;
+        case "Hangup":  dev_HangupPrinter($event);break;
+        case "Newchannel":  dev_NewChannelPrinter($event); break;
     }
 
     dumpEventHelper($event);
+}
+
+
+function writeEvent(&$event){
+
+    if($event['Bridgestate'] == 'Link'){
+    $f = fopen('log.txt', 'a+');
+    flock ($f,LOCK_EX);
+    $event['operator'] = $GLOBALS['operator'];
+    $s = serialize($event) . PHP_EOL;
+    fwrite($f, $s);
+    flock ($f,LOCK_UN);
+    fclose($f);
+    }
 }
 
 function dumpEventHelper(&$event, $logFile = "default" ) {
@@ -1489,7 +1510,8 @@ function getIfSet($e, $key, $default='') {
 }
 
 function dev_DialPrinter(&$e) {
-    dev_GenericEventPrinter("Dial", getIfSet( $e, 'SubEvent'), getIfSet( $e, 'UniqueID'), getIfSet( $e, 'DestUniqueID'), getIfSet( $e, 'Channel'), getIfSet( $e, 'Destination'), getIfSet( $e, 'CallerIDNum'), getIfSet( $e, 'DialString'));
+
+    dev_GenericEventPrinter("Dial", getIfSet( $e, 'SubEvent'), getIfSet( $e, 'UniqueID'), getIfSet( $e, 'DestUniqueID'), getIfSet( $e, 'Channel'), getIfSet( $e, 'Destination'), getIfSet( $e, 'CallerIDNum'), getIfSet( $e, 'DialString'), getIfSet( $e, 'ConnectedLineNum'));
 }
 
 function dev_BridgePrinter(&$e) {
@@ -1505,6 +1527,8 @@ function dev_HangupPrinter(&$e) {
 }
 
 function dev_NewChannelPrinter(&$e) {
+   // $GLOBALS['operator'] = $e["CallerIDNum"];
+    print_r($e);
     dev_GenericEventPrinter("NewChan", getIfSet( $e, 'ChannelStateDesc'), getIfSet( $e, 'Uniqueid'), '--', getIfSet( $e, 'Channel'), '--', $e["CallerIDNum"], getIfSet( $e, 'Exten'));
 }
 

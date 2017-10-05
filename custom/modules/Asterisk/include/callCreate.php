@@ -89,7 +89,7 @@ logLine("Creating Call, channel for originate command is: $channel\n");
 
 //format Phone Number
 $number = $_REQUEST['phoneNr'];
-$prefix = $sugar_config['asterisk_prefix'];
+$prefix = $sugar_config['asterisk_prefix'] = '';
 $number = str_replace("+1", "", $number);
 $number = str_replace(array("(", ")", " ", "-", "/", "."), "", $number);
 $number = $prefix.$number;
