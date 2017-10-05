@@ -80,7 +80,10 @@ array (
         2 => 
         array (
           0 => 'type',
-          1 => 'account_name',
+          1 => 
+          array (
+            'name' => 'leads_cases_1_name',
+          ),
         ),
         3 => 
         array (
@@ -89,10 +92,6 @@ array (
             'name' => 'case_type',
             'studio' => 'visible',
             'label' => 'LBL_CASE_TYPE',
-          ),
-          1 => 
-          array (
-            'name' => 'leads_cases_1_name',
           ),
         ),
         4 => 
