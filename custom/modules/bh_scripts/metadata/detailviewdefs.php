@@ -96,6 +96,13 @@ array (
             'label' => 'LBL_DATE_DEACTIVATION',
           ),
         ),
+        5 => 
+        array (
+          0 => 
+          array (
+            'name' => 'bh_marketing_company_bh_scripts_1_name',
+          ),
+        ),
       ),
     ),
   ),
