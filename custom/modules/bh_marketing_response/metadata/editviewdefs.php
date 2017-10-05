@@ -70,7 +70,7 @@ array (
           ),
           1 => 
           array (
-            'name' => 'cases_bh_marketing_response_1_name',
+            'name' => 'leads_bh_marketing_response_1_name',
           ),
         ),
       ),

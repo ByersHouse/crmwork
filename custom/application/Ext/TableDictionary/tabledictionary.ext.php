@@ -8,6 +8,11 @@ include('custom/metadata/aos_products_bh_case_compound_1MetaData.php');
 
  
  //WARNING: The contents of this file are auto-generated
+include('custom/metadata/bh_campaine_products_aos_products_1MetaData.php');
+
+
+ 
+ //WARNING: The contents of this file are auto-generated
 include('custom/metadata/bh_card_ident_leadsMetaData.php');
 
 
@@ -28,6 +33,16 @@ include('custom/metadata/bh_faq_history_bh_faqMetaData.php');
 
  
  //WARNING: The contents of this file are auto-generated
+include('custom/metadata/bh_formed_packets_aos_products_1MetaData.php');
+
+
+ 
+ //WARNING: The contents of this file are auto-generated
+include('custom/metadata/bh_formed_packets_bh_packet_activation_1MetaData.php');
+
+
+ 
+ //WARNING: The contents of this file are auto-generated
 include('custom/metadata/bh_lead_adress_bh_country_1MetaData.php');
 
 
@@ -44,6 +59,21 @@ include('custom/metadata/bh_lead_adress_bh_region_1MetaData.php');
  
  //WARNING: The contents of this file are auto-generated
 include('custom/metadata/bh_lead_adress_bh_region_area_1MetaData.php');
+
+
+ 
+ //WARNING: The contents of this file are auto-generated
+include('custom/metadata/bh_marketing_company_bh_campaine_products_1MetaData.php');
+
+
+ 
+ //WARNING: The contents of this file are auto-generated
+include('custom/metadata/bh_marketing_company_bh_channels_impact_1MetaData.php');
+
+
+ 
+ //WARNING: The contents of this file are auto-generated
+include('custom/metadata/bh_marketing_company_bh_marketing_company_history_1MetaData.php');
 
 
  
@@ -128,7 +158,7 @@ include('custom/metadata/cases_bh_case_compound_1MetaData.php');
 
  
  //WARNING: The contents of this file are auto-generated
-include('custom/metadata/cases_bh_marketing_response_1MetaData.php');
+include('custom/metadata/cases_bh_marketing_company_1MetaData.php');
 
 
  
@@ -144,6 +174,11 @@ include('custom/metadata/leads_bh_autotransport_1MetaData.php');
  
  //WARNING: The contents of this file are auto-generated
 include('custom/metadata/leads_bh_lead_adress_1MetaData.php');
+
+
+ 
+ //WARNING: The contents of this file are auto-generated
+include('custom/metadata/leads_bh_marketing_response_1MetaData.php');
 
 
  

@@ -1,5 +1,5 @@
 <?php
-// created: 2017-09-15 15:15:14
+// created: 2017-10-04 14:29:04
 $mod_strings = array (
   'LBL_PRODUCT_ESSENCE' => 'Суть продукта и его элементов',
   'LBL_PRODUCT_REGISTRATION_USE' => 'Порядок оформления пользования продуктом для Клиента',
@@ -8,6 +8,7 @@ $mod_strings = array (
   'LBL_STATUS_LIST' => 'Статус продукта',
   'LBL_CURRENCY_LIST' => 'Единица измерения',
   'LBL_TYPE_LIST' => 'Вид продукта',
-  'LBL_MODIFIED_NAME' => 'Наименование',
+  'LBL_MODIFIED_NAME' => 'Ответственный',
   'LBL_PRODUCT_VALIDITY' => 'Срок действия',
+  'LBL_BH_FORMED_PACKETS_AOS_PRODUCTS_1_FROM_BH_FORMED_PACKETS_TITLE' => 'Сформированные пакеты',
 );

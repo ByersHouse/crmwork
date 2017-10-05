@@ -1,5 +1,5 @@
 <?php
-// created: 2017-09-22 09:44:49
+// created: 2017-10-05 10:18:27
 $sugar_config = array (
   'addAjaxBannedModules' => 
   array (
@@ -10,7 +10,7 @@ $sugar_config = array (
   'admin_export_only' => false,
   'aod' => 
   array (
-    'enable_aod' => true,
+    'enable_aod' => false,
   ),
   'aop' => 
   array (
@@ -91,7 +91,7 @@ $sugar_config = array (
   'datef' => 'm/d/Y',
   'dbconfig' => 
   array (
-    'db_host_name' => 'crm',
+    'db_host_name' => 'stwork.int',
     'db_host_instance' => 'SQLEXPRESS',
     'db_user_name' => 'root',
     'db_password' => '',
@@ -265,7 +265,7 @@ $sugar_config = array (
     'timeout' => 86400,
   ),
   'js_custom_version' => 1,
-  'js_lang_version' => 7,
+  'js_lang_version' => 14,
   'languages' => 
   array (
     'en_us' => 'English (US)',
@@ -402,10 +402,10 @@ $sugar_config = array (
   'use_real_names' => true,
   'vcal_time' => '2',
   'verify_client_ip' => true,
-  'asterisk_host' => '127.0.0.1',
-  'asterisk_port' => '5038',
-  'asterisk_user' => 'ami_user',
-  'asterisk_secret' => 'ami_pass',
+  'asterisk_host' => '192.168.0.12',
+  'asterisk_port' => '5050',
+  'asterisk_user' => 'admin',
+  'asterisk_secret' => 'pupsik12',
   'asterisk_soapuser' => 'admin',
   'asterisk_soappass' => 'admin',
   'asterisk_context' => 'from-internal',
@@ -429,8 +429,8 @@ $sugar_config = array (
   'asterisk_relate_to_account_enabled' => '0',
   'asterisk_relate_to_contact_enabled' => '1',
   'asterisk_create_new_contact_enabled' => '1',
-  'asterisk_contact_phone_fields' => 'phone_work,phone_home,phone_mobile,phone_other,assistant_phone',
-  'asterisk_account_phone_fields' => 'phone_office,phone_alternate',
+  'asterisk_contact_phone_fields' => '',
+  'asterisk_account_phone_fields' => '',
   'asterisk_callinize_dev' => '0',
   'asterisk_callinize_debug' => '0',
   'default_module_favicon' => false,
@@ -463,4 +463,6 @@ $sugar_config = array (
       9 => 'Upgrade',
     ),
   ),
+  'asterisk_log_file' => 'asteriskLog.txt',
+  'email_xss' => 'YToxMzp7czo2OiJhcHBsZXQiO3M6NjoiYXBwbGV0IjtzOjQ6ImJhc2UiO3M6NDoiYmFzZSI7czo1OiJlbWJlZCI7czo1OiJlbWJlZCI7czo0OiJmb3JtIjtzOjQ6ImZvcm0iO3M6NToiZnJhbWUiO3M6NToiZnJhbWUiO3M6ODoiZnJhbWVzZXQiO3M6ODoiZnJhbWVzZXQiO3M6NjoiaWZyYW1lIjtzOjY6ImlmcmFtZSI7czo2OiJpbXBvcnQiO3M6ODoiXD9pbXBvcnQiO3M6NToibGF5ZXIiO3M6NToibGF5ZXIiO3M6NDoibGluayI7czo0OiJsaW5rIjtzOjY6Im9iamVjdCI7czo2OiJvYmplY3QiO3M6MzoieG1wIjtzOjM6InhtcCI7czo2OiJzY3JpcHQiO3M6Njoic2NyaXB0Ijt9',
 );

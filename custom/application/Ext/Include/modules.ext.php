@@ -10,6 +10,13 @@ $moduleList[] = 'bh_Autotransport';
 
  
  //WARNING: The contents of this file are auto-generated
+$beanList['bh_campaine_products'] = 'bh_campaine_products';
+$beanFiles['bh_campaine_products'] = 'modules/bh_campaine_products/bh_campaine_products.php';
+$moduleList[] = 'bh_campaine_products';
+
+
+ 
+ //WARNING: The contents of this file are auto-generated
 $beanList['bh_Card_ident'] = 'bh_Card_ident';
 $beanFiles['bh_Card_ident'] = 'modules/bh_Card_ident/bh_Card_ident.php';
 $moduleList[] = 'bh_Card_ident';
@@ -41,6 +48,13 @@ $moduleList[] = 'bh_case_status';
 $beanList['bh_category_at_work'] = 'bh_category_at_work';
 $beanFiles['bh_category_at_work'] = 'modules/bh_category_at_work/bh_category_at_work.php';
 $moduleList[] = 'bh_category_at_work';
+
+
+ 
+ //WARNING: The contents of this file are auto-generated
+$beanList['bh_channels_impact'] = 'bh_channels_impact';
+$beanFiles['bh_channels_impact'] = 'modules/bh_channels_impact/bh_channels_impact.php';
+$moduleList[] = 'bh_channels_impact';
 
 
  

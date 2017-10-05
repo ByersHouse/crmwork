@@ -103,7 +103,6 @@ array (
             'name' => 'patronymic',
             'label' => 'LBL_PATRONIMYC',
           ),
-          1 => '',
         ),
         2 => 
         array (
@@ -186,10 +185,6 @@ array (
         ),
         9 => 
         array (
-          0 => 
-          array (
-            'name' => 'bh_marketing_directorate_leads_1_name',
-          ),
           1 => 
           array (
             'name' => 'correspondence_method',
@@ -320,7 +315,6 @@ array (
             'name' => 'inn',
             'label' => 'LBL_INN',
           ),
-          1 => '',
         ),
       ),
       'lbl_editview_panel5' => 
@@ -435,7 +429,6 @@ array (
         2 => 
         array (
           0 => 'refered_by',
-          1 => '',
         ),
       ),
     ),

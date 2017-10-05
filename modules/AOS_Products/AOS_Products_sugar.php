@@ -65,6 +65,7 @@ class AOS_Products_sugar extends Basic {
 		var $url;
 		var $contact_id;
 		var $contact;
+                
 
 
 

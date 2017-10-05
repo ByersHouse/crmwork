@@ -88,7 +88,6 @@ array (
             'studio' => 'visible',
             'label' => 'LBL_PACKET_LIST',
           ),
-          1 => '',
         ),
       ),
     ),

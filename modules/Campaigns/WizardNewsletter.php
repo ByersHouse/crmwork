@@ -396,18 +396,27 @@ $ss->assign('encoded_target_list_popup_request_data', $encoded_newsletter_popup_
 $targetList = BeanFactory::getBean('ProspectLists')->get_full_list();
 
 $targetListData = array();
-foreach($targetList as $prospectLst) {
-    $nxt = array(
-        'id' => $prospectLst->id,
-        'name' => $prospectLst->name,
-        //'type' => $prospectLst->type,
-        'description' => $prospectLst->description,
-        'type' => $prospectLst->list_type,
-        'count' => $prospectLst->get_entry_count(),
-    );
-    $targetListDataArray[] = $nxt;
-    $targetListDataAssoc[$prospectLst->id] = $nxt;
+if (count($targetList)){
+    foreach($targetList as $prospectLst) {
+        $nxt = array(
+            'id' => $prospectLst->id,
+            'name' => $prospectLst->name,
+            //'type' => $prospectLst->type,
+            'description' => $prospectLst->description,
+            'type' => $prospectLst->list_type,
+            'count' => $prospectLst->get_entry_count(),
+        );
+        $targetListDataArray[] = $nxt;
+        $targetListDataAssoc[$prospectLst->id] = $nxt;
+    }
+
 }
+
+
+
+
+
+
 
 
 $ss->assign('targetListData', $targetListDataArray);
@@ -742,4 +751,4 @@ function create_wiz_menu_items($steps,$type,$mrkt_string,$summ_url, $view = null
     
 
 
-?>
+

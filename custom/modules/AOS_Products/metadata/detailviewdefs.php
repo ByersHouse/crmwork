@@ -48,6 +48,14 @@ array (
         array (
           0 => 
           array (
+            'name' => 'name',
+            'label' => 'LBL_NAME',
+          ),
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
             'name' => 'product_type',
             'studio' => 'visible',
             'label' => 'LBL_TYPE_LIST',
@@ -58,7 +66,7 @@ array (
             'label' => 'LBL_MODIFIED_NAME',
           ),
         ),
-        1 => 
+        2 => 
         array (
           0 => 
           array (
@@ -71,7 +79,7 @@ array (
             'label' => 'LBL_PRODUCT_REGISTRATION_USE',
           ),
         ),
-        2 => 
+        3 => 
         array (
           0 => 
           array (
@@ -85,7 +93,7 @@ array (
             'label' => 'LBL_STATUS_LIST',
           ),
         ),
-        3 => 
+        4 => 
         array (
           0 => 
           array (
@@ -99,7 +107,7 @@ array (
             'label' => 'LBL_CURRENCY_LIST',
           ),
         ),
-        4 => 
+        5 => 
         array (
           0 => 
           array (

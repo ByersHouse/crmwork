@@ -50,15 +50,15 @@ $layout_defs["Cases"]["subpanel_setup"]['cases_bh_case_compound_1'] = array (
 );
 
 
- // created: 2017-09-20 12:08:12
-$layout_defs["Cases"]["subpanel_setup"]['cases_bh_marketing_response_1'] = array (
+ // created: 2017-10-03 16:13:10
+$layout_defs["Cases"]["subpanel_setup"]['cases_bh_marketing_company_1'] = array (
   'order' => 100,
-  'module' => 'bh_marketing_response',
+  'module' => 'bh_marketing_company',
   'subpanel_name' => 'default',
   'sort_order' => 'asc',
   'sort_by' => 'id',
-  'title_key' => 'LBL_CASES_BH_MARKETING_RESPONSE_1_FROM_BH_MARKETING_RESPONSE_TITLE',
-  'get_subpanel_data' => 'cases_bh_marketing_response_1',
+  'title_key' => 'LBL_CASES_BH_MARKETING_COMPANY_1_FROM_BH_MARKETING_COMPANY_TITLE',
+  'get_subpanel_data' => 'cases_bh_marketing_company_1',
   'top_buttons' => 
   array (
     0 => 

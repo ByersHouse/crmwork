@@ -77,6 +77,13 @@ array (
             'label' => 'LBL_DATE_COMPANY_END',
           ),
         ),
+        3 => 
+        array (
+          0 => 
+          array (
+            'name' => 'bh_marketing_company_bh_marketing_company_history_1_name',
+          ),
+        ),
       ),
     ),
   ),

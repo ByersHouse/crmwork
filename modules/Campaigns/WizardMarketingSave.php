@@ -51,6 +51,7 @@ global $timedate;
 global $current_user;
 
 $master = 'save';
+
 if (isset($_REQUEST['wiz_home_next_step']) && !empty($_REQUEST['wiz_home_next_step'])) {
     
     if($_REQUEST['wiz_home_next_step']==3){
@@ -230,4 +231,3 @@ else {
 
 $GLOBALS['log']->debug("about to post header URL of: $header_URL");
 SugarApplication::headerRedirect($header_URL);
-?>

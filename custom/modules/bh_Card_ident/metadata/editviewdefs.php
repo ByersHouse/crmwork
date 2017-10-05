@@ -30,6 +30,13 @@ array (
         ),
       ),
       'syncDetailEditViews' => true,
+        'includes' => 
+      array (
+        0 => 
+        array (
+          'file' => 'custom/modules/bh_Card_ident/js/editview.js',
+        ),
+      ),
     ),
     'panels' => 
     array (

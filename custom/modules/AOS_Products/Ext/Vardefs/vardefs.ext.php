@@ -2,23 +2,10 @@
  //WARNING: The contents of this file are auto-generated
 
 
-// created: 2017-09-20 11:47:22
-$dictionary["AOS_Products"]["fields"]["aos_products_bh_case_compound_1"] = array (
-  'name' => 'aos_products_bh_case_compound_1',
-  'type' => 'link',
-  'relationship' => 'aos_products_bh_case_compound_1',
-  'source' => 'non-db',
-  'module' => 'bh_case_compound',
-  'bean_name' => 'bh_case_compound',
-  'side' => 'right',
-  'vname' => 'LBL_AOS_PRODUCTS_BH_CASE_COMPOUND_1_FROM_BH_CASE_COMPOUND_TITLE',
-);
-
-
 
 $dictionary['AOS_Products']['fields']['name'] = array (
     'required' => false,
-    'name' => 'product_name',
+    'name' => 'name',
     'vname' => 'LBL_PRODUCT_NAME',
     'type' => 'varchar',
     'massupdate' => 0,
@@ -210,6 +197,33 @@ $dictionary["AOS_Products"]["fields"]["product_currency"] = array (
     'studio' => 'visible',
     'size' => '20',
     'enable_range_search' => false,
+);
+
+
+
+
+
+// created: 2017-10-04 12:10:38
+$dictionary["AOS_Products"]["fields"]["bh_campaine_products_aos_products_1"] = array (
+  'name' => 'bh_campaine_products_aos_products_1',
+  'type' => 'link',
+  'relationship' => 'bh_campaine_products_aos_products_1',
+  'source' => 'non-db',
+  'module' => 'bh_campaine_products',
+  'bean_name' => 'bh_campaine_products',
+  'vname' => 'LBL_BH_CAMPAINE_PRODUCTS_AOS_PRODUCTS_1_FROM_BH_CAMPAINE_PRODUCTS_TITLE',
+);
+
+
+// created: 2017-10-04 09:38:11
+$dictionary["AOS_Products"]["fields"]["bh_formed_packets_aos_products_1"] = array (
+  'name' => 'bh_formed_packets_aos_products_1',
+  'type' => 'link',
+  'relationship' => 'bh_formed_packets_aos_products_1',
+  'source' => 'non-db',
+  'module' => 'bh_formed_packets',
+  'bean_name' => 'bh_formed_packets',
+  'vname' => 'LBL_BH_FORMED_PACKETS_AOS_PRODUCTS_1_FROM_BH_FORMED_PACKETS_TITLE',
 );
 
 ?>

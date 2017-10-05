@@ -92,6 +92,13 @@ array (
             'label' => 'LBL_IMPACT_TYPE',
           ),
         ),
+        4 => 
+        array (
+          0 => 
+          array (
+            'name' => 'cases_bh_marketing_company_1_name',
+          ),
+        ),
       ),
     ),
   ),
