@@ -54,7 +54,7 @@ $(document).ready(function(){
 
 
 	//	alert('there');
-
+    // View relationships in leads
     if($("#LBL_CONTACT_INFORMATION").length && $("#list_subpanel_leads_bh_autotransport_1".length) && $('.machines').length == 0) {
 
         $('#list_subpanel_leads_bh_autotransport_1 > .table-responsive').clone()
@@ -87,6 +87,36 @@ $(document).ready(function(){
 
         $('#tabcontent0 caption').css('color', 'red');
         $('#tabcontent0 caption').css('font-weight', 'bolder');
+    }
+    // View relationships in Marketing Company
+    if($("#bh_marketing_company_detailview_tabs").length && $("#detailpanel_1").length && $('.product').length == 0) {
+
+       var cust_panels = {
+           'list_subpanel_bh_marketing_company_bh_campaine_products_1': 'Продукты компании',
+           'list_subpanel_bh_marketing_company_bh_channels_impact_1': 'Каналы воздействия',
+           'list_subpanel_bh_marketing_company_bh_marketing_directorate_1': 'Ректорат маркетингового воздейтвия',
+           'list_subpanel_bh_marketing_company_bh_marketing_response_1': 'Отклик на маркетинговую компанию',
+       };
+
+        for(var key in cust_panels) {
+            $('#'+ key +' > .table-responsive').clone()
+                .removeClass()
+                .addClass('product detail view')
+                .prepend('<caption>'+cust_panels[key]+'</caption>')
+                .insertAfter($("#detailpanel_1"));
+
+
+
+        }
+        $('.product').css('width', '100%');
+        $('.product').css('margin-top', '15px');
+        $('.product a.listViewThLinkS1').css('font-size', '10px');
+        $('.product a.listViewThLinkS1').removeAttr('href');
+        $('.product td').css('text-align', 'center');
+        $('.product .clickMenu').remove();
+        $('.product img').remove();
+        $('#content caption').css('color', 'red');
+        $('#content caption').css('font-weight', 'bolder');
     }
 });
 
