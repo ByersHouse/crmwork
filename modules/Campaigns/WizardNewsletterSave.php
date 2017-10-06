@@ -72,17 +72,20 @@ global $mod_strings;
     foreach($camp_steps as $step){
        $campaign_focus =  populate_wizard_bean_from_request($campaign_focus,$step);
     }
-
+    
+    $id=null;
+    
     switch($_REQUEST['currentstep']) {
         case 1;
             //save here so we can link relationships
             $campaign_focus->save();
-            
-            var_dump("wow");
-            
-            exit;
+         
             $GLOBALS['log']->debug("Saved record with id of ".$campaign_focus->id);
-            echo json_encode(array('record'=>$campaign_focus->id));
+            $_REQUEST['record'] = $campaign_focus->id;
+            $fp = fopen("tmpl", "a"); // Открываем файл в режиме записи 
+            $test = fwrite($fp, $campaign_focus->id); // Запись в файл
+            
+            return json_encode(array('record'=>$campaign_focus->id));
             break;
         case 2;
             //process subscription lists if this is a newsletter
@@ -218,11 +221,14 @@ global $mod_strings;
             }
 
             //set navigation details
-            $_REQUEST['return_id'] = $campaign_focus->id;
+            $IDD = file_get_contents("tmpl");
+                    
+            
+            $_REQUEST['return_id'] = $IDD;
             $_REQUEST['return_module'] = $campaign_focus->module_dir;
             $_REQUEST['return_action'] = "WizardNewsLetter";
             $_REQUEST['action'] = "WizardMarketing";
-            $_REQUEST['record'] = $campaign_focus->id;
+            $_REQUEST['record'] = $IDD;
 
             $action = '';
             $redirectToTargetList = '';
@@ -244,7 +250,9 @@ global $mod_strings;
                 $action = 'WizardHome&record='.$campaign_focus->id;
             }
             //require_once('modules/Campaigns/WizardMarketing.php');
-            $header_URL = "Location: index.php?return_module=Campaigns&module=Campaigns&action=".$action.$redirectToTargetList."&campaign_id=".$campaign_focus->id."&return_action=WizardNewsLetter&return_id=".$campaign_focus->id;
+           
+         
+            $header_URL = "Location: index.php?return_module=Campaigns&module=Campaigns&action=".$action.$redirectToTargetList."&campaign_id=".$IDD."&return_action=WizardNewsLetter&return_id=".$IDD;
             $GLOBALS['log']->debug("about to post header URL of: $header_URL");
             SugarApplication::headerRedirect($header_URL);
             break;
