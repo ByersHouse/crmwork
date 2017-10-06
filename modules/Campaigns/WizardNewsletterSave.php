@@ -222,7 +222,7 @@ global $mod_strings;
 
             //set navigation details
             $IDD = file_get_contents("tmpl");
-                    
+            unlink ("tmpl");
             
             $_REQUEST['return_id'] = $IDD;
             $_REQUEST['return_module'] = $campaign_focus->module_dir;
