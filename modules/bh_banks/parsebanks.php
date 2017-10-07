@@ -31,7 +31,7 @@ if (isset($_POST['myActionName'])){
                 $bank_name = trim($items->find('td')->eq(0)->text());
                 $bank_edprou = trim($items->find('td')->eq(1)->text());
                 $bank_mfo = trim($items->find('td')->eq(2)->text());
-                $sql = "SELECT id from bh_banks WHERE name ='{$bank_name}'";
+                $sql = "SELECT id from bh_banks WHERE name ='{$bank_name}' and deleted = 0 ";
                 $row = $db->getOne($sql);
 
                 // var_dump($row,"</br>");
