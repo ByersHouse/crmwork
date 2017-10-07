@@ -50,3 +50,4 @@ if(ACLController::checkAccess('bh_banks', 'edit', true)){
 if(ACLController::checkAccess('bh_banks', 'list', true)){
     $module_menu[]=array('index.php?module=bh_banks&action=index&return_module=bh_banks&return_action=DetailView', $mod_strings['LNK_LIST'],'View', 'bh_banks');
 }
+$module_menu[]=array('index.php?module=bh_banks&action=parsebanks&return_module=bh_banks&return_action=ListView', "Обновить список банков",'View', 'bh_banks');
