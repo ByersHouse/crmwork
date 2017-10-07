@@ -57,6 +57,9 @@ class bh_banks extends Basic
     public $created_by_name;
     public $description;
     public $deleted;
+    public $mfo;
+    public $okpo;
+   
     public $created_by_link;
     public $modified_user_link;
     public $assigned_user_id;
