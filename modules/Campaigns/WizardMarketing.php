@@ -75,7 +75,7 @@ $campaign_focus = new Campaign();
 if (isset($_REQUEST['campaign_id']) && !empty($_REQUEST['campaign_id'])) {
     
     //var_dump(2);
-    $cf = $campaign_focus->retrieve($_REQUEST['campaign_id']);
+    $campaign_focus->retrieve($_REQUEST['campaign_id']);
     //var_dump("<pre>",$campaign_focus->id,"</pre>");
     
     

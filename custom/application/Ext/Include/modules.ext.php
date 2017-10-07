@@ -10,6 +10,13 @@ $moduleList[] = 'bh_Autotransport';
 
  
  //WARNING: The contents of this file are auto-generated
+$beanList['bh_banks'] = 'bh_banks';
+$beanFiles['bh_banks'] = 'modules/bh_banks/bh_banks.php';
+$moduleList[] = 'bh_banks';
+
+
+ 
+ //WARNING: The contents of this file are auto-generated
 $beanList['bh_campaine_products'] = 'bh_campaine_products';
 $beanFiles['bh_campaine_products'] = 'modules/bh_campaine_products/bh_campaine_products.php';
 $moduleList[] = 'bh_campaine_products';
