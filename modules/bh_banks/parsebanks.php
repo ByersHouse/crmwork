@@ -1,3 +1,6 @@
+
+
+
 <form action="index.php?module=bh_banks&action=parsebanks&return_module=bh_banks&return_action=ListView" method="POST">
      <input name="myActionName" onclick="if (!confirm('Вы уверены что хотите сделать импорт?')){return false;}" type="submit" value="Выполнить Импорт" />
 </form>
@@ -13,7 +16,7 @@ if (isset($_POST['myActionName'])){
             'https://bank.gov.ua/control/bankdict/banks?type=369&sort=name&cPage=3&startIndx=61',
             'https://bank.gov.ua/control/bankdict/banks?type=369&sort=name&cPage=4&startIndx=81'
     );
-    echo "Начинаю загрузку с адреса ..https://bank.gov.ua/control/bankdict/banks";
+    echo "Начинаю загрузку с адреса ..https://bank.gov.ua/control/bankdict/banks</br>";
     $nb = 0;
     foreach ($urls as $url){
         //
@@ -35,11 +38,11 @@ if (isset($_POST['myActionName'])){
                 if(!$row){
                     $id = create_guid();
                     $nb++;
-                    $bank_adress = trim($items->find('td')->eq(4)->text());
+                    $bank_adress = htmlspecialchars(trim($items->find('td')->eq(4)->text()));
                     $sql = "INSERT INTO bh_banks (id,name,okpo,mfo,description,date_entered,date_modified,modified_user_id,created_by,assigned_user_id) 
                              VALUES ('{$id}','{$bank_name}','{$bank_edprou}','{$bank_mfo}','{$bank_adress}',NOW(),NOW(),1,1,1)";
 
-                             //var_dump($sql);
+                             var_dump($sql);
                     $db->query($sql);
                     echo "</br>Банк <a href=\"index.php?action=ajaxui#ajaxUILoc=index.php%3Fmodule%3Dbh_banks%26offset%3D1%26stamp%3D1507373944011808000%26return_module%3Dbh_banks%26action%3DDetailView%26record%3D{$id}\">{$bank_name}</a> добавлен в базу данных</br>";
                 }
@@ -51,7 +54,7 @@ if (isset($_POST['myActionName'])){
        /// echo "всего {$i} ";
     sleep(3);
     }
-    echo "Новых банков {$nb}";
+    echo "Импорт успешно завершен!!!</br>Новых банков {$nb}";
 
 
 }
