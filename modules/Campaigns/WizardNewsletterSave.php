@@ -85,7 +85,7 @@ global $mod_strings;
             $fp = fopen("tmpl", "a"); // Открываем файл в режиме записи 
             $test = fwrite($fp, $campaign_focus->id); // Запись в файл
             
-            return json_encode(array('record'=>$campaign_focus->id));
+            echo json_encode(array('record'=>$campaign_focus->id));
             break;
         case 2;
             //process subscription lists if this is a newsletter
@@ -221,8 +221,8 @@ global $mod_strings;
             }
 
             //set navigation details
-            $campaign_focus->id = file_get_contents("tmpl");
-            unlink ("tmpl");
+           $campaign_focus->id = file_get_contents("tmpl");
+           unlink ("tmpl");
             
             $_REQUEST['return_id'] = $campaign_focus->id;
             $_REQUEST['return_module'] = $campaign_focus->module_dir;

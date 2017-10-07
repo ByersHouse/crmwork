@@ -224,7 +224,9 @@ if(isset($_REQUEST['show_wizard_summary']) && $_REQUEST['show_wizard_summary']) 
     }
 
     $header_URL = "Location: index.php?action=WizardMarketing&module=Campaigns&return_module=Campaigns&return_action=WizardHome&return_id=" . $marketing->campaign_id . "&campaign_id=" . $marketing->campaign_id . "&jump=3&marketing_id=" . $marketing->id;
-}
+
+    $header_URL = "Location: index.php?action=WizardHome&module=Campaigns&record=".$marketing->campaign_id;
+        }
 else {
     $header_URL = "Location: index.php?action=WizardHome&module=Campaigns&record=".$marketing->campaign_id;
 }

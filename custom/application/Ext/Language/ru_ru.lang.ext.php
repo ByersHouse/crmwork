@@ -618,7 +618,7 @@ $app_list_strings['moduleList']['bh_locality'] = 'Населенный пунк�
 
 
 
-$app_list_strings['moduleList']['bh_marketing_company'] = 'Маркетинговая компания';
+$app_list_strings['moduleList']['bh_marketing_company'] = 'Маркетинговая кампания';
 
 
 /**
