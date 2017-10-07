@@ -221,14 +221,14 @@ global $mod_strings;
             }
 
             //set navigation details
-            $IDD = file_get_contents("tmpl");
+            $campaign_focus->id = file_get_contents("tmpl");
             unlink ("tmpl");
             
-            $_REQUEST['return_id'] = $IDD;
+            $_REQUEST['return_id'] = $campaign_focus->id;
             $_REQUEST['return_module'] = $campaign_focus->module_dir;
             $_REQUEST['return_action'] = "WizardNewsLetter";
             $_REQUEST['action'] = "WizardMarketing";
-            $_REQUEST['record'] = $IDD;
+            $_REQUEST['record'] = $campaign_focus->id;
 
             $action = '';
             $redirectToTargetList = '';
@@ -252,7 +252,7 @@ global $mod_strings;
             //require_once('modules/Campaigns/WizardMarketing.php');
            
          
-            $header_URL = "Location: index.php?return_module=Campaigns&module=Campaigns&action=".$action.$redirectToTargetList."&campaign_id=".$IDD."&return_action=WizardNewsLetter&return_id=".$IDD;
+            $header_URL = "Location: index.php?return_module=Campaigns&module=Campaigns&action=".$action.$redirectToTargetList."&campaign_id=".$campaign_focus->id."&return_action=WizardNewsLetter&return_id=".$campaign_focus->id;
             $GLOBALS['log']->debug("about to post header URL of: $header_URL");
             SugarApplication::headerRedirect($header_URL);
             break;
