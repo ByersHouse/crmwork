@@ -1,6 +1,6 @@
 
 
-
+На данной странице вы можете выполнить импорт в базу Банков Украины из внешнего справочника
 <form action="index.php?module=bh_banks&action=parsebanks&return_module=bh_banks&return_action=ListView" method="POST">
      <input name="myActionName" onclick="if (!confirm('Вы уверены что хотите сделать импорт?')){return false;}" type="submit" value="Выполнить Импорт" />
 </form>
@@ -23,18 +23,22 @@ if (isset($_POST['myActionName'])){
         $file = file_get_contents($url);
         $doc = phpQuery::newDocument($file);
         $tbl = $doc->find('.col_title_t');
+        
         $i=0;
 
         foreach ($tbl->find('tr') as $items) {
+            
             $items = pq($items);
+            
             if($i!=0){
+                
                 $bank_name = trim($items->find('td')->eq(0)->text());
                 $bank_edprou = trim($items->find('td')->eq(1)->text());
                 $bank_mfo = trim($items->find('td')->eq(2)->text());
+                
                 $sql = "SELECT id from bh_banks WHERE name ='{$bank_name}' and deleted = 0 ";
                 $row = $db->getOne($sql);
-
-                // var_dump($row,"</br>");
+                
                 if(!$row){
                     $id = create_guid();
                     $nb++;
@@ -42,7 +46,6 @@ if (isset($_POST['myActionName'])){
                     $sql = "INSERT INTO bh_banks (id,name,okpo,mfo,description,date_entered,date_modified,modified_user_id,created_by,assigned_user_id) 
                              VALUES ('{$id}','{$bank_name}','{$bank_edprou}','{$bank_mfo}','{$bank_adress}',NOW(),NOW(),1,1,1)";
 
-                             var_dump($sql);
                     $db->query($sql);
                     echo "</br>Банк <a href=\"index.php?action=ajaxui#ajaxUILoc=index.php%3Fmodule%3Dbh_banks%26offset%3D1%26stamp%3D1507373944011808000%26return_module%3Dbh_banks%26action%3DDetailView%26record%3D{$id}\">{$bank_name}</a> добавлен в базу данных</br>";
                 }
@@ -51,10 +54,13 @@ if (isset($_POST['myActionName'])){
             }
             $i++;
         }
-       /// echo "всего {$i} ";
+       
     sleep(3);
     }
-    echo "Импорт успешно завершен!!!</br>Новых банков {$nb}";
-
+    if($nb){
+        echo "Импорт успешно завершен!!!</br>Новых банков {$nb}";
+    }else{
+        echo "Проверка завершена!!!База банков в актуальном состоянии.";
+    }
 
 }
