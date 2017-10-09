@@ -16,6 +16,15 @@ array (
     'width' => '10%',
     'default' => true,
   ),
+  'LEADS_BH_PHONES_1_NAME' => 
+  array (
+    'type' => 'relate',
+    'link' => true,
+    'label' => 'LBL_LEADS_BH_PHONES_1_FROM_LEADS_TITLE',
+    'id' => 'LEADS_BH_PHONES_1LEADS_IDA',
+    'width' => '10%',
+    'default' => true,
+  ),
   'OPERATOR' => 
   array (
     'type' => 'varchar',
