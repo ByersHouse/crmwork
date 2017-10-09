@@ -138,6 +138,30 @@ $dictionary['Case']['fields']['result_comment'] = array (
 
 
 
+$dictionary['Case']['fields']['message_to_assigned'] = array (
+      'required' => false,
+      'name' => 'message_to_assigned',
+      'vname' => 'LBL_MESS_TOASIGNED',
+      'type' => 'text',
+      'massupdate' => 0,
+      'no_default' => false,
+      'comments' => 'Сообщение для назначаемого пользователя',
+      'help' => 'Сообщение для назначаемого пользователя',
+      'importable' => 'true',
+      'duplicate_merge' => 'disabled',
+      'duplicate_merge_dom_value' => '0',
+      'audited' => false,
+      'inline_edit' => true,
+      'reportable' => true,
+      'unified_search' => false,
+      'merge_filter' => 'enabled',
+      'len' => '0',
+      'size' => '40',
+      'rows'=>'10',
+      'cols'=>'20',
+);
+
+
 // created: 2017-09-14 09:55:28
 $dictionary["Case"]["fields"]["leads_cases_1"] = array (
   'name' => 'leads_cases_1',

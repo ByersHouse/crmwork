@@ -59,6 +59,7 @@ class aCase extends Basic
     public $modified_user_id;
     public $assigned_user_id;
     public $case_number;
+    public $message_to_assigned;
     public $resolution;
     public $description;
     public $name;
