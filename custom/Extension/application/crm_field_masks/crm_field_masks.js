@@ -123,8 +123,7 @@ $(document).ready(function(){
         $('#content caption').css('font-weight', 'bolder');
     }
 });
-
-
+/*
 function loadPhone() {
 
    // $('#popup').position({ my: 'left top', at: 'left bottom', of: $('a').first() });
@@ -144,7 +143,7 @@ function loadPhone() {
 
     });
 }
-
+*/
 
 
 

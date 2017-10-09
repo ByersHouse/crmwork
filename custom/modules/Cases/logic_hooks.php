@@ -13,6 +13,9 @@ $hook_array['before_save'][] = Array(77, 'updateGeocodeInfo', 'modules/Cases/Cas
 $hook_array['after_save'] = Array(); 
 $hook_array['after_save'][] = Array(10, 'Send contact case closure email', 'modules/AOP_Case_Updates/CaseUpdatesHook.php','CaseUpdatesHook', 'closureNotify'); 
 $hook_array['after_save'][] = Array(77, 'updateRelatedMeetingsGeocodeInfo', 'modules/Cases/CasesJjwg_MapsLogicHook.php','CasesJjwg_MapsLogicHook', 'updateRelatedMeetingsGeocodeInfo'); 
+$hook_array['after_save'][] = Array(88, 'send alert to user', 'custom/modules/Cases/LogicHooks/CasesHooks.php','CasesHooks', 'sendAlert'); 
+
+
 $hook_array['after_relationship_add'] = Array(); 
 $hook_array['after_relationship_add'][] = Array(9, 'Assign account', 'modules/AOP_Case_Updates/CaseUpdatesHook.php','CaseUpdatesHook', 'assignAccount'); 
 $hook_array['after_relationship_add'][] = Array(10, 'Send contact case email', 'modules/AOP_Case_Updates/CaseUpdatesHook.php','CaseUpdatesHook', 'creationNotify'); 
