@@ -41,6 +41,15 @@
 
 $mod_strings = array (
   'LBL_ASSIGNED_TO_ID' => 'Ответственный(ая)',
+  'LBL_BANK_RENEW' => 'Обновить список банков',
+  'LBL_BANK_IMPORT' => 'Импорт банков',
+  'LBL_BANK_IMPORT_BEGIN' => 'Выполнена загрузка с адреса',
+  'LBL_DO_IMPORT' => 'Выполнить импорт',
+  'LBL_IMPORT_SUCS_ENDED' => 'Импорт успешно завершен',  
+  'LBL_NEW_BANKS' => 'Новых банков',
+  'LBL_BANK' => 'Банк',
+  'LBL_BANK_ADDED' =>'Успешно добавлен в базу данных',  
+  'LBL_CHECK_ACTUAL'=>'Проверка завершена!!!База банков в актуальном состоянии.',  
   'LBL_ASSIGNED_TO_NAME' => 'Ответственный(ая)',
   'LBL_SECURITYGROUPS' => 'Группы пользователей',
   'LBL_SECURITYGROUPS_SUBPANEL_TITLE' => 'Группы пользователей',

@@ -1660,8 +1660,8 @@ $dictionary['Lead']['fields']['message_to_assigned'] = array (
       'merge_filter' => 'enabled',
       'len' => '0',
       'size' => '40',
-      'rows'=>'10',
-      'cols'=>'20',
+      'rows'=>'6',
+      'cols'=>'80',
 );
 
 
@@ -1733,6 +1733,7 @@ $dictionary['Lead']['fields']['communicator'] = array(
     'reportable' => true,
     'unified_search' => false,
     'merge_filter' => 'disabled',
+    'dbType' => 'varchar',
     'len' => '255',
     'size' => '20',
 

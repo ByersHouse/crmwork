@@ -23,17 +23,12 @@ $dictionary['bh_communicators']['fields']['communicator'] = array(
     'unified_search' => false,
     'options' => 'passport_type_list',
     'merge_filter' => 'disabled',
+    'dbType' => 'varchar',
     'len' => '255',
     'size' => '20',
 
 );
 
-
- // created: 2017-09-27 12:28:07
-$dictionary['bh_communicators']['fields']['ggg_c']['inline_edit']=1;
-$dictionary['bh_communicators']['fields']['ggg_c']['labelValue']='ggg';
-
- 
 
  // created: 2017-09-26 11:15:38
 $dictionary['bh_communicators']['fields']['name']['required']=false;
