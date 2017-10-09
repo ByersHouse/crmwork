@@ -46,7 +46,7 @@ global $mod_strings, $app_strings, $sugar_config;
  
 if(ACLController::checkAccess('bh_banks', 'edit', true)){
     $module_menu[]=array('index.php?module=bh_banks&action=EditView&return_module=bh_banks&return_action=DetailView', $mod_strings['LNK_NEW_RECORD'], 'Add', 'bh_banks');
-    $module_menu[]=array('index.php?module=bh_banks&action=parsebanks&return_module=bh_banks&return_action=ListView', "Обновить список банков",'View', 'bh_banks');
+    $module_menu[]=array('index.php?module=bh_banks&action=parsebanks&return_module=bh_banks&return_action=ListView', $mod_strings['LBL_BANK_RENEW'],'View', 'bh_banks');
 }
 if(ACLController::checkAccess('bh_banks', 'list', true)){
     $module_menu[]=array('index.php?module=bh_banks&action=index&return_module=bh_banks&return_action=DetailView', $mod_strings['LNK_LIST'],'View', 'bh_banks');
