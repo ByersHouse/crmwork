@@ -213,7 +213,7 @@ function CRMFieldMasks()
 	{
 		this.cache_and_log('apply_masks - begin', true );
 
-		//$('input[name*="phone"]').inputmask({"mask": "[+38]([0]99) 999-99-99"}); //specifying options
+		$('input[name^="phone"]').inputmask({"mask": "[+38]([0]99) 999-99-99"}); //specifying options
 
 
 

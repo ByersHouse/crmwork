@@ -82,6 +82,8 @@ class User extends Person {
 	var $messenger_id;
 	var $messenger_type;
 	var $is_group;
+        var $ext_password;
+        var $ws_server;
 	var $accept_status; // to support Meetings
 	//adding a property called team_id so we can populate it for use in the team widget
 	var $team_id;
