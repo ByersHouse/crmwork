@@ -1732,6 +1732,7 @@ $dictionary['Lead']['fields']['communicator'] = array(
     'reportable' => true,
     'unified_search' => false,
     'merge_filter' => 'disabled',
+    'dbType' => 'varchar',
     'len' => '255',
     'size' => '20',
 
