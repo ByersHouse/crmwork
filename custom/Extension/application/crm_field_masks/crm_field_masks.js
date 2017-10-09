@@ -126,7 +126,7 @@ $(document).ready(function(){
 
 function loadPhone() {
     if($('#mdlDemo').length == 0) {
-        $('body').append('<div id="mdlDemo" style="width:250px; height:400px; margin-top: -590px; position: fixed; right: 0px;"></div>');
+        $('body').append('<div id="mdlDemo" style="width:250px; height:400px; margin-top: -620px; position: fixed; right: 0px;"></div>');
         $("#mdlDemo").append('<button type="button" class="btn btn-primary" id="btnConfig">Открыть телефон</button>');
     }
 
