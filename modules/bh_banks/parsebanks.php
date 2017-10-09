@@ -1,5 +1,8 @@
+<?php
+global $mod_strings;
 
-<h2 class="module-title-text">Импорт банков</h2>
+?>
+<h2 class="module-title-text"><?php echo $mod_strings['LBL_BANK_IMPORT']; ?></h2>
 На данной странице вы можете выполнить импорт в базу Банков Украины из внешнего справочника
 <form action="index.php?module=bh_banks&action=parsebanks&return_module=bh_banks&return_action=DetailView" method="POST">
      <input name="myActionName" onclick="if (!confirm('Вы уверены что хотите сделать импорт?')){return false;}" type="submit" value="Выполнить Импорт" />
