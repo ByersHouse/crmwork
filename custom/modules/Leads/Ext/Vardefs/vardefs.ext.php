@@ -1832,6 +1832,8 @@ $dictionary['Lead']['fields']['contact_person_name'] = array (
     'size' => '20',
 );
 
+
+
 // created: 2017-09-20 10:40:57
 $dictionary["Lead"]["fields"]["leads_aos_contracts_1"] = array (
   'name' => 'leads_aos_contracts_1',
