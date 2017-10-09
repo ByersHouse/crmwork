@@ -2,13 +2,6 @@
 $module_name = 'bh_phones';
 $listViewDefs [$module_name] = 
 array (
-  'NAME' => 
-  array (
-    'width' => '32%',
-    'label' => 'LBL_NAME',
-    'default' => true,
-    'link' => true,
-  ),
   'PHONE_CONTACT' => 
   array (
     'type' => 'phone',
@@ -39,6 +32,13 @@ array (
     'module' => 'Employees',
     'id' => 'ASSIGNED_USER_ID',
     'default' => true,
+  ),
+  'NAME' => 
+  array (
+    'width' => '32%',
+    'label' => 'LBL_NAME',
+    'default' => false,
+    'link' => true,
   ),
 );
 ?>
