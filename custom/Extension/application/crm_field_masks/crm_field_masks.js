@@ -123,7 +123,7 @@ $(document).ready(function(){
         $('#content caption').css('font-weight', 'bolder');
     }
 });
-/*
+
 function loadPhone() {
     if($('#mdlDemo').length == 0) {
         $('body').append('<div id="mdlDemo" style="width:250px; height:400px; margin-top: -590px; position: fixed; right: 0px;"></div>');
@@ -160,7 +160,7 @@ function loadPhone() {
 
 
 }
-*/
+
 
 
 
