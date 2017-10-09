@@ -2,11 +2,33 @@
 
 var ctxSip;
 
+
 $(document).ready(function() {
+    $.ajax({
+        url:"/index.php?entryPoint=AsteriskController&action=operatorConfig",
+        cache: false,
+        type: "GET",
+        success: function(data){
+            var a = JSON.parse(data);
+            console.log(a['password']);
+
+
 
 
     if (typeof(user) === 'undefined') {
-        user = JSON.parse(localStorage.getItem('SIPCreds'));
+        var user = {
+            //  User Name
+            "User" : a['extension'],
+            //  Password
+            "Pass" : a['password'],
+            //  Auth Realm
+            "Realm"   : a['ws_server'],
+            // Display Name
+            "Display" : a['extension'],
+            // WebSocket URL
+            "WSServer"  : "ws://" + a['ws_server'] + ":8088/ws",
+        };
+
     }
 
     ctxSip = {
@@ -799,5 +821,9 @@ $(document).ready(function() {
         this.start = start; //function() { start; }
         this.stop  = stop; //function() { stop; }
     };
+
+        }
+
+    });
 
 });

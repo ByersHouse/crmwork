@@ -109,6 +109,19 @@ array (
             'name' => 'asterisk_outbound_c',
             'label' => 'LBL_ASTERISK_OUTBOUND',
           ),
+          1 => 
+          array (
+            'name' => 'ext_password',
+            'label' => 'LBL_EXT_PASSWORD',
+          ),
+        ),
+        6 => 
+        array (
+          0 => 
+          array (
+            'name' => 'ws_server',
+            'label' => 'LBL_WS_SERVER',
+          ),
           1 => '',
         ),
       ),

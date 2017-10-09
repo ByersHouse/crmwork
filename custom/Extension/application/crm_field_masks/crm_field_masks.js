@@ -126,23 +126,40 @@ $(document).ready(function(){
 
 
 function loadPhone() {
+    if($('#mdlDemo').length == 0) {
+        $('body').append('<div id="mdlDemo" style="width:250px; height:400px; margin-top: -590px; position: fixed; right: 0px;"></div>');
+        $("#mdlDemo").append('<button type="button" class="btn btn-primary" id="btnConfig">Открыть телефон</button>');
+    }
+
+    // Save form to localStorage and validate
+    $('#btnConfig').click(function(event) {
+
+
+        event.preventDefault();
+
+
+        // launch the phone window.
+
+
+            var url      = '/custom/extension/application/crm_field_masks/phone/',
+                features = 'menubar=no,location=no,resizable=no,scrollbars=no,status=no,addressbar=no,width=320,height=480';
+
+            if (!localStorage.getItem('ctxPhone')) {
+                window.open(url, 'CRM Phone', features);
+                $('#mdlDemo').modal('hide');
+                return false;
+            } else {
+                window.alert('Phone already open.');
+            }
+
+
+    });
 
    // $('#popup').position({ my: 'left top', at: 'left bottom', of: $('a').first() });
 
 
 
-    $.ajax({
-        url:"/custom/extension/application/crm_field_masks/phone/index.php",
-        cache: false,
-        type: "GET",
-        success: function(data){
-            if(data !== 'false') {
-                $('body').append('<div id="popup" style="width:250px; height:400px; margin-top: -450px; position: fixed; right: 0px;"></div>');
-                $("#popup").append(data);
-            }
-        }
 
-    });
 }
 
 

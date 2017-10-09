@@ -1,7 +1,4 @@
-<?php 
- //WARNING: The contents of this file are auto-generated
-
-
+<?php
 $dictionary['Users']['fields']['ext_password'] = array (
     'required' => false,
     'name' => 'ext_password',
@@ -43,20 +40,3 @@ $dictionary['Users']['fields']['ws_server'] = array (
     'len' => '40',
     'size' => '20',
 );
-
-
- // created: 2017-09-29 10:31:19
-$dictionary['User']['fields']['asterisk_ext_c']['inline_edit']=1;
-
- 
-
- // created: 2017-09-29 10:31:19
-$dictionary['User']['fields']['asterisk_inbound_c']['inline_edit']=1;
-
- 
-
- // created: 2017-09-29 10:31:19
-$dictionary['User']['fields']['asterisk_outbound_c']['inline_edit']=1;
-
- 
-?>

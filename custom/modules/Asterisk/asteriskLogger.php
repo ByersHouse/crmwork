@@ -1474,6 +1474,7 @@ function dumpEvent(&$event) {
         case "Join":    dev_JoinPrinter($event); break;
         case "Hangup":  dev_HangupPrinter($event);break;
         case "Newchannel":  dev_NewChannelPrinter($event); break;
+        case "BridgeEnter" :  writeEvent($event); break;
     }
 
     dumpEventHelper($event);
@@ -1482,7 +1483,7 @@ function dumpEvent(&$event) {
 
 function writeEvent(&$event){
 
-    if($event['Bridgestate'] == 'Link'){
+
     $f = fopen('log.txt', 'a+');
     flock ($f,LOCK_EX);
     $event['operator'] = $GLOBALS['operator'];
@@ -1490,7 +1491,7 @@ function writeEvent(&$event){
     fwrite($f, $s);
     flock ($f,LOCK_UN);
     fclose($f);
-    }
+
 }
 
 function dumpEventHelper(&$event, $logFile = "default" ) {

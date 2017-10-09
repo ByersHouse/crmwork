@@ -63,9 +63,23 @@ switch ($_REQUEST['action']) {
     case "ajax" :
         readEventLog();
         break;
+    case "operatorConfig" :
+        getOperatorConfig();
+        break;
     default :
         echo "undefined action";
         break;
+}
+
+function getOperatorConfig(){
+    global $current_user;
+    $user = [];
+    $user['extension'] = trim($current_user->fetched_row['asterisk_ext_c']);
+    $user['ws_server'] = trim($current_user->fetched_row['ws_server']);
+    $user['password'] = trim($current_user->fetched_row['ext_password']);
+
+    $user = json_encode($user, true);
+    echo $user;
 }
 
 function readEventLog()
@@ -84,11 +98,11 @@ function readEventLog()
 
     $val = unserialize($val);
 
-    if(isset($val['CallerID2'])) {
-        if ($val['CallerID2'] == $user) {
+    if(isset($val['CallerIDNum'])) {
+        if ($val['CallerIDNum'] == $user) {
 
 
-            $query = 'SELECT id FROM `Leads` WHERE `phone_work` =' . $val['CallerID1'];
+            $query = 'SELECT id FROM `Leads` WHERE `phone_work` =' . $val['ConnectedLineNum'];
             $result = $current_user->db->query($query, false);
 
             if ($result->num_rows) {
