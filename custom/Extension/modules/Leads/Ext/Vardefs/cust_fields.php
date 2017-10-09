@@ -1660,8 +1660,8 @@ $dictionary['Lead']['fields']['message_to_assigned'] = array (
       'merge_filter' => 'enabled',
       'len' => '0',
       'size' => '40',
-      'rows'=>'10',
-      'cols'=>'20',
+      'rows'=>'6',
+      'cols'=>'80',
 );
 
 
