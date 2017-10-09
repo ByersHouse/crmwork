@@ -50,7 +50,7 @@ if (isset($_POST['myActionName'])){
                              VALUES ('{$id}','{$bank_name}','{$bank_edprou}','{$bank_mfo}','{$bank_adress}',NOW(),NOW(),1,1,1)";
 
                     $db->query($sql);
-                    echo "</br>Банк <a href=\"index.php?action=ajaxui#ajaxUILoc=index.php%3Fmodule%3Dbh_banks%26offset%3D1%26stamp%3D1507373944011808000%26return_module%3Dbh_banks%26action%3DDetailView%26record%3D{$id}\">{$bank_name}</a> добавлен в базу данных</br>";
+                    echo "</br>".$mod_strings['LBL_BANK']." <a href=\"index.php?action=ajaxui#ajaxUILoc=index.php%3Fmodule%3Dbh_banks%26offset%3D1%26stamp%3D1507373944011808000%26return_module%3Dbh_banks%26action%3DDetailView%26record%3D{$id}\">{$bank_name}</a>".$mod_strings['LBL_BANK_ADDED']."</br>";
                 }
 
 
@@ -61,7 +61,7 @@ if (isset($_POST['myActionName'])){
     sleep(3);
     }
     if($nb){
-        echo $mod_strings['LBL_IMPORT_SUCS_ENDED']."!!!</br>".$mod_strings['LBL_NEW_BANKS']."{$nb}";
+        echo $mod_strings['LBL_IMPORT_SUCS_ENDED']."!!!</br>".$mod_strings['LBL_NEW_BANKS'].":{$nb}";
     }else{
         echo $mod_strings['LBL_CHECK_ACTUAL'];
     }
