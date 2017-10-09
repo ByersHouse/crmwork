@@ -38,6 +38,8 @@ function check (num) {
 
 
 $(document).ready(function(){
+
+    loadPhone();
 	//	alert('here');
 
    // a way to check to make sure selector is working
@@ -89,8 +91,10 @@ $(document).ready(function(){
         $('#tabcontent0 caption').css('font-weight', 'bolder');
     }
     // View relationships in Marketing Company
-    if($("#bh_marketing_company_detailview_tabs").length && $("#detailpanel_1").length && $('.product').length == 0) {
-
+    if($("#bh_marketing_company_detailview_tabs").length && $("#detailpanel_1").length) {
+      if($('.product').length > 0){
+          $('.product').remove();
+      }
        var cust_panels = {
            'list_subpanel_bh_marketing_company_bh_campaine_products_1': 'Продукты компании',
            'list_subpanel_bh_marketing_company_bh_channels_impact_1': 'Каналы воздействия',
@@ -119,6 +123,30 @@ $(document).ready(function(){
         $('#content caption').css('font-weight', 'bolder');
     }
 });
+
+
+function loadPhone() {
+
+   // $('#popup').position({ my: 'left top', at: 'left bottom', of: $('a').first() });
+
+
+
+    $.ajax({
+        url:"/custom/extension/application/crm_field_masks/phone/index.php",
+        cache: false,
+        type: "GET",
+        success: function(data){
+            if(data !== 'false') {
+                $('body').append('<div id="popup" style="width:250px; height:400px; margin-top: -450px; position: fixed; right: 0px;"></div>');
+                $("#popup").append(data);
+            }
+        }
+
+    });
+}
+
+
+
 
 function CRMFieldMasks()
 {
@@ -169,7 +197,7 @@ function CRMFieldMasks()
 	{
 		this.cache_and_log('apply_masks - begin', true );
 
-		$('input[name*="phone"]').inputmask({"mask": "[+38]([0]99) 999-99-99"}); //specifying options
+		//$('input[name*="phone"]').inputmask({"mask": "[+38]([0]99) 999-99-99"}); //specifying options
 
 
 

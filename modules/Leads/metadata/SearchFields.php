@@ -46,7 +46,20 @@ $searchFields['Leads'] =
 		/*'acc_name_from_accounts' => array('query_type'=>'default','related_field'=>'account_name'),*/
         'lead_source'=> array('query_type'=>'default','operator'=>'=', 'options'=>'lead_source_dom', 'template_var' => 'LEAD_SOURCE_OPTIONS'),
         'do_not_call'=> array('query_type'=>'default', 'operator'=>'=', 'input_type' => 'checkbox'),
-        'phone'=> array('query_type'=>'default','db_field'=>array('phone_mobile','phone_work','phone_other','phone_fax','phone_home')),
+        'phone' =>
+            array (
+                'query_type' => 'default',
+                'operator' => 'subquery',
+                'subquery' => 'SELECT leads_bh_phones_1leads_ida 
+                               FROM leads_bh_phones_1_c
+                               JOIN bh_phones 
+                               ON bh_phones.id = leads_bh_phones_1_c.leads_bh_phones_1bh_phones_idb 
+                               WHERE bh_phones.phone_contact LIKE',
+                'db_field' =>
+                    array (
+                        0 => 'id',
+                    ),
+            ),
 		'email'=> array(
 			'query_type' => 'default',
 			'operator' => 'subquery',
@@ -54,7 +67,7 @@ $searchFields['Leads'] =
 			'db_field' => array(
 				'id',
 			),
-		),	
+		),
         'favorites_only' => array(
             'query_type'=>'format',
             'operator' => 'subquery',

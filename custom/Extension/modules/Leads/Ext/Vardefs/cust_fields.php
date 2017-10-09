@@ -1782,3 +1782,4 @@ $dictionary['Lead']['fields']['contact_person_name'] = array (
     'len' => '40',
     'size' => '20',
 );
+
