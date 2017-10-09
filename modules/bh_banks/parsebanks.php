@@ -3,9 +3,9 @@ global $mod_strings;
 
 ?>
 <h2 class="module-title-text"><?php echo $mod_strings['LBL_BANK_IMPORT']; ?></h2>
-На данной странице вы можете выполнить импорт в базу Банков Украины из внешнего справочника
+
 <form action="index.php?module=bh_banks&action=parsebanks&return_module=bh_banks&return_action=DetailView" method="POST">
-     <input name="myActionName" onclick="if (!confirm('Вы уверены что хотите сделать импорт?')){return false;}" type="submit" value="Выполнить Импорт" />
+     <input name="myActionName" onclick="if (!confirm('Вы уверены что хотите сделать импорт?')){return false;}" type="submit" value="<?php echo $mod_strings['LBL_DO_IMPORT']; ?>" />
 </form>
 <?php
 if (isset($_POST['myActionName'])){
@@ -19,7 +19,7 @@ if (isset($_POST['myActionName'])){
             'https://bank.gov.ua/control/bankdict/banks?type=369&sort=name&cPage=3&startIndx=61',
             'https://bank.gov.ua/control/bankdict/banks?type=369&sort=name&cPage=4&startIndx=81'
     );
-    echo "Начинаю загрузку с адреса ..https://bank.gov.ua/control/bankdict/banks</br>";
+    echo $mod_strings['LBL_BANK_IMPORT_BEGIN'].":..https://bank.gov.ua/control/bankdict/banks</br>";
     $nb = 0;
     foreach ($urls as $url){
         //
@@ -61,9 +61,9 @@ if (isset($_POST['myActionName'])){
     sleep(3);
     }
     if($nb){
-        echo "Импорт успешно завершен!!!</br>Новых банков {$nb}";
+        echo $mod_strings['LBL_IMPORT_SUCS_ENDED']."!!!</br>".$mod_strings['LBL_NEW_BANKS']."{$nb}";
     }else{
-        echo "Проверка завершена!!!База банков в актуальном состоянии.";
+        echo $mod_strings['LBL_CHECK_ACTUAL'];
     }
 
 }
