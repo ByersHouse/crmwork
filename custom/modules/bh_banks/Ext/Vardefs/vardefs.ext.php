@@ -47,5 +47,4 @@ $dictionary['bh_banks']['fields']['okpo'] = array (
 );
 
 
-
 ?>

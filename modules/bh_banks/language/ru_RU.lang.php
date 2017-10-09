@@ -41,6 +41,7 @@
 
 $mod_strings = array (
   'LBL_ASSIGNED_TO_ID' => 'Ответственный(ая)',
+  'LBL_BANK_RENEW' => 'Обновить список банков',
   'LBL_ASSIGNED_TO_NAME' => 'Ответственный(ая)',
   'LBL_SECURITYGROUPS' => 'Группы пользователей',
   'LBL_SECURITYGROUPS_SUBPANEL_TITLE' => 'Группы пользователей',
