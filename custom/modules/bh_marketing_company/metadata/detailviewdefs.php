@@ -98,6 +98,10 @@ array (
           array (
             'name' => 'cases_bh_marketing_company_1_name',
           ),
+          1 => 
+          array (
+            'name' => 'bh_marketing_company_bh_scripts_1_name',
+          ),
         ),
       ),
     ),

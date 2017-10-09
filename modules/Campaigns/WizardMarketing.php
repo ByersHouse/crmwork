@@ -74,14 +74,14 @@ $campaign_focus = new Campaign();
 
 if (isset($_REQUEST['campaign_id']) && !empty($_REQUEST['campaign_id'])) {
     
-    var_dump(2);
-    $cf = $campaign_focus->retrieve($_REQUEST['campaign_id']);
+    //var_dump(2);
+    $campaign_focus->retrieve($_REQUEST['campaign_id']);
     //var_dump("<pre>",$campaign_focus->id,"</pre>");
     
     
 }else{
     sugar_die($app_strings['ERROR_NO_RECORD']);
-    var_dump(3);
+   // var_dump(3);
     
 }
 //exit;

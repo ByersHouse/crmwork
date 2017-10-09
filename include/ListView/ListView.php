@@ -50,7 +50,7 @@ class ListView
     var $local_image_path = null;
     var $local_current_module = null;
     var $local_mod_strings = null;
-    var $records_per_page = 20;
+    var $records_per_page = 50;
     var $xTemplate = null;
     var $xTemplatePath = null;
     var $seed_data = null;

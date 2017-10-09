@@ -88,6 +88,11 @@ include('custom/metadata/bh_marketing_company_bh_marketing_response_1MetaData.ph
 
  
  //WARNING: The contents of this file are auto-generated
+include('custom/metadata/bh_marketing_company_bh_scripts_1MetaData.php');
+
+
+ 
+ //WARNING: The contents of this file are auto-generated
 include('custom/metadata/bh_marketing_directorate_leads_1MetaData.php');
 
 

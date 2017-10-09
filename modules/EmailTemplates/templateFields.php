@@ -40,7 +40,7 @@ function generateFieldDefsJS2()
     $loopControl = array();
     $prefixes = array();
     
-    unset($app_list_strings['moduleList']['AOD_Index']);
+   // unset($app_list_strings['moduleList']['AOD_Index']);
    // var_dump("<pre>",$app_list_strings['moduleList'],"</pre>");
    //exit;
     foreach ($app_list_strings['moduleList'] as $key => $name) {
