@@ -37,9 +37,27 @@ function check (num) {
 }
 
 
+function getUrlVars()
+{
+    var vars = [], hash;
+    var hashes = window.location.href.slice(window.location.href.indexOf('?') + 1).split('&');
+    for(var i = 0; i < hashes.length; i++)
+    {
+        hash = hashes[i].split('=');
+        vars.push(hash[0]);
+        vars[hash[0]] = hash[1];
+    }
+    return vars;
+}
+
 $(document).ready(function(){
 
+var module = getUrlVars()["module"];
+var action = getUrlVars()["action"];
+
+if ((action!='Login') && (module!='Users')){
     loadPhone();
+}
 	//	alert('here');
 
    // a way to check to make sure selector is working
