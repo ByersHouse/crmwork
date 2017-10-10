@@ -37,9 +37,27 @@ function check (num) {
 }
 
 
+function getUrlVars()
+{
+    var vars = [], hash;
+    var hashes = window.location.href.slice(window.location.href.indexOf('?') + 1).split('&');
+    for(var i = 0; i < hashes.length; i++)
+    {
+        hash = hashes[i].split('=');
+        vars.push(hash[0]);
+        vars[hash[0]] = hash[1];
+    }
+    return vars;
+}
+
 $(document).ready(function(){
 
+var module = getUrlVars()["module"];
+var action = getUrlVars()["action"];
+
+if ((action!='Login') && (module!='Users')){
     loadPhone();
+}
 	//	alert('here');
 
    // a way to check to make sure selector is working
@@ -140,6 +158,7 @@ if (!localStorage.getItem('ctxPhone')) {
     focus.focus();
 }
 
+
 function loadPhone() {
     if($('#mdlDemo').length == 0) {
         $('body').append('<div id="mdlDemo" style="position: absolute; right: 0;bottom: 0;"></div>');
@@ -229,7 +248,7 @@ function CRMFieldMasks()
 	{
 		this.cache_and_log('apply_masks - begin', true );
 
-		//$('input[name*="phone"]').inputmask({"mask": "[+38]([0]99) 999-99-99"}); //specifying options
+		$('input[name^="phone"]').inputmask({"mask": "[+38]([0]99) 999-99-99"}); //specifying options
 
 
 

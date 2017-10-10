@@ -26,7 +26,7 @@ $dictionary['Lead']['fields']['lead_status'] = array (
     );
 
 $dictionary['Lead']['fields']['lead_sex'] = array (
-      'required' => false,
+      'required' => true,
       'name' => 'lead_sex',
       'vname' => 'LBL_LEAD_SEX',
       'type' => 'enum',
@@ -42,7 +42,7 @@ $dictionary['Lead']['fields']['lead_sex'] = array (
       'reportable' => true,
       'unified_search' => false,
       'merge_filter' => 'disabled',
-      'len' => 100,
+      'len' => 15,
       'size' => '20',
       'options' => 'lead_sex_list',
       'studio' => 'visible',

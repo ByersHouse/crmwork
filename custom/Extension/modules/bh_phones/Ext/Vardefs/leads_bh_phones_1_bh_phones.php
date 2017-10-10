@@ -20,6 +20,7 @@ $dictionary["bh_phones"]["fields"]["leads_bh_phones_1_name"] = array (
   'link' => 'leads_bh_phones_1',
   'table' => 'leads',
   'module' => 'Leads',
+  'required' => true,   
   'rname' => 'name',
   'db_concat_fields' => 
   array (

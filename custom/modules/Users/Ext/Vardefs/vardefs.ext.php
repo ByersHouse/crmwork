@@ -59,4 +59,14 @@ $dictionary['User']['fields']['asterisk_inbound_c']['inline_edit']=1;
 $dictionary['User']['fields']['asterisk_outbound_c']['inline_edit']=1;
 
  
+
+ // created: 2017-10-09 14:48:18
+$dictionary['User']['fields']['ext_password']['merge_filter']='disabled';
+
+ 
+
+ // created: 2017-10-09 14:49:04
+$dictionary['User']['fields']['ws_server']['merge_filter']='disabled';
+
+ 
 ?>

@@ -1,5 +1,5 @@
 <?php
-// created: 2017-09-27 16:49:44
+// created: 2017-10-09 16:53:29
 $mod_strings = array (
   'LBL_LEAD_STATUS' => 'Тип клиента',
   'LBL_LEAD_SEX' => 'Пол',
@@ -145,4 +145,5 @@ $mod_strings = array (
   'LBL_FIRST_NAME' => 'Имя:',
   'LBL_LEAD_PARENTS' => 'Родители',
   'LBL_CONTACT_PERSON_NAME' => 'Имя лица для контакта',
+  'LBL_LEADS_BH_PHONES_1_FROM_BH_PHONES_TITLE' => 'Телефоны',
 );
