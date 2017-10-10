@@ -37,9 +37,27 @@ function check (num) {
 }
 
 
+function getUrlVars()
+{
+    var vars = [], hash;
+    var hashes = window.location.href.slice(window.location.href.indexOf('?') + 1).split('&');
+    for(var i = 0; i < hashes.length; i++)
+    {
+        hash = hashes[i].split('=');
+        vars.push(hash[0]);
+        vars[hash[0]] = hash[1];
+    }
+    return vars;
+}
+
 $(document).ready(function(){
 
+var module = getUrlVars()["module"];
+var action = getUrlVars()["action"];
+
+if ((action!='Login') && (module!='Users')){
     loadPhone();
+}
 	//	alert('here');
 
    // a way to check to make sure selector is working
@@ -124,25 +142,41 @@ $(document).ready(function(){
     }
 });
 
-
 function loadPhone() {
+    if($('#mdlDemo').length == 0) {
+        $('body').append('<div id="mdlDemo" style="width:250 px; height:400 px; margin-top: -620 px; position: fixed; right: 0px;"></div>');
+        $("#mdlDemo").append('<button type="button" class="btn btn-primary" id="btnConfig">Открыть телефон</button>');
+    }
+
+    // Save form to localStorage and validate
+    $('#btnConfig').click(function(event) {
+
+
+        event.preventDefault();
+
+
+        // launch the phone window.
+
+
+            var url      = '/custom/extension/application/crm_field_masks/phone/',
+                features = 'menubar=no,location=no,resizable=no,scrollbars=no,status=no,addressbar=no,width=320,height=480';
+
+            if (!localStorage.getItem('ctxPhone')) {
+                window.open(url, 'CRM Phone', features);
+                $('#mdlDemo').modal('hide');
+                return false;
+            } else {
+                window.alert('Phone already open.');
+            }
+
+
+    });
 
    // $('#popup').position({ my: 'left top', at: 'left bottom', of: $('a').first() });
 
 
 
-    $.ajax({
-        url:"/custom/extension/application/crm_field_masks/phone/index.php",
-        cache: false,
-        type: "GET",
-        success: function(data){
-            if(data !== 'false') {
-                $('body').append('<div id="popup" style="width:250px; height:400px; margin-top: -450px; position: fixed; right: 0px;"></div>');
-                $("#popup").append(data);
-            }
-        }
 
-    });
 }
 
 
@@ -197,7 +231,7 @@ function CRMFieldMasks()
 	{
 		this.cache_and_log('apply_masks - begin', true );
 
-		//$('input[name*="phone"]').inputmask({"mask": "[+38]([0]99) 999-99-99"}); //specifying options
+		$('input[name^="phone"]').inputmask({"mask": "[+38]([0]99) 999-99-99"}); //specifying options
 
 
 

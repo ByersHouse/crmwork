@@ -3,10 +3,10 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>ctxSip</title>
+    <title>BuyersHouse Phone</title>
     <link rel="icon" type="image/gif" href="img/favicon.ico" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
     <link href="/custom/extension/application/crm_field_masks/phone/css/ctxSip.css" rel="stylesheet" type="text/css" />
 </head>
 <body id="sipClient">
@@ -95,11 +95,11 @@
 </div>
 
 <audio id="ringtone" src="/custom/extension/application/crm_field_masks/phone/sounds/incoming.mp3" loop></audio>
-<audio id="ringbacktone" src="sounds/outgoing.mp3" loop></audio>
+<audio id="ringbacktone" src="/custom/extension/application/crm_field_masks/phone/sounds/outgoing.mp3" loop></audio>
 <audio id="dtmfTone" src="/custom/extension/application/crm_field_masks/phone/sounds/dtmf.mp3"></audio>
 <audio id="audioRemote"></audio>
 
-<!--- <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script> -->
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="/custom/extension/application/crm_field_masks/phone/scripts/moment.js/moment.min.js"></script>
 

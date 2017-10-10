@@ -155,6 +155,15 @@ array (
             'label' => 'LBL_ASSIGNED_TO',
           ),
         ),
+        12 => 
+        array (
+          0 => 
+          array (
+            'name' => 'message_to_assigned',
+            'label' => 'LBL_MESS_TOASIGNED',
+          ),
+          1 => '',
+        ),
       ),
     ),
   ),

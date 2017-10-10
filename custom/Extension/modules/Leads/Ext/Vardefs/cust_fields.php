@@ -26,7 +26,7 @@ $dictionary['Lead']['fields']['lead_status'] = array (
     );
 
 $dictionary['Lead']['fields']['lead_sex'] = array (
-      'required' => false,
+      'required' => true,
       'name' => 'lead_sex',
       'vname' => 'LBL_LEAD_SEX',
       'type' => 'enum',
@@ -42,7 +42,7 @@ $dictionary['Lead']['fields']['lead_sex'] = array (
       'reportable' => true,
       'unified_search' => false,
       'merge_filter' => 'disabled',
-      'len' => 100,
+      'len' => 15,
       'size' => '20',
       'options' => 'lead_sex_list',
       'studio' => 'visible',
@@ -1660,8 +1660,8 @@ $dictionary['Lead']['fields']['message_to_assigned'] = array (
       'merge_filter' => 'enabled',
       'len' => '0',
       'size' => '40',
-      'rows'=>'10',
-      'cols'=>'20',
+      'rows'=>'6',
+      'cols'=>'80',
 );
 
 
@@ -1719,19 +1719,21 @@ $dictionary['Lead']['fields']['communicator'] = array(
     'required' => false,
     'name' => 'communicator',
     'vname' => 'LBL_COMMUNICATOR',
-    'type' => 'MultiTextField',
+    'type' => 'multitextfield',
+    'dbType' => 'varchar',
     'massupdate' => 0,
     'no_default' => false,
     'comments' => '',
     'help' => '',
-    'importable' => 'true',
+    'importable' => 'false',
     'duplicate_merge' => 'disabled',
     'duplicate_merge_dom_value' => '0',
-    'audited' => true,
+    'audited' => false,
     'inline_edit' => true,
     'reportable' => true,
     'unified_search' => false,
     'merge_filter' => 'disabled',
+    'dbType' => 'varchar',
     'len' => '255',
     'size' => '20',
 

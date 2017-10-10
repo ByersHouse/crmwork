@@ -20,6 +20,7 @@ $dictionary['bh_communicators']['fields']['communicator'] = array(
     'unified_search' => false,
     'options' => 'passport_type_list',
     'merge_filter' => 'disabled',
+    'dbType' => 'varchar',
     'len' => '255',
     'size' => '20',
 
