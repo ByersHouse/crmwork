@@ -123,10 +123,26 @@ $(document).ready(function(){
         $('#content caption').css('font-weight', 'bolder');
     }
 });
-/*
+
+var phone
+var url      = '/custom/extension/application/crm_field_masks/phone/',
+    features = 'menubar=no,location=no,resizable=no,scrollbars=no,status=no,addressbar=no,width=320,height=480';
+
+
+if (!localStorage.getItem('ctxPhone')) {
+
+    phone  = window.open(url, 'CRM Phone', features);
+
+    localStorage.setItem('phone', phone());
+    $('#mdlDemo').modal('hide');
+} else {
+    var focus = localStorage.getItem('phone');
+    focus.focus();
+}
+
 function loadPhone() {
     if($('#mdlDemo').length == 0) {
-        $('body').append('<div id="mdlDemo" style="width:250px; height:400px; margin-top: -590px; position: fixed; right: 0px;"></div>');
+        $('body').append('<div id="mdlDemo" style="position: absolute; right: 0;bottom: 0;"></div>');
         $("#mdlDemo").append('<button type="button" class="btn btn-primary" id="btnConfig">Открыть телефон</button>');
     }
 
@@ -144,11 +160,11 @@ function loadPhone() {
                 features = 'menubar=no,location=no,resizable=no,scrollbars=no,status=no,addressbar=no,width=320,height=480';
 
             if (!localStorage.getItem('ctxPhone')) {
-                window.open(url, 'CRM Phone', features);
+                phone = open(url, 'CRM Phone', features);
                 $('#mdlDemo').modal('hide');
                 return false;
             } else {
-                window.alert('Phone already open.');
+                phone.focus();
             }
 
 
@@ -160,7 +176,7 @@ function loadPhone() {
 
 
 }
-*/
+
 
 
 

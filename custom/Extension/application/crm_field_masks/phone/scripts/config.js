@@ -17,7 +17,7 @@ $.ajax({
             // Display Name
             "Display" : "993333",
             // WebSocket URL
-            "WSServer"  : "wss://192.168.2.93:8089/ws"
+            "WSServer"  : "ws://192.168.2.93:8088/ws"
         };
 
 

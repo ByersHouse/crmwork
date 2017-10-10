@@ -3,6 +3,8 @@
 var ctxSip;
 
 
+
+
 $(document).ready(function() {
     $.ajax({
         url:"/index.php?entryPoint=AsteriskController&action=operatorConfig",
@@ -593,6 +595,7 @@ $(document).ready(function() {
         var closePhone = function() {
             // stop the phone on unload
             localStorage.removeItem('ctxPhone');
+            localStorage.removeItem('phones');
             ctxSip.phone.stop();
         };
 

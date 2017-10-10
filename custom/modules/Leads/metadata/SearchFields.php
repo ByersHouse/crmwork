@@ -1,7 +1,6 @@
 <?php
-// created: 2017-08-29 10:22:49
+// created: 2017-10-10 11:40:50
 $searchFields['Leads'] = array (
-
   'first_name' => 
   array (
     'query_type' => 'default',
@@ -43,22 +42,22 @@ $searchFields['Leads'] = array (
   ),
   'phone' => 
   array (
-      'query_type' => 'default',
-      'operator' => 'subquery',
-      'subquery' => 'SELECT leads_bh_phones_1leads_ida FROM leads_bh_phones_1_c
+    'query_type' => 'default',
+    'operator' => 'subquery',
+    'subquery' => 'SELECT leads_bh_phones_1leads_ida FROM leads_bh_phones_1_c
                            JOIN bh_phones ON bh_phones.id = leads_bh_phones_1_c.leads_bh_phones_1bh_phones_idb 
                            WHERE bh_phones.phone_contact LIKE',
-      'db_field' =>
-          array (
-          0 => 'id',
-      ),
+    'db_field' => 
+    array (
+      0 => 'id',
+    ),
   ),
   'email' => 
   array (
     'query_type' => 'default',
     'operator' => 'subquery',
     'subquery' => 'SELECT eabr.bean_id FROM email_addr_bean_rel eabr JOIN email_addresses ea ON (ea.id = eabr.email_address_id) WHERE eabr.deleted=0 AND ea.email_address LIKE',
-    'db_field' =>
+    'db_field' => 
     array (
       0 => 'id',
     ),
