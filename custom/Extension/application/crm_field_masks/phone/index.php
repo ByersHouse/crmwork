@@ -62,8 +62,8 @@
                     <i class="fa fa-circle fa-stack-2x text-success"></i>
                     <i class="fa fa-phone fa-stack-1x fa-inverse"></i>
                 </span><br>
-                This is your phone.</h3>
-                <p class="lead">To make a call enter a number or SIP address in the box above.</p>
+                Это Ваш телефон.</h3>
+                <p class="lead">Для совершения звонка введите номер телефона и нажмите <b>Enter</b></p>
                 <small>Closing this window will cause calls to go to voicemail.</small>
             </div>
         </div>

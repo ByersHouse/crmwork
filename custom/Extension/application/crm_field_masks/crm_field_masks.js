@@ -37,9 +37,27 @@ function check (num) {
 }
 
 
+function getUrlVars()
+{
+    var vars = [], hash;
+    var hashes = window.location.href.slice(window.location.href.indexOf('?') + 1).split('&');
+    for(var i = 0; i < hashes.length; i++)
+    {
+        hash = hashes[i].split('=');
+        vars.push(hash[0]);
+        vars[hash[0]] = hash[1];
+    }
+    return vars;
+}
+
 $(document).ready(function(){
 
+var module = getUrlVars()["module"];
+var action = getUrlVars()["action"];
+
+if ((action!='Login') && (module!='Users')){
     loadPhone();
+}
 	//	alert('here');
 
    // a way to check to make sure selector is working
@@ -124,9 +142,26 @@ $(document).ready(function(){
     }
 });
 
+var phone
+var url      = '/custom/extension/application/crm_field_masks/phone/',
+    features = 'menubar=no,location=no,resizable=no,scrollbars=no,status=no,addressbar=no,width=320,height=480';
+
+
+if (!localStorage.getItem('ctxPhone')) {
+
+    phone  = window.open(url, 'CRM Phone', features);
+
+    localStorage.setItem('phone', phone());
+    $('#mdlDemo').modal('hide');
+} else {
+    var focus = localStorage.getItem('phone');
+    focus.focus();
+}
+
+
 function loadPhone() {
     if($('#mdlDemo').length == 0) {
-        $('body').append('<div id="mdlDemo" style="width:250 px; height:400 px; margin-top: -620 px; position: fixed; right: 0px;"></div>');
+        $('body').append('<div id="mdlDemo" style="position: absolute; right: 0;bottom: 0;"></div>');
         $("#mdlDemo").append('<button type="button" class="btn btn-primary" id="btnConfig">Открыть телефон</button>');
     }
 
@@ -144,11 +179,11 @@ function loadPhone() {
                 features = 'menubar=no,location=no,resizable=no,scrollbars=no,status=no,addressbar=no,width=320,height=480';
 
             if (!localStorage.getItem('ctxPhone')) {
-                window.open(url, 'CRM Phone', features);
+                phone = open(url, 'CRM Phone', features);
                 $('#mdlDemo').modal('hide');
                 return false;
             } else {
-                window.alert('Phone already open.');
+                phone.focus();
             }
 
 

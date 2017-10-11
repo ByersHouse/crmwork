@@ -38,19 +38,24 @@ if (isset($_POST['myActionName'])){
                 $bank_name = trim($items->find('td')->eq(0)->text());
                 $bank_edprou = trim($items->find('td')->eq(1)->text());
                 $bank_mfo = trim($items->find('td')->eq(2)->text());
+                $bank_adress = htmlspecialchars(trim($items->find('td')->eq(4)->text()),ENT_QUOTES);
                 
                 $sql = "SELECT id from bh_banks WHERE name ='{$bank_name}' and deleted = 0 ";
                 $row = $db->getOne($sql);
+           
                 
                 if(!$row){
                     $id = create_guid();
                     $nb++;
-                    $bank_adress = htmlspecialchars(trim($items->find('td')->eq(4)->text()));
+                    
                     $sql = "INSERT INTO bh_banks (id,name,okpo,mfo,description,date_entered,date_modified,modified_user_id,created_by,assigned_user_id) 
                              VALUES ('{$id}','{$bank_name}','{$bank_edprou}','{$bank_mfo}','{$bank_adress}',NOW(),NOW(),1,1,1)";
 
-                    $db->query($sql);
-                    echo "</br>".$mod_strings['LBL_BANK']." <a href=\"index.php?action=ajaxui#ajaxUILoc=index.php%3Fmodule%3Dbh_banks%26offset%3D1%26stamp%3D1507373944011808000%26return_module%3Dbh_banks%26action%3DDetailView%26record%3D{$id}\" target=\"_blank\">{$bank_name}</a>".$mod_strings['LBL_BANK_ADDED']."</br>";
+                    $result = $db->query($sql);
+                    if($result){
+                        echo "</br>".$mod_strings['LBL_BANK']." <a href=\"index.php?action=ajaxui#ajaxUILoc=index.php%3Fmodule%3Dbh_banks%26offset%3D1%26stamp%3D1507373944011808000%26return_module%3Dbh_banks%26action%3DDetailView%26record%3D{$id}\" target=\"_blank\">{$bank_name}</a>".$mod_strings['LBL_BANK_ADDED']."</br>";
+                    }
+                    
                 }
 
 

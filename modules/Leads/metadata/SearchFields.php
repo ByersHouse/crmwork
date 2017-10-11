@@ -46,6 +46,7 @@ $searchFields['Leads'] =
 		/*'acc_name_from_accounts' => array('query_type'=>'default','related_field'=>'account_name'),*/
         'lead_source'=> array('query_type'=>'default','operator'=>'=', 'options'=>'lead_source_dom', 'template_var' => 'LEAD_SOURCE_OPTIONS'),
         'do_not_call'=> array('query_type'=>'default', 'operator'=>'=', 'input_type' => 'checkbox'),
+        'phone_call'=> array('query_type'=>'default','db_field'=>array('phone_work'),'my_items'=>true, 'vname' => 'LBL_PHONE_FILTER', 'type' => 'bool'),
         'phone' =>
             array (
                 'query_type' => 'default',

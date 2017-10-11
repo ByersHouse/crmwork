@@ -63,9 +63,26 @@ $(document).ready(function () {
                 //change to spinner
                 $("div").find("[record='" + record + "']").removeClass('activeCall').addClass('dialedCall');
 
+                phoneNr = phoneNr.replace(/\(|\)|-| |\//gm, function myFunction(x){return x = '';});
+                if (!localStorage.getItem('ctxPhone')) {
+                    phone = window.open(url, 'CRM Phone', features);
+                    $('#mdlDemo').modal('hide');
+                        phone.focus();
+                        var num = phone.document.getElementById('numDisplay')
+                        num.setAttribute('value', phoneNr);
+                        num.value = phoneNr;
 
 
-                var call = $.get('index.php?entryPoint=AsteriskCallCreate',
+
+                }
+                    phone.focus();
+                    var num = phone.document.getElementById('numDisplay')
+                    num.setAttribute('value', phoneNr);
+                    num.value = phoneNr;
+
+
+
+      /*          var call = $.get('index.php?entryPoint=AsteriskCallCreate',
                     {phoneNr: phoneNr, contactId: contactId, module:getModule()},
                     function (data) {
                         console.log("CreateCall Action Response: " + data);
@@ -73,15 +90,15 @@ $(document).ready(function () {
                             alert("Click to Dial Failed:\n\n------------\n" + data + "\n------------\n");  // Shows error message on ClickToDial failure.
                         }
                         call = null;
-                    });
+                    }); */
 
                 //remove spinner
                 setTimeout(function () {
                     $("div").find("[record='" + record + "']").removeClass('dialedCall').addClass('activeCall');
-                }, 5000);
+                }, 2000);
 
                 // Wait for 5 seconds
-                setTimeout(function () {
+           /*     setTimeout(function () {
                     // If the request is still running, abort it.
                     if (call) {
                         call.abort();
@@ -89,7 +106,7 @@ $(document).ready(function () {
                     ;
 
 
-                }, 20000);
+                }, 20000);*/
             });
         }
 

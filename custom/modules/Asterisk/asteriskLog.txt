@@ -140,3 +140,19 @@
  Found Language file for ru_RU
  Main Log is logging to: asteriskLog.txt
  Found Language file for ru_RU
+ Main Log is logging to: asteriskLog.txt
+ Found Language file for ru_RU
+ Main Log is logging to: asteriskLog.txt
+ Found Language file for ru_RU
+ Main Log is logging to: asteriskLog.txt
+ Found Language file for ru_RU
+ Main Log is logging to: asteriskLog.txt
+ Found Language file for ru_RU
+ Main Log is logging to: asteriskLog.txt
+ Found Language file for ru_RU
+ Main Log is logging to: asteriskLog.txt
+ Found Language file for ru_RU
+ Main Log is logging to: asteriskLog.txt
+ Found Language file for ru_RU
+ Main Log is logging to: asteriskLog.txt
+ Found Language file for ru_RU

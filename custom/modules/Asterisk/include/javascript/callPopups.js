@@ -63,7 +63,8 @@ var YAAI = {
            success: function(data){
                console.log(data);
                if(data !== 'false') {
-                   window.location = data;
+                   location.assign(data);
+                   return false;
                }
            }
 

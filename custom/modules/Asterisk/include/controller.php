@@ -114,7 +114,7 @@ function readEventLog()
                 $nofalse = true;
             } else {
 
-                echo 'index.php?action=ajaxui#ajaxUILoc=index.php%3Fmodule%3DLeads%26action%3DEditView%26return_module%3DLeads%26return_action%3DDetailView%26phone_mobile%3D' . $val['CallerID1'];
+                echo 'index.php?action=ajaxui#ajaxUILoc=index.php%3Fmodule%3DLeads%26action%3DEditView%26return_module%3DLeads%26return_action%3DDetailView%26phone_mobile%3D' . $val['ConnectedLineNum'];
                 $nofalse = true;
             }
             unset($arr[$key]);
