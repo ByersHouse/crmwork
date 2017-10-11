@@ -148,9 +148,9 @@ var url      = '/custom/extension/application/crm_field_masks/phone/',
 
 
 if (!localStorage.getItem('ctxPhone')) {
-
-    phone  = window.open(url, 'CRM Phone', features);
-
+    if ((action!='Login') && (module!='Users')){
+        phone  = window.open(url, 'CRM Phone', features);
+    }
     localStorage.setItem('phone', phone());
     $('#mdlDemo').modal('hide');
 } else {
