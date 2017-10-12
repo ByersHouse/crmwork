@@ -1,5 +1,5 @@
 <?php
-// created: 2017-10-10 14:47:27
+// created: 2017-10-12 12:52:45
 $mod_strings = array (
   'LBL_ID' => 'ID',
   'LBL_DATE_ENTERED' => 'Дата создания',
@@ -23,7 +23,7 @@ $mod_strings = array (
   'LBL_SECURITYGROUPS_SUBPANEL_TITLE' => 'Группы пользователей',
   'LBL_BANK_RENEW' => 'Обновить список банков',
   'LBL_BANK_IMPORT' => 'Импорт банков',
-  'LBL_BANK_IMPORT_BEGIN' => 'Выполнена загрузка с адреса',
+  'LBL_BANK_IMPORT_BEGIN' => 'Ждите.......Выполненяю загрузку с адреса',
   'LBL_DO_IMPORT' => 'Выполнить импорт',
   'LBL_IMPORT_SUCS_ENDED' => 'Импорт успешно завершен',
   'LBL_NEW_BANKS' => 'Новых банков',

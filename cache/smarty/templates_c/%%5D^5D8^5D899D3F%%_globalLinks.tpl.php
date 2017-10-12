@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.29, created on 2017-10-12 12:48:41
+<?php /* Smarty version 2.6.29, created on 2017-10-12 12:54:41
          compiled from themes/Suite7/tpls/_globalLinks.tpl */ ?>
 <div id="desktop_notifications" class="dropdown nav navbar-nav navbar-right">
     <button class="alertsButton dropdown-toggle btn btn-success" data-toggle="dropdown" aria-expanded="false">

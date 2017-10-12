@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.29, created on 2017-10-12 12:48:41
+<?php /* Smarty version 2.6.29, created on 2017-10-12 12:54:41
          compiled from themes/Suite7/tpls/_welcome.tpl */ ?>
 <?php if ($this->_tpl_vars['AUTHENTICATED']): ?>
             <div id="search">
