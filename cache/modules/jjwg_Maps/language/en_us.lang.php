@@ -1,5 +1,5 @@
 <?php
-// created: 2017-10-10 15:19:40
+// created: 2017-10-12 12:48:37
 $mod_strings = array (
   'LBL_MAP' => 'Map',
   'LBL_MAPS' => 'Maps',

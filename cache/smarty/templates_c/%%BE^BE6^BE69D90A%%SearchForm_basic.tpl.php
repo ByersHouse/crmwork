@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.29, created on 2017-10-12 09:46:37
+<?php /* Smarty version 2.6.29, created on 2017-10-12 12:49:52
          compiled from cache/themes/Suite7/modules/bh_banks/SearchForm_basic.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'counter', 'cache/themes/Suite7/modules/bh_banks/SearchForm_basic.tpl', 33, false),array('function', 'math', 'cache/themes/Suite7/modules/bh_banks/SearchForm_basic.tpl', 34, false),array('function', 'sugar_translate', 'cache/themes/Suite7/modules/bh_banks/SearchForm_basic.tpl', 43, false),array('function', 'sugar_getimagepath', 'cache/themes/Suite7/modules/bh_banks/SearchForm_basic.tpl', 101, false),array('modifier', 'count', 'cache/themes/Suite7/modules/bh_banks/SearchForm_basic.tpl', 88, false),)), $this); ?>

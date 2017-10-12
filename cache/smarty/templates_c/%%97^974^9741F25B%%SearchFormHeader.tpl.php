@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.29, created on 2017-10-12 09:46:37
+<?php /* Smarty version 2.6.29, created on 2017-10-12 12:49:53
          compiled from cache/themes/Suite7/modules/bh_banks/SearchFormHeader.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'sugar_getjspath', 'cache/themes/Suite7/modules/bh_banks/SearchFormHeader.tpl', 4, false),)), $this); ?>
