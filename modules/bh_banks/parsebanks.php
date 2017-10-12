@@ -6,7 +6,9 @@ global $mod_strings;
 <form action="index.php?module=bh_banks&action=parsebanks&return_module=bh_banks&return_action=DetailView" method="POST">
      <input id="button" name="myActionName" onclick="if (!confirm('Вы уверены что хотите сделать импорт?')){return false;}else{  $('#block').css('display',''); }" type="submit" value="<?php echo $mod_strings['LBL_DO_IMPORT']; ?>" />
 </form>
-<div id="block" style="display: none;"><?php echo $mod_strings['LBL_BANK_IMPORT_BEGIN'].":..<a target=\"_blank\" href=\"https://bank.gov.ua/control/bankdict/banks\">https://bank.gov.ua/control/bankdict/banks</a></br>"; ?></div>
+<div id="block" style="display: none;">
+    <?php echo $mod_strings['LBL_BANK_IMPORT_BEGIN'].":..<a target=\"_blank\" href=\"https://bank.gov.ua/control/bankdict/banks\">https://bank.gov.ua/control/bankdict/banks</a></br>"; ?>
+</div>
 <?php
 if (isset($_POST['myActionName'])){
 
