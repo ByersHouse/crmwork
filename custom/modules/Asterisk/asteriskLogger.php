@@ -1470,7 +1470,7 @@ function dumpEvent(&$event) {
 
     switch($eventType) {
         case "Dial":   dev_DialPrinter($event);       break;
-        case "Bridge":  dev_BridgePrinter($event); writeEvent($event); break;
+        case "Bridge":  dev_BridgePrinter($event); break;
         case "Join":    dev_JoinPrinter($event); break;
         case "Hangup":  dev_HangupPrinter($event);break;
         case "Newchannel":  dev_NewChannelPrinter($event); break;
@@ -1482,15 +1482,16 @@ function dumpEvent(&$event) {
 
 
 function writeEvent(&$event){
+     $chan = explode('/', $event['Channel']);
+     if($chan[0] === 'SIP' && $event['Context'] == 'from-internal') {
 
-
-    $f = fopen('log.txt', 'a+');
-    flock ($f,LOCK_EX);
-    $event['operator'] = $GLOBALS['operator'];
-    $s = serialize($event) . PHP_EOL;
-    fwrite($f, $s);
-    flock ($f,LOCK_UN);
-    fclose($f);
+         $f = fopen('log.txt', 'a+');
+         flock($f, LOCK_EX);
+         $s = serialize($event) . PHP_EOL;
+         fwrite($f, $s);
+         flock($f, LOCK_UN);
+         fclose($f);
+     }
 
 }
 

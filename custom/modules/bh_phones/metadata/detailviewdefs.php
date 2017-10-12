@@ -47,6 +47,10 @@ array (
       array (
         0 => 
         array (
+          0 => 'name',
+        ),
+        1 => 
+        array (
           0 => 
           array (
             'name' => 'phone_contact',
@@ -58,7 +62,7 @@ array (
             'label' => 'LBL_OPERATOR',
           ),
         ),
-        1 => 
+        2 => 
         array (
           0 => 'assigned_user_name',
           1 => 

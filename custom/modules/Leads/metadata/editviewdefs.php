@@ -185,7 +185,7 @@ array (
         ),
         9 => 
         array (
-          1 => 
+          0 => 
           array (
             'name' => 'correspondence_method',
             'label' => 'LBL_CORRESPONDENCE_METHOD',
