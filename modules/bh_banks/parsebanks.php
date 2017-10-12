@@ -1,6 +1,5 @@
 <?php
 global $mod_strings;
-
 ?>
 <h2 class="module-title-text"><?php echo $mod_strings['LBL_BANK_IMPORT']; ?></h2>
 
@@ -9,7 +8,7 @@ global $mod_strings;
 </form>
 <?php
 if (isset($_POST['myActionName'])){
-    echo $mod_strings['LBL_BANK_IMPORT_BEGIN'].":..https://bank.gov.ua/control/bankdict/banks</br>";
+    echo $mod_strings['LBL_BANK_IMPORT_BEGIN'].":..<a target=\"_blank\" href=\"https://bank.gov.ua/control/bankdict/banks\">https://bank.gov.ua/control/bankdict/banks</a></br>";
     header('Content-type:text/html; charset=utf-8');
     require_once 'include/phpQuery/phpQuery.php';
     global $db;
