@@ -9,8 +9,9 @@ global $mod_strings;
 </form>
 <?php
 if (isset($_POST['myActionName'])){
+    echo $mod_strings['LBL_BANK_IMPORT_BEGIN'].":..https://bank.gov.ua/control/bankdict/banks</br>";
     header('Content-type:text/html; charset=utf-8');
-    require_once 'include\phpQuery\phpQuery.php';
+    require_once 'include/phpQuery/phpQuery.php';
     global $db;
     $urls = array(
             'https://bank.gov.ua/control/bankdict/banks',
@@ -19,7 +20,7 @@ if (isset($_POST['myActionName'])){
             'https://bank.gov.ua/control/bankdict/banks?type=369&sort=name&cPage=3&startIndx=61',
             'https://bank.gov.ua/control/bankdict/banks?type=369&sort=name&cPage=4&startIndx=81'
     );
-    echo $mod_strings['LBL_BANK_IMPORT_BEGIN'].":..https://bank.gov.ua/control/bankdict/banks</br>";
+   
     $nb = 0;
     foreach ($urls as $url){
         //
